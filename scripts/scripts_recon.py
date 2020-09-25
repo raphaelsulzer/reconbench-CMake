@@ -24,7 +24,7 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 """
 
-import ConfigParser
+import configparser
 import os
 import subprocess
 import sys
@@ -40,11 +40,10 @@ def runcommand(args):
 	try:
 		subprocess.check_call(args)
 	except OSError as e:
-		print args[0] + " : Fork failed with error : " + e.strerror
+		print(args[0] + " : Fork failed with error : " + e.strerror)
 	except subprocess.CalledProcessError as e:
-		print args[0] + " : Execution failed with returncode = : "  + repr(e.returncode)
+		print(args[0] + " : Execution failed with returncode = : "  + repr(e.returncode))
 		
-
 def runPoisson(config, pathdir, infile, outdir):
 	if config.has_section("poisson"):
 		if not os.access(outdir + "/poisson", os.F_OK):
@@ -75,11 +74,11 @@ def runPoisson(config, pathdir, infile, outdir):
 		runcommand(args)
 
 # --- entry point --- #
-config = ConfigParser.ConfigParser()
+config = configparser.ConfigParser()
 config.read(sys.argv[1])
 
 if config.has_option("dir_structs", "infile"):
-	print 'WRONG SCRIPT: perhaps you want single_recon.py...'
+	print('WRONG SCRIPT: perhaps you want single_recon.py...')
 	sys.exit(1)
 
 pathdir = config.get("dir_structs", "pathdir")
@@ -91,6 +90,6 @@ file_num = 0
 for infile in os.listdir(indir):
 	if not infile.endswith(".npts"):
 		continue
-	print 'run all on file ' + infile
+	print('run all on file ' + infile)
 	runPoisson(config, pathdir, infile, outdir)
 	file_num=file_num+1;

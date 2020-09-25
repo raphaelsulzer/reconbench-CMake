@@ -49,6 +49,7 @@ int main(int argc, char** argv)  {
 
 	UniformSampler sampler(shape, num_scans, cresx, cresy);
 
+	std::cout << "hello" << std::endl;
 	while(arg_num < argc)  {
 		string next_arg = argv[arg_num++];
 
@@ -119,6 +120,6 @@ int main(int argc, char** argv)  {
 	sampler.set_stripe_dump(base_pc);
 	sampler.sample();
 	sampler.dump_to_file(pc_file);
-
+	std::cout << "sampling ok" << std::endl;
 	return 0;
 }

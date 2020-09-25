@@ -32,6 +32,21 @@ target_link_libraries(Modeling PUBLIC ann OpenMesh pbrt tps ${LAPACK_LIBRARIES})
 target_compile_definitions(Modeling PUBLIC ${LAPACK_LINKER_FLAGS})
 
 
+add_executable(mesh_to_implicit ${modeling_SOURCES} ${modeling_HEADERS} modeling/mesh_to_implicit.cpp)
+target_include_directories(mesh_to_implicit PUBLIC ${modeling_INCLUDE})
+target_link_libraries(mesh_to_implicit PUBLIC Modeling)
+
+add_executable(post-processing ${modeling_SOURCES} ${modeling_HEADERS} modeling/post-processing.cpp)
+target_include_directories(post-processing PUBLIC ${modeling_INCLUDE})
+target_link_libraries(post-processing PUBLIC Modeling)
+
+
+
+add_executable(isosurface ${modeling_SOURCES} ${modeling_HEADERS} modeling/isosurface.cpp)
+target_include_directories(isosurface PUBLIC ${modeling_INCLUDE})
+target_link_libraries(isosurface PUBLIC Modeling)
+
+
 
 
 # Sources
@@ -45,6 +60,14 @@ add_library(Sampler ${sampler_SOURCES} ${sampler_HEADERS})
 target_include_directories(Sampler PUBLIC ${sampler_INCLUDE} ${PNG_INCLUDE_DIRS})
 target_link_libraries(Sampler PUBLIC ann OpenMesh pbrt tps ${PNG_LIBRARIES} ${PNG_LIBRARY})
 target_compile_definitions(Sampler PUBLIC ${PNG_DEFINITIONS})
+
+add_executable(pc_generator  ${sampler_HEADERS} sampler/pc_generator.cpp)
+target_include_directories(pc_generator PUBLIC ${sampler_INCLUDE})
+target_link_libraries(pc_generator PUBLIC Sampler)
+
+add_executable(uniform_sampler  ${sampler_HEADERS} sampler/run_uniform.cpp)
+target_include_directories(uniform_sampler PUBLIC ${sampler_INCLUDE})
+target_link_libraries(uniform_sampler PUBLIC ann OpenMesh pbrt tps Sampler Modeling)
 
 
 
@@ -68,7 +91,7 @@ set(evaluator_SOURCES
 SET(evaluator_INCLUDE "evaluator")
 
 
-
+#poisson/Src/MultiGridOctest.cpp
 add_executable(implicit_uniform ${evaluator_SOURCES} ${evaluator_HEADERS} evaluator/implicit_uniform.cpp)
 target_include_directories(implicit_uniform PUBLIC ${evaluator_INCLUDE})
 target_link_libraries(implicit_uniform PUBLIC Modeling Sampler)
@@ -113,6 +136,7 @@ add_executable(dump_single ${evaluator_SOURCES} ${evaluator_HEADERS} evaluator/p
 target_include_directories(dump_single PUBLIC ${evaluator_INCLUDE})
 target_link_libraries(dump_single PUBLIC Modeling Sampler)
 
+
 add_executable(single_distribution ${evaluator_SOURCES} ${evaluator_HEADERS} evaluator/plot/single_distribution.cpp)
 target_include_directories(single_distribution PUBLIC ${evaluator_INCLUDE})
 target_link_libraries(single_distribution PUBLIC Modeling Sampler)
@@ -123,3 +147,22 @@ target_include_directories(sample_implicit PUBLIC ${evaluator_INCLUDE})
 target_link_libraries(sample_implicit PUBLIC Modeling Sampler)
 
 
+
+set(recon_SOURCES
+  recon/poisson/Src/CmdLineParser.cpp
+  recon/poisson/Src/MarchingCubes.cpp
+  recon/poisson/Src/plyfile.cpp
+  recon/poisson/Src/Factor.cpp
+  recon/poisson/Src/MultiGridOctest.cpp
+  recon/poisson/Src/Time.cpp
+  recon/poisson/Src/Geometry.cpp
+  recon/poisson/Src/ply.cpp
+)
+#poisson/Src/MultiGridOctest.cpp
+add_executable(PoissonRecon ${recon_SOURCES} ${recon_HEADERS} )
+target_include_directories(PoissonRecon PUBLIC ${recon_INCLUDE})
+target_link_libraries(PoissonRecon PUBLIC Modeling Sampler -fpermissive)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fpermissive")
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fpermissive")
+set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -fpermissive")

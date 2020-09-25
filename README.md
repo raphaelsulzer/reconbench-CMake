@@ -61,7 +61,7 @@ of the benchmark.
 ## Synthetic Scanning
 From the MPU surfaces we next allow for synthetically scanning the surfaces, simulating the process of
 an optical triangulation-based scanner. We break up point cloud generation into generation of configuration
-files, followed by executing the coniguration files to obtain the point cloud. To generate configuration files:
+files, followed by executing the configuration files to obtain the point cloud. To generate configuration files:
 
 ```
 ./bin/pc_generator implicit_surface config_base ([param value])* ([param range min_value max_value number])*

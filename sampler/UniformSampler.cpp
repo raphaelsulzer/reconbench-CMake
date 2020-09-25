@@ -146,6 +146,7 @@ void UniformSampler::sample()  {
 	if(uniform_sampling.size() != num_scans)
 		cout << "ERROR: uniform sampling not at prescribed size!" << endl;
 
+	//	num_scans = uniform_sampling.size();
 	double lipschitz = implicit_function->lipschitz_constant(100);
 	int num_stripes_processed = 0;
 

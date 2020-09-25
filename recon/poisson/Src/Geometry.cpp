@@ -38,7 +38,7 @@ TriangulationTriangle::TriangulationTriangle(void){eIndex[0]=eIndex[1]=eIndex[2]
 /////////////////////////
 // CoredVectorMeshData //
 /////////////////////////
-CoredVectorMeshData::CoredVectorMeshData(void){oocPointIndex=triangleIndex=0;}
+//CoredVectorMeshData::CoredVectorMeshData(void){oocPointIndex=triangleIndex=0;}
 void CoredVectorMeshData::resetIterator(void){oocPointIndex=triangleIndex=0;}
 int CoredVectorMeshData::addOutOfCorePoint(const Point3D<float>& p){
 	oocPoints.push_back(p);
