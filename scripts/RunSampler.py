@@ -42,7 +42,7 @@ def runcommand(args):
 		print(args)
 		subprocess.check_call(args)
 	except OSError as e:
-		raise RunError(args[0] + ': Fork falied with error \'' + e.strerror + '\'')
+		raise RunError(args[0] + ': Fork failed with error \'' + e.strerror + '\'')
 	except subprocess.CalledProcessError as e:
 		raise RunError(args[0] + ': Execution failed with returncode = ' + repr(e.returncode))
 		

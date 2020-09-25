@@ -1,5 +1,5 @@
 [sampler]
-pathdir:bin
+pathdir:build
 sampling_type:uniform
 infile:modeling/models/bumps/bumps.mpu
 outfile:data/pcs/bumps/bumps_0.npts
