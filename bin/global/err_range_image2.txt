@@ -1,0 +1,93 @@
+tgt_name: ../range_image2.ply
+sample_rate: 0.670641 (0.6706408)
+Reading ../range_image2.ply... 
+  Reading 342 vertices... 
+  Reading range grid... Triangulating... 588 faces.
+  Removing faces... 27 faces removed... Done.
+  Done.
+
+Computing normals... Done.
+Read input transform:
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
+Computing bounding box... Done.
+  x = -9.78831 .. 10.8968, y = -12.4601 .. 12.3347, z = -34.3525 .. 35.5121
+Finding vertex neighbors... Done.
+Finding vertex to triangle maps... Done.
+Computing point areas... Done.
+Computing curvatures... Done.
+Selecting 229 samples on mesh with 342 vertices.
+Selected 95 stable samples, now selecting uniform samples.
+Selected 229 samples.
+../range_image0.ply
+
+Read input transform:
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
+new maxidst: 4.366536
+../range_image1.ply
+
+Read input transform:
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
+new maxidst: 4.366536
+../range_image3.ply
+
+Read input transform:
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
+new maxidst: 3.946187
+../range_image4.ply
+
+Read input transform:
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
+new maxidst: 2.863621
+../range_image5.ply
+
+Read input transform:
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
+new maxidst: 4.366536
+../range_image6.ply
+
+Read input transform:
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
+new maxidst: 4.366536
+num_overlaps_tgt = 101, num_overlaps_src = 88
+../range_image7.ply
+
+Read input transform:
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
+new maxidst: 4.292526
+../range_image8.ply
+
+Read input transform:
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
+new maxidst: 4.001331
+Timing Info: 0.007410 reading, 0.000127 kd_tree, 0.000000 icp
+
+real	0m0.017s
+user	0m0.038s
+sys	0m0.001s

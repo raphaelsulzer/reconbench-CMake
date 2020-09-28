@@ -1,0 +1,5 @@
+/home/adminlocal/PhD/cpp/reconbench-Laurent/build/rigid_align.sh: line 45: global_reg: command not found
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.000s

@@ -25,6 +25,8 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
 #include "UniformSampler.h"
+// added for getcwd
+#include <unistd.h>
 
 #include <iostream>
 using namespace std;
@@ -115,7 +117,13 @@ void UniformSampler::sample()  {
 	vector<Vector3> uniform_sampling;
 	ostringstream num_samples;
 	num_samples << num_scans;
-	string particle_file = "./bin/particle_sampler/particles"+num_samples.str()+".npts";
+
+    // fixed the thing below to point to the correct path:
+//	string particle_file = "./bin/particle_sampler/particles"+num_samples.str()+".npts";
+    char cwd[1024];
+    getcwd(cwd, sizeof(cwd));
+    string particle_file = string(cwd)+"/particle_sampler/particles"+num_samples.str()+".npts";
+
 	OrientedPointCloud sphere_pc;
 	NPTSReader npts_reader(particle_file);
 
@@ -229,7 +237,10 @@ void UniformSampler::sample()  {
 }
 
 void UniformSampler::dump_to_movie()  {
-	string exec_movie = "./bin/scan_movie.sh " + stripe_base;
+
+    char cwd[1024];
+    getcwd(cwd, sizeof(cwd));
+    string exec_movie = string(cwd)+"/scan_movie.sh " + stripe_base;
 	int sampler_result = system(exec_movie.c_str());
 }
 
@@ -240,6 +251,9 @@ void UniformSampler::dump_to_file(string _filename)  {
 	PointCloud pc;
 	vector<Vector3> analytical_normals;
 
+    char cwd[1024];
+    getcwd(cwd, sizeof(cwd));
+
 	if(to_register)  {
 		vector<string> transform_names;
 		double ave_image_size = 0;
@@ -248,8 +262,8 @@ void UniformSampler::dump_to_file(string _filename)  {
 			stringstream int_out;
 			int_out << i;
 			ave_image_size += range_image->size();
-			string range_name = "bin/range_image" + int_out.str() + ".ply";
-			transform_names.push_back("./bin/global/rigid/range_image" + int_out.str() + ".xf");
+            string range_name = string(cwd)+"/range_image" + int_out.str() + ".ply";
+            transform_names.push_back(string(cwd)+"/global/rigid/range_image" + int_out.str() + ".xf");
 			range_image->dump_to_ply(range_name);
 		}
 		ave_image_size /= (double)range_images.size();
@@ -261,7 +275,7 @@ void UniformSampler::dump_to_file(string _filename)  {
 
 		// run registration
 		string perc_perc_string = perc_string;
-		string exec_registration = "./bin/rigid_align.sh " + perc_perc_string;
+        string exec_registration = string(cwd)+"/rigid_align.sh " + perc_perc_string;
 		cout << exec_registration << endl;
 		system(exec_registration.c_str());
 
@@ -302,8 +316,8 @@ void UniformSampler::dump_to_file(string _filename)  {
 		}
 
 		// clean up
-		system("rm -r bin/global");
-		system("rm bin/*.ply");
+//		system("rm -r bin/global");
+//		system("rm bin/*.ply");
 		cout << "num pts: " << num_pts << endl;
 	}
 
