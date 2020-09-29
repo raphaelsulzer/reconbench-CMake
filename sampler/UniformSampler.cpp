@@ -231,7 +231,13 @@ void UniformSampler::sample()  {
 
 //            range_image->setRangePoint(pix.x, pix.y, pt, normal);
             // instead of saving the normal for a range point I'm going to set the sensor direction
-            range_image->setRangePoint(pix.x, pix.y, pt, look_from-pt);
+            if(normal_type == NORMALS_SENSOR_DIR)
+                range_image->setRangePoint(pix.x, pix.y, pt, look_from-pt);
+            else if(normal_type == NORMALS_SENSOR_POS)
+                range_image->setRangePoint(pix.x, pix.y, pt, look_from);
+            else
+                range_image->setRangePoint(pix.x, pix.y, pt, normal);
+
         }
 		char depth_filename[256];
 		sprintf(depth_filename, "%s_depth%u.png", stripe_base.c_str(), s);
@@ -320,18 +326,15 @@ void UniformSampler::dump_to_file(string _filename)  {
 					num_pts++;
 					Vector3 local_pt = range_image->getRangePoint(x,y);
 					Vector3 local_normal = range_image->getRangeNormal(x,y);
-//                    Vector3 range_pt = rotation.mult(local_pt) + translation;
-                    Vector3 range_pt = local_pt;
+                    Vector3 range_pt = rotation.mult(local_pt) + translation;
                     Vector3 range_normal = rotation.mult(local_normal);
 
-					if(normal_type == NORMALS_ANALYTICAL)  {
-						fprintf(pts_file, "%.7f %.7f %.7f %.7f %.7f %.7f\n", range_pt.x, range_pt.y, range_pt.z,
-								range_normal.x, range_normal.y, range_normal.z);
-					}
-					else  {
-						pc.addPoint(range_pt);
-						analytical_normals.push_back(range_normal);
-					}
+                    if(normal_type == NORMALS_ANALYTICAL || normal_type == NORMALS_SENSOR_DIR || normal_type == NORMALS_SENSOR_POS)  {
+                        fprintf(pts_file, "%.7f %.7f %.7f %.7f %.7f %.7f\n", range_pt.x, range_pt.y, range_pt.z,
+                                range_normal.x, range_normal.y, range_normal.z);
+                    }
+                    pc.addPoint(range_pt);
+                    analytical_normals.push_back(range_normal);
 				}
 			}
 		}
@@ -341,7 +344,6 @@ void UniformSampler::dump_to_file(string _filename)  {
 //		system("rm bin/*.ply");
 		cout << "num pts: " << num_pts << endl;
 	}
-
 	else  {
 		int num_pts = 0;
 		for(unsigned i = 0; i < range_images.size(); i++)  {
@@ -355,14 +357,13 @@ void UniformSampler::dump_to_file(string _filename)  {
 					Vector3 range_pt = range_image->getRangePoint(x,y);
 					Vector3 range_normal = range_image->getRangeNormal(x,y);
 
-					if(normal_type == NORMALS_ANALYTICAL)  {
+                    if(normal_type == NORMALS_ANALYTICAL || normal_type == NORMALS_SENSOR_DIR || normal_type == NORMALS_SENSOR_POS)  {
 						fprintf(pts_file, "%.7f %.7f %.7f %.7f %.7f %.7f\n", range_pt.x, range_pt.y, range_pt.z,
-								range_normal.x, range_normal.y, range_normal.z);
-					}
-					else  {
-						pc.addPoint(range_pt);
-						analytical_normals.push_back(range_normal);
-					}
+                                range_normal.x, range_normal.y, range_normal.z);
+                    }
+
+                    pc.addPoint(range_pt);
+                    analytical_normals.push_back(range_normal);
 				}
 			}
 		}
@@ -370,7 +371,7 @@ void UniformSampler::dump_to_file(string _filename)  {
 		cout << "num pts: " << num_pts << endl;
 	}
 
-	if(normal_type != NORMALS_ANALYTICAL)  {
+    if(normal_type == NORMALS_PCA_MST || normal_type == NORMALS_PCA_ORIENTED)  {
         cout << "\nmake pca normals" << endl;
 		OrientedPointCloud* oriented_pc = pc.orient_points(pca_knn);
 		for(int p = 0; p < oriented_pc->size(); p++)  {
@@ -387,8 +388,44 @@ void UniformSampler::dump_to_file(string _filename)  {
 		}
 	}
 
+    // export point cloud with normals / sensor to ply
+    string ply_file = _filename+".ply";
+    cout << "\nexport point cloud to PLY file: " << ply_file << endl;
+    this->dump_to_ply(ply_file,pc,analytical_normals);
+
 	fclose(pts_file);
 }
+
+void UniformSampler::dump_to_ply(string _filename, PointCloud& _pc, vector<Vector3>& _normals)  {
+
+    int num_vertices = _pc.size();
+    assert(num_vertices == normals.size());
+
+
+    FILE* ply_out = fopen(_filename.c_str(), "w");
+
+    // header info
+    fprintf(ply_out, "ply\n");
+    fprintf(ply_out, "format ascii 1.0\n");
+    fprintf(ply_out, "element vertex %i\n ", num_vertices);
+    fprintf(ply_out, "property float x\n");
+    fprintf(ply_out, "property float y\n");
+    fprintf(ply_out, "property float z\n");
+    fprintf(ply_out, "property float nx\n");
+    fprintf(ply_out, "property float ny\n");
+    fprintf(ply_out, "property float nz\n");
+    fprintf(ply_out, "end_header\n");
+
+    // write out vertices
+    for(int i = 0; i < num_vertices; i++){
+        Vector3 pt = _pc.getPoint(i);
+        fprintf(ply_out, "%.7f %.7f %.7f %.7f %.7f %.7f\n", pt.x, pt.y, pt.z, _normals[i].x, _normals[i].y, _normals[i].z);
+    }
+
+    fclose(ply_out);
+}
+
+
 
 bool UniformSampler::getRigidTransformation(string _filename, DenseMatrix& rotation, Vector3& translation)  {
 	char line_raw[256];

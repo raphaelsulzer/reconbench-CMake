@@ -6,7 +6,7 @@ Total unstable pruning: 0
 Added springs
 Empty mesh - nothing to write.
 Empty mesh - nothing to write.
-Optimization time: 0.000005
+Optimization time: 0.000006
 Empty mesh - nothing to write.
 Empty mesh - nothing to write.
 Skipping ../range_image0.ply
