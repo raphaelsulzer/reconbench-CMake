@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../OpenMesh/./OpenMesh/Core/Geometry/LoopSchemeMaskT.hh
+../OpenMesh/OpenMesh/Core/Geometry/LoopSchemeMaskT.hh
 math.h
 -
 vector
@@ -16,13 +16,13 @@ OpenMesh/Core/System/config.h
 OpenMesh/Core/Utils/SingletonT.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Geometry/MathDefs.hh
+../OpenMesh/OpenMesh/Core/Geometry/MathDefs.hh
 math.h
 -
 float.h
 -
 
-../OpenMesh/./OpenMesh/Core/Geometry/VectorT.hh
+../OpenMesh/OpenMesh/Core/Geometry/VectorT.hh
 OpenMesh/Core/System/config.h
 -
 iostream
@@ -34,17 +34,17 @@ math.h
 xmmintrin.h
 -
 VectorT_inc.hh
-../OpenMesh/./OpenMesh/Core/Geometry/VectorT_inc.hh
+../OpenMesh/OpenMesh/Core/Geometry/VectorT_inc.hh
 VectorT_inc.hh
-../OpenMesh/./OpenMesh/Core/Geometry/VectorT_inc.hh
+../OpenMesh/OpenMesh/Core/Geometry/VectorT_inc.hh
 VectorT_inc.hh
-../OpenMesh/./OpenMesh/Core/Geometry/VectorT_inc.hh
+../OpenMesh/OpenMesh/Core/Geometry/VectorT_inc.hh
 VectorT_inc.hh
-../OpenMesh/./OpenMesh/Core/Geometry/VectorT_inc.hh
+../OpenMesh/OpenMesh/Core/Geometry/VectorT_inc.hh
 
-../OpenMesh/./OpenMesh/Core/Geometry/VectorT_inc.hh
+../OpenMesh/OpenMesh/Core/Geometry/VectorT_inc.hh
 
-../OpenMesh/./OpenMesh/Core/IO/BinaryHelper.hh
+../OpenMesh/OpenMesh/Core/IO/BinaryHelper.hh
 OpenMesh/Core/System/config.h
 -
 stdio.h
@@ -54,7 +54,7 @@ cstdio
 iostream
 -
 
-../OpenMesh/./OpenMesh/Core/IO/IOManager.hh
+../OpenMesh/OpenMesh/Core/IO/IOManager.hh
 iostream
 -
 sstream
@@ -78,7 +78,7 @@ OpenMesh/Core/IO/exporter/BaseExporter.hh
 OpenMesh/Core/Utils/SingletonT.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/OMFormat.cc
+../OpenMesh/OpenMesh/Core/IO/OMFormat.cc
 OpenMesh/Core/IO/OMFormat.hh
 -
 algorithm
@@ -86,7 +86,7 @@ algorithm
 iomanip
 -
 
-../OpenMesh/./OpenMesh/Core/IO/OMFormat.hh
+../OpenMesh/OpenMesh/Core/IO/OMFormat.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/System/omstream.hh
@@ -106,13 +106,13 @@ OpenMesh/Tools/Utils/NumLimitsT.hh
 limits
 -
 OMFormat.cc
-../OpenMesh/./OpenMesh/Core/IO/OMFormat.cc
+../OpenMesh/OpenMesh/Core/IO/OMFormat.cc
 
-../OpenMesh/./OpenMesh/Core/IO/Options.hh
+../OpenMesh/OpenMesh/Core/IO/Options.hh
 OpenMesh/Core/System/config.h
 -
 
-../OpenMesh/./OpenMesh/Core/IO/SR_binary.hh
+../OpenMesh/OpenMesh/Core/IO/SR_binary.hh
 OpenMesh/Core/System/config.h
 -
 typeinfo
@@ -124,7 +124,7 @@ sstream
 numeric
 -
 
-../OpenMesh/./OpenMesh/Core/IO/SR_binary_spec.hh
+../OpenMesh/OpenMesh/Core/IO/SR_binary_spec.hh
 OpenMesh/Core/System/config.h
 -
 iterator
@@ -158,13 +158,13 @@ OpenMesh/Core/IO/SR_binary_vector_of_string.inl
 OpenMesh/Core/IO/SR_binary_vector_of_bool.inl
 -
 
-../OpenMesh/./OpenMesh/Core/IO/SR_binary_vector_of_bool.inl
+../OpenMesh/OpenMesh/Core/IO/SR_binary_vector_of_bool.inl
 
-../OpenMesh/./OpenMesh/Core/IO/SR_binary_vector_of_fundamentals.inl
+../OpenMesh/OpenMesh/Core/IO/SR_binary_vector_of_fundamentals.inl
 
-../OpenMesh/./OpenMesh/Core/IO/SR_binary_vector_of_string.inl
+../OpenMesh/OpenMesh/Core/IO/SR_binary_vector_of_string.inl
 
-../OpenMesh/./OpenMesh/Core/IO/SR_rbo.hh
+../OpenMesh/OpenMesh/Core/IO/SR_rbo.hh
 OpenMesh/Core/System/config.h
 -
 stdio.h
@@ -182,7 +182,7 @@ OpenMesh/Core/IO/SR_types.hh
 OpenMesh/Core/Utils/GenProg.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/SR_store.hh
+../OpenMesh/OpenMesh/Core/IO/SR_store.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/IO/SR_types.hh
@@ -196,11 +196,11 @@ OpenMesh/Core/IO/SR_binary_spec.hh
 OpenMesh/Core/IO/StoreRestore.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/SR_types.hh
+../OpenMesh/OpenMesh/Core/IO/SR_types.hh
 OpenMesh/Core/System/config.h
 -
 
-../OpenMesh/./OpenMesh/Core/IO/StoreRestore.hh
+../OpenMesh/OpenMesh/Core/IO/StoreRestore.hh
 stdexcept
 -
 OpenMesh/Core/System/config.h
@@ -208,7 +208,7 @@ OpenMesh/Core/System/config.h
 OpenMesh/Core/IO/SR_binary.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/exporter/BaseExporter.hh
+../OpenMesh/OpenMesh/Core/IO/exporter/BaseExporter.hh
 vector
 -
 OpenMesh/Core/System/config.h
@@ -218,7 +218,7 @@ OpenMesh/Core/Geometry/VectorT.hh
 OpenMesh/Core/Mesh/BaseKernel.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/importer/BaseImporter.hh
+../OpenMesh/OpenMesh/Core/IO/importer/BaseImporter.hh
 vector
 -
 OpenMesh/Core/System/config.h
@@ -228,7 +228,7 @@ OpenMesh/Core/Geometry/VectorT.hh
 OpenMesh/Core/Mesh/BaseKernel.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/reader/BaseReader.hh
+../OpenMesh/OpenMesh/Core/IO/reader/BaseReader.hh
 iostream
 -
 string
@@ -242,7 +242,7 @@ OpenMesh/Core/IO/importer/BaseImporter.hh
 OpenMesh/Core/Utils/SingletonT.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/reader/OBJReader.hh
+../OpenMesh/OpenMesh/Core/IO/reader/OBJReader.hh
 iostream
 -
 string
@@ -262,7 +262,7 @@ OpenMesh/Core/IO/importer/BaseImporter.hh
 OpenMesh/Core/IO/reader/BaseReader.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/reader/OFFReader.hh
+../OpenMesh/OpenMesh/Core/IO/reader/OFFReader.hh
 iostream
 -
 string
@@ -280,7 +280,7 @@ OpenMesh/Core/IO/reader/BaseReader.hh
 string.h
 -
 
-../OpenMesh/./OpenMesh/Core/IO/reader/OMReader.hh
+../OpenMesh/OpenMesh/Core/IO/reader/OMReader.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Utils/SingletonT.hh
@@ -298,7 +298,7 @@ iostream
 string
 -
 
-../OpenMesh/./OpenMesh/Core/IO/reader/PLYReader.hh
+../OpenMesh/OpenMesh/Core/IO/reader/PLYReader.hh
 iostream
 -
 string
@@ -324,7 +324,7 @@ OpenMesh/Core/IO/reader/BaseReader.hh
 OpenMesh/Core/IO/reader/ply.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/reader/STLReader.hh
+../OpenMesh/OpenMesh/Core/IO/reader/STLReader.hh
 stdio.h
 -
 string
@@ -338,13 +338,13 @@ OpenMesh/Core/IO/reader/BaseReader.hh
 string.h
 -
 
-../OpenMesh/./OpenMesh/Core/IO/reader/ply.hh
+../OpenMesh/OpenMesh/Core/IO/reader/ply.hh
 stdio.h
 -
 stddef.h
 -
 
-../OpenMesh/./OpenMesh/Core/IO/writer/BaseWriter.hh
+../OpenMesh/OpenMesh/Core/IO/writer/BaseWriter.hh
 iostream
 -
 string
@@ -356,7 +356,7 @@ OpenMesh/Core/IO/Options.hh
 OpenMesh/Core/IO/exporter/BaseExporter.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/writer/OBJWriter.hh
+../OpenMesh/OpenMesh/Core/IO/writer/OBJWriter.hh
 string
 -
 stdio.h
@@ -370,7 +370,7 @@ OpenMesh/Core/IO/exporter/BaseExporter.hh
 OpenMesh/Core/IO/writer/BaseWriter.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/writer/OFFWriter.hh
+../OpenMesh/OpenMesh/Core/IO/writer/OFFWriter.hh
 stdio.h
 -
 string
@@ -386,7 +386,7 @@ OpenMesh/Core/IO/exporter/BaseExporter.hh
 OpenMesh/Core/IO/writer/BaseWriter.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/writer/OMWriter.hh
+../OpenMesh/OpenMesh/Core/IO/writer/OMWriter.hh
 iostream
 -
 string
@@ -404,7 +404,7 @@ OpenMesh/Core/IO/IOManager.hh
 OpenMesh/Core/IO/writer/BaseWriter.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/writer/STLWriter.hh
+../OpenMesh/OpenMesh/Core/IO/writer/STLWriter.hh
 stdio.h
 -
 cstdio
@@ -420,7 +420,7 @@ OpenMesh/Core/IO/exporter/BaseExporter.hh
 OpenMesh/Core/IO/writer/BaseWriter.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/ArrayItems.hh
+../OpenMesh/OpenMesh/Core/Mesh/ArrayItems.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Utils/GenProg.hh
@@ -428,7 +428,7 @@ OpenMesh/Core/Utils/GenProg.hh
 OpenMesh/Core/Mesh/Handles.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/ArrayKernel.hh
+../OpenMesh/OpenMesh/Core/Mesh/ArrayKernel.hh
 vector
 -
 OpenMesh/Core/System/config.h
@@ -442,13 +442,13 @@ OpenMesh/Core/Mesh/BaseKernel.hh
 OpenMesh/Core/Mesh/Status.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/Attributes.hh
+../OpenMesh/OpenMesh/Core/Mesh/Attributes.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Mesh/Status.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/BaseKernel.hh
+../OpenMesh/OpenMesh/Core/Mesh/BaseKernel.hh
 OpenMesh/Core/System/config.h
 -
 vector
@@ -460,19 +460,19 @@ algorithm
 OpenMesh/Core/Utils/PropertyContainer.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/CirculatorsT.hh
+../OpenMesh/OpenMesh/Core/Mesh/CirculatorsT.hh
 OpenMesh/Core/System/config.h
 -
 assert.h
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/Handles.hh
+../OpenMesh/OpenMesh/Core/Mesh/Handles.hh
 OpenMesh/Core/System/config.h
 -
 iostream
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/IteratorsT.hh
+../OpenMesh/OpenMesh/Core/Mesh/IteratorsT.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Mesh/Status.hh
@@ -480,7 +480,7 @@ OpenMesh/Core/Mesh/Status.hh
 assert.h
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/PolyConnectivity.hh
+../OpenMesh/OpenMesh/Core/Mesh/PolyConnectivity.hh
 OpenMesh/Core/Mesh/ArrayKernel.hh
 -
 OpenMesh/Core/Mesh/IteratorsT.hh
@@ -488,7 +488,7 @@ OpenMesh/Core/Mesh/IteratorsT.hh
 OpenMesh/Core/Mesh/CirculatorsT.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/PolyMeshT.cc
+../OpenMesh/OpenMesh/Core/Mesh/PolyMeshT.cc
 OpenMesh/Core/Mesh/PolyMeshT.hh
 -
 OpenMesh/Core/Geometry/LoopSchemeMaskT.hh
@@ -500,7 +500,7 @@ OpenMesh/Core/System/omstream.hh
 vector
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/PolyMeshT.hh
+../OpenMesh/OpenMesh/Core/Mesh/PolyMeshT.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Geometry/MathDefs.hh
@@ -510,17 +510,17 @@ OpenMesh/Core/Mesh/PolyConnectivity.hh
 vector
 -
 PolyMeshT.cc
-../OpenMesh/./OpenMesh/Core/Mesh/PolyMeshT.cc
+../OpenMesh/OpenMesh/Core/Mesh/PolyMeshT.cc
 
-../OpenMesh/./OpenMesh/Core/Mesh/Status.hh
+../OpenMesh/OpenMesh/Core/Mesh/Status.hh
 OpenMesh/Core/System/config.h
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/TriConnectivity.hh
+../OpenMesh/OpenMesh/Core/Mesh/TriConnectivity.hh
 OpenMesh/Core/Mesh/PolyConnectivity.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/TriMeshT.cc
+../OpenMesh/OpenMesh/Core/Mesh/TriMeshT.cc
 OpenMesh/Core/Mesh/TriMeshT.hh
 -
 OpenMesh/Core/System/omstream.hh
@@ -528,7 +528,7 @@ OpenMesh/Core/System/omstream.hh
 vector
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/TriMeshT.hh
+../OpenMesh/OpenMesh/Core/Mesh/TriMeshT.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Mesh/PolyMeshT.hh
@@ -536,21 +536,21 @@ OpenMesh/Core/Mesh/PolyMeshT.hh
 vector
 -
 TriMeshT.cc
-../OpenMesh/./OpenMesh/Core/Mesh/TriMeshT.cc
+../OpenMesh/OpenMesh/Core/Mesh/TriMeshT.cc
 
-../OpenMesh/./OpenMesh/Core/System/compiler.hh
+../OpenMesh/OpenMesh/Core/System/compiler.hh
 
-../OpenMesh/./OpenMesh/Core/System/config.h
+../OpenMesh/OpenMesh/Core/System/config.h
 assert.h
 -
 OpenMesh/Core/System/compiler.hh
 -
 
-../OpenMesh/./OpenMesh/Core/System/config.hh
+../OpenMesh/OpenMesh/Core/System/config.hh
 OpenMesh/Core/System/config.h
 -
 
-../OpenMesh/./OpenMesh/Core/System/mostream.hh
+../OpenMesh/OpenMesh/Core/System/mostream.hh
 OpenMesh/Core/System/config.h
 -
 iostream
@@ -568,13 +568,13 @@ string
 algorithm
 -
 
-../OpenMesh/./OpenMesh/Core/System/omstream.hh
+../OpenMesh/OpenMesh/Core/System/omstream.hh
 OpenMesh/Core/System/mostream.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Templates/newClass.hh
+../OpenMesh/OpenMesh/Core/Templates/newClass.hh
 
-../OpenMesh/./OpenMesh/Core/Utils/BaseProperty.hh
+../OpenMesh/OpenMesh/Core/Utils/BaseProperty.hh
 string
 -
 OpenMesh/Core/IO/StoreRestore.hh
@@ -582,17 +582,17 @@ OpenMesh/Core/IO/StoreRestore.hh
 OpenMesh/Core/System/omstream.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Utils/Endian.hh
+../OpenMesh/OpenMesh/Core/Utils/Endian.hh
 OpenMesh/Core/System/config.h
 -
 iostream
 -
 
-../OpenMesh/./OpenMesh/Core/Utils/GenProg.hh
+../OpenMesh/OpenMesh/Core/Utils/GenProg.hh
 OpenMesh/Core/System/config.h
 -
 
-../OpenMesh/./OpenMesh/Core/Utils/Property.hh
+../OpenMesh/OpenMesh/Core/Utils/Property.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Mesh/Handles.hh
@@ -606,15 +606,15 @@ string
 algorithm
 -
 
-../OpenMesh/./OpenMesh/Core/Utils/PropertyContainer.hh
+../OpenMesh/OpenMesh/Core/Utils/PropertyContainer.hh
 OpenMesh/Core/Utils/Property.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Utils/SingletonT.cc
+../OpenMesh/OpenMesh/Core/Utils/SingletonT.cc
 OpenMesh/Core/Utils/SingletonT.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Utils/SingletonT.hh
+../OpenMesh/OpenMesh/Core/Utils/SingletonT.hh
 OpenMesh/Core/System/config.h
 -
 stdexcept
@@ -622,15 +622,15 @@ stdexcept
 iostream
 -
 SingletonT.cc
-../OpenMesh/./OpenMesh/Core/Utils/SingletonT.cc
+../OpenMesh/OpenMesh/Core/Utils/SingletonT.cc
 
-../OpenMesh/./OpenMesh/Core/Utils/color_cast.hh
+../OpenMesh/OpenMesh/Core/Utils/color_cast.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Utils/vector_cast.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Utils/vector_cast.hh
+../OpenMesh/OpenMesh/Core/Utils/vector_cast.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Utils/vector_traits.hh
@@ -644,7 +644,7 @@ algorithm
 OpenMesh/Core/Geometry/VectorT.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Utils/vector_traits.hh
+../OpenMesh/OpenMesh/Core/Utils/vector_traits.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Utils/GenProg.hh
@@ -654,15 +654,15 @@ stdlib.h
 cstdlib
 -
 
-../OpenMesh/./OpenMesh/Tools/Utils/Config.hh
+../OpenMesh/OpenMesh/Tools/Utils/Config.hh
 OpenMesh/Core/System/config.h
 -
 
-../OpenMesh/./OpenMesh/Tools/Utils/MeshCheckerT.cc
+../OpenMesh/OpenMesh/Tools/Utils/MeshCheckerT.cc
 OpenMesh/Tools/Utils/MeshCheckerT.hh
 -
 
-../OpenMesh/./OpenMesh/Tools/Utils/MeshCheckerT.hh
+../OpenMesh/OpenMesh/Tools/Utils/MeshCheckerT.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/System/omstream.hh
@@ -674,11 +674,11 @@ OpenMesh/Core/Mesh/Attributes.hh
 iostream
 -
 MeshCheckerT.cc
-../OpenMesh/./OpenMesh/Tools/Utils/MeshCheckerT.cc
+../OpenMesh/OpenMesh/Tools/Utils/MeshCheckerT.cc
 
-../OpenMesh/./OpenMesh/Tools/Utils/NumLimitsT.hh
+../OpenMesh/OpenMesh/Tools/Utils/NumLimitsT.hh
 Config.hh
-../OpenMesh/./OpenMesh/Tools/Utils/Config.hh
+../OpenMesh/OpenMesh/Tools/Utils/Config.hh
 limits.h
 -
 float.h
@@ -686,23 +686,23 @@ float.h
 OpenMesh/Utils/NumLimitsT.hh
 -
 
-../OpenMesh/./OpenMesh/Tools/Utils/StripifierT.cc
+../OpenMesh/OpenMesh/Tools/Utils/StripifierT.cc
 OpenMesh/Tools/Utils/StripifierT.hh
 -
 list
 -
 
-../OpenMesh/./OpenMesh/Tools/Utils/StripifierT.hh
+../OpenMesh/OpenMesh/Tools/Utils/StripifierT.hh
 vector
 -
 OpenMesh/Core/Utils/Property.hh
 -
 StripifierT.cc
-../OpenMesh/./OpenMesh/Tools/Utils/StripifierT.cc
+../OpenMesh/OpenMesh/Tools/Utils/StripifierT.cc
 
-../OpenMesh/./OpenMesh/Tools/Utils/conio.hh
+../OpenMesh/OpenMesh/Tools/Utils/conio.hh
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/IO/BinaryHelper.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/IO/BinaryHelper.cc
 OpenMesh/Core/System/config.h
 -
 algorithm
@@ -710,13 +710,13 @@ algorithm
 OpenMesh/Core/IO/BinaryHelper.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/IO/IOManager.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/IO/IOManager.cc
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/IO/IOManager.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/IO/OMFormat.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/IO/OMFormat.cc
 OpenMesh/Core/IO/OMFormat.hh
 -
 algorithm
@@ -724,7 +724,7 @@ algorithm
 iomanip
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/IO/reader/BaseReader.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/IO/reader/BaseReader.cc
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/IO/reader/BaseReader.hh
@@ -740,7 +740,7 @@ ctype.h
 cctype
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/IO/reader/OBJReader.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/IO/reader/OBJReader.cc
 OpenMesh/Core/IO/reader/OBJReader.hh
 -
 OpenMesh/Core/IO/IOManager.hh
@@ -760,7 +760,7 @@ cctype
 string.h
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/IO/reader/OFFReader.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/IO/reader/OFFReader.cc
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/System/omstream.hh
@@ -778,7 +778,7 @@ memory
 string.h
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/IO/reader/OMReader.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/IO/reader/OMReader.cc
 fstream
 -
 OpenMesh/Core/System/config.h
@@ -792,11 +792,11 @@ OpenMesh/Core/IO/OMFormat.hh
 OpenMesh/Core/IO/reader/OMReader.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/IO/reader/PLYReader.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/IO/reader/PLYReader.cc
 OpenMesh/Core/IO/reader/PLYReader.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/IO/reader/STLReader.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/IO/reader/STLReader.cc
 map
 -
 float.h
@@ -814,7 +814,7 @@ OpenMesh/Core/System/omstream.hh
 OpenMesh/Core/IO/importer/BaseImporter.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/IO/reader/ply.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/IO/reader/ply.cc
 stdio.h
 -
 stdlib.h
@@ -826,7 +826,7 @@ string.h
 OpenMesh/Core/IO/reader/ply.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/IO/writer/BaseWriter.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/IO/writer/BaseWriter.cc
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/IO/writer/BaseWriter.hh
@@ -842,7 +842,7 @@ ctype.h
 cctype
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/IO/writer/OBJWriter.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/IO/writer/OBJWriter.cc
 fstream
 -
 OpenMesh/Core/System/config.h
@@ -856,7 +856,7 @@ OpenMesh/Core/IO/IOManager.hh
 OpenMesh/Core/System/omstream.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/IO/writer/OFFWriter.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/IO/writer/OFFWriter.cc
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/System/omstream.hh
@@ -870,7 +870,7 @@ OpenMesh/Core/IO/BinaryHelper.hh
 OpenMesh/Core/IO/writer/OFFWriter.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/IO/writer/OMWriter.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/IO/writer/OMWriter.cc
 OpenMesh/Core/System/config.h
 -
 time.h
@@ -894,7 +894,7 @@ OpenMesh/Core/IO/exporter/BaseExporter.hh
 OpenMesh/Core/IO/writer/OMWriter.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/IO/writer/STLWriter.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/IO/writer/STLWriter.cc
 fstream
 -
 OpenMesh/Core/System/config.h
@@ -910,21 +910,21 @@ OpenMesh/Core/IO/IOManager.hh
 OpenMesh/Core/IO/writer/STLWriter.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/Mesh/ArrayKernel.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/Mesh/ArrayKernel.cc
 OpenMesh/Core/Mesh/ArrayKernel.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/Mesh/BaseKernel.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/Mesh/BaseKernel.cc
 OpenMesh/Core/Mesh/BaseKernel.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/Mesh/PolyConnectivity.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/Mesh/PolyConnectivity.cc
 OpenMesh/Core/Mesh/PolyConnectivity.hh
 -
 set
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/Mesh/PolyMeshT.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/Mesh/PolyMeshT.cc
 OpenMesh/Core/Mesh/PolyMeshT.hh
 -
 OpenMesh/Core/Geometry/LoopSchemeMaskT.hh
@@ -936,13 +936,13 @@ OpenMesh/Core/System/omstream.hh
 vector
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/Mesh/TriConnectivity.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/Mesh/TriConnectivity.cc
 OpenMesh/Core/Mesh/TriConnectivity.hh
 -
 OpenMesh/Core/System/omstream.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/Mesh/TriMeshT.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/Mesh/TriMeshT.cc
 OpenMesh/Core/Mesh/TriMeshT.hh
 -
 OpenMesh/Core/System/omstream.hh
@@ -950,25 +950,25 @@ OpenMesh/Core/System/omstream.hh
 vector
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/System/omstream.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/System/omstream.cc
 OpenMesh/Core/System/omstream.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/Templates/newClass.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/Templates/newClass.cc
 OpenMesh/Core/Templates/newClass.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/Templates/newClassT.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/Templates/newClassT.cc
 OpenMesh/Core/Templates/newClass.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/Utils/BaseProperty.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/Utils/BaseProperty.cc
 OpenMesh/Core/Utils/BaseProperty.hh
 -
 iostream
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/Utils/Endian.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/Utils/Endian.cc
 iostream
 -
 algorithm
@@ -976,13 +976,13 @@ algorithm
 OpenMesh/Core/Utils/Endian.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Core/Utils/SingletonT.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Core/Utils/SingletonT.cc
 OpenMesh/Core/Utils/SingletonT.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Tools/Utils/Gnuplot.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Tools/Utils/Gnuplot.cc
 Gnuplot.hh
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Tools/Utils/Gnuplot.hh
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Tools/Utils/Gnuplot.hh
 stdarg.h
 -
 io.h
@@ -1004,7 +1004,7 @@ stdlib.h
 string.h
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Tools/Utils/Gnuplot.hh
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Tools/Utils/Gnuplot.hh
 OpenMesh/Core/System/config.hh
 -
 stdio.h
@@ -1018,17 +1018,17 @@ vector
 stdexcept
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Tools/Utils/MeshCheckerT.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Tools/Utils/MeshCheckerT.cc
 OpenMesh/Tools/Utils/MeshCheckerT.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Tools/Utils/StripifierT.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Tools/Utils/StripifierT.cc
 OpenMesh/Tools/Utils/StripifierT.hh
 -
 list
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Tools/Utils/Timer.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Tools/Utils/Timer.cc
 OpenMesh/Core/System/config.h
 -
 math.h
@@ -1040,7 +1040,7 @@ cmath
 cstdio
 -
 Timer.hh
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Tools/Utils/Timer.hh
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Tools/Utils/Timer.hh
 windows.h
 -
 time.h
@@ -1054,7 +1054,7 @@ unistd.h
 time.h
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Tools/Utils/Timer.hh
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Tools/Utils/Timer.hh
 OpenMesh/Core/System/config.hh
 -
 iostream
@@ -1066,7 +1066,7 @@ assert.h
 cassert
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/OpenMesh/OpenMesh/Tools/Utils/conio.cc
+/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/OpenMesh/Tools/Utils/conio.cc
 OpenMesh/Core/System/config.hh
 -
 OpenMesh/Tools/Utils/conio.hh

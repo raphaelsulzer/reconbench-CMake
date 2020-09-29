@@ -1,1 +1,0 @@
-0 ../range_image1.ply

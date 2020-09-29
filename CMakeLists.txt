@@ -53,6 +53,8 @@ target_link_libraries(isosurface PUBLIC Modeling)
 file(GLOB_RECURSE sampler_SOURCES "sampler/*.cpp")
 file(GLOB_RECURSE sampler_HEADERS "sampler/*.h")
 
+
+
 SET(sampler_INCLUDE "sampler")
 
 
@@ -70,6 +72,17 @@ target_include_directories(uniform_sampler PUBLIC ${sampler_INCLUDE})
 target_link_libraries(uniform_sampler PUBLIC ann OpenMesh pbrt tps Sampler Modeling)
 
 
+
+
+# Sources
+file(GLOB_RECURSE reg_SOURCES "registration/tps_allignment/src/*.cc")
+file(GLOB_RECURSE reg_HEADERS "registration/tps_allignment/include/*.h")
+
+SET(reg_INCLUDE "sampler")
+
+add_executable(global_reg  ${reg_HEADERS} registration/tps_alignment/src/global_reg.cc)
+target_include_directories(global_reg PUBLIC ${reg_INCLUDE})
+target_link_libraries(global_reg PUBLIC ann OpenMesh pbrt tps Sampler Modeling)
 
 
 

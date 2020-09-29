@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pc_generator.dir/sampler/pc_generator.cpp.o"
-  "pc_generator.pdb"
   "pc_generator"
+  "pc_generator.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

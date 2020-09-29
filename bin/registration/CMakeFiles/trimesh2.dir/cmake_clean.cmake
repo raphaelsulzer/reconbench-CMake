@@ -32,8 +32,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_shade.cc.o"
   "CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_view.cc.o"
   "CMakeFiles/trimesh2.dir/trimesh2/utilsrc/xf.cc.o"
-  "libtrimesh2.pdb"
   "libtrimesh2.a"
+  "libtrimesh2.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -5,6 +5,9 @@
 /home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/dump_meta.dir
 /home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/edit_cache.dir
 /home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/isosurface.dir
+/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/rebuild_cache.dir
+/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/dump_lines.dir
+/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/post-processing.dir
 /home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/pc_generator.dir
 /home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/mesh_fixer.dir
 /home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/dump_distribution.dir
@@ -13,14 +16,12 @@
 /home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/Modeling.dir
 /home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/implicit_uniform.dir
 /home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/run_evaluation.dir
+/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/global_reg.dir
 /home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/aggregate_distribution.dir
 /home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/mesh_to_implicit.dir
 /home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/sample_mesh.dir
 /home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/dump_barplot.dir
 /home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/aggregation.dir
-/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/rebuild_cache.dir
-/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/post-processing.dir
-/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/dump_lines.dir
 /home/adminlocal/PhD/cpp/reconbench-Laurent/build/ann/CMakeFiles/rebuild_cache.dir
 /home/adminlocal/PhD/cpp/reconbench-Laurent/build/ann/CMakeFiles/ann.dir
 /home/adminlocal/PhD/cpp/reconbench-Laurent/build/ann/CMakeFiles/edit_cache.dir

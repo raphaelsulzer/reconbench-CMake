@@ -9,9 +9,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/Modeling.dir/modeling/lm_method.cpp.o"
   "CMakeFiles/Modeling.dir/modeling/mesh_to_implicit.cpp.o"
   "CMakeFiles/Modeling.dir/modeling/mpu_soup.cpp.o"
+  "CMakeFiles/Modeling.dir/modeling/post-processing.cpp.o"
   "CMakeFiles/Modeling.dir/modeling/tri_integrator.cpp.o"
-  "libModeling.pdb"
   "libModeling.a"
+  "libModeling.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

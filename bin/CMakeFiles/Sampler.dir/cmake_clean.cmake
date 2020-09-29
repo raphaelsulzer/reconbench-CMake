@@ -18,8 +18,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Sampler.dir/sampler/point_orienter.cpp.o"
   "CMakeFiles/Sampler.dir/sampler/projection_cleanup.cpp.o"
   "CMakeFiles/Sampler.dir/sampler/run_uniform.cpp.o"
-  "libSampler.pdb"
   "libSampler.a"
+  "libSampler.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

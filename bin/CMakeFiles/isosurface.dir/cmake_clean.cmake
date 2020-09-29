@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/isosurface.dir/modeling/isosurface.cpp.o"
-  "isosurface.pdb"
   "isosurface"
+  "isosurface.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

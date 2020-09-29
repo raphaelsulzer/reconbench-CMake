@@ -31,8 +31,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/OpenMesh.dir/OpenMesh/Tools/Utils/StripifierT.cc.o"
   "CMakeFiles/OpenMesh.dir/OpenMesh/Tools/Utils/Timer.cc.o"
   "CMakeFiles/OpenMesh.dir/OpenMesh/Tools/Utils/conio.cc.o"
-  "libOpenMesh.pdb"
   "libOpenMesh.a"
+  "libOpenMesh.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

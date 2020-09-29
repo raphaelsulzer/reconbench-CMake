@@ -123,8 +123,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/pbrt.dir/src/volumes/exponential.cpp.o"
   "CMakeFiles/pbrt.dir/src/volumes/homogeneous.cpp.o"
   "CMakeFiles/pbrt.dir/src/volumes/volumegrid.cpp.o"
-  "libpbrt.pdb"
   "libpbrt.a"
+  "libpbrt.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

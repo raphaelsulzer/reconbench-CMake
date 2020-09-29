@@ -1,4 +1,4 @@
-# Install script for directory: /home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark
+# Install script for directory: /home/adminlocal/PhD/cpp/reconbench-Laurent
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,12 +37,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/build/ann/cmake_install.cmake")
-  include("/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/build/OpenMesh/cmake_install.cmake")
-  include("/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/build/pbrt/cmake_install.cmake")
-  include("/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/build/registration/cmake_install.cmake")
+  include("/home/adminlocal/PhD/cpp/reconbench-Laurent/bin/ann/cmake_install.cmake")
+  include("/home/adminlocal/PhD/cpp/reconbench-Laurent/bin/OpenMesh/cmake_install.cmake")
+  include("/home/adminlocal/PhD/cpp/reconbench-Laurent/bin/pbrt/cmake_install.cmake")
+  include("/home/adminlocal/PhD/cpp/reconbench-Laurent/bin/registration/cmake_install.cmake")
 
 endif()
 
@@ -54,5 +59,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/adminlocal/PhD/cpp/reconbench-Laurent/bin/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

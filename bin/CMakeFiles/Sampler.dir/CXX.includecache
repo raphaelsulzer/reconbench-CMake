@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../OpenMesh/./OpenMesh/Core/Geometry/LoopSchemeMaskT.hh
+../OpenMesh/OpenMesh/Core/Geometry/LoopSchemeMaskT.hh
 math.h
 -
 vector
@@ -16,13 +16,13 @@ OpenMesh/Core/System/config.h
 OpenMesh/Core/Utils/SingletonT.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Geometry/MathDefs.hh
+../OpenMesh/OpenMesh/Core/Geometry/MathDefs.hh
 math.h
 -
 float.h
 -
 
-../OpenMesh/./OpenMesh/Core/Geometry/VectorT.hh
+../OpenMesh/OpenMesh/Core/Geometry/VectorT.hh
 OpenMesh/Core/System/config.h
 -
 iostream
@@ -34,17 +34,17 @@ math.h
 xmmintrin.h
 -
 VectorT_inc.hh
-../OpenMesh/./OpenMesh/Core/Geometry/VectorT_inc.hh
+../OpenMesh/OpenMesh/Core/Geometry/VectorT_inc.hh
 VectorT_inc.hh
-../OpenMesh/./OpenMesh/Core/Geometry/VectorT_inc.hh
+../OpenMesh/OpenMesh/Core/Geometry/VectorT_inc.hh
 VectorT_inc.hh
-../OpenMesh/./OpenMesh/Core/Geometry/VectorT_inc.hh
+../OpenMesh/OpenMesh/Core/Geometry/VectorT_inc.hh
 VectorT_inc.hh
-../OpenMesh/./OpenMesh/Core/Geometry/VectorT_inc.hh
+../OpenMesh/OpenMesh/Core/Geometry/VectorT_inc.hh
 
-../OpenMesh/./OpenMesh/Core/Geometry/VectorT_inc.hh
+../OpenMesh/OpenMesh/Core/Geometry/VectorT_inc.hh
 
-../OpenMesh/./OpenMesh/Core/IO/BinaryHelper.hh
+../OpenMesh/OpenMesh/Core/IO/BinaryHelper.hh
 OpenMesh/Core/System/config.h
 -
 stdio.h
@@ -54,7 +54,7 @@ cstdio
 iostream
 -
 
-../OpenMesh/./OpenMesh/Core/IO/IOInstances.hh
+../OpenMesh/OpenMesh/Core/IO/IOInstances.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/IO/reader/BaseReader.hh
@@ -80,7 +80,7 @@ OpenMesh/Core/IO/writer/STLWriter.hh
 OpenMesh/Core/IO/writer/OMWriter.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/IOManager.hh
+../OpenMesh/OpenMesh/Core/IO/IOManager.hh
 iostream
 -
 sstream
@@ -104,7 +104,7 @@ OpenMesh/Core/IO/exporter/BaseExporter.hh
 OpenMesh/Core/Utils/SingletonT.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/MeshIO.hh
+../OpenMesh/OpenMesh/Core/IO/MeshIO.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/IO/SR_store.hh
@@ -118,7 +118,7 @@ OpenMesh/Core/IO/exporter/ExporterT.hh
 OpenMesh/Core/IO/IOInstances.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/OMFormat.cc
+../OpenMesh/OpenMesh/Core/IO/OMFormat.cc
 OpenMesh/Core/IO/OMFormat.hh
 -
 algorithm
@@ -126,7 +126,7 @@ algorithm
 iomanip
 -
 
-../OpenMesh/./OpenMesh/Core/IO/OMFormat.hh
+../OpenMesh/OpenMesh/Core/IO/OMFormat.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/System/omstream.hh
@@ -146,13 +146,13 @@ OpenMesh/Tools/Utils/NumLimitsT.hh
 limits
 -
 OMFormat.cc
-../OpenMesh/./OpenMesh/Core/IO/OMFormat.cc
+../OpenMesh/OpenMesh/Core/IO/OMFormat.cc
 
-../OpenMesh/./OpenMesh/Core/IO/Options.hh
+../OpenMesh/OpenMesh/Core/IO/Options.hh
 OpenMesh/Core/System/config.h
 -
 
-../OpenMesh/./OpenMesh/Core/IO/SR_binary.hh
+../OpenMesh/OpenMesh/Core/IO/SR_binary.hh
 OpenMesh/Core/System/config.h
 -
 typeinfo
@@ -164,7 +164,7 @@ sstream
 numeric
 -
 
-../OpenMesh/./OpenMesh/Core/IO/SR_binary_spec.hh
+../OpenMesh/OpenMesh/Core/IO/SR_binary_spec.hh
 OpenMesh/Core/System/config.h
 -
 iterator
@@ -198,13 +198,13 @@ OpenMesh/Core/IO/SR_binary_vector_of_string.inl
 OpenMesh/Core/IO/SR_binary_vector_of_bool.inl
 -
 
-../OpenMesh/./OpenMesh/Core/IO/SR_binary_vector_of_bool.inl
+../OpenMesh/OpenMesh/Core/IO/SR_binary_vector_of_bool.inl
 
-../OpenMesh/./OpenMesh/Core/IO/SR_binary_vector_of_fundamentals.inl
+../OpenMesh/OpenMesh/Core/IO/SR_binary_vector_of_fundamentals.inl
 
-../OpenMesh/./OpenMesh/Core/IO/SR_binary_vector_of_string.inl
+../OpenMesh/OpenMesh/Core/IO/SR_binary_vector_of_string.inl
 
-../OpenMesh/./OpenMesh/Core/IO/SR_rbo.hh
+../OpenMesh/OpenMesh/Core/IO/SR_rbo.hh
 OpenMesh/Core/System/config.h
 -
 stdio.h
@@ -222,7 +222,7 @@ OpenMesh/Core/IO/SR_types.hh
 OpenMesh/Core/Utils/GenProg.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/SR_store.hh
+../OpenMesh/OpenMesh/Core/IO/SR_store.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/IO/SR_types.hh
@@ -236,11 +236,11 @@ OpenMesh/Core/IO/SR_binary_spec.hh
 OpenMesh/Core/IO/StoreRestore.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/SR_types.hh
+../OpenMesh/OpenMesh/Core/IO/SR_types.hh
 OpenMesh/Core/System/config.h
 -
 
-../OpenMesh/./OpenMesh/Core/IO/StoreRestore.hh
+../OpenMesh/OpenMesh/Core/IO/StoreRestore.hh
 stdexcept
 -
 OpenMesh/Core/System/config.h
@@ -248,7 +248,7 @@ OpenMesh/Core/System/config.h
 OpenMesh/Core/IO/SR_binary.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/exporter/BaseExporter.hh
+../OpenMesh/OpenMesh/Core/IO/exporter/BaseExporter.hh
 vector
 -
 OpenMesh/Core/System/config.h
@@ -258,7 +258,7 @@ OpenMesh/Core/Geometry/VectorT.hh
 OpenMesh/Core/Mesh/BaseKernel.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/exporter/ExporterT.hh
+../OpenMesh/OpenMesh/Core/IO/exporter/ExporterT.hh
 vector
 -
 OpenMesh/Core/System/config.h
@@ -274,7 +274,7 @@ OpenMesh/Core/Utils/color_cast.hh
 OpenMesh/Core/IO/exporter/BaseExporter.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/importer/BaseImporter.hh
+../OpenMesh/OpenMesh/Core/IO/importer/BaseImporter.hh
 vector
 -
 OpenMesh/Core/System/config.h
@@ -284,7 +284,7 @@ OpenMesh/Core/Geometry/VectorT.hh
 OpenMesh/Core/Mesh/BaseKernel.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/importer/ImporterT.hh
+../OpenMesh/OpenMesh/Core/IO/importer/ImporterT.hh
 OpenMesh/Core/IO/importer/BaseImporter.hh
 -
 OpenMesh/Core/Utils/vector_cast.hh
@@ -294,7 +294,7 @@ OpenMesh/Core/Mesh/Attributes.hh
 OpenMesh/Core/System/omstream.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/reader/BaseReader.hh
+../OpenMesh/OpenMesh/Core/IO/reader/BaseReader.hh
 iostream
 -
 string
@@ -308,7 +308,7 @@ OpenMesh/Core/IO/importer/BaseImporter.hh
 OpenMesh/Core/Utils/SingletonT.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/reader/OBJReader.hh
+../OpenMesh/OpenMesh/Core/IO/reader/OBJReader.hh
 iostream
 -
 string
@@ -328,7 +328,7 @@ OpenMesh/Core/IO/importer/BaseImporter.hh
 OpenMesh/Core/IO/reader/BaseReader.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/reader/OFFReader.hh
+../OpenMesh/OpenMesh/Core/IO/reader/OFFReader.hh
 iostream
 -
 string
@@ -346,7 +346,7 @@ OpenMesh/Core/IO/reader/BaseReader.hh
 string.h
 -
 
-../OpenMesh/./OpenMesh/Core/IO/reader/OMReader.hh
+../OpenMesh/OpenMesh/Core/IO/reader/OMReader.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Utils/SingletonT.hh
@@ -364,7 +364,7 @@ iostream
 string
 -
 
-../OpenMesh/./OpenMesh/Core/IO/reader/PLYReader.hh
+../OpenMesh/OpenMesh/Core/IO/reader/PLYReader.hh
 iostream
 -
 string
@@ -390,7 +390,7 @@ OpenMesh/Core/IO/reader/BaseReader.hh
 OpenMesh/Core/IO/reader/ply.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/reader/STLReader.hh
+../OpenMesh/OpenMesh/Core/IO/reader/STLReader.hh
 stdio.h
 -
 string
@@ -404,13 +404,13 @@ OpenMesh/Core/IO/reader/BaseReader.hh
 string.h
 -
 
-../OpenMesh/./OpenMesh/Core/IO/reader/ply.hh
+../OpenMesh/OpenMesh/Core/IO/reader/ply.hh
 stdio.h
 -
 stddef.h
 -
 
-../OpenMesh/./OpenMesh/Core/IO/writer/BaseWriter.hh
+../OpenMesh/OpenMesh/Core/IO/writer/BaseWriter.hh
 iostream
 -
 string
@@ -422,7 +422,7 @@ OpenMesh/Core/IO/Options.hh
 OpenMesh/Core/IO/exporter/BaseExporter.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/writer/OBJWriter.hh
+../OpenMesh/OpenMesh/Core/IO/writer/OBJWriter.hh
 string
 -
 stdio.h
@@ -436,7 +436,7 @@ OpenMesh/Core/IO/exporter/BaseExporter.hh
 OpenMesh/Core/IO/writer/BaseWriter.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/writer/OFFWriter.hh
+../OpenMesh/OpenMesh/Core/IO/writer/OFFWriter.hh
 stdio.h
 -
 string
@@ -452,7 +452,7 @@ OpenMesh/Core/IO/exporter/BaseExporter.hh
 OpenMesh/Core/IO/writer/BaseWriter.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/writer/OMWriter.hh
+../OpenMesh/OpenMesh/Core/IO/writer/OMWriter.hh
 iostream
 -
 string
@@ -470,7 +470,7 @@ OpenMesh/Core/IO/IOManager.hh
 OpenMesh/Core/IO/writer/BaseWriter.hh
 -
 
-../OpenMesh/./OpenMesh/Core/IO/writer/STLWriter.hh
+../OpenMesh/OpenMesh/Core/IO/writer/STLWriter.hh
 stdio.h
 -
 cstdio
@@ -486,7 +486,7 @@ OpenMesh/Core/IO/exporter/BaseExporter.hh
 OpenMesh/Core/IO/writer/BaseWriter.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/ArrayItems.hh
+../OpenMesh/OpenMesh/Core/Mesh/ArrayItems.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Utils/GenProg.hh
@@ -494,7 +494,7 @@ OpenMesh/Core/Utils/GenProg.hh
 OpenMesh/Core/Mesh/Handles.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/ArrayKernel.hh
+../OpenMesh/OpenMesh/Core/Mesh/ArrayKernel.hh
 vector
 -
 OpenMesh/Core/System/config.h
@@ -508,7 +508,7 @@ OpenMesh/Core/Mesh/BaseKernel.hh
 OpenMesh/Core/Mesh/Status.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/AttribKernelT.hh
+../OpenMesh/OpenMesh/Core/Mesh/AttribKernelT.hh
 OpenMesh/Core/Mesh/Attributes.hh
 -
 OpenMesh/Core/Utils/GenProg.hh
@@ -520,13 +520,13 @@ vector
 algorithm
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/Attributes.hh
+../OpenMesh/OpenMesh/Core/Mesh/Attributes.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Mesh/Status.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/BaseKernel.hh
+../OpenMesh/OpenMesh/Core/Mesh/BaseKernel.hh
 OpenMesh/Core/System/config.h
 -
 vector
@@ -538,13 +538,13 @@ algorithm
 OpenMesh/Core/Utils/PropertyContainer.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/CirculatorsT.hh
+../OpenMesh/OpenMesh/Core/Mesh/CirculatorsT.hh
 OpenMesh/Core/System/config.h
 -
 assert.h
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/FinalMeshItemsT.hh
+../OpenMesh/OpenMesh/Core/Mesh/FinalMeshItemsT.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Utils/GenProg.hh
@@ -554,13 +554,13 @@ OpenMesh/Core/Utils/vector_traits.hh
 OpenMesh/Core/Mesh/Handles.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/Handles.hh
+../OpenMesh/OpenMesh/Core/Mesh/Handles.hh
 OpenMesh/Core/System/config.h
 -
 iostream
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/IteratorsT.hh
+../OpenMesh/OpenMesh/Core/Mesh/IteratorsT.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Mesh/Status.hh
@@ -568,7 +568,7 @@ OpenMesh/Core/Mesh/Status.hh
 assert.h
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/PolyConnectivity.hh
+../OpenMesh/OpenMesh/Core/Mesh/PolyConnectivity.hh
 OpenMesh/Core/Mesh/ArrayKernel.hh
 -
 OpenMesh/Core/Mesh/IteratorsT.hh
@@ -576,7 +576,7 @@ OpenMesh/Core/Mesh/IteratorsT.hh
 OpenMesh/Core/Mesh/CirculatorsT.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/PolyMeshT.cc
+../OpenMesh/OpenMesh/Core/Mesh/PolyMeshT.cc
 OpenMesh/Core/Mesh/PolyMeshT.hh
 -
 OpenMesh/Core/Geometry/LoopSchemeMaskT.hh
@@ -588,7 +588,7 @@ OpenMesh/Core/System/omstream.hh
 vector
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/PolyMeshT.hh
+../OpenMesh/OpenMesh/Core/Mesh/PolyMeshT.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Geometry/MathDefs.hh
@@ -598,9 +598,9 @@ OpenMesh/Core/Mesh/PolyConnectivity.hh
 vector
 -
 PolyMeshT.cc
-../OpenMesh/./OpenMesh/Core/Mesh/PolyMeshT.cc
+../OpenMesh/OpenMesh/Core/Mesh/PolyMeshT.cc
 
-../OpenMesh/./OpenMesh/Core/Mesh/PolyMesh_ArrayKernelT.hh
+../OpenMesh/OpenMesh/Core/Mesh/PolyMesh_ArrayKernelT.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Mesh/PolyConnectivity.hh
@@ -614,11 +614,11 @@ OpenMesh/Core/Mesh/AttribKernelT.hh
 OpenMesh/Core/Mesh/PolyMeshT.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/Status.hh
+../OpenMesh/OpenMesh/Core/Mesh/Status.hh
 OpenMesh/Core/System/config.h
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/Traits.hh
+../OpenMesh/OpenMesh/Core/Mesh/Traits.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Geometry/VectorT.hh
@@ -628,11 +628,11 @@ OpenMesh/Core/Mesh/Attributes.hh
 OpenMesh/Core/Mesh/Handles.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/TriConnectivity.hh
+../OpenMesh/OpenMesh/Core/Mesh/TriConnectivity.hh
 OpenMesh/Core/Mesh/PolyConnectivity.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/TriMeshT.cc
+../OpenMesh/OpenMesh/Core/Mesh/TriMeshT.cc
 OpenMesh/Core/Mesh/TriMeshT.hh
 -
 OpenMesh/Core/System/omstream.hh
@@ -640,7 +640,7 @@ OpenMesh/Core/System/omstream.hh
 vector
 -
 
-../OpenMesh/./OpenMesh/Core/Mesh/TriMeshT.hh
+../OpenMesh/OpenMesh/Core/Mesh/TriMeshT.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Mesh/PolyMeshT.hh
@@ -648,9 +648,9 @@ OpenMesh/Core/Mesh/PolyMeshT.hh
 vector
 -
 TriMeshT.cc
-../OpenMesh/./OpenMesh/Core/Mesh/TriMeshT.cc
+../OpenMesh/OpenMesh/Core/Mesh/TriMeshT.cc
 
-../OpenMesh/./OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh
+../OpenMesh/OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Mesh/TriConnectivity.hh
@@ -664,15 +664,15 @@ OpenMesh/Core/Mesh/AttribKernelT.hh
 OpenMesh/Core/Mesh/TriMeshT.hh
 -
 
-../OpenMesh/./OpenMesh/Core/System/compiler.hh
+../OpenMesh/OpenMesh/Core/System/compiler.hh
 
-../OpenMesh/./OpenMesh/Core/System/config.h
+../OpenMesh/OpenMesh/Core/System/config.h
 assert.h
 -
 OpenMesh/Core/System/compiler.hh
 -
 
-../OpenMesh/./OpenMesh/Core/System/mostream.hh
+../OpenMesh/OpenMesh/Core/System/mostream.hh
 OpenMesh/Core/System/config.h
 -
 iostream
@@ -690,11 +690,11 @@ string
 algorithm
 -
 
-../OpenMesh/./OpenMesh/Core/System/omstream.hh
+../OpenMesh/OpenMesh/Core/System/omstream.hh
 OpenMesh/Core/System/mostream.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Utils/BaseProperty.hh
+../OpenMesh/OpenMesh/Core/Utils/BaseProperty.hh
 string
 -
 OpenMesh/Core/IO/StoreRestore.hh
@@ -702,17 +702,17 @@ OpenMesh/Core/IO/StoreRestore.hh
 OpenMesh/Core/System/omstream.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Utils/Endian.hh
+../OpenMesh/OpenMesh/Core/Utils/Endian.hh
 OpenMesh/Core/System/config.h
 -
 iostream
 -
 
-../OpenMesh/./OpenMesh/Core/Utils/GenProg.hh
+../OpenMesh/OpenMesh/Core/Utils/GenProg.hh
 OpenMesh/Core/System/config.h
 -
 
-../OpenMesh/./OpenMesh/Core/Utils/Property.hh
+../OpenMesh/OpenMesh/Core/Utils/Property.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Mesh/Handles.hh
@@ -726,15 +726,15 @@ string
 algorithm
 -
 
-../OpenMesh/./OpenMesh/Core/Utils/PropertyContainer.hh
+../OpenMesh/OpenMesh/Core/Utils/PropertyContainer.hh
 OpenMesh/Core/Utils/Property.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Utils/SingletonT.cc
+../OpenMesh/OpenMesh/Core/Utils/SingletonT.cc
 OpenMesh/Core/Utils/SingletonT.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Utils/SingletonT.hh
+../OpenMesh/OpenMesh/Core/Utils/SingletonT.hh
 OpenMesh/Core/System/config.h
 -
 stdexcept
@@ -742,15 +742,15 @@ stdexcept
 iostream
 -
 SingletonT.cc
-../OpenMesh/./OpenMesh/Core/Utils/SingletonT.cc
+../OpenMesh/OpenMesh/Core/Utils/SingletonT.cc
 
-../OpenMesh/./OpenMesh/Core/Utils/color_cast.hh
+../OpenMesh/OpenMesh/Core/Utils/color_cast.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Utils/vector_cast.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Utils/vector_cast.hh
+../OpenMesh/OpenMesh/Core/Utils/vector_cast.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Utils/vector_traits.hh
@@ -764,7 +764,7 @@ algorithm
 OpenMesh/Core/Geometry/VectorT.hh
 -
 
-../OpenMesh/./OpenMesh/Core/Utils/vector_traits.hh
+../OpenMesh/OpenMesh/Core/Utils/vector_traits.hh
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/Utils/GenProg.hh
@@ -774,13 +774,13 @@ stdlib.h
 cstdlib
 -
 
-../OpenMesh/./OpenMesh/Tools/Utils/Config.hh
+../OpenMesh/OpenMesh/Tools/Utils/Config.hh
 OpenMesh/Core/System/config.h
 -
 
-../OpenMesh/./OpenMesh/Tools/Utils/NumLimitsT.hh
+../OpenMesh/OpenMesh/Tools/Utils/NumLimitsT.hh
 Config.hh
-../OpenMesh/./OpenMesh/Tools/Utils/Config.hh
+../OpenMesh/OpenMesh/Tools/Utils/Config.hh
 limits.h
 -
 float.h
@@ -804,33 +804,33 @@ climits
 cfloat
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/evaluator/ComputationTimer.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/ComputationTimer.h
 time.h
 -
 iostream
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/DenseEigenSystem.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/DenseEigenSystem.h
 DenseMatrix.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/DenseMatrix.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/DenseMatrix.h
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/DenseMatrix.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/DenseMatrix.h
 Vector.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/Vector.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector.h
 Vector3.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/Vector3.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector3.h
 linalg_consts.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/linalg_consts.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/linalg_consts.h
 string
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/ImplicitFunction.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/ImplicitFunction.h
 Vector3.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/Vector3.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector3.h
 DenseEigenSystem.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/DenseEigenSystem.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/DenseEigenSystem.h
 mesh_types.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/mesh_types.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/mesh_types.h
 teem/nrrd.h
 -
 iostream
@@ -840,9 +840,9 @@ vector
 stdio.h
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/ImplicitSphere.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/ImplicitSphere.h
 ImplicitFunction.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/ImplicitFunction.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/ImplicitFunction.h
 stdlib.h
 -
 fstream
@@ -850,9 +850,9 @@ fstream
 sstream
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/Rigid.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Rigid.h
 DenseEigenSystem.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/DenseEigenSystem.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/DenseEigenSystem.h
 vector
 -
 stdio.h
@@ -860,23 +860,23 @@ stdio.h
 stdlib.h
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/RotationMatrix.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/RotationMatrix.h
 DenseMatrix.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/DenseMatrix.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/DenseMatrix.h
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/Vector.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector.h
 iostream
 -
 math.h
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/Vector3.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector3.h
 iostream
 -
 math.h
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/collision.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/collision.h
 math.h
 -
 stdio.h
@@ -884,41 +884,41 @@ stdio.h
 float.h
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/linalg_consts.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/linalg_consts.h
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/lm_method.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/lm_method.h
 DenseMatrix.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/DenseMatrix.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/DenseMatrix.h
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/mesh_types.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/mesh_types.h
 OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh
 -
 OpenMesh/Core/Mesh/PolyMesh_ArrayKernelT.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/mpu_soup.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/mpu_soup.h
 collision.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/collision.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/collision.h
 tri_integrator.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/tri_integrator.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/tri_integrator.h
 DenseMatrix.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/DenseMatrix.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/DenseMatrix.h
 DenseEigenSystem.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/DenseEigenSystem.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/DenseEigenSystem.h
 ANN/ANN.h
 -
 stdio.h
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/shape_loader.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/shape_loader.h
 mpu_soup.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/mpu_soup.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/mpu_soup.h
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/tri_integrator.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/tri_integrator.h
 mesh_types.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/mesh_types.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/mesh_types.h
 ImplicitFunction.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/ImplicitFunction.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/ImplicitFunction.h
 string
 -
 vector
@@ -930,37 +930,37 @@ fstream
 sstream
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/GaussianFit.cpp
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/GaussianFit.cpp
 GaussianFit.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/GaussianFit.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/GaussianFit.h
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/GaussianFit.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/GaussianFit.h
 ../modeling/lm_method.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/lm_method.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/lm_method.h
 vector
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/ImplicitNewton.cpp
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/ImplicitNewton.cpp
 ImplicitNewton.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/ImplicitNewton.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/ImplicitNewton.h
 iostream
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/ImplicitNewton.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/ImplicitNewton.h
 ../modeling/ImplicitFunction.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/ImplicitFunction.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/ImplicitFunction.h
 UniformOccupancyGrid.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/UniformOccupancyGrid.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/UniformOccupancyGrid.h
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/NPTSReader.cpp
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/NPTSReader.cpp
 NPTSReader.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/NPTSReader.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/NPTSReader.h
 cstdlib
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/NPTSReader.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/NPTSReader.h
 OrientedPointCloud.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/OrientedPointCloud.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/OrientedPointCloud.h
 string
 -
 vector
@@ -972,25 +972,25 @@ fstream
 sstream
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/OrientedPointCloud.cpp
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/OrientedPointCloud.cpp
 OrientedPointCloud.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/OrientedPointCloud.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/OrientedPointCloud.h
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/OrientedPointCloud.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/OrientedPointCloud.h
 stdio.h
 -
 vector
 -
 ../modeling/Vector3.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/Vector3.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector3.h
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/OrientedRangeImage.cpp
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/OrientedRangeImage.cpp
 OrientedRangeImage.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/OrientedRangeImage.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/OrientedRangeImage.h
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/OrientedRangeImage.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/OrientedRangeImage.h
 ../modeling/Vector3.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/Vector3.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector3.h
 string
 -
 iostream
@@ -998,11 +998,11 @@ iostream
 stdio.h
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/PNGImage.cpp
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/PNGImage.cpp
 PNGImage.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/PNGImage.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/PNGImage.h
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/PNGImage.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/PNGImage.h
 malloc.h
 -
 iostream
@@ -1010,33 +1010,33 @@ iostream
 png.h
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/PointCloud.cpp
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/PointCloud.cpp
 PointCloud.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/PointCloud.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/PointCloud.h
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/PointCloud.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/PointCloud.h
 map
 -
 algorithm
 -
 OrientedPointCloud.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/OrientedPointCloud.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/OrientedPointCloud.h
 union_find.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/union_find.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/union_find.h
 basic_graph.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/basic_graph.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/basic_graph.h
 ../modeling/DenseEigenSystem.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/DenseEigenSystem.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/DenseEigenSystem.h
 ANN/ANN.h
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/RangeImage.cpp
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RangeImage.cpp
 RangeImage.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/RangeImage.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RangeImage.h
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/RangeImage.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RangeImage.h
 ../modeling/Vector3.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/Vector3.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector3.h
 string
 -
 iostream
@@ -1044,47 +1044,47 @@ iostream
 stdio.h
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/RangeScanner.cpp
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RangeScanner.cpp
 RangeScanner.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/RangeScanner.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RangeScanner.h
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/RangeScanner.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RangeScanner.h
 RayCaster.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/RayCaster.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RayCaster.h
 OrientedRangeImage.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/OrientedRangeImage.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/OrientedRangeImage.h
 ImplicitNewton.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/ImplicitNewton.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/ImplicitNewton.h
 ../modeling/Rigid.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/Rigid.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Rigid.h
 SparseRangeScan.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/SparseRangeScan.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/SparseRangeScan.h
 PNGImage.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/PNGImage.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/PNGImage.h
 ../modeling/RotationMatrix.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/RotationMatrix.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/RotationMatrix.h
 GaussianFit.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/GaussianFit.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/GaussianFit.h
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/RayCaster.cpp
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RayCaster.cpp
 RayCaster.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/RayCaster.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RayCaster.h
 iostream
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/RayCaster.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RayCaster.h
 ../modeling/Vector3.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/Vector3.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector3.h
 ../modeling/RotationMatrix.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/RotationMatrix.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/RotationMatrix.h
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/SparseRangeScan.cpp
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/SparseRangeScan.cpp
 SparseRangeScan.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/SparseRangeScan.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/SparseRangeScan.h
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/SparseRangeScan.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/SparseRangeScan.h
 PointCloud.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/PointCloud.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/PointCloud.h
 string
 -
 vector
@@ -1096,31 +1096,31 @@ fstream
 sstream
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/SphericalImager.cpp
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/SphericalImager.cpp
 SphericalImager.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/SphericalImager.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/SphericalImager.h
 iostream
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/SphericalImager.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/SphericalImager.h
 ../evaluator/ComputationTimer.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/evaluator/ComputationTimer.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/ComputationTimer.h
 RayCaster.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/RayCaster.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RayCaster.h
 OrientedRangeImage.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/OrientedRangeImage.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/OrientedRangeImage.h
 RangeImage.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/RangeImage.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RangeImage.h
 NPTSReader.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/NPTSReader.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/NPTSReader.h
 PointCloud.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/PointCloud.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/PointCloud.h
 RangeScanner.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/RangeScanner.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RangeScanner.h
 ../modeling/ImplicitSphere.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/ImplicitSphere.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/ImplicitSphere.h
 ../modeling/RotationMatrix.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/RotationMatrix.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/RotationMatrix.h
 stdio.h
 -
 stdlib.h
@@ -1138,41 +1138,43 @@ string
 vector
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/UniformOccupancyGrid.cpp
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/UniformOccupancyGrid.cpp
 UniformOccupancyGrid.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/UniformOccupancyGrid.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/UniformOccupancyGrid.h
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/UniformOccupancyGrid.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/UniformOccupancyGrid.h
 ../modeling/Vector3.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/Vector3.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector3.h
 iostream
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/UniformSampler.cpp
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/UniformSampler.cpp
 UniformSampler.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/UniformSampler.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/UniformSampler.h
+unistd.h
+-
 iostream
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/UniformSampler.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/UniformSampler.h
 ../evaluator/ComputationTimer.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/evaluator/ComputationTimer.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/ComputationTimer.h
 RayCaster.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/RayCaster.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RayCaster.h
 OrientedRangeImage.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/OrientedRangeImage.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/OrientedRangeImage.h
 RangeImage.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/RangeImage.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RangeImage.h
 NPTSReader.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/NPTSReader.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/NPTSReader.h
 PointCloud.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/PointCloud.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/PointCloud.h
 RangeScanner.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/RangeScanner.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RangeScanner.h
 ../modeling/ImplicitSphere.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/ImplicitSphere.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/ImplicitSphere.h
 ../modeling/RotationMatrix.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/RotationMatrix.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/RotationMatrix.h
 stdio.h
 -
 stdlib.h
@@ -1190,15 +1192,15 @@ string
 vector
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/XYZReader.cpp
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/XYZReader.cpp
 XYZReader.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/XYZReader.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/XYZReader.h
 cstdlib
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/XYZReader.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/XYZReader.h
 PointCloud.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/PointCloud.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/PointCloud.h
 string
 -
 vector
@@ -1210,11 +1212,11 @@ fstream
 sstream
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/basic_graph.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/basic_graph.h
 vector
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/mesh_types.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/mesh_types.h
 OpenMesh/Core/IO/MeshIO.hh
 -
 OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh
@@ -1222,13 +1224,13 @@ OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh
 OpenMesh/Core/Mesh/PolyMesh_ArrayKernelT.hh
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/pc_generator.cpp
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/pc_generator.cpp
 UniformSampler.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/UniformSampler.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/UniformSampler.h
 SphericalImager.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/SphericalImager.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/SphericalImager.h
 ../modeling/shape_loader.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/shape_loader.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/shape_loader.h
 cstdio
 -
 cstdlib
@@ -1236,35 +1238,35 @@ cstdlib
 iostream
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/point_orienter.cpp
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/point_orienter.cpp
 XYZReader.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/XYZReader.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/XYZReader.h
 OpenMesh/Core/IO/MeshIO.hh
 -
 NPTSReader.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/NPTSReader.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/NPTSReader.h
 SparseRangeScan.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/SparseRangeScan.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/SparseRangeScan.h
 PointCloud.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/PointCloud.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/PointCloud.h
 ../modeling/shape_loader.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/shape_loader.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/shape_loader.h
 mesh_types.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/mesh_types.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/mesh_types.h
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/projection_cleanup.cpp
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/projection_cleanup.cpp
 ../modeling/shape_loader.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/shape_loader.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/shape_loader.h
 NPTSReader.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/NPTSReader.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/NPTSReader.h
 iostream
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/run_uniform.cpp
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/run_uniform.cpp
 UniformSampler.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/UniformSampler.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/UniformSampler.h
 ../modeling/shape_loader.h
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/modeling/shape_loader.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/shape_loader.h
 cstdio
 -
 cstdlib
@@ -1272,191 +1274,5 @@ cstdlib
 iostream
 -
 
-/home/ign.fr/ymarchand/Documents/surface-reconstruction-benchmark/sampler/union_find.h
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
-bits/wordsize.h
--
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
-bits/thread-shared-types.h
--
-
-/usr/include/x86_64-linux-gnu/bits/select.h
-bits/wordsize.h
--
-
-/usr/include/x86_64-linux-gnu/bits/select2.h
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h
-bits/types.h
--
-
-/usr/include/x86_64-linux-gnu/bits/sysmacros.h
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
-bits/pthreadtypes-arch.h
--
-
-/usr/include/x86_64-linux-gnu/bits/types.h
-features.h
--
-bits/wordsize.h
--
-bits/typesizes.h
--
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h
-bits/types.h
--
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h
-bits/types.h
--
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
-bits/types/__sigset_t.h
--
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
-bits/types.h
--
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
-bits/types.h
--
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h
-bits/types.h
--
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h
-bits/types.h
--
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h
-
-/usr/include/x86_64-linux-gnu/sys/select.h
-features.h
--
-bits/types.h
--
-bits/select.h
--
-bits/types/sigset_t.h
--
-bits/types/time_t.h
--
-bits/types/struct_timeval.h
--
-bits/types/struct_timespec.h
--
-bits/select2.h
--
-
-/usr/include/x86_64-linux-gnu/sys/sysmacros.h
-features.h
--
-bits/types.h
--
-bits/sysmacros.h
--
-
-/usr/include/x86_64-linux-gnu/sys/types.h
-features.h
--
-bits/types.h
--
-bits/types/clock_t.h
--
-bits/types/clockid_t.h
--
-bits/types/time_t.h
--
-bits/types/timer_t.h
--
-stddef.h
--
-bits/stdint-intn.h
--
-endian.h
--
-sys/select.h
--
-sys/sysmacros.h
--
-bits/pthreadtypes.h
--
-
-/usr/local/include/png.h
-zlib.h
-/usr/local/include/zlib.h
-pngconf.h
-/usr/local/include/pngconf.h
-crtdbg.h
--
-
-/usr/local/include/pngconf.h
-pngusr.h
-/usr/local/include/pngusr.h
-config.h
-/usr/local/include/config.h
-windows.h
--
-stdio.h
--
-stdio.h
--
-sys/types.h
--
-setjmp.h
--
-strings.h
--
-string.h
--
-stdlib.h
--
-fp.h
--
-math.h
--
-m68881.h
--
-mem.h
--
-alloc.h
--
-malloc.h
--
-time.h
--
-dos.h
--
-
-/usr/local/include/zconf.h
-stddef.h
--
-windows.h
--
-limits.h
--
-sys/types.h
--
-stdarg.h
--
-stddef.h
--
-unistd.h
--
-unixio.h
--
-
-/usr/local/include/zlib.h
-zconf.h
-/usr/local/include/zconf.h
+/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/union_find.h
 

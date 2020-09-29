@@ -7,7 +7,7 @@
 
 # This script assumes the appropriate bin directory is in your path
 
-cd bin
+#cd build
 export PATH=$PATH:$(pwd)
 #export PATH=$PATH:~/research/lib/registration/tps_alignment/bin.Linux
 # set up the input files and output directory
@@ -26,7 +26,7 @@ cd global
 # lowered for large models
 echo running pairwise correspondence...
 for i in ../*.ply
-  do (time correspond $i -kd 5 -read_xf -nolocal ply_list.txt $1 > corr_$(basename $i ply)txt) 2> err_$(basename $i ply)txt
+  do (time correspond $i -kd 5 ply_list.txt $1 > corr_$(basename $i ply)txt) 2> err_$(basename $i ply)txt
 done
 
 # construct the input file for global registration
@@ -42,7 +42,7 @@ mkdir -p points rigid
 # remove -write_xf to write a transformed mesh instead of a .xf
 # add -nr nonrigid/ to write non-rigid alignments (as meshes) to global/nonrigid
 echo running global registration...
-(time global_reg -read_xf -write_xf -min_target_dist 3 -r rigid/ < global_in.txt > global_out.txt) 2> global_err.txt
+(time global_reg -write_xf -min_target_dist 3 -r rigid/ < global_in.txt > global_out.txt) 2> global_err.txt
 
 # add symlinks to the input meshes in the same directory as the output .xf files
 # NOTE: comment this out if you remove -write_xf!

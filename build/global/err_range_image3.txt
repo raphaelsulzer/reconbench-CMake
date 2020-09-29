@@ -1,5 +1,5 @@
 /home/adminlocal/PhD/cpp/reconbench-Laurent/build/rigid_align.sh: line 29: correspond: command not found
 
 real	0m0.005s
-user	0m0.002s
-sys	0m0.000s
+user	0m0.001s
+sys	0m0.001s

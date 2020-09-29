@@ -13,8 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ann.dir/src/kd_tree.cpp.o"
   "CMakeFiles/ann.dir/src/kd_util.cpp.o"
   "CMakeFiles/ann.dir/src/perf.cpp.o"
-  "libann.pdb"
   "libann.a"
+  "libann.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

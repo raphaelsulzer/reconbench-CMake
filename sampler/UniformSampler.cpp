@@ -119,7 +119,7 @@ void UniformSampler::sample()  {
 	num_samples << num_scans;
 
     // fixed the thing below to point to the correct path:
-//	string particle_file = "./bin/particle_sampler/particles"+num_samples.str()+".npts";
+//    string particle_file = "./bin/particle_sampler/particles"+num_samples.str()+".npts";
     char cwd[1024];
     getcwd(cwd, sizeof(cwd));
     string particle_file = string(cwd)+"/particle_sampler/particles"+num_samples.str()+".npts";
@@ -158,6 +158,10 @@ void UniformSampler::sample()  {
 	double lipschitz = implicit_function->lipschitz_constant(100);
 	int num_stripes_processed = 0;
 
+    string sensor_file_path = string(cwd)+"/sensor_file.xyz";
+    FILE* sensor_file = fopen(sensor_file_path.c_str(), "w");
+    cout << "\nwrite sensor positions to " << sensor_file_path << endl;
+
 	for(int s = 0; s < num_scans; s++)  {
 		ComputationTimer timer("uniform sampler");
 		timer.start();
@@ -171,6 +175,10 @@ void UniformSampler::sample()  {
 
 		Vector3 sphere_sample = uniform_sampling[s];
 		Vector3 look_from = center + sphere_sample*sampling_radius;
+
+        cout << "look from: " << look_from << endl;
+        fprintf(sensor_file, "%.7f %.7f %.7f\n", look_from.x, look_from.y, look_from.z);
+
 		Vector3 look_at = center;
 		Vector3 view_dir = look_at-look_from;
 		view_dir.normalize();
@@ -221,8 +229,10 @@ void UniformSampler::sample()  {
 				normal = random_rotation.rotate(normal);
 			}
 
-			range_image->setRangePoint(pix.x, pix.y, pt, normal);
-		}
+//            range_image->setRangePoint(pix.x, pix.y, pt, normal);
+            // instead of saving the normal for a range point I'm going to set the sensor direction
+            range_image->setRangePoint(pix.x, pix.y, pt, look_from-pt);
+        }
 		char depth_filename[256];
 		sprintf(depth_filename, "%s_depth%u.png", stripe_base.c_str(), s);
 		range_scanner.depth_image(sparse_scan, depth_filename);
@@ -232,8 +242,8 @@ void UniformSampler::sample()  {
 		timer.end();
 		cout << timer.getComputation() << " : " << timer.getElapsedTime() << "s" << endl;
 	}
-
-	this->dump_to_movie();
+    fclose(sensor_file);
+    this->dump_to_movie();
 }
 
 void UniformSampler::dump_to_movie()  {
@@ -246,6 +256,8 @@ void UniformSampler::dump_to_movie()  {
 
 void UniformSampler::dump_to_file(string _filename)  {
 	FILE* pts_file = fopen(_filename.c_str(), "w");
+
+    cout << "\nwriting point cloud to file: " << _filename.c_str() << endl;
 
 	// point cloud used only if the normal type deems it
 	PointCloud pc;
@@ -262,6 +274,12 @@ void UniformSampler::dump_to_file(string _filename)  {
 			stringstream int_out;
 			int_out << i;
 			ave_image_size += range_image->size();
+//            string range_name = "./bin/range_image" + int_out.str() + ".ply";
+//            string transform_name = "./bin/global/rigid/range_image" + int_out.str() + ".xf";
+            string transform_name = string(cwd)+"/global/rigid/range_image" + int_out.str() + ".xf";
+            transform_names.push_back(transform_name);
+            cout << "\npush back transform name: " << transform_name << endl;
+
             string range_name = string(cwd)+"/range_image" + int_out.str() + ".ply";
             transform_names.push_back(string(cwd)+"/global/rigid/range_image" + int_out.str() + ".xf");
 			range_image->dump_to_ply(range_name);
@@ -275,8 +293,10 @@ void UniformSampler::dump_to_file(string _filename)  {
 
 		// run registration
 		string perc_perc_string = perc_string;
+
         string exec_registration = string(cwd)+"/rigid_align.sh " + perc_perc_string;
-		cout << exec_registration << endl;
+//        string exec_registration = "./bin/rigid_align.sh " + perc_perc_string;
+        cout << exec_registration << endl;
 		system(exec_registration.c_str());
 
 		int num_pts = 0;
@@ -300,8 +320,9 @@ void UniformSampler::dump_to_file(string _filename)  {
 					num_pts++;
 					Vector3 local_pt = range_image->getRangePoint(x,y);
 					Vector3 local_normal = range_image->getRangeNormal(x,y);
-					Vector3 range_pt = rotation.mult(local_pt) + translation;
-					Vector3 range_normal = rotation.mult(local_normal);
+//                    Vector3 range_pt = rotation.mult(local_pt) + translation;
+                    Vector3 range_pt = local_pt;
+                    Vector3 range_normal = rotation.mult(local_normal);
 
 					if(normal_type == NORMALS_ANALYTICAL)  {
 						fprintf(pts_file, "%.7f %.7f %.7f %.7f %.7f %.7f\n", range_pt.x, range_pt.y, range_pt.z,
@@ -350,6 +371,7 @@ void UniformSampler::dump_to_file(string _filename)  {
 	}
 
 	if(normal_type != NORMALS_ANALYTICAL)  {
+        cout << "\nmake pca normals" << endl;
 		OrientedPointCloud* oriented_pc = pc.orient_points(pca_knn);
 		for(int p = 0; p < oriented_pc->size(); p++)  {
 			Vector3 range_pt = oriented_pc->getPoint(p);
