@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = -DPBRT_PROBES_NONE
 
-CXX_INCLUDES = -I/home/adminlocal/PhD/cpp/reconbench-Laurent/pbrt/src -I/home/adminlocal/PhD/cpp/reconbench-Laurent/pbrt/src/core -I/home/adminlocal/PhD/cpp/reconbench-Laurent/pbrt/src/shapes -I/home/adminlocal/PhD/cpp/reconbench-Laurent/pbrt/src/accelerators -I/home/adminlocal/PhD/cpp/reconbench-Laurent/pbrt/src/materials
+CXX_INCLUDES = -I/home/adminlocal/PhD/cpp/reconbench-CMake/pbrt/src -I/home/adminlocal/PhD/cpp/reconbench-CMake/pbrt/src/core -I/home/adminlocal/PhD/cpp/reconbench-CMake/pbrt/src/shapes -I/home/adminlocal/PhD/cpp/reconbench-CMake/pbrt/src/accelerators -I/home/adminlocal/PhD/cpp/reconbench-CMake/pbrt/src/materials
 
-CXX_FLAGS = -O2 -g -DNDEBUG
+CXX_FLAGS = -g
 

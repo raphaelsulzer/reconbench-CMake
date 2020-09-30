@@ -62,10 +62,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adminlocal/PhD/cpp/reconbench-Laurent
+CMAKE_SOURCE_DIR = /home/adminlocal/PhD/cpp/reconbench-CMake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adminlocal/PhD/cpp/reconbench-Laurent/build
+CMAKE_BINARY_DIR = /home/adminlocal/PhD/cpp/reconbench-CMake/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mesh_fixer.dir/depend.make
@@ -78,133 +78,133 @@ include CMakeFiles/mesh_fixer.dir/flags.make
 
 CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.o: CMakeFiles/mesh_fixer.dir/flags.make
 CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.o: ../evaluator/GlobalStats.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/GlobalStats.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/GlobalStats.cpp
 
 CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/GlobalStats.cpp > CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/GlobalStats.cpp > CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.i
 
 CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/GlobalStats.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/GlobalStats.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.s
 
 CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.o: CMakeFiles/mesh_fixer.dir/flags.make
 CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.o: ../evaluator/ShortestDistanceMap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/ShortestDistanceMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/ShortestDistanceMap.cpp
 
 CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/ShortestDistanceMap.cpp > CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/ShortestDistanceMap.cpp > CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.i
 
 CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/ShortestDistanceMap.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/ShortestDistanceMap.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.s
 
 CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.o: CMakeFiles/mesh_fixer.dir/flags.make
 CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.o: ../evaluator/implicit_sampler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/implicit_sampler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/implicit_sampler.cpp
 
 CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/implicit_sampler.cpp > CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/implicit_sampler.cpp > CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.i
 
 CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/implicit_sampler.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/implicit_sampler.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.s
 
 CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.o: CMakeFiles/mesh_fixer.dir/flags.make
 CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.o: ../evaluator/UniformGrid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/UniformGrid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/UniformGrid.cpp
 
 CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/UniformGrid.cpp > CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/UniformGrid.cpp > CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.i
 
 CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/UniformGrid.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/UniformGrid.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.s
 
 CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.o: CMakeFiles/mesh_fixer.dir/flags.make
 CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.o: ../evaluator/mesh_sampler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/mesh_sampler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/mesh_sampler.cpp
 
 CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/mesh_sampler.cpp > CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/mesh_sampler.cpp > CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.i
 
 CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/mesh_sampler.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/mesh_sampler.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.s
 
 CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.o: CMakeFiles/mesh_fixer.dir/flags.make
 CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.o: ../evaluator/recon_evaluation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/recon_evaluation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/recon_evaluation.cpp
 
 CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/recon_evaluation.cpp > CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/recon_evaluation.cpp > CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.i
 
 CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/recon_evaluation.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/recon_evaluation.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.s
 
 CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.o: CMakeFiles/mesh_fixer.dir/flags.make
 CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.o: ../evaluator/KdOpenMesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/KdOpenMesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/KdOpenMesh.cpp
 
 CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/KdOpenMesh.cpp > CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/KdOpenMesh.cpp > CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.i
 
 CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/KdOpenMesh.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/KdOpenMesh.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.s
 
 CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.o: CMakeFiles/mesh_fixer.dir/flags.make
 CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.o: ../evaluator/kd_tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/kd_tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/kd_tree.cpp
 
 CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/kd_tree.cpp > CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/kd_tree.cpp > CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.i
 
 CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/kd_tree.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/kd_tree.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.s
 
 CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.o: CMakeFiles/mesh_fixer.dir/flags.make
 CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.o: ../evaluator/shape_distribution.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/shape_distribution.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/shape_distribution.cpp
 
 CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/shape_distribution.cpp > CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/shape_distribution.cpp > CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.i
 
 CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/shape_distribution.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/shape_distribution.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.s
 
 CMakeFiles/mesh_fixer.dir/evaluator/mesh_fixer.cpp.o: CMakeFiles/mesh_fixer.dir/flags.make
 CMakeFiles/mesh_fixer.dir/evaluator/mesh_fixer.cpp.o: ../evaluator/mesh_fixer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/mesh_fixer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/mesh_fixer.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/mesh_fixer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mesh_fixer.dir/evaluator/mesh_fixer.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_fixer.dir/evaluator/mesh_fixer.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/mesh_fixer.cpp
 
 CMakeFiles/mesh_fixer.dir/evaluator/mesh_fixer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesh_fixer.dir/evaluator/mesh_fixer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/mesh_fixer.cpp > CMakeFiles/mesh_fixer.dir/evaluator/mesh_fixer.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/mesh_fixer.cpp > CMakeFiles/mesh_fixer.dir/evaluator/mesh_fixer.cpp.i
 
 CMakeFiles/mesh_fixer.dir/evaluator/mesh_fixer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesh_fixer.dir/evaluator/mesh_fixer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/mesh_fixer.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/mesh_fixer.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/mesh_fixer.cpp -o CMakeFiles/mesh_fixer.dir/evaluator/mesh_fixer.cpp.s
 
 # Object files for target mesh_fixer
 mesh_fixer_OBJECTS = \
@@ -262,7 +262,7 @@ mesh_fixer: /usr/lib/x86_64-linux-gnu/libccolamd.so
 mesh_fixer: /usr/lib/x86_64-linux-gnu/libpng.so
 mesh_fixer: /usr/lib/x86_64-linux-gnu/libz.so
 mesh_fixer: CMakeFiles/mesh_fixer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable mesh_fixer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable mesh_fixer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mesh_fixer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -275,6 +275,6 @@ CMakeFiles/mesh_fixer.dir/clean:
 .PHONY : CMakeFiles/mesh_fixer.dir/clean
 
 CMakeFiles/mesh_fixer.dir/depend:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adminlocal/PhD/cpp/reconbench-Laurent /home/adminlocal/PhD/cpp/reconbench-Laurent /home/adminlocal/PhD/cpp/reconbench-Laurent/build /home/adminlocal/PhD/cpp/reconbench-Laurent/build /home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/mesh_fixer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adminlocal/PhD/cpp/reconbench-CMake /home/adminlocal/PhD/cpp/reconbench-CMake /home/adminlocal/PhD/cpp/reconbench-CMake/build /home/adminlocal/PhD/cpp/reconbench-CMake/build /home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles/mesh_fixer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mesh_fixer.dir/depend
 

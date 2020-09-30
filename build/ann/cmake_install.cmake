@@ -1,4 +1,4 @@
-# Install script for directory: /home/adminlocal/PhD/cpp/reconbench-Laurent/ann
+# Install script for directory: /home/adminlocal/PhD/cpp/reconbench-CMake/ann
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

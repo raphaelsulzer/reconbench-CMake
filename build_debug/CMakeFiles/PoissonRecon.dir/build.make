@@ -62,10 +62,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adminlocal/PhD/cpp/reconbench-Laurent
+CMAKE_SOURCE_DIR = /home/adminlocal/PhD/cpp/reconbench-CMake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug
+CMAKE_BINARY_DIR = /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PoissonRecon.dir/depend.make
@@ -78,107 +78,107 @@ include CMakeFiles/PoissonRecon.dir/flags.make
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/CmdLineParser.cpp.o: CMakeFiles/PoissonRecon.dir/flags.make
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/CmdLineParser.cpp.o: ../recon/poisson/Src/CmdLineParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PoissonRecon.dir/recon/poisson/Src/CmdLineParser.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/CmdLineParser.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/CmdLineParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PoissonRecon.dir/recon/poisson/Src/CmdLineParser.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/CmdLineParser.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/CmdLineParser.cpp
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/CmdLineParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PoissonRecon.dir/recon/poisson/Src/CmdLineParser.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/CmdLineParser.cpp > CMakeFiles/PoissonRecon.dir/recon/poisson/Src/CmdLineParser.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/CmdLineParser.cpp > CMakeFiles/PoissonRecon.dir/recon/poisson/Src/CmdLineParser.cpp.i
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/CmdLineParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PoissonRecon.dir/recon/poisson/Src/CmdLineParser.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/CmdLineParser.cpp -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/CmdLineParser.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/CmdLineParser.cpp -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/CmdLineParser.cpp.s
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MarchingCubes.cpp.o: CMakeFiles/PoissonRecon.dir/flags.make
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MarchingCubes.cpp.o: ../recon/poisson/Src/MarchingCubes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MarchingCubes.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MarchingCubes.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/MarchingCubes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MarchingCubes.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MarchingCubes.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/MarchingCubes.cpp
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MarchingCubes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MarchingCubes.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/MarchingCubes.cpp > CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MarchingCubes.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/MarchingCubes.cpp > CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MarchingCubes.cpp.i
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MarchingCubes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MarchingCubes.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/MarchingCubes.cpp -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MarchingCubes.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/MarchingCubes.cpp -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MarchingCubes.cpp.s
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/plyfile.cpp.o: CMakeFiles/PoissonRecon.dir/flags.make
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/plyfile.cpp.o: ../recon/poisson/Src/plyfile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PoissonRecon.dir/recon/poisson/Src/plyfile.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/plyfile.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/plyfile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PoissonRecon.dir/recon/poisson/Src/plyfile.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/plyfile.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/plyfile.cpp
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/plyfile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PoissonRecon.dir/recon/poisson/Src/plyfile.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/plyfile.cpp > CMakeFiles/PoissonRecon.dir/recon/poisson/Src/plyfile.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/plyfile.cpp > CMakeFiles/PoissonRecon.dir/recon/poisson/Src/plyfile.cpp.i
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/plyfile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PoissonRecon.dir/recon/poisson/Src/plyfile.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/plyfile.cpp -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/plyfile.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/plyfile.cpp -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/plyfile.cpp.s
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Factor.cpp.o: CMakeFiles/PoissonRecon.dir/flags.make
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Factor.cpp.o: ../recon/poisson/Src/Factor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Factor.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Factor.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/Factor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Factor.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Factor.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/Factor.cpp
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Factor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Factor.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/Factor.cpp > CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Factor.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/Factor.cpp > CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Factor.cpp.i
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Factor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Factor.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/Factor.cpp -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Factor.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/Factor.cpp -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Factor.cpp.s
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MultiGridOctest.cpp.o: CMakeFiles/PoissonRecon.dir/flags.make
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MultiGridOctest.cpp.o: ../recon/poisson/Src/MultiGridOctest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MultiGridOctest.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MultiGridOctest.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/MultiGridOctest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MultiGridOctest.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MultiGridOctest.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/MultiGridOctest.cpp
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MultiGridOctest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MultiGridOctest.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/MultiGridOctest.cpp > CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MultiGridOctest.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/MultiGridOctest.cpp > CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MultiGridOctest.cpp.i
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MultiGridOctest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MultiGridOctest.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/MultiGridOctest.cpp -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MultiGridOctest.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/MultiGridOctest.cpp -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/MultiGridOctest.cpp.s
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Time.cpp.o: CMakeFiles/PoissonRecon.dir/flags.make
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Time.cpp.o: ../recon/poisson/Src/Time.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Time.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Time.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/Time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Time.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Time.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/Time.cpp
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Time.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Time.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/Time.cpp > CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Time.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/Time.cpp > CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Time.cpp.i
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Time.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Time.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/Time.cpp -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Time.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/Time.cpp -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Time.cpp.s
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Geometry.cpp.o: CMakeFiles/PoissonRecon.dir/flags.make
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Geometry.cpp.o: ../recon/poisson/Src/Geometry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Geometry.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Geometry.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/Geometry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Geometry.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Geometry.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/Geometry.cpp
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Geometry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Geometry.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/Geometry.cpp > CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Geometry.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/Geometry.cpp > CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Geometry.cpp.i
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Geometry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Geometry.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/Geometry.cpp -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Geometry.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/Geometry.cpp -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/Geometry.cpp.s
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/ply.cpp.o: CMakeFiles/PoissonRecon.dir/flags.make
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/ply.cpp.o: ../recon/poisson/Src/ply.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PoissonRecon.dir/recon/poisson/Src/ply.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/ply.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/ply.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PoissonRecon.dir/recon/poisson/Src/ply.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/ply.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/ply.cpp
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/ply.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PoissonRecon.dir/recon/poisson/Src/ply.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/ply.cpp > CMakeFiles/PoissonRecon.dir/recon/poisson/Src/ply.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/ply.cpp > CMakeFiles/PoissonRecon.dir/recon/poisson/Src/ply.cpp.i
 
 CMakeFiles/PoissonRecon.dir/recon/poisson/Src/ply.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PoissonRecon.dir/recon/poisson/Src/ply.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/recon/poisson/Src/ply.cpp -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/ply.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/recon/poisson/Src/ply.cpp -o CMakeFiles/PoissonRecon.dir/recon/poisson/Src/ply.cpp.s
 
 # Object files for target PoissonRecon
 PoissonRecon_OBJECTS = \
@@ -232,7 +232,7 @@ PoissonRecon: /usr/lib/x86_64-linux-gnu/libccolamd.so
 PoissonRecon: /usr/lib/x86_64-linux-gnu/libpng.so
 PoissonRecon: /usr/lib/x86_64-linux-gnu/libz.so
 PoissonRecon: CMakeFiles/PoissonRecon.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable PoissonRecon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable PoissonRecon"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PoissonRecon.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -245,6 +245,6 @@ CMakeFiles/PoissonRecon.dir/clean:
 .PHONY : CMakeFiles/PoissonRecon.dir/clean
 
 CMakeFiles/PoissonRecon.dir/depend:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adminlocal/PhD/cpp/reconbench-Laurent /home/adminlocal/PhD/cpp/reconbench-Laurent /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug/CMakeFiles/PoissonRecon.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adminlocal/PhD/cpp/reconbench-CMake /home/adminlocal/PhD/cpp/reconbench-CMake /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/CMakeFiles/PoissonRecon.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PoissonRecon.dir/depend
 

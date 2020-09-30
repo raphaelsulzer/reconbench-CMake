@@ -249,7 +249,7 @@ void UniformSampler::sample()  {
 		cout << timer.getComputation() << " : " << timer.getElapsedTime() << "s" << endl;
 	}
     fclose(sensor_file);
-    this->dump_to_movie();
+//    this->dump_to_movie();
 }
 
 void UniformSampler::dump_to_movie()  {
@@ -261,9 +261,9 @@ void UniformSampler::dump_to_movie()  {
 }
 
 void UniformSampler::dump_to_file(string _filename)  {
-	FILE* pts_file = fopen(_filename.c_str(), "w");
 
-    cout << "\nwriting point cloud to file: " << _filename.c_str() << endl;
+//    FILE* pts_file = fopen(_filename.c_str(), "w");
+//    cout << "\nwriting point cloud to file: " << _filename.c_str() << endl;
 
 	// point cloud used only if the normal type deems it
 	PointCloud pc;
@@ -284,8 +284,6 @@ void UniformSampler::dump_to_file(string _filename)  {
 //            string transform_name = "./bin/global/rigid/range_image" + int_out.str() + ".xf";
             string transform_name = string(cwd)+"/global/rigid/range_image" + int_out.str() + ".xf";
             transform_names.push_back(transform_name);
-            cout << "\npush back transform name: " << transform_name << endl;
-
             string range_name = string(cwd)+"/range_image" + int_out.str() + ".ply";
             transform_names.push_back(string(cwd)+"/global/rigid/range_image" + int_out.str() + ".xf");
 			range_image->dump_to_ply(range_name);
@@ -329,10 +327,10 @@ void UniformSampler::dump_to_file(string _filename)  {
                     Vector3 range_pt = rotation.mult(local_pt) + translation;
                     Vector3 range_normal = rotation.mult(local_normal);
 
-                    if(normal_type == NORMALS_ANALYTICAL || normal_type == NORMALS_SENSOR_DIR || normal_type == NORMALS_SENSOR_POS)  {
-                        fprintf(pts_file, "%.7f %.7f %.7f %.7f %.7f %.7f\n", range_pt.x, range_pt.y, range_pt.z,
-                                range_normal.x, range_normal.y, range_normal.z);
-                    }
+//                    if(normal_type == NORMALS_ANALYTICAL || normal_type == NORMALS_SENSOR_DIR || normal_type == NORMALS_SENSOR_POS)  {
+//                        fprintf(pts_file, "%.7f %.7f %.7f %.7f %.7f %.7f\n", range_pt.x, range_pt.y, range_pt.z,
+//                                range_normal.x, range_normal.y, range_normal.z);
+//                    }
                     pc.addPoint(range_pt);
                     analytical_normals.push_back(range_normal);
 				}
@@ -340,8 +338,8 @@ void UniformSampler::dump_to_file(string _filename)  {
 		}
 
 		// clean up
-//		system("rm -r bin/global");
-//		system("rm bin/*.ply");
+        system("rm -r bin/global");
+        system("rm bin/*.ply");
 		cout << "num pts: " << num_pts << endl;
 	}
 	else  {
@@ -357,10 +355,10 @@ void UniformSampler::dump_to_file(string _filename)  {
 					Vector3 range_pt = range_image->getRangePoint(x,y);
 					Vector3 range_normal = range_image->getRangeNormal(x,y);
 
-                    if(normal_type == NORMALS_ANALYTICAL || normal_type == NORMALS_SENSOR_DIR || normal_type == NORMALS_SENSOR_POS)  {
-						fprintf(pts_file, "%.7f %.7f %.7f %.7f %.7f %.7f\n", range_pt.x, range_pt.y, range_pt.z,
-                                range_normal.x, range_normal.y, range_normal.z);
-                    }
+//                    if(normal_type == NORMALS_ANALYTICAL || normal_type == NORMALS_SENSOR_DIR || normal_type == NORMALS_SENSOR_POS)  {
+//						fprintf(pts_file, "%.7f %.7f %.7f %.7f %.7f %.7f\n", range_pt.x, range_pt.y, range_pt.z,
+//                                range_normal.x, range_normal.y, range_normal.z);
+//                    }
 
                     pc.addPoint(range_pt);
                     analytical_normals.push_back(range_normal);
@@ -371,35 +369,38 @@ void UniformSampler::dump_to_file(string _filename)  {
 		cout << "num pts: " << num_pts << endl;
 	}
 
+    vector<Vector3> pca_normals;
     if(normal_type == NORMALS_PCA_MST || normal_type == NORMALS_PCA_ORIENTED)  {
         cout << "\nmake pca normals" << endl;
 		OrientedPointCloud* oriented_pc = pc.orient_points(pca_knn);
 		for(int p = 0; p < oriented_pc->size(); p++)  {
-			Vector3 range_pt = oriented_pc->getPoint(p);
-			Vector3 range_normal = oriented_pc->getNormal(p);
+//			Vector3 range_pt = oriented_pc->getPoint(p);
+//			Vector3 range_normal = oriented_pc->getNormal(p);
+            Vector3 pca_normal = oriented_pc->getNormal(p);
 			if(normal_type == NORMALS_PCA_ORIENTED)  {
 				Vector3 analytical_normal = analytical_normals[p];
-				double dot = analytical_normal.dotProduct(range_normal);
-				if(dot < 0)
-					range_normal.scale(-1);
-			}
-			fprintf(pts_file, "%.7f %.7f %.7f %.7f %.7f %.7f\n", range_pt.x, range_pt.y, range_pt.z,
-					range_normal.x, range_normal.y, range_normal.z);
+                double dot = analytical_normal.dotProduct(pca_normal);
+                if(dot < 0)
+                    pca_normal.scale(-1);
+            }
+            pca_normals.push_back(pca_normal);
+//			fprintf(pts_file, "%.7f %.7f %.7f %.7f %.7f %.7f\n", range_pt.x, range_pt.y, range_pt.z,
+//					range_normal.x, range_normal.y, range_normal.z);
 		}
+        analytical_normals=pca_normals;
 	}
 
     // export point cloud with normals / sensor to ply
-    string ply_file = _filename+".ply";
-    cout << "\nexport point cloud to PLY file: " << ply_file << endl;
-    this->dump_to_ply(ply_file,pc,analytical_normals);
+    cout << "\nexport point cloud to PLY file: " << _filename.c_str() << endl;
+    this->dump_to_ply(_filename.c_str(),pc,analytical_normals);
 
-	fclose(pts_file);
+//	fclose(pts_file);
 }
 
 void UniformSampler::dump_to_ply(string _filename, PointCloud& _pc, vector<Vector3>& _normals)  {
 
     int num_vertices = _pc.size();
-    assert(num_vertices == normals.size());
+    assert(num_vertices == _normals.size());
 
 
     FILE* ply_out = fopen(_filename.c_str(), "w");
@@ -421,7 +422,6 @@ void UniformSampler::dump_to_ply(string _filename, PointCloud& _pc, vector<Vecto
         Vector3 pt = _pc.getPoint(i);
         fprintf(ply_out, "%.7f %.7f %.7f %.7f %.7f %.7f\n", pt.x, pt.y, pt.z, _normals[i].x, _normals[i].y, _normals[i].z);
     }
-
     fclose(ply_out);
 }
 

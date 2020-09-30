@@ -67,10 +67,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adminlocal/PhD/cpp/reconbench-Laurent
+CMAKE_SOURCE_DIR = /home/adminlocal/PhD/cpp/reconbench-CMake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug
+CMAKE_BINARY_DIR = /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug/CMakeFiles /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/CMakeFiles /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -208,6 +208,32 @@ isosurface/fast:
 .PHONY : isosurface/fast
 
 #=============================================================================
+# Target rules for targets named dump_lines
+
+# Build rule for target.
+dump_lines: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dump_lines
+.PHONY : dump_lines
+
+# fast build rule for target.
+dump_lines/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/build
+.PHONY : dump_lines/fast
+
+#=============================================================================
+# Target rules for targets named post-processing
+
+# Build rule for target.
+post-processing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 post-processing
+.PHONY : post-processing
+
+# fast build rule for target.
+post-processing/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/post-processing.dir/build.make CMakeFiles/post-processing.dir/build
+.PHONY : post-processing/fast
+
+#=============================================================================
 # Target rules for targets named pc_generator
 
 # Build rule for target.
@@ -312,6 +338,19 @@ run_evaluation/fast:
 .PHONY : run_evaluation/fast
 
 #=============================================================================
+# Target rules for targets named global_reg
+
+# Build rule for target.
+global_reg: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 global_reg
+.PHONY : global_reg
+
+# fast build rule for target.
+global_reg/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/global_reg.dir/build.make CMakeFiles/global_reg.dir/build
+.PHONY : global_reg/fast
+
+#=============================================================================
 # Target rules for targets named aggregate_distribution
 
 # Build rule for target.
@@ -375,32 +414,6 @@ aggregation: cmake_check_build_system
 aggregation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/build
 .PHONY : aggregation/fast
-
-#=============================================================================
-# Target rules for targets named post-processing
-
-# Build rule for target.
-post-processing: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 post-processing
-.PHONY : post-processing
-
-# fast build rule for target.
-post-processing/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/post-processing.dir/build.make CMakeFiles/post-processing.dir/build
-.PHONY : post-processing/fast
-
-#=============================================================================
-# Target rules for targets named dump_lines
-
-# Build rule for target.
-dump_lines: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dump_lines
-.PHONY : dump_lines
-
-# fast build rule for target.
-dump_lines/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/build
-.PHONY : dump_lines/fast
 
 #=============================================================================
 # Target rules for targets named ann
@@ -490,6 +503,7 @@ evaluator/GlobalStats.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/GlobalStats.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/GlobalStats.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/GlobalStats.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/GlobalStats.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/GlobalStats.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/GlobalStats.cpp.o
@@ -498,7 +512,6 @@ evaluator/GlobalStats.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/GlobalStats.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/GlobalStats.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/GlobalStats.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/GlobalStats.cpp.o
 .PHONY : evaluator/GlobalStats.cpp.o
 
 evaluator/GlobalStats.i: evaluator/GlobalStats.cpp.i
@@ -511,6 +524,7 @@ evaluator/GlobalStats.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/GlobalStats.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/GlobalStats.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/GlobalStats.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/GlobalStats.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/GlobalStats.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/GlobalStats.cpp.i
@@ -519,7 +533,6 @@ evaluator/GlobalStats.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/GlobalStats.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/GlobalStats.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/GlobalStats.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/GlobalStats.cpp.i
 .PHONY : evaluator/GlobalStats.cpp.i
 
 evaluator/GlobalStats.s: evaluator/GlobalStats.cpp.s
@@ -532,6 +545,7 @@ evaluator/GlobalStats.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/GlobalStats.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/GlobalStats.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/GlobalStats.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/GlobalStats.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/GlobalStats.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/GlobalStats.cpp.s
@@ -540,7 +554,6 @@ evaluator/GlobalStats.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/GlobalStats.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/GlobalStats.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/GlobalStats.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/GlobalStats.cpp.s
 .PHONY : evaluator/GlobalStats.cpp.s
 
 evaluator/KdOpenMesh.o: evaluator/KdOpenMesh.cpp.o
@@ -553,6 +566,7 @@ evaluator/KdOpenMesh.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/KdOpenMesh.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/KdOpenMesh.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/KdOpenMesh.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/KdOpenMesh.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/KdOpenMesh.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/KdOpenMesh.cpp.o
@@ -561,7 +575,6 @@ evaluator/KdOpenMesh.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/KdOpenMesh.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/KdOpenMesh.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/KdOpenMesh.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/KdOpenMesh.cpp.o
 .PHONY : evaluator/KdOpenMesh.cpp.o
 
 evaluator/KdOpenMesh.i: evaluator/KdOpenMesh.cpp.i
@@ -574,6 +587,7 @@ evaluator/KdOpenMesh.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/KdOpenMesh.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/KdOpenMesh.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/KdOpenMesh.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/KdOpenMesh.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/KdOpenMesh.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/KdOpenMesh.cpp.i
@@ -582,7 +596,6 @@ evaluator/KdOpenMesh.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/KdOpenMesh.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/KdOpenMesh.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/KdOpenMesh.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/KdOpenMesh.cpp.i
 .PHONY : evaluator/KdOpenMesh.cpp.i
 
 evaluator/KdOpenMesh.s: evaluator/KdOpenMesh.cpp.s
@@ -595,6 +608,7 @@ evaluator/KdOpenMesh.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/KdOpenMesh.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/KdOpenMesh.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/KdOpenMesh.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/KdOpenMesh.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/KdOpenMesh.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/KdOpenMesh.cpp.s
@@ -603,7 +617,6 @@ evaluator/KdOpenMesh.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/KdOpenMesh.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/KdOpenMesh.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/KdOpenMesh.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/KdOpenMesh.cpp.s
 .PHONY : evaluator/KdOpenMesh.cpp.s
 
 evaluator/ShortestDistanceMap.o: evaluator/ShortestDistanceMap.cpp.o
@@ -616,6 +629,7 @@ evaluator/ShortestDistanceMap.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/ShortestDistanceMap.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/ShortestDistanceMap.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/ShortestDistanceMap.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/ShortestDistanceMap.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/ShortestDistanceMap.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/ShortestDistanceMap.cpp.o
@@ -624,7 +638,6 @@ evaluator/ShortestDistanceMap.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/ShortestDistanceMap.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/ShortestDistanceMap.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/ShortestDistanceMap.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/ShortestDistanceMap.cpp.o
 .PHONY : evaluator/ShortestDistanceMap.cpp.o
 
 evaluator/ShortestDistanceMap.i: evaluator/ShortestDistanceMap.cpp.i
@@ -637,6 +650,7 @@ evaluator/ShortestDistanceMap.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/ShortestDistanceMap.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/ShortestDistanceMap.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/ShortestDistanceMap.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/ShortestDistanceMap.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/ShortestDistanceMap.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/ShortestDistanceMap.cpp.i
@@ -645,7 +659,6 @@ evaluator/ShortestDistanceMap.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/ShortestDistanceMap.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/ShortestDistanceMap.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/ShortestDistanceMap.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/ShortestDistanceMap.cpp.i
 .PHONY : evaluator/ShortestDistanceMap.cpp.i
 
 evaluator/ShortestDistanceMap.s: evaluator/ShortestDistanceMap.cpp.s
@@ -658,6 +671,7 @@ evaluator/ShortestDistanceMap.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/ShortestDistanceMap.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/ShortestDistanceMap.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/ShortestDistanceMap.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/ShortestDistanceMap.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/ShortestDistanceMap.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/ShortestDistanceMap.cpp.s
@@ -666,7 +680,6 @@ evaluator/ShortestDistanceMap.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/ShortestDistanceMap.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/ShortestDistanceMap.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/ShortestDistanceMap.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/ShortestDistanceMap.cpp.s
 .PHONY : evaluator/ShortestDistanceMap.cpp.s
 
 evaluator/UniformGrid.o: evaluator/UniformGrid.cpp.o
@@ -679,6 +692,7 @@ evaluator/UniformGrid.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/UniformGrid.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/UniformGrid.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/UniformGrid.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/UniformGrid.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/UniformGrid.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/UniformGrid.cpp.o
@@ -687,7 +701,6 @@ evaluator/UniformGrid.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/UniformGrid.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/UniformGrid.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/UniformGrid.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/UniformGrid.cpp.o
 .PHONY : evaluator/UniformGrid.cpp.o
 
 evaluator/UniformGrid.i: evaluator/UniformGrid.cpp.i
@@ -700,6 +713,7 @@ evaluator/UniformGrid.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/UniformGrid.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/UniformGrid.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/UniformGrid.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/UniformGrid.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/UniformGrid.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/UniformGrid.cpp.i
@@ -708,7 +722,6 @@ evaluator/UniformGrid.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/UniformGrid.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/UniformGrid.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/UniformGrid.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/UniformGrid.cpp.i
 .PHONY : evaluator/UniformGrid.cpp.i
 
 evaluator/UniformGrid.s: evaluator/UniformGrid.cpp.s
@@ -721,6 +734,7 @@ evaluator/UniformGrid.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/UniformGrid.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/UniformGrid.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/UniformGrid.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/UniformGrid.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/UniformGrid.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/UniformGrid.cpp.s
@@ -729,7 +743,6 @@ evaluator/UniformGrid.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/UniformGrid.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/UniformGrid.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/UniformGrid.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/UniformGrid.cpp.s
 .PHONY : evaluator/UniformGrid.cpp.s
 
 evaluator/implicit_sampler.o: evaluator/implicit_sampler.cpp.o
@@ -742,6 +755,7 @@ evaluator/implicit_sampler.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/implicit_sampler.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/implicit_sampler.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/implicit_sampler.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/implicit_sampler.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/implicit_sampler.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/implicit_sampler.cpp.o
@@ -750,7 +764,6 @@ evaluator/implicit_sampler.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/implicit_sampler.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/implicit_sampler.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/implicit_sampler.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/implicit_sampler.cpp.o
 .PHONY : evaluator/implicit_sampler.cpp.o
 
 evaluator/implicit_sampler.i: evaluator/implicit_sampler.cpp.i
@@ -763,6 +776,7 @@ evaluator/implicit_sampler.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/implicit_sampler.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/implicit_sampler.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/implicit_sampler.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/implicit_sampler.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/implicit_sampler.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/implicit_sampler.cpp.i
@@ -771,7 +785,6 @@ evaluator/implicit_sampler.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/implicit_sampler.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/implicit_sampler.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/implicit_sampler.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/implicit_sampler.cpp.i
 .PHONY : evaluator/implicit_sampler.cpp.i
 
 evaluator/implicit_sampler.s: evaluator/implicit_sampler.cpp.s
@@ -784,6 +797,7 @@ evaluator/implicit_sampler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/implicit_sampler.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/implicit_sampler.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/implicit_sampler.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/implicit_sampler.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/implicit_sampler.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/implicit_sampler.cpp.s
@@ -792,7 +806,6 @@ evaluator/implicit_sampler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/implicit_sampler.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/implicit_sampler.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/implicit_sampler.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/implicit_sampler.cpp.s
 .PHONY : evaluator/implicit_sampler.cpp.s
 
 evaluator/implicit_uniform.o: evaluator/implicit_uniform.cpp.o
@@ -832,6 +845,7 @@ evaluator/kd_tree.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/kd_tree.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/kd_tree.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/kd_tree.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/kd_tree.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/kd_tree.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/kd_tree.cpp.o
@@ -840,7 +854,6 @@ evaluator/kd_tree.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/kd_tree.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/kd_tree.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/kd_tree.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/kd_tree.cpp.o
 .PHONY : evaluator/kd_tree.cpp.o
 
 evaluator/kd_tree.i: evaluator/kd_tree.cpp.i
@@ -853,6 +866,7 @@ evaluator/kd_tree.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/kd_tree.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/kd_tree.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/kd_tree.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/kd_tree.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/kd_tree.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/kd_tree.cpp.i
@@ -861,7 +875,6 @@ evaluator/kd_tree.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/kd_tree.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/kd_tree.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/kd_tree.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/kd_tree.cpp.i
 .PHONY : evaluator/kd_tree.cpp.i
 
 evaluator/kd_tree.s: evaluator/kd_tree.cpp.s
@@ -874,6 +887,7 @@ evaluator/kd_tree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/kd_tree.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/kd_tree.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/kd_tree.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/kd_tree.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/kd_tree.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/kd_tree.cpp.s
@@ -882,7 +896,6 @@ evaluator/kd_tree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/kd_tree.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/kd_tree.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/kd_tree.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/kd_tree.cpp.s
 .PHONY : evaluator/kd_tree.cpp.s
 
 evaluator/mesh_fixer.o: evaluator/mesh_fixer.cpp.o
@@ -922,6 +935,7 @@ evaluator/mesh_sampler.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/mesh_sampler.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/mesh_sampler.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/mesh_sampler.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/mesh_sampler.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/mesh_sampler.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/mesh_sampler.cpp.o
@@ -930,7 +944,6 @@ evaluator/mesh_sampler.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/mesh_sampler.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/mesh_sampler.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/mesh_sampler.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/mesh_sampler.cpp.o
 .PHONY : evaluator/mesh_sampler.cpp.o
 
 evaluator/mesh_sampler.i: evaluator/mesh_sampler.cpp.i
@@ -943,6 +956,7 @@ evaluator/mesh_sampler.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/mesh_sampler.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/mesh_sampler.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/mesh_sampler.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/mesh_sampler.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/mesh_sampler.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/mesh_sampler.cpp.i
@@ -951,7 +965,6 @@ evaluator/mesh_sampler.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/mesh_sampler.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/mesh_sampler.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/mesh_sampler.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/mesh_sampler.cpp.i
 .PHONY : evaluator/mesh_sampler.cpp.i
 
 evaluator/mesh_sampler.s: evaluator/mesh_sampler.cpp.s
@@ -964,6 +977,7 @@ evaluator/mesh_sampler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/mesh_sampler.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/mesh_sampler.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/mesh_sampler.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/mesh_sampler.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/mesh_sampler.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/mesh_sampler.cpp.s
@@ -972,7 +986,6 @@ evaluator/mesh_sampler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/mesh_sampler.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/mesh_sampler.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/mesh_sampler.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/mesh_sampler.cpp.s
 .PHONY : evaluator/mesh_sampler.cpp.s
 
 evaluator/plot/aggregate_distribution.o: evaluator/plot/aggregate_distribution.cpp.o
@@ -1201,6 +1214,7 @@ evaluator/recon_evaluation.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/recon_evaluation.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/recon_evaluation.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/recon_evaluation.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/recon_evaluation.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/recon_evaluation.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/recon_evaluation.cpp.o
@@ -1209,7 +1223,6 @@ evaluator/recon_evaluation.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/recon_evaluation.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/recon_evaluation.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/recon_evaluation.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/recon_evaluation.cpp.o
 .PHONY : evaluator/recon_evaluation.cpp.o
 
 evaluator/recon_evaluation.i: evaluator/recon_evaluation.cpp.i
@@ -1222,6 +1235,7 @@ evaluator/recon_evaluation.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/recon_evaluation.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/recon_evaluation.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/recon_evaluation.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/recon_evaluation.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/recon_evaluation.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/recon_evaluation.cpp.i
@@ -1230,7 +1244,6 @@ evaluator/recon_evaluation.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/recon_evaluation.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/recon_evaluation.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/recon_evaluation.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/recon_evaluation.cpp.i
 .PHONY : evaluator/recon_evaluation.cpp.i
 
 evaluator/recon_evaluation.s: evaluator/recon_evaluation.cpp.s
@@ -1243,6 +1256,7 @@ evaluator/recon_evaluation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/recon_evaluation.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/recon_evaluation.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/recon_evaluation.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/recon_evaluation.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/recon_evaluation.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/recon_evaluation.cpp.s
@@ -1251,7 +1265,6 @@ evaluator/recon_evaluation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/recon_evaluation.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/recon_evaluation.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/recon_evaluation.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/recon_evaluation.cpp.s
 .PHONY : evaluator/recon_evaluation.cpp.s
 
 evaluator/run_evaluation.o: evaluator/run_evaluation.cpp.o
@@ -1318,6 +1331,7 @@ evaluator/shape_distribution.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/shape_distribution.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/shape_distribution.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/shape_distribution.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/shape_distribution.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/shape_distribution.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/shape_distribution.cpp.o
@@ -1326,7 +1340,6 @@ evaluator/shape_distribution.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/shape_distribution.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/shape_distribution.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/shape_distribution.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/shape_distribution.cpp.o
 .PHONY : evaluator/shape_distribution.cpp.o
 
 evaluator/shape_distribution.i: evaluator/shape_distribution.cpp.i
@@ -1339,6 +1352,7 @@ evaluator/shape_distribution.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/shape_distribution.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/shape_distribution.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/shape_distribution.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/shape_distribution.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/shape_distribution.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/shape_distribution.cpp.i
@@ -1347,7 +1361,6 @@ evaluator/shape_distribution.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/shape_distribution.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/shape_distribution.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/shape_distribution.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/shape_distribution.cpp.i
 .PHONY : evaluator/shape_distribution.cpp.i
 
 evaluator/shape_distribution.s: evaluator/shape_distribution.cpp.s
@@ -1360,6 +1373,7 @@ evaluator/shape_distribution.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/shape_distribution.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/shape_distribution.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/shape_distribution.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/shape_distribution.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/shape_distribution.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/shape_distribution.cpp.s
@@ -1368,7 +1382,6 @@ evaluator/shape_distribution.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/shape_distribution.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/shape_distribution.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/shape_distribution.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/shape_distribution.cpp.s
 .PHONY : evaluator/shape_distribution.cpp.s
 
 modeling/DenseEigenSystem.o: modeling/DenseEigenSystem.cpp.o
@@ -1653,8 +1666,8 @@ modeling/post-processing.o: modeling/post-processing.cpp.o
 
 # target to build an object file
 modeling/post-processing.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/post-processing.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/post-processing.dir/build.make CMakeFiles/post-processing.dir/modeling/post-processing.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/post-processing.cpp.o
 .PHONY : modeling/post-processing.cpp.o
 
 modeling/post-processing.i: modeling/post-processing.cpp.i
@@ -1663,8 +1676,8 @@ modeling/post-processing.i: modeling/post-processing.cpp.i
 
 # target to preprocess a source file
 modeling/post-processing.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/post-processing.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/post-processing.dir/build.make CMakeFiles/post-processing.dir/modeling/post-processing.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/post-processing.cpp.i
 .PHONY : modeling/post-processing.cpp.i
 
 modeling/post-processing.s: modeling/post-processing.cpp.s
@@ -1673,8 +1686,8 @@ modeling/post-processing.s: modeling/post-processing.cpp.s
 
 # target to generate assembly for a file
 modeling/post-processing.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/post-processing.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/post-processing.dir/build.make CMakeFiles/post-processing.dir/modeling/post-processing.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/post-processing.cpp.s
 .PHONY : modeling/post-processing.cpp.s
 
 modeling/tri_integrator.o: modeling/tri_integrator.cpp.o
@@ -1919,6 +1932,33 @@ recon/poisson/Src/plyfile.s: recon/poisson/Src/plyfile.cpp.s
 recon/poisson/Src/plyfile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PoissonRecon.dir/build.make CMakeFiles/PoissonRecon.dir/recon/poisson/Src/plyfile.cpp.s
 .PHONY : recon/poisson/Src/plyfile.cpp.s
+
+registration/tps_alignment/src/global_reg.o: registration/tps_alignment/src/global_reg.cc.o
+
+.PHONY : registration/tps_alignment/src/global_reg.o
+
+# target to build an object file
+registration/tps_alignment/src/global_reg.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/global_reg.dir/build.make CMakeFiles/global_reg.dir/registration/tps_alignment/src/global_reg.cc.o
+.PHONY : registration/tps_alignment/src/global_reg.cc.o
+
+registration/tps_alignment/src/global_reg.i: registration/tps_alignment/src/global_reg.cc.i
+
+.PHONY : registration/tps_alignment/src/global_reg.i
+
+# target to preprocess a source file
+registration/tps_alignment/src/global_reg.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/global_reg.dir/build.make CMakeFiles/global_reg.dir/registration/tps_alignment/src/global_reg.cc.i
+.PHONY : registration/tps_alignment/src/global_reg.cc.i
+
+registration/tps_alignment/src/global_reg.s: registration/tps_alignment/src/global_reg.cc.s
+
+.PHONY : registration/tps_alignment/src/global_reg.s
+
+# target to generate assembly for a file
+registration/tps_alignment/src/global_reg.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/global_reg.dir/build.make CMakeFiles/global_reg.dir/registration/tps_alignment/src/global_reg.cc.s
+.PHONY : registration/tps_alignment/src/global_reg.cc.s
 
 sample_implicit.o: sample_implicit.cpp.o
 
@@ -2487,6 +2527,7 @@ help:
 	@echo "... dump_lines"
 	@echo "... dump_meta"
 	@echo "... dump_single"
+	@echo "... global_reg"
 	@echo "... implicit_uniform"
 	@echo "... isosurface"
 	@echo "... mesh_fixer"
@@ -2624,6 +2665,9 @@ help:
 	@echo "... recon/poisson/Src/plyfile.o"
 	@echo "... recon/poisson/Src/plyfile.i"
 	@echo "... recon/poisson/Src/plyfile.s"
+	@echo "... registration/tps_alignment/src/global_reg.o"
+	@echo "... registration/tps_alignment/src/global_reg.i"
+	@echo "... registration/tps_alignment/src/global_reg.s"
 	@echo "... sample_implicit.o"
 	@echo "... sample_implicit.i"
 	@echo "... sample_implicit.s"

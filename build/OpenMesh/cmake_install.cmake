@@ -1,4 +1,4 @@
-# Install script for directory: /home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh
+# Install script for directory: /home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

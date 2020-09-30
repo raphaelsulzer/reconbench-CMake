@@ -67,10 +67,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adminlocal/PhD/cpp/reconbench-Laurent
+CMAKE_SOURCE_DIR = /home/adminlocal/PhD/cpp/reconbench-CMake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adminlocal/PhD/cpp/reconbench-Laurent/build
+CMAKE_BINARY_DIR = /home/adminlocal/PhD/cpp/reconbench-CMake/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles /home/adminlocal/PhD/cpp/reconbench-Laurent/build/pbrt//CMakeFiles/progress.marks
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pbrt/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles 0
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles /home/adminlocal/PhD/cpp/reconbench-CMake/build/pbrt//CMakeFiles/progress.marks
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pbrt/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pbrt/clean
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pbrt/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,22 +116,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pbrt/preinstall
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pbrt/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pbrt/preinstall
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pbrt/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 pbrt/CMakeFiles/pbrt.dir/rule:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pbrt/CMakeFiles/pbrt.dir/rule
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pbrt/CMakeFiles/pbrt.dir/rule
 .PHONY : pbrt/CMakeFiles/pbrt.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ pbrt: pbrt/CMakeFiles/pbrt.dir/rule
 
 # fast build rule for target.
 pbrt/fast:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/build
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/build
 .PHONY : pbrt/fast
 
 src/accelerators/bvh.o: src/accelerators/bvh.cpp.o
@@ -150,7 +150,7 @@ src/accelerators/bvh.o: src/accelerators/bvh.cpp.o
 
 # target to build an object file
 src/accelerators/bvh.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.o
 .PHONY : src/accelerators/bvh.cpp.o
 
 src/accelerators/bvh.i: src/accelerators/bvh.cpp.i
@@ -159,7 +159,7 @@ src/accelerators/bvh.i: src/accelerators/bvh.cpp.i
 
 # target to preprocess a source file
 src/accelerators/bvh.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.i
 .PHONY : src/accelerators/bvh.cpp.i
 
 src/accelerators/bvh.s: src/accelerators/bvh.cpp.s
@@ -168,7 +168,7 @@ src/accelerators/bvh.s: src/accelerators/bvh.cpp.s
 
 # target to generate assembly for a file
 src/accelerators/bvh.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/accelerators/bvh.cpp.s
 .PHONY : src/accelerators/bvh.cpp.s
 
 src/accelerators/grid.o: src/accelerators/grid.cpp.o
@@ -177,7 +177,7 @@ src/accelerators/grid.o: src/accelerators/grid.cpp.o
 
 # target to build an object file
 src/accelerators/grid.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/accelerators/grid.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/accelerators/grid.cpp.o
 .PHONY : src/accelerators/grid.cpp.o
 
 src/accelerators/grid.i: src/accelerators/grid.cpp.i
@@ -186,7 +186,7 @@ src/accelerators/grid.i: src/accelerators/grid.cpp.i
 
 # target to preprocess a source file
 src/accelerators/grid.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/accelerators/grid.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/accelerators/grid.cpp.i
 .PHONY : src/accelerators/grid.cpp.i
 
 src/accelerators/grid.s: src/accelerators/grid.cpp.s
@@ -195,7 +195,7 @@ src/accelerators/grid.s: src/accelerators/grid.cpp.s
 
 # target to generate assembly for a file
 src/accelerators/grid.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/accelerators/grid.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/accelerators/grid.cpp.s
 .PHONY : src/accelerators/grid.cpp.s
 
 src/accelerators/kdtreeaccel.o: src/accelerators/kdtreeaccel.cpp.o
@@ -204,7 +204,7 @@ src/accelerators/kdtreeaccel.o: src/accelerators/kdtreeaccel.cpp.o
 
 # target to build an object file
 src/accelerators/kdtreeaccel.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.o
 .PHONY : src/accelerators/kdtreeaccel.cpp.o
 
 src/accelerators/kdtreeaccel.i: src/accelerators/kdtreeaccel.cpp.i
@@ -213,7 +213,7 @@ src/accelerators/kdtreeaccel.i: src/accelerators/kdtreeaccel.cpp.i
 
 # target to preprocess a source file
 src/accelerators/kdtreeaccel.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.i
 .PHONY : src/accelerators/kdtreeaccel.cpp.i
 
 src/accelerators/kdtreeaccel.s: src/accelerators/kdtreeaccel.cpp.s
@@ -222,7 +222,7 @@ src/accelerators/kdtreeaccel.s: src/accelerators/kdtreeaccel.cpp.s
 
 # target to generate assembly for a file
 src/accelerators/kdtreeaccel.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/accelerators/kdtreeaccel.cpp.s
 .PHONY : src/accelerators/kdtreeaccel.cpp.s
 
 src/cameras/environment.o: src/cameras/environment.cpp.o
@@ -231,7 +231,7 @@ src/cameras/environment.o: src/cameras/environment.cpp.o
 
 # target to build an object file
 src/cameras/environment.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/cameras/environment.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/cameras/environment.cpp.o
 .PHONY : src/cameras/environment.cpp.o
 
 src/cameras/environment.i: src/cameras/environment.cpp.i
@@ -240,7 +240,7 @@ src/cameras/environment.i: src/cameras/environment.cpp.i
 
 # target to preprocess a source file
 src/cameras/environment.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/cameras/environment.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/cameras/environment.cpp.i
 .PHONY : src/cameras/environment.cpp.i
 
 src/cameras/environment.s: src/cameras/environment.cpp.s
@@ -249,7 +249,7 @@ src/cameras/environment.s: src/cameras/environment.cpp.s
 
 # target to generate assembly for a file
 src/cameras/environment.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/cameras/environment.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/cameras/environment.cpp.s
 .PHONY : src/cameras/environment.cpp.s
 
 src/cameras/orthographic.o: src/cameras/orthographic.cpp.o
@@ -258,7 +258,7 @@ src/cameras/orthographic.o: src/cameras/orthographic.cpp.o
 
 # target to build an object file
 src/cameras/orthographic.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.o
 .PHONY : src/cameras/orthographic.cpp.o
 
 src/cameras/orthographic.i: src/cameras/orthographic.cpp.i
@@ -267,7 +267,7 @@ src/cameras/orthographic.i: src/cameras/orthographic.cpp.i
 
 # target to preprocess a source file
 src/cameras/orthographic.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.i
 .PHONY : src/cameras/orthographic.cpp.i
 
 src/cameras/orthographic.s: src/cameras/orthographic.cpp.s
@@ -276,7 +276,7 @@ src/cameras/orthographic.s: src/cameras/orthographic.cpp.s
 
 # target to generate assembly for a file
 src/cameras/orthographic.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.s
 .PHONY : src/cameras/orthographic.cpp.s
 
 src/cameras/perspective.o: src/cameras/perspective.cpp.o
@@ -285,7 +285,7 @@ src/cameras/perspective.o: src/cameras/perspective.cpp.o
 
 # target to build an object file
 src/cameras/perspective.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.o
 .PHONY : src/cameras/perspective.cpp.o
 
 src/cameras/perspective.i: src/cameras/perspective.cpp.i
@@ -294,7 +294,7 @@ src/cameras/perspective.i: src/cameras/perspective.cpp.i
 
 # target to preprocess a source file
 src/cameras/perspective.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.i
 .PHONY : src/cameras/perspective.cpp.i
 
 src/cameras/perspective.s: src/cameras/perspective.cpp.s
@@ -303,7 +303,7 @@ src/cameras/perspective.s: src/cameras/perspective.cpp.s
 
 # target to generate assembly for a file
 src/cameras/perspective.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/cameras/perspective.cpp.s
 .PHONY : src/cameras/perspective.cpp.s
 
 src/core/api.o: src/core/api.cpp.o
@@ -312,7 +312,7 @@ src/core/api.o: src/core/api.cpp.o
 
 # target to build an object file
 src/core/api.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/api.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/api.cpp.o
 .PHONY : src/core/api.cpp.o
 
 src/core/api.i: src/core/api.cpp.i
@@ -321,7 +321,7 @@ src/core/api.i: src/core/api.cpp.i
 
 # target to preprocess a source file
 src/core/api.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/api.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/api.cpp.i
 .PHONY : src/core/api.cpp.i
 
 src/core/api.s: src/core/api.cpp.s
@@ -330,7 +330,7 @@ src/core/api.s: src/core/api.cpp.s
 
 # target to generate assembly for a file
 src/core/api.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/api.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/api.cpp.s
 .PHONY : src/core/api.cpp.s
 
 src/core/camera.o: src/core/camera.cpp.o
@@ -339,7 +339,7 @@ src/core/camera.o: src/core/camera.cpp.o
 
 # target to build an object file
 src/core/camera.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/camera.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/camera.cpp.o
 .PHONY : src/core/camera.cpp.o
 
 src/core/camera.i: src/core/camera.cpp.i
@@ -348,7 +348,7 @@ src/core/camera.i: src/core/camera.cpp.i
 
 # target to preprocess a source file
 src/core/camera.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/camera.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/camera.cpp.i
 .PHONY : src/core/camera.cpp.i
 
 src/core/camera.s: src/core/camera.cpp.s
@@ -357,7 +357,7 @@ src/core/camera.s: src/core/camera.cpp.s
 
 # target to generate assembly for a file
 src/core/camera.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/camera.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/camera.cpp.s
 .PHONY : src/core/camera.cpp.s
 
 src/core/diffgeom.o: src/core/diffgeom.cpp.o
@@ -366,7 +366,7 @@ src/core/diffgeom.o: src/core/diffgeom.cpp.o
 
 # target to build an object file
 src/core/diffgeom.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/diffgeom.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/diffgeom.cpp.o
 .PHONY : src/core/diffgeom.cpp.o
 
 src/core/diffgeom.i: src/core/diffgeom.cpp.i
@@ -375,7 +375,7 @@ src/core/diffgeom.i: src/core/diffgeom.cpp.i
 
 # target to preprocess a source file
 src/core/diffgeom.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/diffgeom.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/diffgeom.cpp.i
 .PHONY : src/core/diffgeom.cpp.i
 
 src/core/diffgeom.s: src/core/diffgeom.cpp.s
@@ -384,7 +384,7 @@ src/core/diffgeom.s: src/core/diffgeom.cpp.s
 
 # target to generate assembly for a file
 src/core/diffgeom.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/diffgeom.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/diffgeom.cpp.s
 .PHONY : src/core/diffgeom.cpp.s
 
 src/core/error.o: src/core/error.cpp.o
@@ -393,7 +393,7 @@ src/core/error.o: src/core/error.cpp.o
 
 # target to build an object file
 src/core/error.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/error.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/error.cpp.o
 .PHONY : src/core/error.cpp.o
 
 src/core/error.i: src/core/error.cpp.i
@@ -402,7 +402,7 @@ src/core/error.i: src/core/error.cpp.i
 
 # target to preprocess a source file
 src/core/error.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/error.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/error.cpp.i
 .PHONY : src/core/error.cpp.i
 
 src/core/error.s: src/core/error.cpp.s
@@ -411,7 +411,7 @@ src/core/error.s: src/core/error.cpp.s
 
 # target to generate assembly for a file
 src/core/error.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/error.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/error.cpp.s
 .PHONY : src/core/error.cpp.s
 
 src/core/fileutil.o: src/core/fileutil.cpp.o
@@ -420,7 +420,7 @@ src/core/fileutil.o: src/core/fileutil.cpp.o
 
 # target to build an object file
 src/core/fileutil.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/fileutil.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/fileutil.cpp.o
 .PHONY : src/core/fileutil.cpp.o
 
 src/core/fileutil.i: src/core/fileutil.cpp.i
@@ -429,7 +429,7 @@ src/core/fileutil.i: src/core/fileutil.cpp.i
 
 # target to preprocess a source file
 src/core/fileutil.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/fileutil.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/fileutil.cpp.i
 .PHONY : src/core/fileutil.cpp.i
 
 src/core/fileutil.s: src/core/fileutil.cpp.s
@@ -438,7 +438,7 @@ src/core/fileutil.s: src/core/fileutil.cpp.s
 
 # target to generate assembly for a file
 src/core/fileutil.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/fileutil.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/fileutil.cpp.s
 .PHONY : src/core/fileutil.cpp.s
 
 src/core/film.o: src/core/film.cpp.o
@@ -447,7 +447,7 @@ src/core/film.o: src/core/film.cpp.o
 
 # target to build an object file
 src/core/film.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/film.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/film.cpp.o
 .PHONY : src/core/film.cpp.o
 
 src/core/film.i: src/core/film.cpp.i
@@ -456,7 +456,7 @@ src/core/film.i: src/core/film.cpp.i
 
 # target to preprocess a source file
 src/core/film.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/film.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/film.cpp.i
 .PHONY : src/core/film.cpp.i
 
 src/core/film.s: src/core/film.cpp.s
@@ -465,7 +465,7 @@ src/core/film.s: src/core/film.cpp.s
 
 # target to generate assembly for a file
 src/core/film.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/film.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/film.cpp.s
 .PHONY : src/core/film.cpp.s
 
 src/core/filter.o: src/core/filter.cpp.o
@@ -474,7 +474,7 @@ src/core/filter.o: src/core/filter.cpp.o
 
 # target to build an object file
 src/core/filter.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/filter.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/filter.cpp.o
 .PHONY : src/core/filter.cpp.o
 
 src/core/filter.i: src/core/filter.cpp.i
@@ -483,7 +483,7 @@ src/core/filter.i: src/core/filter.cpp.i
 
 # target to preprocess a source file
 src/core/filter.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/filter.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/filter.cpp.i
 .PHONY : src/core/filter.cpp.i
 
 src/core/filter.s: src/core/filter.cpp.s
@@ -492,7 +492,7 @@ src/core/filter.s: src/core/filter.cpp.s
 
 # target to generate assembly for a file
 src/core/filter.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/filter.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/filter.cpp.s
 .PHONY : src/core/filter.cpp.s
 
 src/core/floatfile.o: src/core/floatfile.cpp.o
@@ -501,7 +501,7 @@ src/core/floatfile.o: src/core/floatfile.cpp.o
 
 # target to build an object file
 src/core/floatfile.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/floatfile.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/floatfile.cpp.o
 .PHONY : src/core/floatfile.cpp.o
 
 src/core/floatfile.i: src/core/floatfile.cpp.i
@@ -510,7 +510,7 @@ src/core/floatfile.i: src/core/floatfile.cpp.i
 
 # target to preprocess a source file
 src/core/floatfile.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/floatfile.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/floatfile.cpp.i
 .PHONY : src/core/floatfile.cpp.i
 
 src/core/floatfile.s: src/core/floatfile.cpp.s
@@ -519,7 +519,7 @@ src/core/floatfile.s: src/core/floatfile.cpp.s
 
 # target to generate assembly for a file
 src/core/floatfile.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/floatfile.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/floatfile.cpp.s
 .PHONY : src/core/floatfile.cpp.s
 
 src/core/geometry.o: src/core/geometry.cpp.o
@@ -528,7 +528,7 @@ src/core/geometry.o: src/core/geometry.cpp.o
 
 # target to build an object file
 src/core/geometry.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/geometry.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/geometry.cpp.o
 .PHONY : src/core/geometry.cpp.o
 
 src/core/geometry.i: src/core/geometry.cpp.i
@@ -537,7 +537,7 @@ src/core/geometry.i: src/core/geometry.cpp.i
 
 # target to preprocess a source file
 src/core/geometry.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/geometry.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/geometry.cpp.i
 .PHONY : src/core/geometry.cpp.i
 
 src/core/geometry.s: src/core/geometry.cpp.s
@@ -546,7 +546,7 @@ src/core/geometry.s: src/core/geometry.cpp.s
 
 # target to generate assembly for a file
 src/core/geometry.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/geometry.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/geometry.cpp.s
 .PHONY : src/core/geometry.cpp.s
 
 src/core/imageio.o: src/core/imageio.cpp.o
@@ -555,7 +555,7 @@ src/core/imageio.o: src/core/imageio.cpp.o
 
 # target to build an object file
 src/core/imageio.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/imageio.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/imageio.cpp.o
 .PHONY : src/core/imageio.cpp.o
 
 src/core/imageio.i: src/core/imageio.cpp.i
@@ -564,7 +564,7 @@ src/core/imageio.i: src/core/imageio.cpp.i
 
 # target to preprocess a source file
 src/core/imageio.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/imageio.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/imageio.cpp.i
 .PHONY : src/core/imageio.cpp.i
 
 src/core/imageio.s: src/core/imageio.cpp.s
@@ -573,7 +573,7 @@ src/core/imageio.s: src/core/imageio.cpp.s
 
 # target to generate assembly for a file
 src/core/imageio.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/imageio.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/imageio.cpp.s
 .PHONY : src/core/imageio.cpp.s
 
 src/core/integrator.o: src/core/integrator.cpp.o
@@ -582,7 +582,7 @@ src/core/integrator.o: src/core/integrator.cpp.o
 
 # target to build an object file
 src/core/integrator.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/integrator.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/integrator.cpp.o
 .PHONY : src/core/integrator.cpp.o
 
 src/core/integrator.i: src/core/integrator.cpp.i
@@ -591,7 +591,7 @@ src/core/integrator.i: src/core/integrator.cpp.i
 
 # target to preprocess a source file
 src/core/integrator.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/integrator.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/integrator.cpp.i
 .PHONY : src/core/integrator.cpp.i
 
 src/core/integrator.s: src/core/integrator.cpp.s
@@ -600,7 +600,7 @@ src/core/integrator.s: src/core/integrator.cpp.s
 
 # target to generate assembly for a file
 src/core/integrator.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/integrator.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/integrator.cpp.s
 .PHONY : src/core/integrator.cpp.s
 
 src/core/intersection.o: src/core/intersection.cpp.o
@@ -609,7 +609,7 @@ src/core/intersection.o: src/core/intersection.cpp.o
 
 # target to build an object file
 src/core/intersection.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/intersection.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/intersection.cpp.o
 .PHONY : src/core/intersection.cpp.o
 
 src/core/intersection.i: src/core/intersection.cpp.i
@@ -618,7 +618,7 @@ src/core/intersection.i: src/core/intersection.cpp.i
 
 # target to preprocess a source file
 src/core/intersection.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/intersection.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/intersection.cpp.i
 .PHONY : src/core/intersection.cpp.i
 
 src/core/intersection.s: src/core/intersection.cpp.s
@@ -627,7 +627,7 @@ src/core/intersection.s: src/core/intersection.cpp.s
 
 # target to generate assembly for a file
 src/core/intersection.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/intersection.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/intersection.cpp.s
 .PHONY : src/core/intersection.cpp.s
 
 src/core/light.o: src/core/light.cpp.o
@@ -636,7 +636,7 @@ src/core/light.o: src/core/light.cpp.o
 
 # target to build an object file
 src/core/light.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/light.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/light.cpp.o
 .PHONY : src/core/light.cpp.o
 
 src/core/light.i: src/core/light.cpp.i
@@ -645,7 +645,7 @@ src/core/light.i: src/core/light.cpp.i
 
 # target to preprocess a source file
 src/core/light.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/light.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/light.cpp.i
 .PHONY : src/core/light.cpp.i
 
 src/core/light.s: src/core/light.cpp.s
@@ -654,7 +654,7 @@ src/core/light.s: src/core/light.cpp.s
 
 # target to generate assembly for a file
 src/core/light.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/light.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/light.cpp.s
 .PHONY : src/core/light.cpp.s
 
 src/core/material.o: src/core/material.cpp.o
@@ -663,7 +663,7 @@ src/core/material.o: src/core/material.cpp.o
 
 # target to build an object file
 src/core/material.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/material.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/material.cpp.o
 .PHONY : src/core/material.cpp.o
 
 src/core/material.i: src/core/material.cpp.i
@@ -672,7 +672,7 @@ src/core/material.i: src/core/material.cpp.i
 
 # target to preprocess a source file
 src/core/material.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/material.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/material.cpp.i
 .PHONY : src/core/material.cpp.i
 
 src/core/material.s: src/core/material.cpp.s
@@ -681,7 +681,7 @@ src/core/material.s: src/core/material.cpp.s
 
 # target to generate assembly for a file
 src/core/material.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/material.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/material.cpp.s
 .PHONY : src/core/material.cpp.s
 
 src/core/memory.o: src/core/memory.cpp.o
@@ -690,7 +690,7 @@ src/core/memory.o: src/core/memory.cpp.o
 
 # target to build an object file
 src/core/memory.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/memory.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/memory.cpp.o
 .PHONY : src/core/memory.cpp.o
 
 src/core/memory.i: src/core/memory.cpp.i
@@ -699,7 +699,7 @@ src/core/memory.i: src/core/memory.cpp.i
 
 # target to preprocess a source file
 src/core/memory.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/memory.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/memory.cpp.i
 .PHONY : src/core/memory.cpp.i
 
 src/core/memory.s: src/core/memory.cpp.s
@@ -708,7 +708,7 @@ src/core/memory.s: src/core/memory.cpp.s
 
 # target to generate assembly for a file
 src/core/memory.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/memory.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/memory.cpp.s
 .PHONY : src/core/memory.cpp.s
 
 src/core/montecarlo.o: src/core/montecarlo.cpp.o
@@ -717,7 +717,7 @@ src/core/montecarlo.o: src/core/montecarlo.cpp.o
 
 # target to build an object file
 src/core/montecarlo.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/montecarlo.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/montecarlo.cpp.o
 .PHONY : src/core/montecarlo.cpp.o
 
 src/core/montecarlo.i: src/core/montecarlo.cpp.i
@@ -726,7 +726,7 @@ src/core/montecarlo.i: src/core/montecarlo.cpp.i
 
 # target to preprocess a source file
 src/core/montecarlo.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/montecarlo.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/montecarlo.cpp.i
 .PHONY : src/core/montecarlo.cpp.i
 
 src/core/montecarlo.s: src/core/montecarlo.cpp.s
@@ -735,7 +735,7 @@ src/core/montecarlo.s: src/core/montecarlo.cpp.s
 
 # target to generate assembly for a file
 src/core/montecarlo.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/montecarlo.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/montecarlo.cpp.s
 .PHONY : src/core/montecarlo.cpp.s
 
 src/core/parallel.o: src/core/parallel.cpp.o
@@ -744,7 +744,7 @@ src/core/parallel.o: src/core/parallel.cpp.o
 
 # target to build an object file
 src/core/parallel.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/parallel.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/parallel.cpp.o
 .PHONY : src/core/parallel.cpp.o
 
 src/core/parallel.i: src/core/parallel.cpp.i
@@ -753,7 +753,7 @@ src/core/parallel.i: src/core/parallel.cpp.i
 
 # target to preprocess a source file
 src/core/parallel.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/parallel.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/parallel.cpp.i
 .PHONY : src/core/parallel.cpp.i
 
 src/core/parallel.s: src/core/parallel.cpp.s
@@ -762,7 +762,7 @@ src/core/parallel.s: src/core/parallel.cpp.s
 
 # target to generate assembly for a file
 src/core/parallel.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/parallel.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/parallel.cpp.s
 .PHONY : src/core/parallel.cpp.s
 
 src/core/paramset.o: src/core/paramset.cpp.o
@@ -771,7 +771,7 @@ src/core/paramset.o: src/core/paramset.cpp.o
 
 # target to build an object file
 src/core/paramset.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/paramset.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/paramset.cpp.o
 .PHONY : src/core/paramset.cpp.o
 
 src/core/paramset.i: src/core/paramset.cpp.i
@@ -780,7 +780,7 @@ src/core/paramset.i: src/core/paramset.cpp.i
 
 # target to preprocess a source file
 src/core/paramset.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/paramset.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/paramset.cpp.i
 .PHONY : src/core/paramset.cpp.i
 
 src/core/paramset.s: src/core/paramset.cpp.s
@@ -789,7 +789,7 @@ src/core/paramset.s: src/core/paramset.cpp.s
 
 # target to generate assembly for a file
 src/core/paramset.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/paramset.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/paramset.cpp.s
 .PHONY : src/core/paramset.cpp.s
 
 src/core/parser.o: src/core/parser.cpp.o
@@ -798,7 +798,7 @@ src/core/parser.o: src/core/parser.cpp.o
 
 # target to build an object file
 src/core/parser.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/parser.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/parser.cpp.o
 .PHONY : src/core/parser.cpp.o
 
 src/core/parser.i: src/core/parser.cpp.i
@@ -807,7 +807,7 @@ src/core/parser.i: src/core/parser.cpp.i
 
 # target to preprocess a source file
 src/core/parser.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/parser.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/parser.cpp.i
 .PHONY : src/core/parser.cpp.i
 
 src/core/parser.s: src/core/parser.cpp.s
@@ -816,7 +816,7 @@ src/core/parser.s: src/core/parser.cpp.s
 
 # target to generate assembly for a file
 src/core/parser.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/parser.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/parser.cpp.s
 .PHONY : src/core/parser.cpp.s
 
 src/core/primitive.o: src/core/primitive.cpp.o
@@ -825,7 +825,7 @@ src/core/primitive.o: src/core/primitive.cpp.o
 
 # target to build an object file
 src/core/primitive.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/primitive.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/primitive.cpp.o
 .PHONY : src/core/primitive.cpp.o
 
 src/core/primitive.i: src/core/primitive.cpp.i
@@ -834,7 +834,7 @@ src/core/primitive.i: src/core/primitive.cpp.i
 
 # target to preprocess a source file
 src/core/primitive.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/primitive.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/primitive.cpp.i
 .PHONY : src/core/primitive.cpp.i
 
 src/core/primitive.s: src/core/primitive.cpp.s
@@ -843,7 +843,7 @@ src/core/primitive.s: src/core/primitive.cpp.s
 
 # target to generate assembly for a file
 src/core/primitive.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/primitive.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/primitive.cpp.s
 .PHONY : src/core/primitive.cpp.s
 
 src/core/probes.o: src/core/probes.cpp.o
@@ -852,7 +852,7 @@ src/core/probes.o: src/core/probes.cpp.o
 
 # target to build an object file
 src/core/probes.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/probes.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/probes.cpp.o
 .PHONY : src/core/probes.cpp.o
 
 src/core/probes.i: src/core/probes.cpp.i
@@ -861,7 +861,7 @@ src/core/probes.i: src/core/probes.cpp.i
 
 # target to preprocess a source file
 src/core/probes.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/probes.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/probes.cpp.i
 .PHONY : src/core/probes.cpp.i
 
 src/core/probes.s: src/core/probes.cpp.s
@@ -870,7 +870,7 @@ src/core/probes.s: src/core/probes.cpp.s
 
 # target to generate assembly for a file
 src/core/probes.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/probes.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/probes.cpp.s
 .PHONY : src/core/probes.cpp.s
 
 src/core/progressreporter.o: src/core/progressreporter.cpp.o
@@ -879,7 +879,7 @@ src/core/progressreporter.o: src/core/progressreporter.cpp.o
 
 # target to build an object file
 src/core/progressreporter.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.o
 .PHONY : src/core/progressreporter.cpp.o
 
 src/core/progressreporter.i: src/core/progressreporter.cpp.i
@@ -888,7 +888,7 @@ src/core/progressreporter.i: src/core/progressreporter.cpp.i
 
 # target to preprocess a source file
 src/core/progressreporter.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.i
 .PHONY : src/core/progressreporter.cpp.i
 
 src/core/progressreporter.s: src/core/progressreporter.cpp.s
@@ -897,7 +897,7 @@ src/core/progressreporter.s: src/core/progressreporter.cpp.s
 
 # target to generate assembly for a file
 src/core/progressreporter.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/progressreporter.cpp.s
 .PHONY : src/core/progressreporter.cpp.s
 
 src/core/quaternion.o: src/core/quaternion.cpp.o
@@ -906,7 +906,7 @@ src/core/quaternion.o: src/core/quaternion.cpp.o
 
 # target to build an object file
 src/core/quaternion.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/quaternion.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/quaternion.cpp.o
 .PHONY : src/core/quaternion.cpp.o
 
 src/core/quaternion.i: src/core/quaternion.cpp.i
@@ -915,7 +915,7 @@ src/core/quaternion.i: src/core/quaternion.cpp.i
 
 # target to preprocess a source file
 src/core/quaternion.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/quaternion.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/quaternion.cpp.i
 .PHONY : src/core/quaternion.cpp.i
 
 src/core/quaternion.s: src/core/quaternion.cpp.s
@@ -924,7 +924,7 @@ src/core/quaternion.s: src/core/quaternion.cpp.s
 
 # target to generate assembly for a file
 src/core/quaternion.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/quaternion.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/quaternion.cpp.s
 .PHONY : src/core/quaternion.cpp.s
 
 src/core/reflection.o: src/core/reflection.cpp.o
@@ -933,7 +933,7 @@ src/core/reflection.o: src/core/reflection.cpp.o
 
 # target to build an object file
 src/core/reflection.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/reflection.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/reflection.cpp.o
 .PHONY : src/core/reflection.cpp.o
 
 src/core/reflection.i: src/core/reflection.cpp.i
@@ -942,7 +942,7 @@ src/core/reflection.i: src/core/reflection.cpp.i
 
 # target to preprocess a source file
 src/core/reflection.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/reflection.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/reflection.cpp.i
 .PHONY : src/core/reflection.cpp.i
 
 src/core/reflection.s: src/core/reflection.cpp.s
@@ -951,7 +951,7 @@ src/core/reflection.s: src/core/reflection.cpp.s
 
 # target to generate assembly for a file
 src/core/reflection.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/reflection.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/reflection.cpp.s
 .PHONY : src/core/reflection.cpp.s
 
 src/core/renderer.o: src/core/renderer.cpp.o
@@ -960,7 +960,7 @@ src/core/renderer.o: src/core/renderer.cpp.o
 
 # target to build an object file
 src/core/renderer.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/renderer.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/renderer.cpp.o
 .PHONY : src/core/renderer.cpp.o
 
 src/core/renderer.i: src/core/renderer.cpp.i
@@ -969,7 +969,7 @@ src/core/renderer.i: src/core/renderer.cpp.i
 
 # target to preprocess a source file
 src/core/renderer.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/renderer.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/renderer.cpp.i
 .PHONY : src/core/renderer.cpp.i
 
 src/core/renderer.s: src/core/renderer.cpp.s
@@ -978,7 +978,7 @@ src/core/renderer.s: src/core/renderer.cpp.s
 
 # target to generate assembly for a file
 src/core/renderer.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/renderer.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/renderer.cpp.s
 .PHONY : src/core/renderer.cpp.s
 
 src/core/rng.o: src/core/rng.cpp.o
@@ -987,7 +987,7 @@ src/core/rng.o: src/core/rng.cpp.o
 
 # target to build an object file
 src/core/rng.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/rng.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/rng.cpp.o
 .PHONY : src/core/rng.cpp.o
 
 src/core/rng.i: src/core/rng.cpp.i
@@ -996,7 +996,7 @@ src/core/rng.i: src/core/rng.cpp.i
 
 # target to preprocess a source file
 src/core/rng.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/rng.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/rng.cpp.i
 .PHONY : src/core/rng.cpp.i
 
 src/core/rng.s: src/core/rng.cpp.s
@@ -1005,7 +1005,7 @@ src/core/rng.s: src/core/rng.cpp.s
 
 # target to generate assembly for a file
 src/core/rng.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/rng.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/rng.cpp.s
 .PHONY : src/core/rng.cpp.s
 
 src/core/sampler.o: src/core/sampler.cpp.o
@@ -1014,7 +1014,7 @@ src/core/sampler.o: src/core/sampler.cpp.o
 
 # target to build an object file
 src/core/sampler.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/sampler.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/sampler.cpp.o
 .PHONY : src/core/sampler.cpp.o
 
 src/core/sampler.i: src/core/sampler.cpp.i
@@ -1023,7 +1023,7 @@ src/core/sampler.i: src/core/sampler.cpp.i
 
 # target to preprocess a source file
 src/core/sampler.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/sampler.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/sampler.cpp.i
 .PHONY : src/core/sampler.cpp.i
 
 src/core/sampler.s: src/core/sampler.cpp.s
@@ -1032,7 +1032,7 @@ src/core/sampler.s: src/core/sampler.cpp.s
 
 # target to generate assembly for a file
 src/core/sampler.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/sampler.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/sampler.cpp.s
 .PHONY : src/core/sampler.cpp.s
 
 src/core/scene.o: src/core/scene.cpp.o
@@ -1041,7 +1041,7 @@ src/core/scene.o: src/core/scene.cpp.o
 
 # target to build an object file
 src/core/scene.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/scene.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/scene.cpp.o
 .PHONY : src/core/scene.cpp.o
 
 src/core/scene.i: src/core/scene.cpp.i
@@ -1050,7 +1050,7 @@ src/core/scene.i: src/core/scene.cpp.i
 
 # target to preprocess a source file
 src/core/scene.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/scene.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/scene.cpp.i
 .PHONY : src/core/scene.cpp.i
 
 src/core/scene.s: src/core/scene.cpp.s
@@ -1059,7 +1059,7 @@ src/core/scene.s: src/core/scene.cpp.s
 
 # target to generate assembly for a file
 src/core/scene.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/scene.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/scene.cpp.s
 .PHONY : src/core/scene.cpp.s
 
 src/core/sh.o: src/core/sh.cpp.o
@@ -1068,7 +1068,7 @@ src/core/sh.o: src/core/sh.cpp.o
 
 # target to build an object file
 src/core/sh.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/sh.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/sh.cpp.o
 .PHONY : src/core/sh.cpp.o
 
 src/core/sh.i: src/core/sh.cpp.i
@@ -1077,7 +1077,7 @@ src/core/sh.i: src/core/sh.cpp.i
 
 # target to preprocess a source file
 src/core/sh.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/sh.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/sh.cpp.i
 .PHONY : src/core/sh.cpp.i
 
 src/core/sh.s: src/core/sh.cpp.s
@@ -1086,7 +1086,7 @@ src/core/sh.s: src/core/sh.cpp.s
 
 # target to generate assembly for a file
 src/core/sh.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/sh.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/sh.cpp.s
 .PHONY : src/core/sh.cpp.s
 
 src/core/shape.o: src/core/shape.cpp.o
@@ -1095,7 +1095,7 @@ src/core/shape.o: src/core/shape.cpp.o
 
 # target to build an object file
 src/core/shape.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/shape.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/shape.cpp.o
 .PHONY : src/core/shape.cpp.o
 
 src/core/shape.i: src/core/shape.cpp.i
@@ -1104,7 +1104,7 @@ src/core/shape.i: src/core/shape.cpp.i
 
 # target to preprocess a source file
 src/core/shape.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/shape.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/shape.cpp.i
 .PHONY : src/core/shape.cpp.i
 
 src/core/shape.s: src/core/shape.cpp.s
@@ -1113,7 +1113,7 @@ src/core/shape.s: src/core/shape.cpp.s
 
 # target to generate assembly for a file
 src/core/shape.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/shape.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/shape.cpp.s
 .PHONY : src/core/shape.cpp.s
 
 src/core/shrots.o: src/core/shrots.cpp.o
@@ -1122,7 +1122,7 @@ src/core/shrots.o: src/core/shrots.cpp.o
 
 # target to build an object file
 src/core/shrots.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/shrots.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/shrots.cpp.o
 .PHONY : src/core/shrots.cpp.o
 
 src/core/shrots.i: src/core/shrots.cpp.i
@@ -1131,7 +1131,7 @@ src/core/shrots.i: src/core/shrots.cpp.i
 
 # target to preprocess a source file
 src/core/shrots.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/shrots.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/shrots.cpp.i
 .PHONY : src/core/shrots.cpp.i
 
 src/core/shrots.s: src/core/shrots.cpp.s
@@ -1140,7 +1140,7 @@ src/core/shrots.s: src/core/shrots.cpp.s
 
 # target to generate assembly for a file
 src/core/shrots.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/shrots.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/shrots.cpp.s
 .PHONY : src/core/shrots.cpp.s
 
 src/core/spectrum.o: src/core/spectrum.cpp.o
@@ -1149,7 +1149,7 @@ src/core/spectrum.o: src/core/spectrum.cpp.o
 
 # target to build an object file
 src/core/spectrum.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/spectrum.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/spectrum.cpp.o
 .PHONY : src/core/spectrum.cpp.o
 
 src/core/spectrum.i: src/core/spectrum.cpp.i
@@ -1158,7 +1158,7 @@ src/core/spectrum.i: src/core/spectrum.cpp.i
 
 # target to preprocess a source file
 src/core/spectrum.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/spectrum.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/spectrum.cpp.i
 .PHONY : src/core/spectrum.cpp.i
 
 src/core/spectrum.s: src/core/spectrum.cpp.s
@@ -1167,7 +1167,7 @@ src/core/spectrum.s: src/core/spectrum.cpp.s
 
 # target to generate assembly for a file
 src/core/spectrum.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/spectrum.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/spectrum.cpp.s
 .PHONY : src/core/spectrum.cpp.s
 
 src/core/texture.o: src/core/texture.cpp.o
@@ -1176,7 +1176,7 @@ src/core/texture.o: src/core/texture.cpp.o
 
 # target to build an object file
 src/core/texture.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/texture.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/texture.cpp.o
 .PHONY : src/core/texture.cpp.o
 
 src/core/texture.i: src/core/texture.cpp.i
@@ -1185,7 +1185,7 @@ src/core/texture.i: src/core/texture.cpp.i
 
 # target to preprocess a source file
 src/core/texture.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/texture.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/texture.cpp.i
 .PHONY : src/core/texture.cpp.i
 
 src/core/texture.s: src/core/texture.cpp.s
@@ -1194,7 +1194,7 @@ src/core/texture.s: src/core/texture.cpp.s
 
 # target to generate assembly for a file
 src/core/texture.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/texture.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/texture.cpp.s
 .PHONY : src/core/texture.cpp.s
 
 src/core/timer.o: src/core/timer.cpp.o
@@ -1203,7 +1203,7 @@ src/core/timer.o: src/core/timer.cpp.o
 
 # target to build an object file
 src/core/timer.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/timer.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/timer.cpp.o
 .PHONY : src/core/timer.cpp.o
 
 src/core/timer.i: src/core/timer.cpp.i
@@ -1212,7 +1212,7 @@ src/core/timer.i: src/core/timer.cpp.i
 
 # target to preprocess a source file
 src/core/timer.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/timer.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/timer.cpp.i
 .PHONY : src/core/timer.cpp.i
 
 src/core/timer.s: src/core/timer.cpp.s
@@ -1221,7 +1221,7 @@ src/core/timer.s: src/core/timer.cpp.s
 
 # target to generate assembly for a file
 src/core/timer.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/timer.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/timer.cpp.s
 .PHONY : src/core/timer.cpp.s
 
 src/core/transform.o: src/core/transform.cpp.o
@@ -1230,7 +1230,7 @@ src/core/transform.o: src/core/transform.cpp.o
 
 # target to build an object file
 src/core/transform.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/transform.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/transform.cpp.o
 .PHONY : src/core/transform.cpp.o
 
 src/core/transform.i: src/core/transform.cpp.i
@@ -1239,7 +1239,7 @@ src/core/transform.i: src/core/transform.cpp.i
 
 # target to preprocess a source file
 src/core/transform.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/transform.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/transform.cpp.i
 .PHONY : src/core/transform.cpp.i
 
 src/core/transform.s: src/core/transform.cpp.s
@@ -1248,7 +1248,7 @@ src/core/transform.s: src/core/transform.cpp.s
 
 # target to generate assembly for a file
 src/core/transform.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/transform.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/transform.cpp.s
 .PHONY : src/core/transform.cpp.s
 
 src/core/volume.o: src/core/volume.cpp.o
@@ -1257,7 +1257,7 @@ src/core/volume.o: src/core/volume.cpp.o
 
 # target to build an object file
 src/core/volume.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/volume.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/volume.cpp.o
 .PHONY : src/core/volume.cpp.o
 
 src/core/volume.i: src/core/volume.cpp.i
@@ -1266,7 +1266,7 @@ src/core/volume.i: src/core/volume.cpp.i
 
 # target to preprocess a source file
 src/core/volume.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/volume.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/volume.cpp.i
 .PHONY : src/core/volume.cpp.i
 
 src/core/volume.s: src/core/volume.cpp.s
@@ -1275,7 +1275,7 @@ src/core/volume.s: src/core/volume.cpp.s
 
 # target to generate assembly for a file
 src/core/volume.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/volume.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/core/volume.cpp.s
 .PHONY : src/core/volume.cpp.s
 
 src/film/image.o: src/film/image.cpp.o
@@ -1284,7 +1284,7 @@ src/film/image.o: src/film/image.cpp.o
 
 # target to build an object file
 src/film/image.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/film/image.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/film/image.cpp.o
 .PHONY : src/film/image.cpp.o
 
 src/film/image.i: src/film/image.cpp.i
@@ -1293,7 +1293,7 @@ src/film/image.i: src/film/image.cpp.i
 
 # target to preprocess a source file
 src/film/image.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/film/image.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/film/image.cpp.i
 .PHONY : src/film/image.cpp.i
 
 src/film/image.s: src/film/image.cpp.s
@@ -1302,7 +1302,7 @@ src/film/image.s: src/film/image.cpp.s
 
 # target to generate assembly for a file
 src/film/image.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/film/image.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/film/image.cpp.s
 .PHONY : src/film/image.cpp.s
 
 src/filters/box.o: src/filters/box.cpp.o
@@ -1311,7 +1311,7 @@ src/filters/box.o: src/filters/box.cpp.o
 
 # target to build an object file
 src/filters/box.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/box.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/box.cpp.o
 .PHONY : src/filters/box.cpp.o
 
 src/filters/box.i: src/filters/box.cpp.i
@@ -1320,7 +1320,7 @@ src/filters/box.i: src/filters/box.cpp.i
 
 # target to preprocess a source file
 src/filters/box.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/box.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/box.cpp.i
 .PHONY : src/filters/box.cpp.i
 
 src/filters/box.s: src/filters/box.cpp.s
@@ -1329,7 +1329,7 @@ src/filters/box.s: src/filters/box.cpp.s
 
 # target to generate assembly for a file
 src/filters/box.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/box.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/box.cpp.s
 .PHONY : src/filters/box.cpp.s
 
 src/filters/gaussian.o: src/filters/gaussian.cpp.o
@@ -1338,7 +1338,7 @@ src/filters/gaussian.o: src/filters/gaussian.cpp.o
 
 # target to build an object file
 src/filters/gaussian.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.o
 .PHONY : src/filters/gaussian.cpp.o
 
 src/filters/gaussian.i: src/filters/gaussian.cpp.i
@@ -1347,7 +1347,7 @@ src/filters/gaussian.i: src/filters/gaussian.cpp.i
 
 # target to preprocess a source file
 src/filters/gaussian.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.i
 .PHONY : src/filters/gaussian.cpp.i
 
 src/filters/gaussian.s: src/filters/gaussian.cpp.s
@@ -1356,7 +1356,7 @@ src/filters/gaussian.s: src/filters/gaussian.cpp.s
 
 # target to generate assembly for a file
 src/filters/gaussian.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/gaussian.cpp.s
 .PHONY : src/filters/gaussian.cpp.s
 
 src/filters/mitchell.o: src/filters/mitchell.cpp.o
@@ -1365,7 +1365,7 @@ src/filters/mitchell.o: src/filters/mitchell.cpp.o
 
 # target to build an object file
 src/filters/mitchell.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.o
 .PHONY : src/filters/mitchell.cpp.o
 
 src/filters/mitchell.i: src/filters/mitchell.cpp.i
@@ -1374,7 +1374,7 @@ src/filters/mitchell.i: src/filters/mitchell.cpp.i
 
 # target to preprocess a source file
 src/filters/mitchell.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.i
 .PHONY : src/filters/mitchell.cpp.i
 
 src/filters/mitchell.s: src/filters/mitchell.cpp.s
@@ -1383,7 +1383,7 @@ src/filters/mitchell.s: src/filters/mitchell.cpp.s
 
 # target to generate assembly for a file
 src/filters/mitchell.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/mitchell.cpp.s
 .PHONY : src/filters/mitchell.cpp.s
 
 src/filters/sinc.o: src/filters/sinc.cpp.o
@@ -1392,7 +1392,7 @@ src/filters/sinc.o: src/filters/sinc.cpp.o
 
 # target to build an object file
 src/filters/sinc.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/sinc.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/sinc.cpp.o
 .PHONY : src/filters/sinc.cpp.o
 
 src/filters/sinc.i: src/filters/sinc.cpp.i
@@ -1401,7 +1401,7 @@ src/filters/sinc.i: src/filters/sinc.cpp.i
 
 # target to preprocess a source file
 src/filters/sinc.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/sinc.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/sinc.cpp.i
 .PHONY : src/filters/sinc.cpp.i
 
 src/filters/sinc.s: src/filters/sinc.cpp.s
@@ -1410,7 +1410,7 @@ src/filters/sinc.s: src/filters/sinc.cpp.s
 
 # target to generate assembly for a file
 src/filters/sinc.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/sinc.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/sinc.cpp.s
 .PHONY : src/filters/sinc.cpp.s
 
 src/filters/triangle.o: src/filters/triangle.cpp.o
@@ -1419,7 +1419,7 @@ src/filters/triangle.o: src/filters/triangle.cpp.o
 
 # target to build an object file
 src/filters/triangle.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/triangle.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/triangle.cpp.o
 .PHONY : src/filters/triangle.cpp.o
 
 src/filters/triangle.i: src/filters/triangle.cpp.i
@@ -1428,7 +1428,7 @@ src/filters/triangle.i: src/filters/triangle.cpp.i
 
 # target to preprocess a source file
 src/filters/triangle.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/triangle.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/triangle.cpp.i
 .PHONY : src/filters/triangle.cpp.i
 
 src/filters/triangle.s: src/filters/triangle.cpp.s
@@ -1437,7 +1437,7 @@ src/filters/triangle.s: src/filters/triangle.cpp.s
 
 # target to generate assembly for a file
 src/filters/triangle.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/triangle.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/filters/triangle.cpp.s
 .PHONY : src/filters/triangle.cpp.s
 
 src/integrators/ambientocclusion.o: src/integrators/ambientocclusion.cpp.o
@@ -1446,7 +1446,7 @@ src/integrators/ambientocclusion.o: src/integrators/ambientocclusion.cpp.o
 
 # target to build an object file
 src/integrators/ambientocclusion.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/ambientocclusion.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/ambientocclusion.cpp.o
 .PHONY : src/integrators/ambientocclusion.cpp.o
 
 src/integrators/ambientocclusion.i: src/integrators/ambientocclusion.cpp.i
@@ -1455,7 +1455,7 @@ src/integrators/ambientocclusion.i: src/integrators/ambientocclusion.cpp.i
 
 # target to preprocess a source file
 src/integrators/ambientocclusion.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/ambientocclusion.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/ambientocclusion.cpp.i
 .PHONY : src/integrators/ambientocclusion.cpp.i
 
 src/integrators/ambientocclusion.s: src/integrators/ambientocclusion.cpp.s
@@ -1464,7 +1464,7 @@ src/integrators/ambientocclusion.s: src/integrators/ambientocclusion.cpp.s
 
 # target to generate assembly for a file
 src/integrators/ambientocclusion.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/ambientocclusion.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/ambientocclusion.cpp.s
 .PHONY : src/integrators/ambientocclusion.cpp.s
 
 src/integrators/diffuseprt.o: src/integrators/diffuseprt.cpp.o
@@ -1473,7 +1473,7 @@ src/integrators/diffuseprt.o: src/integrators/diffuseprt.cpp.o
 
 # target to build an object file
 src/integrators/diffuseprt.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/diffuseprt.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/diffuseprt.cpp.o
 .PHONY : src/integrators/diffuseprt.cpp.o
 
 src/integrators/diffuseprt.i: src/integrators/diffuseprt.cpp.i
@@ -1482,7 +1482,7 @@ src/integrators/diffuseprt.i: src/integrators/diffuseprt.cpp.i
 
 # target to preprocess a source file
 src/integrators/diffuseprt.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/diffuseprt.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/diffuseprt.cpp.i
 .PHONY : src/integrators/diffuseprt.cpp.i
 
 src/integrators/diffuseprt.s: src/integrators/diffuseprt.cpp.s
@@ -1491,7 +1491,7 @@ src/integrators/diffuseprt.s: src/integrators/diffuseprt.cpp.s
 
 # target to generate assembly for a file
 src/integrators/diffuseprt.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/diffuseprt.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/diffuseprt.cpp.s
 .PHONY : src/integrators/diffuseprt.cpp.s
 
 src/integrators/dipolesubsurface.o: src/integrators/dipolesubsurface.cpp.o
@@ -1500,7 +1500,7 @@ src/integrators/dipolesubsurface.o: src/integrators/dipolesubsurface.cpp.o
 
 # target to build an object file
 src/integrators/dipolesubsurface.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/dipolesubsurface.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/dipolesubsurface.cpp.o
 .PHONY : src/integrators/dipolesubsurface.cpp.o
 
 src/integrators/dipolesubsurface.i: src/integrators/dipolesubsurface.cpp.i
@@ -1509,7 +1509,7 @@ src/integrators/dipolesubsurface.i: src/integrators/dipolesubsurface.cpp.i
 
 # target to preprocess a source file
 src/integrators/dipolesubsurface.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/dipolesubsurface.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/dipolesubsurface.cpp.i
 .PHONY : src/integrators/dipolesubsurface.cpp.i
 
 src/integrators/dipolesubsurface.s: src/integrators/dipolesubsurface.cpp.s
@@ -1518,7 +1518,7 @@ src/integrators/dipolesubsurface.s: src/integrators/dipolesubsurface.cpp.s
 
 # target to generate assembly for a file
 src/integrators/dipolesubsurface.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/dipolesubsurface.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/dipolesubsurface.cpp.s
 .PHONY : src/integrators/dipolesubsurface.cpp.s
 
 src/integrators/directlighting.o: src/integrators/directlighting.cpp.o
@@ -1527,7 +1527,7 @@ src/integrators/directlighting.o: src/integrators/directlighting.cpp.o
 
 # target to build an object file
 src/integrators/directlighting.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.o
 .PHONY : src/integrators/directlighting.cpp.o
 
 src/integrators/directlighting.i: src/integrators/directlighting.cpp.i
@@ -1536,7 +1536,7 @@ src/integrators/directlighting.i: src/integrators/directlighting.cpp.i
 
 # target to preprocess a source file
 src/integrators/directlighting.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.i
 .PHONY : src/integrators/directlighting.cpp.i
 
 src/integrators/directlighting.s: src/integrators/directlighting.cpp.s
@@ -1545,7 +1545,7 @@ src/integrators/directlighting.s: src/integrators/directlighting.cpp.s
 
 # target to generate assembly for a file
 src/integrators/directlighting.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/directlighting.cpp.s
 .PHONY : src/integrators/directlighting.cpp.s
 
 src/integrators/emission.o: src/integrators/emission.cpp.o
@@ -1554,7 +1554,7 @@ src/integrators/emission.o: src/integrators/emission.cpp.o
 
 # target to build an object file
 src/integrators/emission.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/emission.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/emission.cpp.o
 .PHONY : src/integrators/emission.cpp.o
 
 src/integrators/emission.i: src/integrators/emission.cpp.i
@@ -1563,7 +1563,7 @@ src/integrators/emission.i: src/integrators/emission.cpp.i
 
 # target to preprocess a source file
 src/integrators/emission.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/emission.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/emission.cpp.i
 .PHONY : src/integrators/emission.cpp.i
 
 src/integrators/emission.s: src/integrators/emission.cpp.s
@@ -1572,7 +1572,7 @@ src/integrators/emission.s: src/integrators/emission.cpp.s
 
 # target to generate assembly for a file
 src/integrators/emission.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/emission.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/emission.cpp.s
 .PHONY : src/integrators/emission.cpp.s
 
 src/integrators/glossyprt.o: src/integrators/glossyprt.cpp.o
@@ -1581,7 +1581,7 @@ src/integrators/glossyprt.o: src/integrators/glossyprt.cpp.o
 
 # target to build an object file
 src/integrators/glossyprt.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/glossyprt.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/glossyprt.cpp.o
 .PHONY : src/integrators/glossyprt.cpp.o
 
 src/integrators/glossyprt.i: src/integrators/glossyprt.cpp.i
@@ -1590,7 +1590,7 @@ src/integrators/glossyprt.i: src/integrators/glossyprt.cpp.i
 
 # target to preprocess a source file
 src/integrators/glossyprt.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/glossyprt.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/glossyprt.cpp.i
 .PHONY : src/integrators/glossyprt.cpp.i
 
 src/integrators/glossyprt.s: src/integrators/glossyprt.cpp.s
@@ -1599,7 +1599,7 @@ src/integrators/glossyprt.s: src/integrators/glossyprt.cpp.s
 
 # target to generate assembly for a file
 src/integrators/glossyprt.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/glossyprt.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/glossyprt.cpp.s
 .PHONY : src/integrators/glossyprt.cpp.s
 
 src/integrators/igi.o: src/integrators/igi.cpp.o
@@ -1608,7 +1608,7 @@ src/integrators/igi.o: src/integrators/igi.cpp.o
 
 # target to build an object file
 src/integrators/igi.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/igi.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/igi.cpp.o
 .PHONY : src/integrators/igi.cpp.o
 
 src/integrators/igi.i: src/integrators/igi.cpp.i
@@ -1617,7 +1617,7 @@ src/integrators/igi.i: src/integrators/igi.cpp.i
 
 # target to preprocess a source file
 src/integrators/igi.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/igi.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/igi.cpp.i
 .PHONY : src/integrators/igi.cpp.i
 
 src/integrators/igi.s: src/integrators/igi.cpp.s
@@ -1626,7 +1626,7 @@ src/integrators/igi.s: src/integrators/igi.cpp.s
 
 # target to generate assembly for a file
 src/integrators/igi.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/igi.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/igi.cpp.s
 .PHONY : src/integrators/igi.cpp.s
 
 src/integrators/irradiancecache.o: src/integrators/irradiancecache.cpp.o
@@ -1635,7 +1635,7 @@ src/integrators/irradiancecache.o: src/integrators/irradiancecache.cpp.o
 
 # target to build an object file
 src/integrators/irradiancecache.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/irradiancecache.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/irradiancecache.cpp.o
 .PHONY : src/integrators/irradiancecache.cpp.o
 
 src/integrators/irradiancecache.i: src/integrators/irradiancecache.cpp.i
@@ -1644,7 +1644,7 @@ src/integrators/irradiancecache.i: src/integrators/irradiancecache.cpp.i
 
 # target to preprocess a source file
 src/integrators/irradiancecache.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/irradiancecache.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/irradiancecache.cpp.i
 .PHONY : src/integrators/irradiancecache.cpp.i
 
 src/integrators/irradiancecache.s: src/integrators/irradiancecache.cpp.s
@@ -1653,7 +1653,7 @@ src/integrators/irradiancecache.s: src/integrators/irradiancecache.cpp.s
 
 # target to generate assembly for a file
 src/integrators/irradiancecache.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/irradiancecache.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/irradiancecache.cpp.s
 .PHONY : src/integrators/irradiancecache.cpp.s
 
 src/integrators/path.o: src/integrators/path.cpp.o
@@ -1662,7 +1662,7 @@ src/integrators/path.o: src/integrators/path.cpp.o
 
 # target to build an object file
 src/integrators/path.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/path.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/path.cpp.o
 .PHONY : src/integrators/path.cpp.o
 
 src/integrators/path.i: src/integrators/path.cpp.i
@@ -1671,7 +1671,7 @@ src/integrators/path.i: src/integrators/path.cpp.i
 
 # target to preprocess a source file
 src/integrators/path.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/path.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/path.cpp.i
 .PHONY : src/integrators/path.cpp.i
 
 src/integrators/path.s: src/integrators/path.cpp.s
@@ -1680,7 +1680,7 @@ src/integrators/path.s: src/integrators/path.cpp.s
 
 # target to generate assembly for a file
 src/integrators/path.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/path.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/path.cpp.s
 .PHONY : src/integrators/path.cpp.s
 
 src/integrators/photonmap.o: src/integrators/photonmap.cpp.o
@@ -1689,7 +1689,7 @@ src/integrators/photonmap.o: src/integrators/photonmap.cpp.o
 
 # target to build an object file
 src/integrators/photonmap.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/photonmap.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/photonmap.cpp.o
 .PHONY : src/integrators/photonmap.cpp.o
 
 src/integrators/photonmap.i: src/integrators/photonmap.cpp.i
@@ -1698,7 +1698,7 @@ src/integrators/photonmap.i: src/integrators/photonmap.cpp.i
 
 # target to preprocess a source file
 src/integrators/photonmap.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/photonmap.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/photonmap.cpp.i
 .PHONY : src/integrators/photonmap.cpp.i
 
 src/integrators/photonmap.s: src/integrators/photonmap.cpp.s
@@ -1707,7 +1707,7 @@ src/integrators/photonmap.s: src/integrators/photonmap.cpp.s
 
 # target to generate assembly for a file
 src/integrators/photonmap.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/photonmap.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/photonmap.cpp.s
 .PHONY : src/integrators/photonmap.cpp.s
 
 src/integrators/single.o: src/integrators/single.cpp.o
@@ -1716,7 +1716,7 @@ src/integrators/single.o: src/integrators/single.cpp.o
 
 # target to build an object file
 src/integrators/single.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/single.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/single.cpp.o
 .PHONY : src/integrators/single.cpp.o
 
 src/integrators/single.i: src/integrators/single.cpp.i
@@ -1725,7 +1725,7 @@ src/integrators/single.i: src/integrators/single.cpp.i
 
 # target to preprocess a source file
 src/integrators/single.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/single.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/single.cpp.i
 .PHONY : src/integrators/single.cpp.i
 
 src/integrators/single.s: src/integrators/single.cpp.s
@@ -1734,7 +1734,7 @@ src/integrators/single.s: src/integrators/single.cpp.s
 
 # target to generate assembly for a file
 src/integrators/single.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/single.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/single.cpp.s
 .PHONY : src/integrators/single.cpp.s
 
 src/integrators/useprobes.o: src/integrators/useprobes.cpp.o
@@ -1743,7 +1743,7 @@ src/integrators/useprobes.o: src/integrators/useprobes.cpp.o
 
 # target to build an object file
 src/integrators/useprobes.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/useprobes.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/useprobes.cpp.o
 .PHONY : src/integrators/useprobes.cpp.o
 
 src/integrators/useprobes.i: src/integrators/useprobes.cpp.i
@@ -1752,7 +1752,7 @@ src/integrators/useprobes.i: src/integrators/useprobes.cpp.i
 
 # target to preprocess a source file
 src/integrators/useprobes.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/useprobes.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/useprobes.cpp.i
 .PHONY : src/integrators/useprobes.cpp.i
 
 src/integrators/useprobes.s: src/integrators/useprobes.cpp.s
@@ -1761,7 +1761,7 @@ src/integrators/useprobes.s: src/integrators/useprobes.cpp.s
 
 # target to generate assembly for a file
 src/integrators/useprobes.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/useprobes.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/useprobes.cpp.s
 .PHONY : src/integrators/useprobes.cpp.s
 
 src/integrators/whitted.o: src/integrators/whitted.cpp.o
@@ -1770,7 +1770,7 @@ src/integrators/whitted.o: src/integrators/whitted.cpp.o
 
 # target to build an object file
 src/integrators/whitted.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.o
 .PHONY : src/integrators/whitted.cpp.o
 
 src/integrators/whitted.i: src/integrators/whitted.cpp.i
@@ -1779,7 +1779,7 @@ src/integrators/whitted.i: src/integrators/whitted.cpp.i
 
 # target to preprocess a source file
 src/integrators/whitted.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.i
 .PHONY : src/integrators/whitted.cpp.i
 
 src/integrators/whitted.s: src/integrators/whitted.cpp.s
@@ -1788,7 +1788,7 @@ src/integrators/whitted.s: src/integrators/whitted.cpp.s
 
 # target to generate assembly for a file
 src/integrators/whitted.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/integrators/whitted.cpp.s
 .PHONY : src/integrators/whitted.cpp.s
 
 src/lights/diffuse.o: src/lights/diffuse.cpp.o
@@ -1797,7 +1797,7 @@ src/lights/diffuse.o: src/lights/diffuse.cpp.o
 
 # target to build an object file
 src/lights/diffuse.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.o
 .PHONY : src/lights/diffuse.cpp.o
 
 src/lights/diffuse.i: src/lights/diffuse.cpp.i
@@ -1806,7 +1806,7 @@ src/lights/diffuse.i: src/lights/diffuse.cpp.i
 
 # target to preprocess a source file
 src/lights/diffuse.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.i
 .PHONY : src/lights/diffuse.cpp.i
 
 src/lights/diffuse.s: src/lights/diffuse.cpp.s
@@ -1815,7 +1815,7 @@ src/lights/diffuse.s: src/lights/diffuse.cpp.s
 
 # target to generate assembly for a file
 src/lights/diffuse.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/diffuse.cpp.s
 .PHONY : src/lights/diffuse.cpp.s
 
 src/lights/distant.o: src/lights/distant.cpp.o
@@ -1824,7 +1824,7 @@ src/lights/distant.o: src/lights/distant.cpp.o
 
 # target to build an object file
 src/lights/distant.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/distant.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/distant.cpp.o
 .PHONY : src/lights/distant.cpp.o
 
 src/lights/distant.i: src/lights/distant.cpp.i
@@ -1833,7 +1833,7 @@ src/lights/distant.i: src/lights/distant.cpp.i
 
 # target to preprocess a source file
 src/lights/distant.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/distant.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/distant.cpp.i
 .PHONY : src/lights/distant.cpp.i
 
 src/lights/distant.s: src/lights/distant.cpp.s
@@ -1842,7 +1842,7 @@ src/lights/distant.s: src/lights/distant.cpp.s
 
 # target to generate assembly for a file
 src/lights/distant.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/distant.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/distant.cpp.s
 .PHONY : src/lights/distant.cpp.s
 
 src/lights/goniometric.o: src/lights/goniometric.cpp.o
@@ -1851,7 +1851,7 @@ src/lights/goniometric.o: src/lights/goniometric.cpp.o
 
 # target to build an object file
 src/lights/goniometric.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.o
 .PHONY : src/lights/goniometric.cpp.o
 
 src/lights/goniometric.i: src/lights/goniometric.cpp.i
@@ -1860,7 +1860,7 @@ src/lights/goniometric.i: src/lights/goniometric.cpp.i
 
 # target to preprocess a source file
 src/lights/goniometric.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.i
 .PHONY : src/lights/goniometric.cpp.i
 
 src/lights/goniometric.s: src/lights/goniometric.cpp.s
@@ -1869,7 +1869,7 @@ src/lights/goniometric.s: src/lights/goniometric.cpp.s
 
 # target to generate assembly for a file
 src/lights/goniometric.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/goniometric.cpp.s
 .PHONY : src/lights/goniometric.cpp.s
 
 src/lights/infinite.o: src/lights/infinite.cpp.o
@@ -1878,7 +1878,7 @@ src/lights/infinite.o: src/lights/infinite.cpp.o
 
 # target to build an object file
 src/lights/infinite.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/infinite.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/infinite.cpp.o
 .PHONY : src/lights/infinite.cpp.o
 
 src/lights/infinite.i: src/lights/infinite.cpp.i
@@ -1887,7 +1887,7 @@ src/lights/infinite.i: src/lights/infinite.cpp.i
 
 # target to preprocess a source file
 src/lights/infinite.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/infinite.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/infinite.cpp.i
 .PHONY : src/lights/infinite.cpp.i
 
 src/lights/infinite.s: src/lights/infinite.cpp.s
@@ -1896,7 +1896,7 @@ src/lights/infinite.s: src/lights/infinite.cpp.s
 
 # target to generate assembly for a file
 src/lights/infinite.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/infinite.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/infinite.cpp.s
 .PHONY : src/lights/infinite.cpp.s
 
 src/lights/point.o: src/lights/point.cpp.o
@@ -1905,7 +1905,7 @@ src/lights/point.o: src/lights/point.cpp.o
 
 # target to build an object file
 src/lights/point.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/point.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/point.cpp.o
 .PHONY : src/lights/point.cpp.o
 
 src/lights/point.i: src/lights/point.cpp.i
@@ -1914,7 +1914,7 @@ src/lights/point.i: src/lights/point.cpp.i
 
 # target to preprocess a source file
 src/lights/point.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/point.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/point.cpp.i
 .PHONY : src/lights/point.cpp.i
 
 src/lights/point.s: src/lights/point.cpp.s
@@ -1923,7 +1923,7 @@ src/lights/point.s: src/lights/point.cpp.s
 
 # target to generate assembly for a file
 src/lights/point.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/point.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/point.cpp.s
 .PHONY : src/lights/point.cpp.s
 
 src/lights/projection.o: src/lights/projection.cpp.o
@@ -1932,7 +1932,7 @@ src/lights/projection.o: src/lights/projection.cpp.o
 
 # target to build an object file
 src/lights/projection.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/projection.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/projection.cpp.o
 .PHONY : src/lights/projection.cpp.o
 
 src/lights/projection.i: src/lights/projection.cpp.i
@@ -1941,7 +1941,7 @@ src/lights/projection.i: src/lights/projection.cpp.i
 
 # target to preprocess a source file
 src/lights/projection.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/projection.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/projection.cpp.i
 .PHONY : src/lights/projection.cpp.i
 
 src/lights/projection.s: src/lights/projection.cpp.s
@@ -1950,7 +1950,7 @@ src/lights/projection.s: src/lights/projection.cpp.s
 
 # target to generate assembly for a file
 src/lights/projection.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/projection.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/projection.cpp.s
 .PHONY : src/lights/projection.cpp.s
 
 src/lights/spot.o: src/lights/spot.cpp.o
@@ -1959,7 +1959,7 @@ src/lights/spot.o: src/lights/spot.cpp.o
 
 # target to build an object file
 src/lights/spot.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/spot.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/spot.cpp.o
 .PHONY : src/lights/spot.cpp.o
 
 src/lights/spot.i: src/lights/spot.cpp.i
@@ -1968,7 +1968,7 @@ src/lights/spot.i: src/lights/spot.cpp.i
 
 # target to preprocess a source file
 src/lights/spot.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/spot.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/spot.cpp.i
 .PHONY : src/lights/spot.cpp.i
 
 src/lights/spot.s: src/lights/spot.cpp.s
@@ -1977,7 +1977,7 @@ src/lights/spot.s: src/lights/spot.cpp.s
 
 # target to generate assembly for a file
 src/lights/spot.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/spot.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/lights/spot.cpp.s
 .PHONY : src/lights/spot.cpp.s
 
 src/main/pbrt.o: src/main/pbrt.cpp.o
@@ -1986,7 +1986,7 @@ src/main/pbrt.o: src/main/pbrt.cpp.o
 
 # target to build an object file
 src/main/pbrt.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/main/pbrt.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/main/pbrt.cpp.o
 .PHONY : src/main/pbrt.cpp.o
 
 src/main/pbrt.i: src/main/pbrt.cpp.i
@@ -1995,7 +1995,7 @@ src/main/pbrt.i: src/main/pbrt.cpp.i
 
 # target to preprocess a source file
 src/main/pbrt.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/main/pbrt.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/main/pbrt.cpp.i
 .PHONY : src/main/pbrt.cpp.i
 
 src/main/pbrt.s: src/main/pbrt.cpp.s
@@ -2004,7 +2004,7 @@ src/main/pbrt.s: src/main/pbrt.cpp.s
 
 # target to generate assembly for a file
 src/main/pbrt.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/main/pbrt.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/main/pbrt.cpp.s
 .PHONY : src/main/pbrt.cpp.s
 
 src/materials/glass.o: src/materials/glass.cpp.o
@@ -2013,7 +2013,7 @@ src/materials/glass.o: src/materials/glass.cpp.o
 
 # target to build an object file
 src/materials/glass.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/glass.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/glass.cpp.o
 .PHONY : src/materials/glass.cpp.o
 
 src/materials/glass.i: src/materials/glass.cpp.i
@@ -2022,7 +2022,7 @@ src/materials/glass.i: src/materials/glass.cpp.i
 
 # target to preprocess a source file
 src/materials/glass.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/glass.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/glass.cpp.i
 .PHONY : src/materials/glass.cpp.i
 
 src/materials/glass.s: src/materials/glass.cpp.s
@@ -2031,7 +2031,7 @@ src/materials/glass.s: src/materials/glass.cpp.s
 
 # target to generate assembly for a file
 src/materials/glass.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/glass.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/glass.cpp.s
 .PHONY : src/materials/glass.cpp.s
 
 src/materials/kdsubsurface.o: src/materials/kdsubsurface.cpp.o
@@ -2040,7 +2040,7 @@ src/materials/kdsubsurface.o: src/materials/kdsubsurface.cpp.o
 
 # target to build an object file
 src/materials/kdsubsurface.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.o
 .PHONY : src/materials/kdsubsurface.cpp.o
 
 src/materials/kdsubsurface.i: src/materials/kdsubsurface.cpp.i
@@ -2049,7 +2049,7 @@ src/materials/kdsubsurface.i: src/materials/kdsubsurface.cpp.i
 
 # target to preprocess a source file
 src/materials/kdsubsurface.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.i
 .PHONY : src/materials/kdsubsurface.cpp.i
 
 src/materials/kdsubsurface.s: src/materials/kdsubsurface.cpp.s
@@ -2058,7 +2058,7 @@ src/materials/kdsubsurface.s: src/materials/kdsubsurface.cpp.s
 
 # target to generate assembly for a file
 src/materials/kdsubsurface.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.s
 .PHONY : src/materials/kdsubsurface.cpp.s
 
 src/materials/matte.o: src/materials/matte.cpp.o
@@ -2067,7 +2067,7 @@ src/materials/matte.o: src/materials/matte.cpp.o
 
 # target to build an object file
 src/materials/matte.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/matte.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/matte.cpp.o
 .PHONY : src/materials/matte.cpp.o
 
 src/materials/matte.i: src/materials/matte.cpp.i
@@ -2076,7 +2076,7 @@ src/materials/matte.i: src/materials/matte.cpp.i
 
 # target to preprocess a source file
 src/materials/matte.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/matte.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/matte.cpp.i
 .PHONY : src/materials/matte.cpp.i
 
 src/materials/matte.s: src/materials/matte.cpp.s
@@ -2085,7 +2085,7 @@ src/materials/matte.s: src/materials/matte.cpp.s
 
 # target to generate assembly for a file
 src/materials/matte.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/matte.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/matte.cpp.s
 .PHONY : src/materials/matte.cpp.s
 
 src/materials/measured.o: src/materials/measured.cpp.o
@@ -2094,7 +2094,7 @@ src/materials/measured.o: src/materials/measured.cpp.o
 
 # target to build an object file
 src/materials/measured.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/measured.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/measured.cpp.o
 .PHONY : src/materials/measured.cpp.o
 
 src/materials/measured.i: src/materials/measured.cpp.i
@@ -2103,7 +2103,7 @@ src/materials/measured.i: src/materials/measured.cpp.i
 
 # target to preprocess a source file
 src/materials/measured.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/measured.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/measured.cpp.i
 .PHONY : src/materials/measured.cpp.i
 
 src/materials/measured.s: src/materials/measured.cpp.s
@@ -2112,7 +2112,7 @@ src/materials/measured.s: src/materials/measured.cpp.s
 
 # target to generate assembly for a file
 src/materials/measured.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/measured.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/measured.cpp.s
 .PHONY : src/materials/measured.cpp.s
 
 src/materials/metal.o: src/materials/metal.cpp.o
@@ -2121,7 +2121,7 @@ src/materials/metal.o: src/materials/metal.cpp.o
 
 # target to build an object file
 src/materials/metal.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/metal.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/metal.cpp.o
 .PHONY : src/materials/metal.cpp.o
 
 src/materials/metal.i: src/materials/metal.cpp.i
@@ -2130,7 +2130,7 @@ src/materials/metal.i: src/materials/metal.cpp.i
 
 # target to preprocess a source file
 src/materials/metal.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/metal.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/metal.cpp.i
 .PHONY : src/materials/metal.cpp.i
 
 src/materials/metal.s: src/materials/metal.cpp.s
@@ -2139,7 +2139,7 @@ src/materials/metal.s: src/materials/metal.cpp.s
 
 # target to generate assembly for a file
 src/materials/metal.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/metal.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/metal.cpp.s
 .PHONY : src/materials/metal.cpp.s
 
 src/materials/mirror.o: src/materials/mirror.cpp.o
@@ -2148,7 +2148,7 @@ src/materials/mirror.o: src/materials/mirror.cpp.o
 
 # target to build an object file
 src/materials/mirror.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/mirror.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/mirror.cpp.o
 .PHONY : src/materials/mirror.cpp.o
 
 src/materials/mirror.i: src/materials/mirror.cpp.i
@@ -2157,7 +2157,7 @@ src/materials/mirror.i: src/materials/mirror.cpp.i
 
 # target to preprocess a source file
 src/materials/mirror.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/mirror.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/mirror.cpp.i
 .PHONY : src/materials/mirror.cpp.i
 
 src/materials/mirror.s: src/materials/mirror.cpp.s
@@ -2166,7 +2166,7 @@ src/materials/mirror.s: src/materials/mirror.cpp.s
 
 # target to generate assembly for a file
 src/materials/mirror.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/mirror.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/mirror.cpp.s
 .PHONY : src/materials/mirror.cpp.s
 
 src/materials/mixmat.o: src/materials/mixmat.cpp.o
@@ -2175,7 +2175,7 @@ src/materials/mixmat.o: src/materials/mixmat.cpp.o
 
 # target to build an object file
 src/materials/mixmat.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.o
 .PHONY : src/materials/mixmat.cpp.o
 
 src/materials/mixmat.i: src/materials/mixmat.cpp.i
@@ -2184,7 +2184,7 @@ src/materials/mixmat.i: src/materials/mixmat.cpp.i
 
 # target to preprocess a source file
 src/materials/mixmat.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.i
 .PHONY : src/materials/mixmat.cpp.i
 
 src/materials/mixmat.s: src/materials/mixmat.cpp.s
@@ -2193,7 +2193,7 @@ src/materials/mixmat.s: src/materials/mixmat.cpp.s
 
 # target to generate assembly for a file
 src/materials/mixmat.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.s
 .PHONY : src/materials/mixmat.cpp.s
 
 src/materials/plastic.o: src/materials/plastic.cpp.o
@@ -2202,7 +2202,7 @@ src/materials/plastic.o: src/materials/plastic.cpp.o
 
 # target to build an object file
 src/materials/plastic.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/plastic.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/plastic.cpp.o
 .PHONY : src/materials/plastic.cpp.o
 
 src/materials/plastic.i: src/materials/plastic.cpp.i
@@ -2211,7 +2211,7 @@ src/materials/plastic.i: src/materials/plastic.cpp.i
 
 # target to preprocess a source file
 src/materials/plastic.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/plastic.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/plastic.cpp.i
 .PHONY : src/materials/plastic.cpp.i
 
 src/materials/plastic.s: src/materials/plastic.cpp.s
@@ -2220,7 +2220,7 @@ src/materials/plastic.s: src/materials/plastic.cpp.s
 
 # target to generate assembly for a file
 src/materials/plastic.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/plastic.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/plastic.cpp.s
 .PHONY : src/materials/plastic.cpp.s
 
 src/materials/shinymetal.o: src/materials/shinymetal.cpp.o
@@ -2229,7 +2229,7 @@ src/materials/shinymetal.o: src/materials/shinymetal.cpp.o
 
 # target to build an object file
 src/materials/shinymetal.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/shinymetal.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/shinymetal.cpp.o
 .PHONY : src/materials/shinymetal.cpp.o
 
 src/materials/shinymetal.i: src/materials/shinymetal.cpp.i
@@ -2238,7 +2238,7 @@ src/materials/shinymetal.i: src/materials/shinymetal.cpp.i
 
 # target to preprocess a source file
 src/materials/shinymetal.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/shinymetal.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/shinymetal.cpp.i
 .PHONY : src/materials/shinymetal.cpp.i
 
 src/materials/shinymetal.s: src/materials/shinymetal.cpp.s
@@ -2247,7 +2247,7 @@ src/materials/shinymetal.s: src/materials/shinymetal.cpp.s
 
 # target to generate assembly for a file
 src/materials/shinymetal.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/shinymetal.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/shinymetal.cpp.s
 .PHONY : src/materials/shinymetal.cpp.s
 
 src/materials/substrate.o: src/materials/substrate.cpp.o
@@ -2256,7 +2256,7 @@ src/materials/substrate.o: src/materials/substrate.cpp.o
 
 # target to build an object file
 src/materials/substrate.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/substrate.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/substrate.cpp.o
 .PHONY : src/materials/substrate.cpp.o
 
 src/materials/substrate.i: src/materials/substrate.cpp.i
@@ -2265,7 +2265,7 @@ src/materials/substrate.i: src/materials/substrate.cpp.i
 
 # target to preprocess a source file
 src/materials/substrate.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/substrate.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/substrate.cpp.i
 .PHONY : src/materials/substrate.cpp.i
 
 src/materials/substrate.s: src/materials/substrate.cpp.s
@@ -2274,7 +2274,7 @@ src/materials/substrate.s: src/materials/substrate.cpp.s
 
 # target to generate assembly for a file
 src/materials/substrate.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/substrate.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/substrate.cpp.s
 .PHONY : src/materials/substrate.cpp.s
 
 src/materials/subsurface.o: src/materials/subsurface.cpp.o
@@ -2283,7 +2283,7 @@ src/materials/subsurface.o: src/materials/subsurface.cpp.o
 
 # target to build an object file
 src/materials/subsurface.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.o
 .PHONY : src/materials/subsurface.cpp.o
 
 src/materials/subsurface.i: src/materials/subsurface.cpp.i
@@ -2292,7 +2292,7 @@ src/materials/subsurface.i: src/materials/subsurface.cpp.i
 
 # target to preprocess a source file
 src/materials/subsurface.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.i
 .PHONY : src/materials/subsurface.cpp.i
 
 src/materials/subsurface.s: src/materials/subsurface.cpp.s
@@ -2301,7 +2301,7 @@ src/materials/subsurface.s: src/materials/subsurface.cpp.s
 
 # target to generate assembly for a file
 src/materials/subsurface.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.s
 .PHONY : src/materials/subsurface.cpp.s
 
 src/materials/translucent.o: src/materials/translucent.cpp.o
@@ -2310,7 +2310,7 @@ src/materials/translucent.o: src/materials/translucent.cpp.o
 
 # target to build an object file
 src/materials/translucent.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/translucent.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/translucent.cpp.o
 .PHONY : src/materials/translucent.cpp.o
 
 src/materials/translucent.i: src/materials/translucent.cpp.i
@@ -2319,7 +2319,7 @@ src/materials/translucent.i: src/materials/translucent.cpp.i
 
 # target to preprocess a source file
 src/materials/translucent.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/translucent.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/translucent.cpp.i
 .PHONY : src/materials/translucent.cpp.i
 
 src/materials/translucent.s: src/materials/translucent.cpp.s
@@ -2328,7 +2328,7 @@ src/materials/translucent.s: src/materials/translucent.cpp.s
 
 # target to generate assembly for a file
 src/materials/translucent.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/translucent.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/translucent.cpp.s
 .PHONY : src/materials/translucent.cpp.s
 
 src/materials/uber.o: src/materials/uber.cpp.o
@@ -2337,7 +2337,7 @@ src/materials/uber.o: src/materials/uber.cpp.o
 
 # target to build an object file
 src/materials/uber.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/uber.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/uber.cpp.o
 .PHONY : src/materials/uber.cpp.o
 
 src/materials/uber.i: src/materials/uber.cpp.i
@@ -2346,7 +2346,7 @@ src/materials/uber.i: src/materials/uber.cpp.i
 
 # target to preprocess a source file
 src/materials/uber.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/uber.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/uber.cpp.i
 .PHONY : src/materials/uber.cpp.i
 
 src/materials/uber.s: src/materials/uber.cpp.s
@@ -2355,7 +2355,7 @@ src/materials/uber.s: src/materials/uber.cpp.s
 
 # target to generate assembly for a file
 src/materials/uber.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/uber.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/materials/uber.cpp.s
 .PHONY : src/materials/uber.cpp.s
 
 src/renderers/aggregatetest.o: src/renderers/aggregatetest.cpp.o
@@ -2364,7 +2364,7 @@ src/renderers/aggregatetest.o: src/renderers/aggregatetest.cpp.o
 
 # target to build an object file
 src/renderers/aggregatetest.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/aggregatetest.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/aggregatetest.cpp.o
 .PHONY : src/renderers/aggregatetest.cpp.o
 
 src/renderers/aggregatetest.i: src/renderers/aggregatetest.cpp.i
@@ -2373,7 +2373,7 @@ src/renderers/aggregatetest.i: src/renderers/aggregatetest.cpp.i
 
 # target to preprocess a source file
 src/renderers/aggregatetest.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/aggregatetest.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/aggregatetest.cpp.i
 .PHONY : src/renderers/aggregatetest.cpp.i
 
 src/renderers/aggregatetest.s: src/renderers/aggregatetest.cpp.s
@@ -2382,7 +2382,7 @@ src/renderers/aggregatetest.s: src/renderers/aggregatetest.cpp.s
 
 # target to generate assembly for a file
 src/renderers/aggregatetest.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/aggregatetest.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/aggregatetest.cpp.s
 .PHONY : src/renderers/aggregatetest.cpp.s
 
 src/renderers/createprobes.o: src/renderers/createprobes.cpp.o
@@ -2391,7 +2391,7 @@ src/renderers/createprobes.o: src/renderers/createprobes.cpp.o
 
 # target to build an object file
 src/renderers/createprobes.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/createprobes.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/createprobes.cpp.o
 .PHONY : src/renderers/createprobes.cpp.o
 
 src/renderers/createprobes.i: src/renderers/createprobes.cpp.i
@@ -2400,7 +2400,7 @@ src/renderers/createprobes.i: src/renderers/createprobes.cpp.i
 
 # target to preprocess a source file
 src/renderers/createprobes.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/createprobes.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/createprobes.cpp.i
 .PHONY : src/renderers/createprobes.cpp.i
 
 src/renderers/createprobes.s: src/renderers/createprobes.cpp.s
@@ -2409,7 +2409,7 @@ src/renderers/createprobes.s: src/renderers/createprobes.cpp.s
 
 # target to generate assembly for a file
 src/renderers/createprobes.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/createprobes.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/createprobes.cpp.s
 .PHONY : src/renderers/createprobes.cpp.s
 
 src/renderers/metropolis.o: src/renderers/metropolis.cpp.o
@@ -2418,7 +2418,7 @@ src/renderers/metropolis.o: src/renderers/metropolis.cpp.o
 
 # target to build an object file
 src/renderers/metropolis.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/metropolis.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/metropolis.cpp.o
 .PHONY : src/renderers/metropolis.cpp.o
 
 src/renderers/metropolis.i: src/renderers/metropolis.cpp.i
@@ -2427,7 +2427,7 @@ src/renderers/metropolis.i: src/renderers/metropolis.cpp.i
 
 # target to preprocess a source file
 src/renderers/metropolis.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/metropolis.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/metropolis.cpp.i
 .PHONY : src/renderers/metropolis.cpp.i
 
 src/renderers/metropolis.s: src/renderers/metropolis.cpp.s
@@ -2436,7 +2436,7 @@ src/renderers/metropolis.s: src/renderers/metropolis.cpp.s
 
 # target to generate assembly for a file
 src/renderers/metropolis.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/metropolis.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/metropolis.cpp.s
 .PHONY : src/renderers/metropolis.cpp.s
 
 src/renderers/samplerrenderer.o: src/renderers/samplerrenderer.cpp.o
@@ -2445,7 +2445,7 @@ src/renderers/samplerrenderer.o: src/renderers/samplerrenderer.cpp.o
 
 # target to build an object file
 src/renderers/samplerrenderer.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/samplerrenderer.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/samplerrenderer.cpp.o
 .PHONY : src/renderers/samplerrenderer.cpp.o
 
 src/renderers/samplerrenderer.i: src/renderers/samplerrenderer.cpp.i
@@ -2454,7 +2454,7 @@ src/renderers/samplerrenderer.i: src/renderers/samplerrenderer.cpp.i
 
 # target to preprocess a source file
 src/renderers/samplerrenderer.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/samplerrenderer.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/samplerrenderer.cpp.i
 .PHONY : src/renderers/samplerrenderer.cpp.i
 
 src/renderers/samplerrenderer.s: src/renderers/samplerrenderer.cpp.s
@@ -2463,7 +2463,7 @@ src/renderers/samplerrenderer.s: src/renderers/samplerrenderer.cpp.s
 
 # target to generate assembly for a file
 src/renderers/samplerrenderer.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/samplerrenderer.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/samplerrenderer.cpp.s
 .PHONY : src/renderers/samplerrenderer.cpp.s
 
 src/renderers/surfacepoints.o: src/renderers/surfacepoints.cpp.o
@@ -2472,7 +2472,7 @@ src/renderers/surfacepoints.o: src/renderers/surfacepoints.cpp.o
 
 # target to build an object file
 src/renderers/surfacepoints.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/surfacepoints.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/surfacepoints.cpp.o
 .PHONY : src/renderers/surfacepoints.cpp.o
 
 src/renderers/surfacepoints.i: src/renderers/surfacepoints.cpp.i
@@ -2481,7 +2481,7 @@ src/renderers/surfacepoints.i: src/renderers/surfacepoints.cpp.i
 
 # target to preprocess a source file
 src/renderers/surfacepoints.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/surfacepoints.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/surfacepoints.cpp.i
 .PHONY : src/renderers/surfacepoints.cpp.i
 
 src/renderers/surfacepoints.s: src/renderers/surfacepoints.cpp.s
@@ -2490,7 +2490,7 @@ src/renderers/surfacepoints.s: src/renderers/surfacepoints.cpp.s
 
 # target to generate assembly for a file
 src/renderers/surfacepoints.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/surfacepoints.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/renderers/surfacepoints.cpp.s
 .PHONY : src/renderers/surfacepoints.cpp.s
 
 src/samplers/adaptive.o: src/samplers/adaptive.cpp.o
@@ -2499,7 +2499,7 @@ src/samplers/adaptive.o: src/samplers/adaptive.cpp.o
 
 # target to build an object file
 src/samplers/adaptive.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/adaptive.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/adaptive.cpp.o
 .PHONY : src/samplers/adaptive.cpp.o
 
 src/samplers/adaptive.i: src/samplers/adaptive.cpp.i
@@ -2508,7 +2508,7 @@ src/samplers/adaptive.i: src/samplers/adaptive.cpp.i
 
 # target to preprocess a source file
 src/samplers/adaptive.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/adaptive.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/adaptive.cpp.i
 .PHONY : src/samplers/adaptive.cpp.i
 
 src/samplers/adaptive.s: src/samplers/adaptive.cpp.s
@@ -2517,7 +2517,7 @@ src/samplers/adaptive.s: src/samplers/adaptive.cpp.s
 
 # target to generate assembly for a file
 src/samplers/adaptive.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/adaptive.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/adaptive.cpp.s
 .PHONY : src/samplers/adaptive.cpp.s
 
 src/samplers/bestcandidate.o: src/samplers/bestcandidate.cpp.o
@@ -2526,7 +2526,7 @@ src/samplers/bestcandidate.o: src/samplers/bestcandidate.cpp.o
 
 # target to build an object file
 src/samplers/bestcandidate.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/bestcandidate.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/bestcandidate.cpp.o
 .PHONY : src/samplers/bestcandidate.cpp.o
 
 src/samplers/bestcandidate.i: src/samplers/bestcandidate.cpp.i
@@ -2535,7 +2535,7 @@ src/samplers/bestcandidate.i: src/samplers/bestcandidate.cpp.i
 
 # target to preprocess a source file
 src/samplers/bestcandidate.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/bestcandidate.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/bestcandidate.cpp.i
 .PHONY : src/samplers/bestcandidate.cpp.i
 
 src/samplers/bestcandidate.s: src/samplers/bestcandidate.cpp.s
@@ -2544,7 +2544,7 @@ src/samplers/bestcandidate.s: src/samplers/bestcandidate.cpp.s
 
 # target to generate assembly for a file
 src/samplers/bestcandidate.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/bestcandidate.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/bestcandidate.cpp.s
 .PHONY : src/samplers/bestcandidate.cpp.s
 
 src/samplers/halton.o: src/samplers/halton.cpp.o
@@ -2553,7 +2553,7 @@ src/samplers/halton.o: src/samplers/halton.cpp.o
 
 # target to build an object file
 src/samplers/halton.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/halton.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/halton.cpp.o
 .PHONY : src/samplers/halton.cpp.o
 
 src/samplers/halton.i: src/samplers/halton.cpp.i
@@ -2562,7 +2562,7 @@ src/samplers/halton.i: src/samplers/halton.cpp.i
 
 # target to preprocess a source file
 src/samplers/halton.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/halton.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/halton.cpp.i
 .PHONY : src/samplers/halton.cpp.i
 
 src/samplers/halton.s: src/samplers/halton.cpp.s
@@ -2571,7 +2571,7 @@ src/samplers/halton.s: src/samplers/halton.cpp.s
 
 # target to generate assembly for a file
 src/samplers/halton.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/halton.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/halton.cpp.s
 .PHONY : src/samplers/halton.cpp.s
 
 src/samplers/lowdiscrepancy.o: src/samplers/lowdiscrepancy.cpp.o
@@ -2580,7 +2580,7 @@ src/samplers/lowdiscrepancy.o: src/samplers/lowdiscrepancy.cpp.o
 
 # target to build an object file
 src/samplers/lowdiscrepancy.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/lowdiscrepancy.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/lowdiscrepancy.cpp.o
 .PHONY : src/samplers/lowdiscrepancy.cpp.o
 
 src/samplers/lowdiscrepancy.i: src/samplers/lowdiscrepancy.cpp.i
@@ -2589,7 +2589,7 @@ src/samplers/lowdiscrepancy.i: src/samplers/lowdiscrepancy.cpp.i
 
 # target to preprocess a source file
 src/samplers/lowdiscrepancy.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/lowdiscrepancy.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/lowdiscrepancy.cpp.i
 .PHONY : src/samplers/lowdiscrepancy.cpp.i
 
 src/samplers/lowdiscrepancy.s: src/samplers/lowdiscrepancy.cpp.s
@@ -2598,7 +2598,7 @@ src/samplers/lowdiscrepancy.s: src/samplers/lowdiscrepancy.cpp.s
 
 # target to generate assembly for a file
 src/samplers/lowdiscrepancy.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/lowdiscrepancy.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/lowdiscrepancy.cpp.s
 .PHONY : src/samplers/lowdiscrepancy.cpp.s
 
 src/samplers/random.o: src/samplers/random.cpp.o
@@ -2607,7 +2607,7 @@ src/samplers/random.o: src/samplers/random.cpp.o
 
 # target to build an object file
 src/samplers/random.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/random.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/random.cpp.o
 .PHONY : src/samplers/random.cpp.o
 
 src/samplers/random.i: src/samplers/random.cpp.i
@@ -2616,7 +2616,7 @@ src/samplers/random.i: src/samplers/random.cpp.i
 
 # target to preprocess a source file
 src/samplers/random.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/random.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/random.cpp.i
 .PHONY : src/samplers/random.cpp.i
 
 src/samplers/random.s: src/samplers/random.cpp.s
@@ -2625,7 +2625,7 @@ src/samplers/random.s: src/samplers/random.cpp.s
 
 # target to generate assembly for a file
 src/samplers/random.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/random.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/random.cpp.s
 .PHONY : src/samplers/random.cpp.s
 
 src/samplers/stratified.o: src/samplers/stratified.cpp.o
@@ -2634,7 +2634,7 @@ src/samplers/stratified.o: src/samplers/stratified.cpp.o
 
 # target to build an object file
 src/samplers/stratified.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.o
 .PHONY : src/samplers/stratified.cpp.o
 
 src/samplers/stratified.i: src/samplers/stratified.cpp.i
@@ -2643,7 +2643,7 @@ src/samplers/stratified.i: src/samplers/stratified.cpp.i
 
 # target to preprocess a source file
 src/samplers/stratified.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.i
 .PHONY : src/samplers/stratified.cpp.i
 
 src/samplers/stratified.s: src/samplers/stratified.cpp.s
@@ -2652,7 +2652,7 @@ src/samplers/stratified.s: src/samplers/stratified.cpp.s
 
 # target to generate assembly for a file
 src/samplers/stratified.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.s
 .PHONY : src/samplers/stratified.cpp.s
 
 src/shapes/cone.o: src/shapes/cone.cpp.o
@@ -2661,7 +2661,7 @@ src/shapes/cone.o: src/shapes/cone.cpp.o
 
 # target to build an object file
 src/shapes/cone.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/cone.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/cone.cpp.o
 .PHONY : src/shapes/cone.cpp.o
 
 src/shapes/cone.i: src/shapes/cone.cpp.i
@@ -2670,7 +2670,7 @@ src/shapes/cone.i: src/shapes/cone.cpp.i
 
 # target to preprocess a source file
 src/shapes/cone.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/cone.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/cone.cpp.i
 .PHONY : src/shapes/cone.cpp.i
 
 src/shapes/cone.s: src/shapes/cone.cpp.s
@@ -2679,7 +2679,7 @@ src/shapes/cone.s: src/shapes/cone.cpp.s
 
 # target to generate assembly for a file
 src/shapes/cone.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/cone.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/cone.cpp.s
 .PHONY : src/shapes/cone.cpp.s
 
 src/shapes/cylinder.o: src/shapes/cylinder.cpp.o
@@ -2688,7 +2688,7 @@ src/shapes/cylinder.o: src/shapes/cylinder.cpp.o
 
 # target to build an object file
 src/shapes/cylinder.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.o
 .PHONY : src/shapes/cylinder.cpp.o
 
 src/shapes/cylinder.i: src/shapes/cylinder.cpp.i
@@ -2697,7 +2697,7 @@ src/shapes/cylinder.i: src/shapes/cylinder.cpp.i
 
 # target to preprocess a source file
 src/shapes/cylinder.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.i
 .PHONY : src/shapes/cylinder.cpp.i
 
 src/shapes/cylinder.s: src/shapes/cylinder.cpp.s
@@ -2706,7 +2706,7 @@ src/shapes/cylinder.s: src/shapes/cylinder.cpp.s
 
 # target to generate assembly for a file
 src/shapes/cylinder.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.s
 .PHONY : src/shapes/cylinder.cpp.s
 
 src/shapes/disk.o: src/shapes/disk.cpp.o
@@ -2715,7 +2715,7 @@ src/shapes/disk.o: src/shapes/disk.cpp.o
 
 # target to build an object file
 src/shapes/disk.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/disk.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/disk.cpp.o
 .PHONY : src/shapes/disk.cpp.o
 
 src/shapes/disk.i: src/shapes/disk.cpp.i
@@ -2724,7 +2724,7 @@ src/shapes/disk.i: src/shapes/disk.cpp.i
 
 # target to preprocess a source file
 src/shapes/disk.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/disk.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/disk.cpp.i
 .PHONY : src/shapes/disk.cpp.i
 
 src/shapes/disk.s: src/shapes/disk.cpp.s
@@ -2733,7 +2733,7 @@ src/shapes/disk.s: src/shapes/disk.cpp.s
 
 # target to generate assembly for a file
 src/shapes/disk.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/disk.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/disk.cpp.s
 .PHONY : src/shapes/disk.cpp.s
 
 src/shapes/heightfield.o: src/shapes/heightfield.cpp.o
@@ -2742,7 +2742,7 @@ src/shapes/heightfield.o: src/shapes/heightfield.cpp.o
 
 # target to build an object file
 src/shapes/heightfield.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.o
 .PHONY : src/shapes/heightfield.cpp.o
 
 src/shapes/heightfield.i: src/shapes/heightfield.cpp.i
@@ -2751,7 +2751,7 @@ src/shapes/heightfield.i: src/shapes/heightfield.cpp.i
 
 # target to preprocess a source file
 src/shapes/heightfield.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.i
 .PHONY : src/shapes/heightfield.cpp.i
 
 src/shapes/heightfield.s: src/shapes/heightfield.cpp.s
@@ -2760,7 +2760,7 @@ src/shapes/heightfield.s: src/shapes/heightfield.cpp.s
 
 # target to generate assembly for a file
 src/shapes/heightfield.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.s
 .PHONY : src/shapes/heightfield.cpp.s
 
 src/shapes/hyperboloid.o: src/shapes/hyperboloid.cpp.o
@@ -2769,7 +2769,7 @@ src/shapes/hyperboloid.o: src/shapes/hyperboloid.cpp.o
 
 # target to build an object file
 src/shapes/hyperboloid.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.o
 .PHONY : src/shapes/hyperboloid.cpp.o
 
 src/shapes/hyperboloid.i: src/shapes/hyperboloid.cpp.i
@@ -2778,7 +2778,7 @@ src/shapes/hyperboloid.i: src/shapes/hyperboloid.cpp.i
 
 # target to preprocess a source file
 src/shapes/hyperboloid.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.i
 .PHONY : src/shapes/hyperboloid.cpp.i
 
 src/shapes/hyperboloid.s: src/shapes/hyperboloid.cpp.s
@@ -2787,7 +2787,7 @@ src/shapes/hyperboloid.s: src/shapes/hyperboloid.cpp.s
 
 # target to generate assembly for a file
 src/shapes/hyperboloid.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.s
 .PHONY : src/shapes/hyperboloid.cpp.s
 
 src/shapes/loopsubdiv.o: src/shapes/loopsubdiv.cpp.o
@@ -2796,7 +2796,7 @@ src/shapes/loopsubdiv.o: src/shapes/loopsubdiv.cpp.o
 
 # target to build an object file
 src/shapes/loopsubdiv.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.o
 .PHONY : src/shapes/loopsubdiv.cpp.o
 
 src/shapes/loopsubdiv.i: src/shapes/loopsubdiv.cpp.i
@@ -2805,7 +2805,7 @@ src/shapes/loopsubdiv.i: src/shapes/loopsubdiv.cpp.i
 
 # target to preprocess a source file
 src/shapes/loopsubdiv.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.i
 .PHONY : src/shapes/loopsubdiv.cpp.i
 
 src/shapes/loopsubdiv.s: src/shapes/loopsubdiv.cpp.s
@@ -2814,7 +2814,7 @@ src/shapes/loopsubdiv.s: src/shapes/loopsubdiv.cpp.s
 
 # target to generate assembly for a file
 src/shapes/loopsubdiv.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.s
 .PHONY : src/shapes/loopsubdiv.cpp.s
 
 src/shapes/nurbs.o: src/shapes/nurbs.cpp.o
@@ -2823,7 +2823,7 @@ src/shapes/nurbs.o: src/shapes/nurbs.cpp.o
 
 # target to build an object file
 src/shapes/nurbs.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.o
 .PHONY : src/shapes/nurbs.cpp.o
 
 src/shapes/nurbs.i: src/shapes/nurbs.cpp.i
@@ -2832,7 +2832,7 @@ src/shapes/nurbs.i: src/shapes/nurbs.cpp.i
 
 # target to preprocess a source file
 src/shapes/nurbs.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.i
 .PHONY : src/shapes/nurbs.cpp.i
 
 src/shapes/nurbs.s: src/shapes/nurbs.cpp.s
@@ -2841,7 +2841,7 @@ src/shapes/nurbs.s: src/shapes/nurbs.cpp.s
 
 # target to generate assembly for a file
 src/shapes/nurbs.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.s
 .PHONY : src/shapes/nurbs.cpp.s
 
 src/shapes/paraboloid.o: src/shapes/paraboloid.cpp.o
@@ -2850,7 +2850,7 @@ src/shapes/paraboloid.o: src/shapes/paraboloid.cpp.o
 
 # target to build an object file
 src/shapes/paraboloid.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.o
 .PHONY : src/shapes/paraboloid.cpp.o
 
 src/shapes/paraboloid.i: src/shapes/paraboloid.cpp.i
@@ -2859,7 +2859,7 @@ src/shapes/paraboloid.i: src/shapes/paraboloid.cpp.i
 
 # target to preprocess a source file
 src/shapes/paraboloid.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.i
 .PHONY : src/shapes/paraboloid.cpp.i
 
 src/shapes/paraboloid.s: src/shapes/paraboloid.cpp.s
@@ -2868,7 +2868,7 @@ src/shapes/paraboloid.s: src/shapes/paraboloid.cpp.s
 
 # target to generate assembly for a file
 src/shapes/paraboloid.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.s
 .PHONY : src/shapes/paraboloid.cpp.s
 
 src/shapes/sphere.o: src/shapes/sphere.cpp.o
@@ -2877,7 +2877,7 @@ src/shapes/sphere.o: src/shapes/sphere.cpp.o
 
 # target to build an object file
 src/shapes/sphere.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.o
 .PHONY : src/shapes/sphere.cpp.o
 
 src/shapes/sphere.i: src/shapes/sphere.cpp.i
@@ -2886,7 +2886,7 @@ src/shapes/sphere.i: src/shapes/sphere.cpp.i
 
 # target to preprocess a source file
 src/shapes/sphere.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.i
 .PHONY : src/shapes/sphere.cpp.i
 
 src/shapes/sphere.s: src/shapes/sphere.cpp.s
@@ -2895,7 +2895,7 @@ src/shapes/sphere.s: src/shapes/sphere.cpp.s
 
 # target to generate assembly for a file
 src/shapes/sphere.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.s
 .PHONY : src/shapes/sphere.cpp.s
 
 src/shapes/trianglemesh.o: src/shapes/trianglemesh.cpp.o
@@ -2904,7 +2904,7 @@ src/shapes/trianglemesh.o: src/shapes/trianglemesh.cpp.o
 
 # target to build an object file
 src/shapes/trianglemesh.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/trianglemesh.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/trianglemesh.cpp.o
 .PHONY : src/shapes/trianglemesh.cpp.o
 
 src/shapes/trianglemesh.i: src/shapes/trianglemesh.cpp.i
@@ -2913,7 +2913,7 @@ src/shapes/trianglemesh.i: src/shapes/trianglemesh.cpp.i
 
 # target to preprocess a source file
 src/shapes/trianglemesh.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/trianglemesh.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/trianglemesh.cpp.i
 .PHONY : src/shapes/trianglemesh.cpp.i
 
 src/shapes/trianglemesh.s: src/shapes/trianglemesh.cpp.s
@@ -2922,7 +2922,7 @@ src/shapes/trianglemesh.s: src/shapes/trianglemesh.cpp.s
 
 # target to generate assembly for a file
 src/shapes/trianglemesh.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/trianglemesh.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/shapes/trianglemesh.cpp.s
 .PHONY : src/shapes/trianglemesh.cpp.s
 
 src/textures/bilerp.o: src/textures/bilerp.cpp.o
@@ -2931,7 +2931,7 @@ src/textures/bilerp.o: src/textures/bilerp.cpp.o
 
 # target to build an object file
 src/textures/bilerp.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.o
 .PHONY : src/textures/bilerp.cpp.o
 
 src/textures/bilerp.i: src/textures/bilerp.cpp.i
@@ -2940,7 +2940,7 @@ src/textures/bilerp.i: src/textures/bilerp.cpp.i
 
 # target to preprocess a source file
 src/textures/bilerp.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.i
 .PHONY : src/textures/bilerp.cpp.i
 
 src/textures/bilerp.s: src/textures/bilerp.cpp.s
@@ -2949,7 +2949,7 @@ src/textures/bilerp.s: src/textures/bilerp.cpp.s
 
 # target to generate assembly for a file
 src/textures/bilerp.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.s
 .PHONY : src/textures/bilerp.cpp.s
 
 src/textures/checkerboard.o: src/textures/checkerboard.cpp.o
@@ -2958,7 +2958,7 @@ src/textures/checkerboard.o: src/textures/checkerboard.cpp.o
 
 # target to build an object file
 src/textures/checkerboard.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.o
 .PHONY : src/textures/checkerboard.cpp.o
 
 src/textures/checkerboard.i: src/textures/checkerboard.cpp.i
@@ -2967,7 +2967,7 @@ src/textures/checkerboard.i: src/textures/checkerboard.cpp.i
 
 # target to preprocess a source file
 src/textures/checkerboard.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.i
 .PHONY : src/textures/checkerboard.cpp.i
 
 src/textures/checkerboard.s: src/textures/checkerboard.cpp.s
@@ -2976,7 +2976,7 @@ src/textures/checkerboard.s: src/textures/checkerboard.cpp.s
 
 # target to generate assembly for a file
 src/textures/checkerboard.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.s
 .PHONY : src/textures/checkerboard.cpp.s
 
 src/textures/constant.o: src/textures/constant.cpp.o
@@ -2985,7 +2985,7 @@ src/textures/constant.o: src/textures/constant.cpp.o
 
 # target to build an object file
 src/textures/constant.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/constant.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/constant.cpp.o
 .PHONY : src/textures/constant.cpp.o
 
 src/textures/constant.i: src/textures/constant.cpp.i
@@ -2994,7 +2994,7 @@ src/textures/constant.i: src/textures/constant.cpp.i
 
 # target to preprocess a source file
 src/textures/constant.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/constant.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/constant.cpp.i
 .PHONY : src/textures/constant.cpp.i
 
 src/textures/constant.s: src/textures/constant.cpp.s
@@ -3003,7 +3003,7 @@ src/textures/constant.s: src/textures/constant.cpp.s
 
 # target to generate assembly for a file
 src/textures/constant.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/constant.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/constant.cpp.s
 .PHONY : src/textures/constant.cpp.s
 
 src/textures/dots.o: src/textures/dots.cpp.o
@@ -3012,7 +3012,7 @@ src/textures/dots.o: src/textures/dots.cpp.o
 
 # target to build an object file
 src/textures/dots.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/dots.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/dots.cpp.o
 .PHONY : src/textures/dots.cpp.o
 
 src/textures/dots.i: src/textures/dots.cpp.i
@@ -3021,7 +3021,7 @@ src/textures/dots.i: src/textures/dots.cpp.i
 
 # target to preprocess a source file
 src/textures/dots.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/dots.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/dots.cpp.i
 .PHONY : src/textures/dots.cpp.i
 
 src/textures/dots.s: src/textures/dots.cpp.s
@@ -3030,7 +3030,7 @@ src/textures/dots.s: src/textures/dots.cpp.s
 
 # target to generate assembly for a file
 src/textures/dots.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/dots.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/dots.cpp.s
 .PHONY : src/textures/dots.cpp.s
 
 src/textures/fbm.o: src/textures/fbm.cpp.o
@@ -3039,7 +3039,7 @@ src/textures/fbm.o: src/textures/fbm.cpp.o
 
 # target to build an object file
 src/textures/fbm.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/fbm.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/fbm.cpp.o
 .PHONY : src/textures/fbm.cpp.o
 
 src/textures/fbm.i: src/textures/fbm.cpp.i
@@ -3048,7 +3048,7 @@ src/textures/fbm.i: src/textures/fbm.cpp.i
 
 # target to preprocess a source file
 src/textures/fbm.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/fbm.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/fbm.cpp.i
 .PHONY : src/textures/fbm.cpp.i
 
 src/textures/fbm.s: src/textures/fbm.cpp.s
@@ -3057,7 +3057,7 @@ src/textures/fbm.s: src/textures/fbm.cpp.s
 
 # target to generate assembly for a file
 src/textures/fbm.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/fbm.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/fbm.cpp.s
 .PHONY : src/textures/fbm.cpp.s
 
 src/textures/imagemap.o: src/textures/imagemap.cpp.o
@@ -3066,7 +3066,7 @@ src/textures/imagemap.o: src/textures/imagemap.cpp.o
 
 # target to build an object file
 src/textures/imagemap.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.o
 .PHONY : src/textures/imagemap.cpp.o
 
 src/textures/imagemap.i: src/textures/imagemap.cpp.i
@@ -3075,7 +3075,7 @@ src/textures/imagemap.i: src/textures/imagemap.cpp.i
 
 # target to preprocess a source file
 src/textures/imagemap.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.i
 .PHONY : src/textures/imagemap.cpp.i
 
 src/textures/imagemap.s: src/textures/imagemap.cpp.s
@@ -3084,7 +3084,7 @@ src/textures/imagemap.s: src/textures/imagemap.cpp.s
 
 # target to generate assembly for a file
 src/textures/imagemap.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.s
 .PHONY : src/textures/imagemap.cpp.s
 
 src/textures/marble.o: src/textures/marble.cpp.o
@@ -3093,7 +3093,7 @@ src/textures/marble.o: src/textures/marble.cpp.o
 
 # target to build an object file
 src/textures/marble.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/marble.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/marble.cpp.o
 .PHONY : src/textures/marble.cpp.o
 
 src/textures/marble.i: src/textures/marble.cpp.i
@@ -3102,7 +3102,7 @@ src/textures/marble.i: src/textures/marble.cpp.i
 
 # target to preprocess a source file
 src/textures/marble.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/marble.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/marble.cpp.i
 .PHONY : src/textures/marble.cpp.i
 
 src/textures/marble.s: src/textures/marble.cpp.s
@@ -3111,7 +3111,7 @@ src/textures/marble.s: src/textures/marble.cpp.s
 
 # target to generate assembly for a file
 src/textures/marble.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/marble.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/marble.cpp.s
 .PHONY : src/textures/marble.cpp.s
 
 src/textures/mix.o: src/textures/mix.cpp.o
@@ -3120,7 +3120,7 @@ src/textures/mix.o: src/textures/mix.cpp.o
 
 # target to build an object file
 src/textures/mix.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/mix.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/mix.cpp.o
 .PHONY : src/textures/mix.cpp.o
 
 src/textures/mix.i: src/textures/mix.cpp.i
@@ -3129,7 +3129,7 @@ src/textures/mix.i: src/textures/mix.cpp.i
 
 # target to preprocess a source file
 src/textures/mix.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/mix.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/mix.cpp.i
 .PHONY : src/textures/mix.cpp.i
 
 src/textures/mix.s: src/textures/mix.cpp.s
@@ -3138,7 +3138,7 @@ src/textures/mix.s: src/textures/mix.cpp.s
 
 # target to generate assembly for a file
 src/textures/mix.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/mix.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/mix.cpp.s
 .PHONY : src/textures/mix.cpp.s
 
 src/textures/scale.o: src/textures/scale.cpp.o
@@ -3147,7 +3147,7 @@ src/textures/scale.o: src/textures/scale.cpp.o
 
 # target to build an object file
 src/textures/scale.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/scale.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/scale.cpp.o
 .PHONY : src/textures/scale.cpp.o
 
 src/textures/scale.i: src/textures/scale.cpp.i
@@ -3156,7 +3156,7 @@ src/textures/scale.i: src/textures/scale.cpp.i
 
 # target to preprocess a source file
 src/textures/scale.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/scale.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/scale.cpp.i
 .PHONY : src/textures/scale.cpp.i
 
 src/textures/scale.s: src/textures/scale.cpp.s
@@ -3165,7 +3165,7 @@ src/textures/scale.s: src/textures/scale.cpp.s
 
 # target to generate assembly for a file
 src/textures/scale.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/scale.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/scale.cpp.s
 .PHONY : src/textures/scale.cpp.s
 
 src/textures/uv.o: src/textures/uv.cpp.o
@@ -3174,7 +3174,7 @@ src/textures/uv.o: src/textures/uv.cpp.o
 
 # target to build an object file
 src/textures/uv.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/uv.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/uv.cpp.o
 .PHONY : src/textures/uv.cpp.o
 
 src/textures/uv.i: src/textures/uv.cpp.i
@@ -3183,7 +3183,7 @@ src/textures/uv.i: src/textures/uv.cpp.i
 
 # target to preprocess a source file
 src/textures/uv.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/uv.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/uv.cpp.i
 .PHONY : src/textures/uv.cpp.i
 
 src/textures/uv.s: src/textures/uv.cpp.s
@@ -3192,7 +3192,7 @@ src/textures/uv.s: src/textures/uv.cpp.s
 
 # target to generate assembly for a file
 src/textures/uv.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/uv.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/uv.cpp.s
 .PHONY : src/textures/uv.cpp.s
 
 src/textures/windy.o: src/textures/windy.cpp.o
@@ -3201,7 +3201,7 @@ src/textures/windy.o: src/textures/windy.cpp.o
 
 # target to build an object file
 src/textures/windy.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/windy.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/windy.cpp.o
 .PHONY : src/textures/windy.cpp.o
 
 src/textures/windy.i: src/textures/windy.cpp.i
@@ -3210,7 +3210,7 @@ src/textures/windy.i: src/textures/windy.cpp.i
 
 # target to preprocess a source file
 src/textures/windy.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/windy.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/windy.cpp.i
 .PHONY : src/textures/windy.cpp.i
 
 src/textures/windy.s: src/textures/windy.cpp.s
@@ -3219,7 +3219,7 @@ src/textures/windy.s: src/textures/windy.cpp.s
 
 # target to generate assembly for a file
 src/textures/windy.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/windy.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/windy.cpp.s
 .PHONY : src/textures/windy.cpp.s
 
 src/textures/wrinkled.o: src/textures/wrinkled.cpp.o
@@ -3228,7 +3228,7 @@ src/textures/wrinkled.o: src/textures/wrinkled.cpp.o
 
 # target to build an object file
 src/textures/wrinkled.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o
 .PHONY : src/textures/wrinkled.cpp.o
 
 src/textures/wrinkled.i: src/textures/wrinkled.cpp.i
@@ -3237,7 +3237,7 @@ src/textures/wrinkled.i: src/textures/wrinkled.cpp.i
 
 # target to preprocess a source file
 src/textures/wrinkled.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.i
 .PHONY : src/textures/wrinkled.cpp.i
 
 src/textures/wrinkled.s: src/textures/wrinkled.cpp.s
@@ -3246,7 +3246,7 @@ src/textures/wrinkled.s: src/textures/wrinkled.cpp.s
 
 # target to generate assembly for a file
 src/textures/wrinkled.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.s
 .PHONY : src/textures/wrinkled.cpp.s
 
 src/tools/bsdftest.o: src/tools/bsdftest.cpp.o
@@ -3255,7 +3255,7 @@ src/tools/bsdftest.o: src/tools/bsdftest.cpp.o
 
 # target to build an object file
 src/tools/bsdftest.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/bsdftest.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/bsdftest.cpp.o
 .PHONY : src/tools/bsdftest.cpp.o
 
 src/tools/bsdftest.i: src/tools/bsdftest.cpp.i
@@ -3264,7 +3264,7 @@ src/tools/bsdftest.i: src/tools/bsdftest.cpp.i
 
 # target to preprocess a source file
 src/tools/bsdftest.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/bsdftest.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/bsdftest.cpp.i
 .PHONY : src/tools/bsdftest.cpp.i
 
 src/tools/bsdftest.s: src/tools/bsdftest.cpp.s
@@ -3273,7 +3273,7 @@ src/tools/bsdftest.s: src/tools/bsdftest.cpp.s
 
 # target to generate assembly for a file
 src/tools/bsdftest.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/bsdftest.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/bsdftest.cpp.s
 .PHONY : src/tools/bsdftest.cpp.s
 
 src/tools/exravg.o: src/tools/exravg.cpp.o
@@ -3282,7 +3282,7 @@ src/tools/exravg.o: src/tools/exravg.cpp.o
 
 # target to build an object file
 src/tools/exravg.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/exravg.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/exravg.cpp.o
 .PHONY : src/tools/exravg.cpp.o
 
 src/tools/exravg.i: src/tools/exravg.cpp.i
@@ -3291,7 +3291,7 @@ src/tools/exravg.i: src/tools/exravg.cpp.i
 
 # target to preprocess a source file
 src/tools/exravg.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/exravg.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/exravg.cpp.i
 .PHONY : src/tools/exravg.cpp.i
 
 src/tools/exravg.s: src/tools/exravg.cpp.s
@@ -3300,7 +3300,7 @@ src/tools/exravg.s: src/tools/exravg.cpp.s
 
 # target to generate assembly for a file
 src/tools/exravg.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/exravg.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/exravg.cpp.s
 .PHONY : src/tools/exravg.cpp.s
 
 src/tools/exrdiff.o: src/tools/exrdiff.cpp.o
@@ -3309,7 +3309,7 @@ src/tools/exrdiff.o: src/tools/exrdiff.cpp.o
 
 # target to build an object file
 src/tools/exrdiff.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/exrdiff.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/exrdiff.cpp.o
 .PHONY : src/tools/exrdiff.cpp.o
 
 src/tools/exrdiff.i: src/tools/exrdiff.cpp.i
@@ -3318,7 +3318,7 @@ src/tools/exrdiff.i: src/tools/exrdiff.cpp.i
 
 # target to preprocess a source file
 src/tools/exrdiff.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/exrdiff.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/exrdiff.cpp.i
 .PHONY : src/tools/exrdiff.cpp.i
 
 src/tools/exrdiff.s: src/tools/exrdiff.cpp.s
@@ -3327,7 +3327,7 @@ src/tools/exrdiff.s: src/tools/exrdiff.cpp.s
 
 # target to generate assembly for a file
 src/tools/exrdiff.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/exrdiff.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/exrdiff.cpp.s
 .PHONY : src/tools/exrdiff.cpp.s
 
 src/tools/exrtotiff.o: src/tools/exrtotiff.cpp.o
@@ -3336,7 +3336,7 @@ src/tools/exrtotiff.o: src/tools/exrtotiff.cpp.o
 
 # target to build an object file
 src/tools/exrtotiff.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/exrtotiff.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/exrtotiff.cpp.o
 .PHONY : src/tools/exrtotiff.cpp.o
 
 src/tools/exrtotiff.i: src/tools/exrtotiff.cpp.i
@@ -3345,7 +3345,7 @@ src/tools/exrtotiff.i: src/tools/exrtotiff.cpp.i
 
 # target to preprocess a source file
 src/tools/exrtotiff.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/exrtotiff.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/exrtotiff.cpp.i
 .PHONY : src/tools/exrtotiff.cpp.i
 
 src/tools/exrtotiff.s: src/tools/exrtotiff.cpp.s
@@ -3354,7 +3354,7 @@ src/tools/exrtotiff.s: src/tools/exrtotiff.cpp.s
 
 # target to generate assembly for a file
 src/tools/exrtotiff.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/exrtotiff.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/exrtotiff.cpp.s
 .PHONY : src/tools/exrtotiff.cpp.s
 
 src/tools/samplepat.o: src/tools/samplepat.cpp.o
@@ -3363,7 +3363,7 @@ src/tools/samplepat.o: src/tools/samplepat.cpp.o
 
 # target to build an object file
 src/tools/samplepat.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/samplepat.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/samplepat.cpp.o
 .PHONY : src/tools/samplepat.cpp.o
 
 src/tools/samplepat.i: src/tools/samplepat.cpp.i
@@ -3372,7 +3372,7 @@ src/tools/samplepat.i: src/tools/samplepat.cpp.i
 
 # target to preprocess a source file
 src/tools/samplepat.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/samplepat.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/samplepat.cpp.i
 .PHONY : src/tools/samplepat.cpp.i
 
 src/tools/samplepat.s: src/tools/samplepat.cpp.s
@@ -3381,7 +3381,7 @@ src/tools/samplepat.s: src/tools/samplepat.cpp.s
 
 # target to generate assembly for a file
 src/tools/samplepat.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/samplepat.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/samplepat.cpp.s
 .PHONY : src/tools/samplepat.cpp.s
 
 src/tools/tifftoexr.o: src/tools/tifftoexr.cpp.o
@@ -3390,7 +3390,7 @@ src/tools/tifftoexr.o: src/tools/tifftoexr.cpp.o
 
 # target to build an object file
 src/tools/tifftoexr.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/tifftoexr.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/tifftoexr.cpp.o
 .PHONY : src/tools/tifftoexr.cpp.o
 
 src/tools/tifftoexr.i: src/tools/tifftoexr.cpp.i
@@ -3399,7 +3399,7 @@ src/tools/tifftoexr.i: src/tools/tifftoexr.cpp.i
 
 # target to preprocess a source file
 src/tools/tifftoexr.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/tifftoexr.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/tifftoexr.cpp.i
 .PHONY : src/tools/tifftoexr.cpp.i
 
 src/tools/tifftoexr.s: src/tools/tifftoexr.cpp.s
@@ -3408,7 +3408,7 @@ src/tools/tifftoexr.s: src/tools/tifftoexr.cpp.s
 
 # target to generate assembly for a file
 src/tools/tifftoexr.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/tifftoexr.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/tools/tifftoexr.cpp.s
 .PHONY : src/tools/tifftoexr.cpp.s
 
 src/volumes/exponential.o: src/volumes/exponential.cpp.o
@@ -3417,7 +3417,7 @@ src/volumes/exponential.o: src/volumes/exponential.cpp.o
 
 # target to build an object file
 src/volumes/exponential.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/volumes/exponential.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/volumes/exponential.cpp.o
 .PHONY : src/volumes/exponential.cpp.o
 
 src/volumes/exponential.i: src/volumes/exponential.cpp.i
@@ -3426,7 +3426,7 @@ src/volumes/exponential.i: src/volumes/exponential.cpp.i
 
 # target to preprocess a source file
 src/volumes/exponential.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/volumes/exponential.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/volumes/exponential.cpp.i
 .PHONY : src/volumes/exponential.cpp.i
 
 src/volumes/exponential.s: src/volumes/exponential.cpp.s
@@ -3435,7 +3435,7 @@ src/volumes/exponential.s: src/volumes/exponential.cpp.s
 
 # target to generate assembly for a file
 src/volumes/exponential.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/volumes/exponential.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/volumes/exponential.cpp.s
 .PHONY : src/volumes/exponential.cpp.s
 
 src/volumes/homogeneous.o: src/volumes/homogeneous.cpp.o
@@ -3444,7 +3444,7 @@ src/volumes/homogeneous.o: src/volumes/homogeneous.cpp.o
 
 # target to build an object file
 src/volumes/homogeneous.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/volumes/homogeneous.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/volumes/homogeneous.cpp.o
 .PHONY : src/volumes/homogeneous.cpp.o
 
 src/volumes/homogeneous.i: src/volumes/homogeneous.cpp.i
@@ -3453,7 +3453,7 @@ src/volumes/homogeneous.i: src/volumes/homogeneous.cpp.i
 
 # target to preprocess a source file
 src/volumes/homogeneous.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/volumes/homogeneous.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/volumes/homogeneous.cpp.i
 .PHONY : src/volumes/homogeneous.cpp.i
 
 src/volumes/homogeneous.s: src/volumes/homogeneous.cpp.s
@@ -3462,7 +3462,7 @@ src/volumes/homogeneous.s: src/volumes/homogeneous.cpp.s
 
 # target to generate assembly for a file
 src/volumes/homogeneous.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/volumes/homogeneous.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/volumes/homogeneous.cpp.s
 .PHONY : src/volumes/homogeneous.cpp.s
 
 src/volumes/volumegrid.o: src/volumes/volumegrid.cpp.o
@@ -3471,7 +3471,7 @@ src/volumes/volumegrid.o: src/volumes/volumegrid.cpp.o
 
 # target to build an object file
 src/volumes/volumegrid.cpp.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/volumes/volumegrid.cpp.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/volumes/volumegrid.cpp.o
 .PHONY : src/volumes/volumegrid.cpp.o
 
 src/volumes/volumegrid.i: src/volumes/volumegrid.cpp.i
@@ -3480,7 +3480,7 @@ src/volumes/volumegrid.i: src/volumes/volumegrid.cpp.i
 
 # target to preprocess a source file
 src/volumes/volumegrid.cpp.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/volumes/volumegrid.cpp.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/volumes/volumegrid.cpp.i
 .PHONY : src/volumes/volumegrid.cpp.i
 
 src/volumes/volumegrid.s: src/volumes/volumegrid.cpp.s
@@ -3489,7 +3489,7 @@ src/volumes/volumegrid.s: src/volumes/volumegrid.cpp.s
 
 # target to generate assembly for a file
 src/volumes/volumegrid.cpp.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/volumes/volumegrid.cpp.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(MAKE) $(MAKESILENT) -f pbrt/CMakeFiles/pbrt.dir/build.make pbrt/CMakeFiles/pbrt.dir/src/volumes/volumegrid.cpp.s
 .PHONY : src/volumes/volumegrid.cpp.s
 
 # Help Target
@@ -3884,6 +3884,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

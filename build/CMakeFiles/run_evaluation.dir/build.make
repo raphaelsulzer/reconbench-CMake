@@ -62,10 +62,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adminlocal/PhD/cpp/reconbench-Laurent
+CMAKE_SOURCE_DIR = /home/adminlocal/PhD/cpp/reconbench-CMake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adminlocal/PhD/cpp/reconbench-Laurent/build
+CMAKE_BINARY_DIR = /home/adminlocal/PhD/cpp/reconbench-CMake/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/run_evaluation.dir/depend.make
@@ -78,133 +78,133 @@ include CMakeFiles/run_evaluation.dir/flags.make
 
 CMakeFiles/run_evaluation.dir/evaluator/GlobalStats.cpp.o: CMakeFiles/run_evaluation.dir/flags.make
 CMakeFiles/run_evaluation.dir/evaluator/GlobalStats.cpp.o: ../evaluator/GlobalStats.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/GlobalStats.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/GlobalStats.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/GlobalStats.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/GlobalStats.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/GlobalStats.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/GlobalStats.cpp
 
 CMakeFiles/run_evaluation.dir/evaluator/GlobalStats.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_evaluation.dir/evaluator/GlobalStats.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/GlobalStats.cpp > CMakeFiles/run_evaluation.dir/evaluator/GlobalStats.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/GlobalStats.cpp > CMakeFiles/run_evaluation.dir/evaluator/GlobalStats.cpp.i
 
 CMakeFiles/run_evaluation.dir/evaluator/GlobalStats.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_evaluation.dir/evaluator/GlobalStats.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/GlobalStats.cpp -o CMakeFiles/run_evaluation.dir/evaluator/GlobalStats.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/GlobalStats.cpp -o CMakeFiles/run_evaluation.dir/evaluator/GlobalStats.cpp.s
 
 CMakeFiles/run_evaluation.dir/evaluator/ShortestDistanceMap.cpp.o: CMakeFiles/run_evaluation.dir/flags.make
 CMakeFiles/run_evaluation.dir/evaluator/ShortestDistanceMap.cpp.o: ../evaluator/ShortestDistanceMap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/ShortestDistanceMap.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/ShortestDistanceMap.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/ShortestDistanceMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/ShortestDistanceMap.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/ShortestDistanceMap.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/ShortestDistanceMap.cpp
 
 CMakeFiles/run_evaluation.dir/evaluator/ShortestDistanceMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_evaluation.dir/evaluator/ShortestDistanceMap.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/ShortestDistanceMap.cpp > CMakeFiles/run_evaluation.dir/evaluator/ShortestDistanceMap.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/ShortestDistanceMap.cpp > CMakeFiles/run_evaluation.dir/evaluator/ShortestDistanceMap.cpp.i
 
 CMakeFiles/run_evaluation.dir/evaluator/ShortestDistanceMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_evaluation.dir/evaluator/ShortestDistanceMap.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/ShortestDistanceMap.cpp -o CMakeFiles/run_evaluation.dir/evaluator/ShortestDistanceMap.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/ShortestDistanceMap.cpp -o CMakeFiles/run_evaluation.dir/evaluator/ShortestDistanceMap.cpp.s
 
 CMakeFiles/run_evaluation.dir/evaluator/implicit_sampler.cpp.o: CMakeFiles/run_evaluation.dir/flags.make
 CMakeFiles/run_evaluation.dir/evaluator/implicit_sampler.cpp.o: ../evaluator/implicit_sampler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/implicit_sampler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/implicit_sampler.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/implicit_sampler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/implicit_sampler.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/implicit_sampler.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/implicit_sampler.cpp
 
 CMakeFiles/run_evaluation.dir/evaluator/implicit_sampler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_evaluation.dir/evaluator/implicit_sampler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/implicit_sampler.cpp > CMakeFiles/run_evaluation.dir/evaluator/implicit_sampler.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/implicit_sampler.cpp > CMakeFiles/run_evaluation.dir/evaluator/implicit_sampler.cpp.i
 
 CMakeFiles/run_evaluation.dir/evaluator/implicit_sampler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_evaluation.dir/evaluator/implicit_sampler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/implicit_sampler.cpp -o CMakeFiles/run_evaluation.dir/evaluator/implicit_sampler.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/implicit_sampler.cpp -o CMakeFiles/run_evaluation.dir/evaluator/implicit_sampler.cpp.s
 
 CMakeFiles/run_evaluation.dir/evaluator/UniformGrid.cpp.o: CMakeFiles/run_evaluation.dir/flags.make
 CMakeFiles/run_evaluation.dir/evaluator/UniformGrid.cpp.o: ../evaluator/UniformGrid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/UniformGrid.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/UniformGrid.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/UniformGrid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/UniformGrid.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/UniformGrid.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/UniformGrid.cpp
 
 CMakeFiles/run_evaluation.dir/evaluator/UniformGrid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_evaluation.dir/evaluator/UniformGrid.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/UniformGrid.cpp > CMakeFiles/run_evaluation.dir/evaluator/UniformGrid.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/UniformGrid.cpp > CMakeFiles/run_evaluation.dir/evaluator/UniformGrid.cpp.i
 
 CMakeFiles/run_evaluation.dir/evaluator/UniformGrid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_evaluation.dir/evaluator/UniformGrid.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/UniformGrid.cpp -o CMakeFiles/run_evaluation.dir/evaluator/UniformGrid.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/UniformGrid.cpp -o CMakeFiles/run_evaluation.dir/evaluator/UniformGrid.cpp.s
 
 CMakeFiles/run_evaluation.dir/evaluator/mesh_sampler.cpp.o: CMakeFiles/run_evaluation.dir/flags.make
 CMakeFiles/run_evaluation.dir/evaluator/mesh_sampler.cpp.o: ../evaluator/mesh_sampler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/mesh_sampler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/mesh_sampler.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/mesh_sampler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/mesh_sampler.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/mesh_sampler.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/mesh_sampler.cpp
 
 CMakeFiles/run_evaluation.dir/evaluator/mesh_sampler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_evaluation.dir/evaluator/mesh_sampler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/mesh_sampler.cpp > CMakeFiles/run_evaluation.dir/evaluator/mesh_sampler.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/mesh_sampler.cpp > CMakeFiles/run_evaluation.dir/evaluator/mesh_sampler.cpp.i
 
 CMakeFiles/run_evaluation.dir/evaluator/mesh_sampler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_evaluation.dir/evaluator/mesh_sampler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/mesh_sampler.cpp -o CMakeFiles/run_evaluation.dir/evaluator/mesh_sampler.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/mesh_sampler.cpp -o CMakeFiles/run_evaluation.dir/evaluator/mesh_sampler.cpp.s
 
 CMakeFiles/run_evaluation.dir/evaluator/recon_evaluation.cpp.o: CMakeFiles/run_evaluation.dir/flags.make
 CMakeFiles/run_evaluation.dir/evaluator/recon_evaluation.cpp.o: ../evaluator/recon_evaluation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/recon_evaluation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/recon_evaluation.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/recon_evaluation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/recon_evaluation.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/recon_evaluation.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/recon_evaluation.cpp
 
 CMakeFiles/run_evaluation.dir/evaluator/recon_evaluation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_evaluation.dir/evaluator/recon_evaluation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/recon_evaluation.cpp > CMakeFiles/run_evaluation.dir/evaluator/recon_evaluation.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/recon_evaluation.cpp > CMakeFiles/run_evaluation.dir/evaluator/recon_evaluation.cpp.i
 
 CMakeFiles/run_evaluation.dir/evaluator/recon_evaluation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_evaluation.dir/evaluator/recon_evaluation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/recon_evaluation.cpp -o CMakeFiles/run_evaluation.dir/evaluator/recon_evaluation.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/recon_evaluation.cpp -o CMakeFiles/run_evaluation.dir/evaluator/recon_evaluation.cpp.s
 
 CMakeFiles/run_evaluation.dir/evaluator/KdOpenMesh.cpp.o: CMakeFiles/run_evaluation.dir/flags.make
 CMakeFiles/run_evaluation.dir/evaluator/KdOpenMesh.cpp.o: ../evaluator/KdOpenMesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/KdOpenMesh.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/KdOpenMesh.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/KdOpenMesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/KdOpenMesh.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/KdOpenMesh.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/KdOpenMesh.cpp
 
 CMakeFiles/run_evaluation.dir/evaluator/KdOpenMesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_evaluation.dir/evaluator/KdOpenMesh.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/KdOpenMesh.cpp > CMakeFiles/run_evaluation.dir/evaluator/KdOpenMesh.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/KdOpenMesh.cpp > CMakeFiles/run_evaluation.dir/evaluator/KdOpenMesh.cpp.i
 
 CMakeFiles/run_evaluation.dir/evaluator/KdOpenMesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_evaluation.dir/evaluator/KdOpenMesh.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/KdOpenMesh.cpp -o CMakeFiles/run_evaluation.dir/evaluator/KdOpenMesh.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/KdOpenMesh.cpp -o CMakeFiles/run_evaluation.dir/evaluator/KdOpenMesh.cpp.s
 
 CMakeFiles/run_evaluation.dir/evaluator/kd_tree.cpp.o: CMakeFiles/run_evaluation.dir/flags.make
 CMakeFiles/run_evaluation.dir/evaluator/kd_tree.cpp.o: ../evaluator/kd_tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/kd_tree.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/kd_tree.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/kd_tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/kd_tree.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/kd_tree.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/kd_tree.cpp
 
 CMakeFiles/run_evaluation.dir/evaluator/kd_tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_evaluation.dir/evaluator/kd_tree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/kd_tree.cpp > CMakeFiles/run_evaluation.dir/evaluator/kd_tree.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/kd_tree.cpp > CMakeFiles/run_evaluation.dir/evaluator/kd_tree.cpp.i
 
 CMakeFiles/run_evaluation.dir/evaluator/kd_tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_evaluation.dir/evaluator/kd_tree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/kd_tree.cpp -o CMakeFiles/run_evaluation.dir/evaluator/kd_tree.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/kd_tree.cpp -o CMakeFiles/run_evaluation.dir/evaluator/kd_tree.cpp.s
 
 CMakeFiles/run_evaluation.dir/evaluator/shape_distribution.cpp.o: CMakeFiles/run_evaluation.dir/flags.make
 CMakeFiles/run_evaluation.dir/evaluator/shape_distribution.cpp.o: ../evaluator/shape_distribution.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/shape_distribution.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/shape_distribution.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/shape_distribution.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/shape_distribution.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/shape_distribution.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/shape_distribution.cpp
 
 CMakeFiles/run_evaluation.dir/evaluator/shape_distribution.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_evaluation.dir/evaluator/shape_distribution.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/shape_distribution.cpp > CMakeFiles/run_evaluation.dir/evaluator/shape_distribution.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/shape_distribution.cpp > CMakeFiles/run_evaluation.dir/evaluator/shape_distribution.cpp.i
 
 CMakeFiles/run_evaluation.dir/evaluator/shape_distribution.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_evaluation.dir/evaluator/shape_distribution.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/shape_distribution.cpp -o CMakeFiles/run_evaluation.dir/evaluator/shape_distribution.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/shape_distribution.cpp -o CMakeFiles/run_evaluation.dir/evaluator/shape_distribution.cpp.s
 
 CMakeFiles/run_evaluation.dir/evaluator/run_evaluation.cpp.o: CMakeFiles/run_evaluation.dir/flags.make
 CMakeFiles/run_evaluation.dir/evaluator/run_evaluation.cpp.o: ../evaluator/run_evaluation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/run_evaluation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/run_evaluation.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/run_evaluation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/run_evaluation.dir/evaluator/run_evaluation.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_evaluation.dir/evaluator/run_evaluation.cpp.o -c /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/run_evaluation.cpp
 
 CMakeFiles/run_evaluation.dir/evaluator/run_evaluation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_evaluation.dir/evaluator/run_evaluation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/run_evaluation.cpp > CMakeFiles/run_evaluation.dir/evaluator/run_evaluation.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/run_evaluation.cpp > CMakeFiles/run_evaluation.dir/evaluator/run_evaluation.cpp.i
 
 CMakeFiles/run_evaluation.dir/evaluator/run_evaluation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_evaluation.dir/evaluator/run_evaluation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/run_evaluation.cpp -o CMakeFiles/run_evaluation.dir/evaluator/run_evaluation.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/run_evaluation.cpp -o CMakeFiles/run_evaluation.dir/evaluator/run_evaluation.cpp.s
 
 # Object files for target run_evaluation
 run_evaluation_OBJECTS = \
@@ -262,7 +262,7 @@ run_evaluation: /usr/lib/x86_64-linux-gnu/libccolamd.so
 run_evaluation: /usr/lib/x86_64-linux-gnu/libpng.so
 run_evaluation: /usr/lib/x86_64-linux-gnu/libz.so
 run_evaluation: CMakeFiles/run_evaluation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable run_evaluation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable run_evaluation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run_evaluation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -275,6 +275,6 @@ CMakeFiles/run_evaluation.dir/clean:
 .PHONY : CMakeFiles/run_evaluation.dir/clean
 
 CMakeFiles/run_evaluation.dir/depend:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adminlocal/PhD/cpp/reconbench-Laurent /home/adminlocal/PhD/cpp/reconbench-Laurent /home/adminlocal/PhD/cpp/reconbench-Laurent/build /home/adminlocal/PhD/cpp/reconbench-Laurent/build /home/adminlocal/PhD/cpp/reconbench-Laurent/build/CMakeFiles/run_evaluation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adminlocal/PhD/cpp/reconbench-CMake /home/adminlocal/PhD/cpp/reconbench-CMake /home/adminlocal/PhD/cpp/reconbench-CMake/build /home/adminlocal/PhD/cpp/reconbench-CMake/build /home/adminlocal/PhD/cpp/reconbench-CMake/build/CMakeFiles/run_evaluation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_evaluation.dir/depend
 

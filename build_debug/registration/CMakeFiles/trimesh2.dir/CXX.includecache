@@ -124,7 +124,7 @@ sys/time.h
 unistd.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/GLCamera.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/GLCamera.cc
 OpenGL/gl.h
 -
 OpenGL/glu.h
@@ -136,9 +136,9 @@ GL/gl.h
 GL/glu.h
 -
 GLCamera.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/GLCamera.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/GLCamera.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/ICP.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/ICP.cc
 cmath
 -
 algorithm
@@ -148,63 +148,63 @@ stdio.h
 string.h
 -
 ICP.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/ICP.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/ICP.h
 KDtree.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/KDtree.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/KDtree.h
 timestamp.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/timestamp.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/timestamp.h
 lineqn.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/lineqn.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/lineqn.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/KDtree.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/KDtree.cc
 cmath
 -
 string.h
 -
 KDtree.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/KDtree.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/KDtree.h
 mempool.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/mempool.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/mempool.h
 vector
 -
 algorithm
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh_bounding.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_bounding.cc
 stdio.h
 -
 float.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh.h
 bsphere.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/bsphere.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/bsphere.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh_connectivity.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_connectivity.cc
 stdio.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh.h
 algorithm
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh_curvature.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_curvature.cc
 stdio.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh_algo.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_algo.h
 lineqn.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/lineqn.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/lineqn.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh_grid.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_grid.cc
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh_algo.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_algo.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh_io.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_io.cc
 stdio.h
 -
 string.h
@@ -216,115 +216,115 @@ ctype.h
 stdarg.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh_normals.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_normals.cc
 stdio.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh.h
 KDtree.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/KDtree.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/KDtree.h
 lineqn.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/lineqn.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/lineqn.h
 set
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh_pointareas.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_pointareas.cc
 stdio.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh_stats.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_stats.cc
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh.h
 algorithm
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh_tstrips.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_tstrips.cc
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/diffuse.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/diffuse.cc
 stdio.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh_algo.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_algo.h
 timestamp.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/timestamp.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/timestamp.h
 cmath
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/edgeflip.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/edgeflip.cc
 stdio.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh_algo.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_algo.h
 utility
 -
 queue
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/faceflip.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/faceflip.cc
 stdio.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh_algo.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_algo.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/filter.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/filter.cc
 stdio.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh_algo.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_algo.h
 lineqn.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/lineqn.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/lineqn.h
 numeric
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/lmsmooth.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/lmsmooth.cc
 stdio.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh_algo.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_algo.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/remove.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/remove.cc
 stdio.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh_algo.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_algo.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/reorder_verts.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/reorder_verts.cc
 stdio.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh_algo.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_algo.h
 vector
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/subdiv.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/subdiv.cc
 stdio.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/libsrc/TriMesh_algo.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_algo.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/optsrc/mesh_opt.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/optsrc/mesh_opt.cc
 cstdio
 -
 vector
@@ -334,13 +334,13 @@ cstdarg
 cstring
 -
 cholmod.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/optsrc/cholmod.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/optsrc/cholmod.h
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/optsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/optsrc/TriMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/optsrc/TriMesh_algo.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/optsrc/TriMesh_algo.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/mesh_align.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_align.cc
 stdio.h
 -
 stdlib.h
@@ -348,13 +348,13 @@ stdlib.h
 unistd.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/TriMesh.h
 ICP.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/ICP.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/ICP.h
 string
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/mesh_cat.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_cat.cc
 stdio.h
 -
 stdlib.h
@@ -362,9 +362,9 @@ stdlib.h
 string.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/TriMesh.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/mesh_cc.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_cc.cc
 stdio.h
 -
 stdlib.h
@@ -372,9 +372,9 @@ stdlib.h
 unistd.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/TriMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/TriMesh_algo.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/TriMesh_algo.h
 vector
 -
 stack
@@ -382,7 +382,7 @@ stack
 algorithm
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/mesh_check.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_check.cc
 stdio.h
 -
 stdlib.h
@@ -390,23 +390,23 @@ stdlib.h
 string.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/TriMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/TriMesh_algo.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/TriMesh_algo.h
 vector
 -
 algorithm
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/mesh_crunch.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_crunch.cc
 stdio.h
 -
 stdlib.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/TriMesh.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/mesh_filter.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_filter.cc
 stdio.h
 -
 stdlib.h
@@ -416,13 +416,13 @@ string.h
 ctype.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/TriMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/TriMesh_algo.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/TriMesh_algo.h
 XForm.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/XForm.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/XForm.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/mesh_hf.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_hf.cc
 stdio.h
 -
 stdlib.h
@@ -430,7 +430,7 @@ stdlib.h
 unistd.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/TriMesh.h
 vector
 -
 set
@@ -444,7 +444,7 @@ utility
 algorithm
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/mesh_info.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_info.cc
 stdio.h
 -
 stdlib.h
@@ -452,11 +452,11 @@ stdlib.h
 string.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/TriMesh.h
 vector
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/mesh_make.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_make.cc
 cmath
 -
 stdio.h
@@ -468,15 +468,15 @@ string.h
 iostream
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/TriMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/TriMesh_algo.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/TriMesh_algo.h
 XForm.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/XForm.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/XForm.h
 noise3d.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/noise3d.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/noise3d.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/mesh_shade.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_shade.cc
 stdio.h
 -
 stdlib.h
@@ -490,15 +490,15 @@ float.h
 algorithm
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/TriMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/TriMesh_algo.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/TriMesh_algo.h
 KDtree.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/KDtree.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/KDtree.h
 lineqn.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/lineqn.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/lineqn.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/mesh_view.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_view.cc
 stdio.h
 -
 stdlib.h
@@ -506,19 +506,19 @@ stdlib.h
 string.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/TriMesh.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/TriMesh.h
 XForm.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/XForm.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/XForm.h
 GLCamera.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/GLCamera.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/GLCamera.h
 ICP.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/ICP.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/ICP.h
 GL/glut.h
 -
 string
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/xf.cc
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/xf.cc
 stdio.h
 -
 stdlib.h
@@ -526,9 +526,9 @@ stdlib.h
 string.h
 -
 Vec.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/Vec.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/Vec.h
 XForm.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/registration/trimesh2/utilsrc/XForm.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/XForm.h
 
 /usr/include/suitesparse/SuiteSparse_config.h
 limits.h

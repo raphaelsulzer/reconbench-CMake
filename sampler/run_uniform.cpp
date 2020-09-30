@@ -34,7 +34,7 @@ using namespace std;
 
 int main(int argc, char** argv)  {
 	if(argc < 6)  {
-		cerr << "usage: " << argv[0] << " shape_file pc_file res_x res_y num_scans [min_range] [max_range] [num_stripes] " <<
+        cerr << "usage: " << argv[0] << " input_mpu output_ply res_x res_y num_scans [min_range] [max_range] [num_stripes] " <<
 												  "[laser_fov] [peak_threshold] [std_threshold] [additive_noise] [laser_smoother] " <<
 												  "[registration_error] [normal_type] [pca_knn] [random_sample_rotation]" << endl;
 		return 1;

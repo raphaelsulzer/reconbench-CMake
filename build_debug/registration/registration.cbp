@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="registration"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\OpenMesh\;CMake Files\ann\;CMake Files\pbrt\;CMake Files\registration\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trimesh2">
+				<Option output="/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/libtrimesh2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 trimesh2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trimesh2/fast">
+				<Option output="/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/libtrimesh2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 trimesh2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tps">
+				<Option output="/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/libtps.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/include"/>
+					<Add directory="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tnt"/>
+					<Add directory="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 tps"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tps/fast">
+				<Option output="/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/libtps.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/include"/>
+					<Add directory="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tnt"/>
+					<Add directory="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 tps/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/include/EdgeMesh.h">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/include/ICP.h">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/include/KDtree.h">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/include/global_reg.h">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/include/mempool.h">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/include/timestamp.h">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/include/tps.h">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/EdgeMesh.cc">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/ICP.cc">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/KDtree.cc">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/autorient.cc">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/correspond.cc">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/distance.cc">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/global_reg.cc">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/global_reg_util.cc">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/interactive.cc">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/make_session.cc">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/ply2vn.cc">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/ppmio.c">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/pre_to_ply.cc">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/preprocess.cc">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/tps.cc">
+			<Option target="tps"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/gluit/freeglut_internal.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/gluit/freeglut_teapot_data.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/gluit/glui_algebra3.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/gluit/glui_arcball.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/gluit/glui_quaternion.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/gluit/glui_stdinc.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include/Color.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include/GL/freeglut.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include/GL/freeglut_ext.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include/GL/freeglut_std.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include/GL/glui.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include/GL/glut.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include/GLCamera.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include/ICP.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include/KDtree.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include/TriMesh.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include/TriMesh_algo.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include/Vec.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include/XForm.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include/bsphere.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include/lineqn.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include/mempool.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include/noise3d.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/include/timestamp.h">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/GLCamera.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/ICP.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/KDtree.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_bounding.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_connectivity.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_curvature.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_grid.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_io.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_normals.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_pointareas.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_stats.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/TriMesh_tstrips.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/diffuse.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/edgeflip.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/faceflip.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/filter.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/lmsmooth.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/remove.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/reorder_verts.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/libsrc/subdiv.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/optsrc/mesh_opt.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_align.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_cat.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_cc.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_check.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_crunch.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_filter.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_hf.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_info.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_make.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_shade.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/mesh_view.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/trimesh2/utilsrc/xf.cc">
+			<Option target="trimesh2"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OpenMesh\"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ann\"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/pbrt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\pbrt\"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/pbrt/FindOpenEXR.cmake">
+			<Option virtualFolder="CMake Files\pbrt\"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\registration\"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/FindCholmod.cmake">
+			<Option virtualFolder="CMake Files\registration\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

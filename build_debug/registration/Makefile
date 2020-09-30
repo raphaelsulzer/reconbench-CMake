@@ -67,10 +67,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adminlocal/PhD/cpp/reconbench-Laurent
+CMAKE_SOURCE_DIR = /home/adminlocal/PhD/cpp/reconbench-CMake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug
+CMAKE_BINARY_DIR = /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug/CMakeFiles /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug/registration//CMakeFiles/progress.marks
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 registration/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug/CMakeFiles 0
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/CMakeFiles /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/registration//CMakeFiles/progress.marks
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 registration/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 registration/clean
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 registration/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,22 +116,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 registration/preinstall
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 registration/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 registration/preinstall
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 registration/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 registration/CMakeFiles/trimesh2.dir/rule:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 registration/CMakeFiles/trimesh2.dir/rule
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 registration/CMakeFiles/trimesh2.dir/rule
 .PHONY : registration/CMakeFiles/trimesh2.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ trimesh2: registration/CMakeFiles/trimesh2.dir/rule
 
 # fast build rule for target.
 trimesh2/fast:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/build
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/build
 .PHONY : trimesh2/fast
 
 # Convenience name for target.
 registration/CMakeFiles/tps.dir/rule:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 registration/CMakeFiles/tps.dir/rule
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 registration/CMakeFiles/tps.dir/rule
 .PHONY : registration/CMakeFiles/tps.dir/rule
 
 # Convenience name for target.
@@ -156,7 +156,7 @@ tps: registration/CMakeFiles/tps.dir/rule
 
 # fast build rule for target.
 tps/fast:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/build
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/build
 .PHONY : tps/fast
 
 tps_alignment/src/EdgeMesh.o: tps_alignment/src/EdgeMesh.cc.o
@@ -165,7 +165,7 @@ tps_alignment/src/EdgeMesh.o: tps_alignment/src/EdgeMesh.cc.o
 
 # target to build an object file
 tps_alignment/src/EdgeMesh.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/EdgeMesh.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/EdgeMesh.cc.o
 .PHONY : tps_alignment/src/EdgeMesh.cc.o
 
 tps_alignment/src/EdgeMesh.i: tps_alignment/src/EdgeMesh.cc.i
@@ -174,7 +174,7 @@ tps_alignment/src/EdgeMesh.i: tps_alignment/src/EdgeMesh.cc.i
 
 # target to preprocess a source file
 tps_alignment/src/EdgeMesh.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/EdgeMesh.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/EdgeMesh.cc.i
 .PHONY : tps_alignment/src/EdgeMesh.cc.i
 
 tps_alignment/src/EdgeMesh.s: tps_alignment/src/EdgeMesh.cc.s
@@ -183,7 +183,7 @@ tps_alignment/src/EdgeMesh.s: tps_alignment/src/EdgeMesh.cc.s
 
 # target to generate assembly for a file
 tps_alignment/src/EdgeMesh.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/EdgeMesh.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/EdgeMesh.cc.s
 .PHONY : tps_alignment/src/EdgeMesh.cc.s
 
 tps_alignment/src/ICP.o: tps_alignment/src/ICP.cc.o
@@ -192,7 +192,7 @@ tps_alignment/src/ICP.o: tps_alignment/src/ICP.cc.o
 
 # target to build an object file
 tps_alignment/src/ICP.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/ICP.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/ICP.cc.o
 .PHONY : tps_alignment/src/ICP.cc.o
 
 tps_alignment/src/ICP.i: tps_alignment/src/ICP.cc.i
@@ -201,7 +201,7 @@ tps_alignment/src/ICP.i: tps_alignment/src/ICP.cc.i
 
 # target to preprocess a source file
 tps_alignment/src/ICP.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/ICP.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/ICP.cc.i
 .PHONY : tps_alignment/src/ICP.cc.i
 
 tps_alignment/src/ICP.s: tps_alignment/src/ICP.cc.s
@@ -210,7 +210,7 @@ tps_alignment/src/ICP.s: tps_alignment/src/ICP.cc.s
 
 # target to generate assembly for a file
 tps_alignment/src/ICP.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/ICP.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/ICP.cc.s
 .PHONY : tps_alignment/src/ICP.cc.s
 
 tps_alignment/src/KDtree.o: tps_alignment/src/KDtree.cc.o
@@ -219,7 +219,7 @@ tps_alignment/src/KDtree.o: tps_alignment/src/KDtree.cc.o
 
 # target to build an object file
 tps_alignment/src/KDtree.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/KDtree.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/KDtree.cc.o
 .PHONY : tps_alignment/src/KDtree.cc.o
 
 tps_alignment/src/KDtree.i: tps_alignment/src/KDtree.cc.i
@@ -228,7 +228,7 @@ tps_alignment/src/KDtree.i: tps_alignment/src/KDtree.cc.i
 
 # target to preprocess a source file
 tps_alignment/src/KDtree.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/KDtree.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/KDtree.cc.i
 .PHONY : tps_alignment/src/KDtree.cc.i
 
 tps_alignment/src/KDtree.s: tps_alignment/src/KDtree.cc.s
@@ -237,7 +237,7 @@ tps_alignment/src/KDtree.s: tps_alignment/src/KDtree.cc.s
 
 # target to generate assembly for a file
 tps_alignment/src/KDtree.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/KDtree.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/KDtree.cc.s
 .PHONY : tps_alignment/src/KDtree.cc.s
 
 tps_alignment/src/autorient.o: tps_alignment/src/autorient.cc.o
@@ -246,7 +246,7 @@ tps_alignment/src/autorient.o: tps_alignment/src/autorient.cc.o
 
 # target to build an object file
 tps_alignment/src/autorient.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/autorient.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/autorient.cc.o
 .PHONY : tps_alignment/src/autorient.cc.o
 
 tps_alignment/src/autorient.i: tps_alignment/src/autorient.cc.i
@@ -255,7 +255,7 @@ tps_alignment/src/autorient.i: tps_alignment/src/autorient.cc.i
 
 # target to preprocess a source file
 tps_alignment/src/autorient.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/autorient.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/autorient.cc.i
 .PHONY : tps_alignment/src/autorient.cc.i
 
 tps_alignment/src/autorient.s: tps_alignment/src/autorient.cc.s
@@ -264,7 +264,7 @@ tps_alignment/src/autorient.s: tps_alignment/src/autorient.cc.s
 
 # target to generate assembly for a file
 tps_alignment/src/autorient.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/autorient.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/autorient.cc.s
 .PHONY : tps_alignment/src/autorient.cc.s
 
 tps_alignment/src/correspond.o: tps_alignment/src/correspond.cc.o
@@ -273,7 +273,7 @@ tps_alignment/src/correspond.o: tps_alignment/src/correspond.cc.o
 
 # target to build an object file
 tps_alignment/src/correspond.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/correspond.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/correspond.cc.o
 .PHONY : tps_alignment/src/correspond.cc.o
 
 tps_alignment/src/correspond.i: tps_alignment/src/correspond.cc.i
@@ -282,7 +282,7 @@ tps_alignment/src/correspond.i: tps_alignment/src/correspond.cc.i
 
 # target to preprocess a source file
 tps_alignment/src/correspond.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/correspond.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/correspond.cc.i
 .PHONY : tps_alignment/src/correspond.cc.i
 
 tps_alignment/src/correspond.s: tps_alignment/src/correspond.cc.s
@@ -291,7 +291,7 @@ tps_alignment/src/correspond.s: tps_alignment/src/correspond.cc.s
 
 # target to generate assembly for a file
 tps_alignment/src/correspond.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/correspond.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/correspond.cc.s
 .PHONY : tps_alignment/src/correspond.cc.s
 
 tps_alignment/src/distance.o: tps_alignment/src/distance.cc.o
@@ -300,7 +300,7 @@ tps_alignment/src/distance.o: tps_alignment/src/distance.cc.o
 
 # target to build an object file
 tps_alignment/src/distance.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/distance.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/distance.cc.o
 .PHONY : tps_alignment/src/distance.cc.o
 
 tps_alignment/src/distance.i: tps_alignment/src/distance.cc.i
@@ -309,7 +309,7 @@ tps_alignment/src/distance.i: tps_alignment/src/distance.cc.i
 
 # target to preprocess a source file
 tps_alignment/src/distance.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/distance.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/distance.cc.i
 .PHONY : tps_alignment/src/distance.cc.i
 
 tps_alignment/src/distance.s: tps_alignment/src/distance.cc.s
@@ -318,7 +318,7 @@ tps_alignment/src/distance.s: tps_alignment/src/distance.cc.s
 
 # target to generate assembly for a file
 tps_alignment/src/distance.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/distance.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/distance.cc.s
 .PHONY : tps_alignment/src/distance.cc.s
 
 tps_alignment/src/global_reg.o: tps_alignment/src/global_reg.cc.o
@@ -327,7 +327,7 @@ tps_alignment/src/global_reg.o: tps_alignment/src/global_reg.cc.o
 
 # target to build an object file
 tps_alignment/src/global_reg.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/global_reg.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/global_reg.cc.o
 .PHONY : tps_alignment/src/global_reg.cc.o
 
 tps_alignment/src/global_reg.i: tps_alignment/src/global_reg.cc.i
@@ -336,7 +336,7 @@ tps_alignment/src/global_reg.i: tps_alignment/src/global_reg.cc.i
 
 # target to preprocess a source file
 tps_alignment/src/global_reg.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/global_reg.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/global_reg.cc.i
 .PHONY : tps_alignment/src/global_reg.cc.i
 
 tps_alignment/src/global_reg.s: tps_alignment/src/global_reg.cc.s
@@ -345,7 +345,7 @@ tps_alignment/src/global_reg.s: tps_alignment/src/global_reg.cc.s
 
 # target to generate assembly for a file
 tps_alignment/src/global_reg.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/global_reg.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/global_reg.cc.s
 .PHONY : tps_alignment/src/global_reg.cc.s
 
 tps_alignment/src/global_reg_util.o: tps_alignment/src/global_reg_util.cc.o
@@ -354,7 +354,7 @@ tps_alignment/src/global_reg_util.o: tps_alignment/src/global_reg_util.cc.o
 
 # target to build an object file
 tps_alignment/src/global_reg_util.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/global_reg_util.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/global_reg_util.cc.o
 .PHONY : tps_alignment/src/global_reg_util.cc.o
 
 tps_alignment/src/global_reg_util.i: tps_alignment/src/global_reg_util.cc.i
@@ -363,7 +363,7 @@ tps_alignment/src/global_reg_util.i: tps_alignment/src/global_reg_util.cc.i
 
 # target to preprocess a source file
 tps_alignment/src/global_reg_util.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/global_reg_util.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/global_reg_util.cc.i
 .PHONY : tps_alignment/src/global_reg_util.cc.i
 
 tps_alignment/src/global_reg_util.s: tps_alignment/src/global_reg_util.cc.s
@@ -372,7 +372,7 @@ tps_alignment/src/global_reg_util.s: tps_alignment/src/global_reg_util.cc.s
 
 # target to generate assembly for a file
 tps_alignment/src/global_reg_util.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/global_reg_util.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/global_reg_util.cc.s
 .PHONY : tps_alignment/src/global_reg_util.cc.s
 
 tps_alignment/src/interactive.o: tps_alignment/src/interactive.cc.o
@@ -381,7 +381,7 @@ tps_alignment/src/interactive.o: tps_alignment/src/interactive.cc.o
 
 # target to build an object file
 tps_alignment/src/interactive.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/interactive.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/interactive.cc.o
 .PHONY : tps_alignment/src/interactive.cc.o
 
 tps_alignment/src/interactive.i: tps_alignment/src/interactive.cc.i
@@ -390,7 +390,7 @@ tps_alignment/src/interactive.i: tps_alignment/src/interactive.cc.i
 
 # target to preprocess a source file
 tps_alignment/src/interactive.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/interactive.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/interactive.cc.i
 .PHONY : tps_alignment/src/interactive.cc.i
 
 tps_alignment/src/interactive.s: tps_alignment/src/interactive.cc.s
@@ -399,7 +399,7 @@ tps_alignment/src/interactive.s: tps_alignment/src/interactive.cc.s
 
 # target to generate assembly for a file
 tps_alignment/src/interactive.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/interactive.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/interactive.cc.s
 .PHONY : tps_alignment/src/interactive.cc.s
 
 tps_alignment/src/make_session.o: tps_alignment/src/make_session.cc.o
@@ -408,7 +408,7 @@ tps_alignment/src/make_session.o: tps_alignment/src/make_session.cc.o
 
 # target to build an object file
 tps_alignment/src/make_session.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/make_session.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/make_session.cc.o
 .PHONY : tps_alignment/src/make_session.cc.o
 
 tps_alignment/src/make_session.i: tps_alignment/src/make_session.cc.i
@@ -417,7 +417,7 @@ tps_alignment/src/make_session.i: tps_alignment/src/make_session.cc.i
 
 # target to preprocess a source file
 tps_alignment/src/make_session.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/make_session.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/make_session.cc.i
 .PHONY : tps_alignment/src/make_session.cc.i
 
 tps_alignment/src/make_session.s: tps_alignment/src/make_session.cc.s
@@ -426,7 +426,7 @@ tps_alignment/src/make_session.s: tps_alignment/src/make_session.cc.s
 
 # target to generate assembly for a file
 tps_alignment/src/make_session.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/make_session.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/make_session.cc.s
 .PHONY : tps_alignment/src/make_session.cc.s
 
 tps_alignment/src/ply2vn.o: tps_alignment/src/ply2vn.cc.o
@@ -435,7 +435,7 @@ tps_alignment/src/ply2vn.o: tps_alignment/src/ply2vn.cc.o
 
 # target to build an object file
 tps_alignment/src/ply2vn.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/ply2vn.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/ply2vn.cc.o
 .PHONY : tps_alignment/src/ply2vn.cc.o
 
 tps_alignment/src/ply2vn.i: tps_alignment/src/ply2vn.cc.i
@@ -444,7 +444,7 @@ tps_alignment/src/ply2vn.i: tps_alignment/src/ply2vn.cc.i
 
 # target to preprocess a source file
 tps_alignment/src/ply2vn.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/ply2vn.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/ply2vn.cc.i
 .PHONY : tps_alignment/src/ply2vn.cc.i
 
 tps_alignment/src/ply2vn.s: tps_alignment/src/ply2vn.cc.s
@@ -453,7 +453,7 @@ tps_alignment/src/ply2vn.s: tps_alignment/src/ply2vn.cc.s
 
 # target to generate assembly for a file
 tps_alignment/src/ply2vn.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/ply2vn.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/ply2vn.cc.s
 .PHONY : tps_alignment/src/ply2vn.cc.s
 
 tps_alignment/src/ppmio.o: tps_alignment/src/ppmio.c.o
@@ -462,7 +462,7 @@ tps_alignment/src/ppmio.o: tps_alignment/src/ppmio.c.o
 
 # target to build an object file
 tps_alignment/src/ppmio.c.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/ppmio.c.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/ppmio.c.o
 .PHONY : tps_alignment/src/ppmio.c.o
 
 tps_alignment/src/ppmio.i: tps_alignment/src/ppmio.c.i
@@ -471,7 +471,7 @@ tps_alignment/src/ppmio.i: tps_alignment/src/ppmio.c.i
 
 # target to preprocess a source file
 tps_alignment/src/ppmio.c.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/ppmio.c.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/ppmio.c.i
 .PHONY : tps_alignment/src/ppmio.c.i
 
 tps_alignment/src/ppmio.s: tps_alignment/src/ppmio.c.s
@@ -480,7 +480,7 @@ tps_alignment/src/ppmio.s: tps_alignment/src/ppmio.c.s
 
 # target to generate assembly for a file
 tps_alignment/src/ppmio.c.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/ppmio.c.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/ppmio.c.s
 .PHONY : tps_alignment/src/ppmio.c.s
 
 tps_alignment/src/pre_to_ply.o: tps_alignment/src/pre_to_ply.cc.o
@@ -489,7 +489,7 @@ tps_alignment/src/pre_to_ply.o: tps_alignment/src/pre_to_ply.cc.o
 
 # target to build an object file
 tps_alignment/src/pre_to_ply.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/pre_to_ply.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/pre_to_ply.cc.o
 .PHONY : tps_alignment/src/pre_to_ply.cc.o
 
 tps_alignment/src/pre_to_ply.i: tps_alignment/src/pre_to_ply.cc.i
@@ -498,7 +498,7 @@ tps_alignment/src/pre_to_ply.i: tps_alignment/src/pre_to_ply.cc.i
 
 # target to preprocess a source file
 tps_alignment/src/pre_to_ply.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/pre_to_ply.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/pre_to_ply.cc.i
 .PHONY : tps_alignment/src/pre_to_ply.cc.i
 
 tps_alignment/src/pre_to_ply.s: tps_alignment/src/pre_to_ply.cc.s
@@ -507,7 +507,7 @@ tps_alignment/src/pre_to_ply.s: tps_alignment/src/pre_to_ply.cc.s
 
 # target to generate assembly for a file
 tps_alignment/src/pre_to_ply.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/pre_to_ply.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/pre_to_ply.cc.s
 .PHONY : tps_alignment/src/pre_to_ply.cc.s
 
 tps_alignment/src/preprocess.o: tps_alignment/src/preprocess.cc.o
@@ -516,7 +516,7 @@ tps_alignment/src/preprocess.o: tps_alignment/src/preprocess.cc.o
 
 # target to build an object file
 tps_alignment/src/preprocess.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/preprocess.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/preprocess.cc.o
 .PHONY : tps_alignment/src/preprocess.cc.o
 
 tps_alignment/src/preprocess.i: tps_alignment/src/preprocess.cc.i
@@ -525,7 +525,7 @@ tps_alignment/src/preprocess.i: tps_alignment/src/preprocess.cc.i
 
 # target to preprocess a source file
 tps_alignment/src/preprocess.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/preprocess.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/preprocess.cc.i
 .PHONY : tps_alignment/src/preprocess.cc.i
 
 tps_alignment/src/preprocess.s: tps_alignment/src/preprocess.cc.s
@@ -534,7 +534,7 @@ tps_alignment/src/preprocess.s: tps_alignment/src/preprocess.cc.s
 
 # target to generate assembly for a file
 tps_alignment/src/preprocess.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/preprocess.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/preprocess.cc.s
 .PHONY : tps_alignment/src/preprocess.cc.s
 
 tps_alignment/src/tps.o: tps_alignment/src/tps.cc.o
@@ -543,7 +543,7 @@ tps_alignment/src/tps.o: tps_alignment/src/tps.cc.o
 
 # target to build an object file
 tps_alignment/src/tps.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/tps.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/tps.cc.o
 .PHONY : tps_alignment/src/tps.cc.o
 
 tps_alignment/src/tps.i: tps_alignment/src/tps.cc.i
@@ -552,7 +552,7 @@ tps_alignment/src/tps.i: tps_alignment/src/tps.cc.i
 
 # target to preprocess a source file
 tps_alignment/src/tps.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/tps.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/tps.cc.i
 .PHONY : tps_alignment/src/tps.cc.i
 
 tps_alignment/src/tps.s: tps_alignment/src/tps.cc.s
@@ -561,7 +561,7 @@ tps_alignment/src/tps.s: tps_alignment/src/tps.cc.s
 
 # target to generate assembly for a file
 tps_alignment/src/tps.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/tps.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/tps_alignment/src/tps.cc.s
 .PHONY : tps_alignment/src/tps.cc.s
 
 trimesh2/libsrc/GLCamera.o: trimesh2/libsrc/GLCamera.cc.o
@@ -570,7 +570,7 @@ trimesh2/libsrc/GLCamera.o: trimesh2/libsrc/GLCamera.cc.o
 
 # target to build an object file
 trimesh2/libsrc/GLCamera.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/GLCamera.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/GLCamera.cc.o
 .PHONY : trimesh2/libsrc/GLCamera.cc.o
 
 trimesh2/libsrc/GLCamera.i: trimesh2/libsrc/GLCamera.cc.i
@@ -579,7 +579,7 @@ trimesh2/libsrc/GLCamera.i: trimesh2/libsrc/GLCamera.cc.i
 
 # target to preprocess a source file
 trimesh2/libsrc/GLCamera.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/GLCamera.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/GLCamera.cc.i
 .PHONY : trimesh2/libsrc/GLCamera.cc.i
 
 trimesh2/libsrc/GLCamera.s: trimesh2/libsrc/GLCamera.cc.s
@@ -588,7 +588,7 @@ trimesh2/libsrc/GLCamera.s: trimesh2/libsrc/GLCamera.cc.s
 
 # target to generate assembly for a file
 trimesh2/libsrc/GLCamera.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/GLCamera.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/GLCamera.cc.s
 .PHONY : trimesh2/libsrc/GLCamera.cc.s
 
 trimesh2/libsrc/ICP.o: trimesh2/libsrc/ICP.cc.o
@@ -597,7 +597,7 @@ trimesh2/libsrc/ICP.o: trimesh2/libsrc/ICP.cc.o
 
 # target to build an object file
 trimesh2/libsrc/ICP.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/ICP.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/ICP.cc.o
 .PHONY : trimesh2/libsrc/ICP.cc.o
 
 trimesh2/libsrc/ICP.i: trimesh2/libsrc/ICP.cc.i
@@ -606,7 +606,7 @@ trimesh2/libsrc/ICP.i: trimesh2/libsrc/ICP.cc.i
 
 # target to preprocess a source file
 trimesh2/libsrc/ICP.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/ICP.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/ICP.cc.i
 .PHONY : trimesh2/libsrc/ICP.cc.i
 
 trimesh2/libsrc/ICP.s: trimesh2/libsrc/ICP.cc.s
@@ -615,7 +615,7 @@ trimesh2/libsrc/ICP.s: trimesh2/libsrc/ICP.cc.s
 
 # target to generate assembly for a file
 trimesh2/libsrc/ICP.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/ICP.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/ICP.cc.s
 .PHONY : trimesh2/libsrc/ICP.cc.s
 
 trimesh2/libsrc/KDtree.o: trimesh2/libsrc/KDtree.cc.o
@@ -624,7 +624,7 @@ trimesh2/libsrc/KDtree.o: trimesh2/libsrc/KDtree.cc.o
 
 # target to build an object file
 trimesh2/libsrc/KDtree.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/KDtree.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/KDtree.cc.o
 .PHONY : trimesh2/libsrc/KDtree.cc.o
 
 trimesh2/libsrc/KDtree.i: trimesh2/libsrc/KDtree.cc.i
@@ -633,7 +633,7 @@ trimesh2/libsrc/KDtree.i: trimesh2/libsrc/KDtree.cc.i
 
 # target to preprocess a source file
 trimesh2/libsrc/KDtree.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/KDtree.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/KDtree.cc.i
 .PHONY : trimesh2/libsrc/KDtree.cc.i
 
 trimesh2/libsrc/KDtree.s: trimesh2/libsrc/KDtree.cc.s
@@ -642,7 +642,7 @@ trimesh2/libsrc/KDtree.s: trimesh2/libsrc/KDtree.cc.s
 
 # target to generate assembly for a file
 trimesh2/libsrc/KDtree.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/KDtree.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/KDtree.cc.s
 .PHONY : trimesh2/libsrc/KDtree.cc.s
 
 trimesh2/libsrc/TriMesh_bounding.o: trimesh2/libsrc/TriMesh_bounding.cc.o
@@ -651,7 +651,7 @@ trimesh2/libsrc/TriMesh_bounding.o: trimesh2/libsrc/TriMesh_bounding.cc.o
 
 # target to build an object file
 trimesh2/libsrc/TriMesh_bounding.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_bounding.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_bounding.cc.o
 .PHONY : trimesh2/libsrc/TriMesh_bounding.cc.o
 
 trimesh2/libsrc/TriMesh_bounding.i: trimesh2/libsrc/TriMesh_bounding.cc.i
@@ -660,7 +660,7 @@ trimesh2/libsrc/TriMesh_bounding.i: trimesh2/libsrc/TriMesh_bounding.cc.i
 
 # target to preprocess a source file
 trimesh2/libsrc/TriMesh_bounding.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_bounding.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_bounding.cc.i
 .PHONY : trimesh2/libsrc/TriMesh_bounding.cc.i
 
 trimesh2/libsrc/TriMesh_bounding.s: trimesh2/libsrc/TriMesh_bounding.cc.s
@@ -669,7 +669,7 @@ trimesh2/libsrc/TriMesh_bounding.s: trimesh2/libsrc/TriMesh_bounding.cc.s
 
 # target to generate assembly for a file
 trimesh2/libsrc/TriMesh_bounding.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_bounding.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_bounding.cc.s
 .PHONY : trimesh2/libsrc/TriMesh_bounding.cc.s
 
 trimesh2/libsrc/TriMesh_connectivity.o: trimesh2/libsrc/TriMesh_connectivity.cc.o
@@ -678,7 +678,7 @@ trimesh2/libsrc/TriMesh_connectivity.o: trimesh2/libsrc/TriMesh_connectivity.cc.
 
 # target to build an object file
 trimesh2/libsrc/TriMesh_connectivity.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_connectivity.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_connectivity.cc.o
 .PHONY : trimesh2/libsrc/TriMesh_connectivity.cc.o
 
 trimesh2/libsrc/TriMesh_connectivity.i: trimesh2/libsrc/TriMesh_connectivity.cc.i
@@ -687,7 +687,7 @@ trimesh2/libsrc/TriMesh_connectivity.i: trimesh2/libsrc/TriMesh_connectivity.cc.
 
 # target to preprocess a source file
 trimesh2/libsrc/TriMesh_connectivity.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_connectivity.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_connectivity.cc.i
 .PHONY : trimesh2/libsrc/TriMesh_connectivity.cc.i
 
 trimesh2/libsrc/TriMesh_connectivity.s: trimesh2/libsrc/TriMesh_connectivity.cc.s
@@ -696,7 +696,7 @@ trimesh2/libsrc/TriMesh_connectivity.s: trimesh2/libsrc/TriMesh_connectivity.cc.
 
 # target to generate assembly for a file
 trimesh2/libsrc/TriMesh_connectivity.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_connectivity.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_connectivity.cc.s
 .PHONY : trimesh2/libsrc/TriMesh_connectivity.cc.s
 
 trimesh2/libsrc/TriMesh_curvature.o: trimesh2/libsrc/TriMesh_curvature.cc.o
@@ -705,7 +705,7 @@ trimesh2/libsrc/TriMesh_curvature.o: trimesh2/libsrc/TriMesh_curvature.cc.o
 
 # target to build an object file
 trimesh2/libsrc/TriMesh_curvature.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_curvature.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_curvature.cc.o
 .PHONY : trimesh2/libsrc/TriMesh_curvature.cc.o
 
 trimesh2/libsrc/TriMesh_curvature.i: trimesh2/libsrc/TriMesh_curvature.cc.i
@@ -714,7 +714,7 @@ trimesh2/libsrc/TriMesh_curvature.i: trimesh2/libsrc/TriMesh_curvature.cc.i
 
 # target to preprocess a source file
 trimesh2/libsrc/TriMesh_curvature.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_curvature.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_curvature.cc.i
 .PHONY : trimesh2/libsrc/TriMesh_curvature.cc.i
 
 trimesh2/libsrc/TriMesh_curvature.s: trimesh2/libsrc/TriMesh_curvature.cc.s
@@ -723,7 +723,7 @@ trimesh2/libsrc/TriMesh_curvature.s: trimesh2/libsrc/TriMesh_curvature.cc.s
 
 # target to generate assembly for a file
 trimesh2/libsrc/TriMesh_curvature.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_curvature.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_curvature.cc.s
 .PHONY : trimesh2/libsrc/TriMesh_curvature.cc.s
 
 trimesh2/libsrc/TriMesh_grid.o: trimesh2/libsrc/TriMesh_grid.cc.o
@@ -732,7 +732,7 @@ trimesh2/libsrc/TriMesh_grid.o: trimesh2/libsrc/TriMesh_grid.cc.o
 
 # target to build an object file
 trimesh2/libsrc/TriMesh_grid.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_grid.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_grid.cc.o
 .PHONY : trimesh2/libsrc/TriMesh_grid.cc.o
 
 trimesh2/libsrc/TriMesh_grid.i: trimesh2/libsrc/TriMesh_grid.cc.i
@@ -741,7 +741,7 @@ trimesh2/libsrc/TriMesh_grid.i: trimesh2/libsrc/TriMesh_grid.cc.i
 
 # target to preprocess a source file
 trimesh2/libsrc/TriMesh_grid.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_grid.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_grid.cc.i
 .PHONY : trimesh2/libsrc/TriMesh_grid.cc.i
 
 trimesh2/libsrc/TriMesh_grid.s: trimesh2/libsrc/TriMesh_grid.cc.s
@@ -750,7 +750,7 @@ trimesh2/libsrc/TriMesh_grid.s: trimesh2/libsrc/TriMesh_grid.cc.s
 
 # target to generate assembly for a file
 trimesh2/libsrc/TriMesh_grid.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_grid.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_grid.cc.s
 .PHONY : trimesh2/libsrc/TriMesh_grid.cc.s
 
 trimesh2/libsrc/TriMesh_io.o: trimesh2/libsrc/TriMesh_io.cc.o
@@ -759,7 +759,7 @@ trimesh2/libsrc/TriMesh_io.o: trimesh2/libsrc/TriMesh_io.cc.o
 
 # target to build an object file
 trimesh2/libsrc/TriMesh_io.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_io.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_io.cc.o
 .PHONY : trimesh2/libsrc/TriMesh_io.cc.o
 
 trimesh2/libsrc/TriMesh_io.i: trimesh2/libsrc/TriMesh_io.cc.i
@@ -768,7 +768,7 @@ trimesh2/libsrc/TriMesh_io.i: trimesh2/libsrc/TriMesh_io.cc.i
 
 # target to preprocess a source file
 trimesh2/libsrc/TriMesh_io.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_io.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_io.cc.i
 .PHONY : trimesh2/libsrc/TriMesh_io.cc.i
 
 trimesh2/libsrc/TriMesh_io.s: trimesh2/libsrc/TriMesh_io.cc.s
@@ -777,7 +777,7 @@ trimesh2/libsrc/TriMesh_io.s: trimesh2/libsrc/TriMesh_io.cc.s
 
 # target to generate assembly for a file
 trimesh2/libsrc/TriMesh_io.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_io.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_io.cc.s
 .PHONY : trimesh2/libsrc/TriMesh_io.cc.s
 
 trimesh2/libsrc/TriMesh_normals.o: trimesh2/libsrc/TriMesh_normals.cc.o
@@ -786,7 +786,7 @@ trimesh2/libsrc/TriMesh_normals.o: trimesh2/libsrc/TriMesh_normals.cc.o
 
 # target to build an object file
 trimesh2/libsrc/TriMesh_normals.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_normals.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_normals.cc.o
 .PHONY : trimesh2/libsrc/TriMesh_normals.cc.o
 
 trimesh2/libsrc/TriMesh_normals.i: trimesh2/libsrc/TriMesh_normals.cc.i
@@ -795,7 +795,7 @@ trimesh2/libsrc/TriMesh_normals.i: trimesh2/libsrc/TriMesh_normals.cc.i
 
 # target to preprocess a source file
 trimesh2/libsrc/TriMesh_normals.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_normals.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_normals.cc.i
 .PHONY : trimesh2/libsrc/TriMesh_normals.cc.i
 
 trimesh2/libsrc/TriMesh_normals.s: trimesh2/libsrc/TriMesh_normals.cc.s
@@ -804,7 +804,7 @@ trimesh2/libsrc/TriMesh_normals.s: trimesh2/libsrc/TriMesh_normals.cc.s
 
 # target to generate assembly for a file
 trimesh2/libsrc/TriMesh_normals.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_normals.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_normals.cc.s
 .PHONY : trimesh2/libsrc/TriMesh_normals.cc.s
 
 trimesh2/libsrc/TriMesh_pointareas.o: trimesh2/libsrc/TriMesh_pointareas.cc.o
@@ -813,7 +813,7 @@ trimesh2/libsrc/TriMesh_pointareas.o: trimesh2/libsrc/TriMesh_pointareas.cc.o
 
 # target to build an object file
 trimesh2/libsrc/TriMesh_pointareas.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_pointareas.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_pointareas.cc.o
 .PHONY : trimesh2/libsrc/TriMesh_pointareas.cc.o
 
 trimesh2/libsrc/TriMesh_pointareas.i: trimesh2/libsrc/TriMesh_pointareas.cc.i
@@ -822,7 +822,7 @@ trimesh2/libsrc/TriMesh_pointareas.i: trimesh2/libsrc/TriMesh_pointareas.cc.i
 
 # target to preprocess a source file
 trimesh2/libsrc/TriMesh_pointareas.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_pointareas.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_pointareas.cc.i
 .PHONY : trimesh2/libsrc/TriMesh_pointareas.cc.i
 
 trimesh2/libsrc/TriMesh_pointareas.s: trimesh2/libsrc/TriMesh_pointareas.cc.s
@@ -831,7 +831,7 @@ trimesh2/libsrc/TriMesh_pointareas.s: trimesh2/libsrc/TriMesh_pointareas.cc.s
 
 # target to generate assembly for a file
 trimesh2/libsrc/TriMesh_pointareas.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_pointareas.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_pointareas.cc.s
 .PHONY : trimesh2/libsrc/TriMesh_pointareas.cc.s
 
 trimesh2/libsrc/TriMesh_stats.o: trimesh2/libsrc/TriMesh_stats.cc.o
@@ -840,7 +840,7 @@ trimesh2/libsrc/TriMesh_stats.o: trimesh2/libsrc/TriMesh_stats.cc.o
 
 # target to build an object file
 trimesh2/libsrc/TriMesh_stats.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_stats.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_stats.cc.o
 .PHONY : trimesh2/libsrc/TriMesh_stats.cc.o
 
 trimesh2/libsrc/TriMesh_stats.i: trimesh2/libsrc/TriMesh_stats.cc.i
@@ -849,7 +849,7 @@ trimesh2/libsrc/TriMesh_stats.i: trimesh2/libsrc/TriMesh_stats.cc.i
 
 # target to preprocess a source file
 trimesh2/libsrc/TriMesh_stats.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_stats.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_stats.cc.i
 .PHONY : trimesh2/libsrc/TriMesh_stats.cc.i
 
 trimesh2/libsrc/TriMesh_stats.s: trimesh2/libsrc/TriMesh_stats.cc.s
@@ -858,7 +858,7 @@ trimesh2/libsrc/TriMesh_stats.s: trimesh2/libsrc/TriMesh_stats.cc.s
 
 # target to generate assembly for a file
 trimesh2/libsrc/TriMesh_stats.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_stats.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_stats.cc.s
 .PHONY : trimesh2/libsrc/TriMesh_stats.cc.s
 
 trimesh2/libsrc/TriMesh_tstrips.o: trimesh2/libsrc/TriMesh_tstrips.cc.o
@@ -867,7 +867,7 @@ trimesh2/libsrc/TriMesh_tstrips.o: trimesh2/libsrc/TriMesh_tstrips.cc.o
 
 # target to build an object file
 trimesh2/libsrc/TriMesh_tstrips.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_tstrips.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_tstrips.cc.o
 .PHONY : trimesh2/libsrc/TriMesh_tstrips.cc.o
 
 trimesh2/libsrc/TriMesh_tstrips.i: trimesh2/libsrc/TriMesh_tstrips.cc.i
@@ -876,7 +876,7 @@ trimesh2/libsrc/TriMesh_tstrips.i: trimesh2/libsrc/TriMesh_tstrips.cc.i
 
 # target to preprocess a source file
 trimesh2/libsrc/TriMesh_tstrips.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_tstrips.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_tstrips.cc.i
 .PHONY : trimesh2/libsrc/TriMesh_tstrips.cc.i
 
 trimesh2/libsrc/TriMesh_tstrips.s: trimesh2/libsrc/TriMesh_tstrips.cc.s
@@ -885,7 +885,7 @@ trimesh2/libsrc/TriMesh_tstrips.s: trimesh2/libsrc/TriMesh_tstrips.cc.s
 
 # target to generate assembly for a file
 trimesh2/libsrc/TriMesh_tstrips.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_tstrips.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/TriMesh_tstrips.cc.s
 .PHONY : trimesh2/libsrc/TriMesh_tstrips.cc.s
 
 trimesh2/libsrc/diffuse.o: trimesh2/libsrc/diffuse.cc.o
@@ -894,7 +894,7 @@ trimesh2/libsrc/diffuse.o: trimesh2/libsrc/diffuse.cc.o
 
 # target to build an object file
 trimesh2/libsrc/diffuse.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/diffuse.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/diffuse.cc.o
 .PHONY : trimesh2/libsrc/diffuse.cc.o
 
 trimesh2/libsrc/diffuse.i: trimesh2/libsrc/diffuse.cc.i
@@ -903,7 +903,7 @@ trimesh2/libsrc/diffuse.i: trimesh2/libsrc/diffuse.cc.i
 
 # target to preprocess a source file
 trimesh2/libsrc/diffuse.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/diffuse.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/diffuse.cc.i
 .PHONY : trimesh2/libsrc/diffuse.cc.i
 
 trimesh2/libsrc/diffuse.s: trimesh2/libsrc/diffuse.cc.s
@@ -912,7 +912,7 @@ trimesh2/libsrc/diffuse.s: trimesh2/libsrc/diffuse.cc.s
 
 # target to generate assembly for a file
 trimesh2/libsrc/diffuse.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/diffuse.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/diffuse.cc.s
 .PHONY : trimesh2/libsrc/diffuse.cc.s
 
 trimesh2/libsrc/edgeflip.o: trimesh2/libsrc/edgeflip.cc.o
@@ -921,7 +921,7 @@ trimesh2/libsrc/edgeflip.o: trimesh2/libsrc/edgeflip.cc.o
 
 # target to build an object file
 trimesh2/libsrc/edgeflip.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/edgeflip.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/edgeflip.cc.o
 .PHONY : trimesh2/libsrc/edgeflip.cc.o
 
 trimesh2/libsrc/edgeflip.i: trimesh2/libsrc/edgeflip.cc.i
@@ -930,7 +930,7 @@ trimesh2/libsrc/edgeflip.i: trimesh2/libsrc/edgeflip.cc.i
 
 # target to preprocess a source file
 trimesh2/libsrc/edgeflip.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/edgeflip.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/edgeflip.cc.i
 .PHONY : trimesh2/libsrc/edgeflip.cc.i
 
 trimesh2/libsrc/edgeflip.s: trimesh2/libsrc/edgeflip.cc.s
@@ -939,7 +939,7 @@ trimesh2/libsrc/edgeflip.s: trimesh2/libsrc/edgeflip.cc.s
 
 # target to generate assembly for a file
 trimesh2/libsrc/edgeflip.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/edgeflip.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/edgeflip.cc.s
 .PHONY : trimesh2/libsrc/edgeflip.cc.s
 
 trimesh2/libsrc/faceflip.o: trimesh2/libsrc/faceflip.cc.o
@@ -948,7 +948,7 @@ trimesh2/libsrc/faceflip.o: trimesh2/libsrc/faceflip.cc.o
 
 # target to build an object file
 trimesh2/libsrc/faceflip.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/faceflip.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/faceflip.cc.o
 .PHONY : trimesh2/libsrc/faceflip.cc.o
 
 trimesh2/libsrc/faceflip.i: trimesh2/libsrc/faceflip.cc.i
@@ -957,7 +957,7 @@ trimesh2/libsrc/faceflip.i: trimesh2/libsrc/faceflip.cc.i
 
 # target to preprocess a source file
 trimesh2/libsrc/faceflip.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/faceflip.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/faceflip.cc.i
 .PHONY : trimesh2/libsrc/faceflip.cc.i
 
 trimesh2/libsrc/faceflip.s: trimesh2/libsrc/faceflip.cc.s
@@ -966,7 +966,7 @@ trimesh2/libsrc/faceflip.s: trimesh2/libsrc/faceflip.cc.s
 
 # target to generate assembly for a file
 trimesh2/libsrc/faceflip.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/faceflip.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/faceflip.cc.s
 .PHONY : trimesh2/libsrc/faceflip.cc.s
 
 trimesh2/libsrc/filter.o: trimesh2/libsrc/filter.cc.o
@@ -975,7 +975,7 @@ trimesh2/libsrc/filter.o: trimesh2/libsrc/filter.cc.o
 
 # target to build an object file
 trimesh2/libsrc/filter.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/filter.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/filter.cc.o
 .PHONY : trimesh2/libsrc/filter.cc.o
 
 trimesh2/libsrc/filter.i: trimesh2/libsrc/filter.cc.i
@@ -984,7 +984,7 @@ trimesh2/libsrc/filter.i: trimesh2/libsrc/filter.cc.i
 
 # target to preprocess a source file
 trimesh2/libsrc/filter.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/filter.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/filter.cc.i
 .PHONY : trimesh2/libsrc/filter.cc.i
 
 trimesh2/libsrc/filter.s: trimesh2/libsrc/filter.cc.s
@@ -993,7 +993,7 @@ trimesh2/libsrc/filter.s: trimesh2/libsrc/filter.cc.s
 
 # target to generate assembly for a file
 trimesh2/libsrc/filter.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/filter.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/filter.cc.s
 .PHONY : trimesh2/libsrc/filter.cc.s
 
 trimesh2/libsrc/lmsmooth.o: trimesh2/libsrc/lmsmooth.cc.o
@@ -1002,7 +1002,7 @@ trimesh2/libsrc/lmsmooth.o: trimesh2/libsrc/lmsmooth.cc.o
 
 # target to build an object file
 trimesh2/libsrc/lmsmooth.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/lmsmooth.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/lmsmooth.cc.o
 .PHONY : trimesh2/libsrc/lmsmooth.cc.o
 
 trimesh2/libsrc/lmsmooth.i: trimesh2/libsrc/lmsmooth.cc.i
@@ -1011,7 +1011,7 @@ trimesh2/libsrc/lmsmooth.i: trimesh2/libsrc/lmsmooth.cc.i
 
 # target to preprocess a source file
 trimesh2/libsrc/lmsmooth.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/lmsmooth.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/lmsmooth.cc.i
 .PHONY : trimesh2/libsrc/lmsmooth.cc.i
 
 trimesh2/libsrc/lmsmooth.s: trimesh2/libsrc/lmsmooth.cc.s
@@ -1020,7 +1020,7 @@ trimesh2/libsrc/lmsmooth.s: trimesh2/libsrc/lmsmooth.cc.s
 
 # target to generate assembly for a file
 trimesh2/libsrc/lmsmooth.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/lmsmooth.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/lmsmooth.cc.s
 .PHONY : trimesh2/libsrc/lmsmooth.cc.s
 
 trimesh2/libsrc/remove.o: trimesh2/libsrc/remove.cc.o
@@ -1029,7 +1029,7 @@ trimesh2/libsrc/remove.o: trimesh2/libsrc/remove.cc.o
 
 # target to build an object file
 trimesh2/libsrc/remove.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/remove.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/remove.cc.o
 .PHONY : trimesh2/libsrc/remove.cc.o
 
 trimesh2/libsrc/remove.i: trimesh2/libsrc/remove.cc.i
@@ -1038,7 +1038,7 @@ trimesh2/libsrc/remove.i: trimesh2/libsrc/remove.cc.i
 
 # target to preprocess a source file
 trimesh2/libsrc/remove.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/remove.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/remove.cc.i
 .PHONY : trimesh2/libsrc/remove.cc.i
 
 trimesh2/libsrc/remove.s: trimesh2/libsrc/remove.cc.s
@@ -1047,7 +1047,7 @@ trimesh2/libsrc/remove.s: trimesh2/libsrc/remove.cc.s
 
 # target to generate assembly for a file
 trimesh2/libsrc/remove.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/remove.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/remove.cc.s
 .PHONY : trimesh2/libsrc/remove.cc.s
 
 trimesh2/libsrc/reorder_verts.o: trimesh2/libsrc/reorder_verts.cc.o
@@ -1056,7 +1056,7 @@ trimesh2/libsrc/reorder_verts.o: trimesh2/libsrc/reorder_verts.cc.o
 
 # target to build an object file
 trimesh2/libsrc/reorder_verts.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/reorder_verts.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/reorder_verts.cc.o
 .PHONY : trimesh2/libsrc/reorder_verts.cc.o
 
 trimesh2/libsrc/reorder_verts.i: trimesh2/libsrc/reorder_verts.cc.i
@@ -1065,7 +1065,7 @@ trimesh2/libsrc/reorder_verts.i: trimesh2/libsrc/reorder_verts.cc.i
 
 # target to preprocess a source file
 trimesh2/libsrc/reorder_verts.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/reorder_verts.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/reorder_verts.cc.i
 .PHONY : trimesh2/libsrc/reorder_verts.cc.i
 
 trimesh2/libsrc/reorder_verts.s: trimesh2/libsrc/reorder_verts.cc.s
@@ -1074,7 +1074,7 @@ trimesh2/libsrc/reorder_verts.s: trimesh2/libsrc/reorder_verts.cc.s
 
 # target to generate assembly for a file
 trimesh2/libsrc/reorder_verts.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/reorder_verts.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/reorder_verts.cc.s
 .PHONY : trimesh2/libsrc/reorder_verts.cc.s
 
 trimesh2/libsrc/subdiv.o: trimesh2/libsrc/subdiv.cc.o
@@ -1083,7 +1083,7 @@ trimesh2/libsrc/subdiv.o: trimesh2/libsrc/subdiv.cc.o
 
 # target to build an object file
 trimesh2/libsrc/subdiv.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/subdiv.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/subdiv.cc.o
 .PHONY : trimesh2/libsrc/subdiv.cc.o
 
 trimesh2/libsrc/subdiv.i: trimesh2/libsrc/subdiv.cc.i
@@ -1092,7 +1092,7 @@ trimesh2/libsrc/subdiv.i: trimesh2/libsrc/subdiv.cc.i
 
 # target to preprocess a source file
 trimesh2/libsrc/subdiv.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/subdiv.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/subdiv.cc.i
 .PHONY : trimesh2/libsrc/subdiv.cc.i
 
 trimesh2/libsrc/subdiv.s: trimesh2/libsrc/subdiv.cc.s
@@ -1101,7 +1101,7 @@ trimesh2/libsrc/subdiv.s: trimesh2/libsrc/subdiv.cc.s
 
 # target to generate assembly for a file
 trimesh2/libsrc/subdiv.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/subdiv.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/libsrc/subdiv.cc.s
 .PHONY : trimesh2/libsrc/subdiv.cc.s
 
 trimesh2/optsrc/mesh_opt.o: trimesh2/optsrc/mesh_opt.cc.o
@@ -1110,7 +1110,7 @@ trimesh2/optsrc/mesh_opt.o: trimesh2/optsrc/mesh_opt.cc.o
 
 # target to build an object file
 trimesh2/optsrc/mesh_opt.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/optsrc/mesh_opt.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/optsrc/mesh_opt.cc.o
 .PHONY : trimesh2/optsrc/mesh_opt.cc.o
 
 trimesh2/optsrc/mesh_opt.i: trimesh2/optsrc/mesh_opt.cc.i
@@ -1119,7 +1119,7 @@ trimesh2/optsrc/mesh_opt.i: trimesh2/optsrc/mesh_opt.cc.i
 
 # target to preprocess a source file
 trimesh2/optsrc/mesh_opt.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/optsrc/mesh_opt.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/optsrc/mesh_opt.cc.i
 .PHONY : trimesh2/optsrc/mesh_opt.cc.i
 
 trimesh2/optsrc/mesh_opt.s: trimesh2/optsrc/mesh_opt.cc.s
@@ -1128,7 +1128,7 @@ trimesh2/optsrc/mesh_opt.s: trimesh2/optsrc/mesh_opt.cc.s
 
 # target to generate assembly for a file
 trimesh2/optsrc/mesh_opt.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/optsrc/mesh_opt.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/optsrc/mesh_opt.cc.s
 .PHONY : trimesh2/optsrc/mesh_opt.cc.s
 
 trimesh2/utilsrc/mesh_align.o: trimesh2/utilsrc/mesh_align.cc.o
@@ -1137,7 +1137,7 @@ trimesh2/utilsrc/mesh_align.o: trimesh2/utilsrc/mesh_align.cc.o
 
 # target to build an object file
 trimesh2/utilsrc/mesh_align.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_align.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_align.cc.o
 .PHONY : trimesh2/utilsrc/mesh_align.cc.o
 
 trimesh2/utilsrc/mesh_align.i: trimesh2/utilsrc/mesh_align.cc.i
@@ -1146,7 +1146,7 @@ trimesh2/utilsrc/mesh_align.i: trimesh2/utilsrc/mesh_align.cc.i
 
 # target to preprocess a source file
 trimesh2/utilsrc/mesh_align.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_align.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_align.cc.i
 .PHONY : trimesh2/utilsrc/mesh_align.cc.i
 
 trimesh2/utilsrc/mesh_align.s: trimesh2/utilsrc/mesh_align.cc.s
@@ -1155,7 +1155,7 @@ trimesh2/utilsrc/mesh_align.s: trimesh2/utilsrc/mesh_align.cc.s
 
 # target to generate assembly for a file
 trimesh2/utilsrc/mesh_align.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_align.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_align.cc.s
 .PHONY : trimesh2/utilsrc/mesh_align.cc.s
 
 trimesh2/utilsrc/mesh_cat.o: trimesh2/utilsrc/mesh_cat.cc.o
@@ -1164,7 +1164,7 @@ trimesh2/utilsrc/mesh_cat.o: trimesh2/utilsrc/mesh_cat.cc.o
 
 # target to build an object file
 trimesh2/utilsrc/mesh_cat.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_cat.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_cat.cc.o
 .PHONY : trimesh2/utilsrc/mesh_cat.cc.o
 
 trimesh2/utilsrc/mesh_cat.i: trimesh2/utilsrc/mesh_cat.cc.i
@@ -1173,7 +1173,7 @@ trimesh2/utilsrc/mesh_cat.i: trimesh2/utilsrc/mesh_cat.cc.i
 
 # target to preprocess a source file
 trimesh2/utilsrc/mesh_cat.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_cat.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_cat.cc.i
 .PHONY : trimesh2/utilsrc/mesh_cat.cc.i
 
 trimesh2/utilsrc/mesh_cat.s: trimesh2/utilsrc/mesh_cat.cc.s
@@ -1182,7 +1182,7 @@ trimesh2/utilsrc/mesh_cat.s: trimesh2/utilsrc/mesh_cat.cc.s
 
 # target to generate assembly for a file
 trimesh2/utilsrc/mesh_cat.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_cat.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_cat.cc.s
 .PHONY : trimesh2/utilsrc/mesh_cat.cc.s
 
 trimesh2/utilsrc/mesh_cc.o: trimesh2/utilsrc/mesh_cc.cc.o
@@ -1191,7 +1191,7 @@ trimesh2/utilsrc/mesh_cc.o: trimesh2/utilsrc/mesh_cc.cc.o
 
 # target to build an object file
 trimesh2/utilsrc/mesh_cc.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_cc.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_cc.cc.o
 .PHONY : trimesh2/utilsrc/mesh_cc.cc.o
 
 trimesh2/utilsrc/mesh_cc.i: trimesh2/utilsrc/mesh_cc.cc.i
@@ -1200,7 +1200,7 @@ trimesh2/utilsrc/mesh_cc.i: trimesh2/utilsrc/mesh_cc.cc.i
 
 # target to preprocess a source file
 trimesh2/utilsrc/mesh_cc.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_cc.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_cc.cc.i
 .PHONY : trimesh2/utilsrc/mesh_cc.cc.i
 
 trimesh2/utilsrc/mesh_cc.s: trimesh2/utilsrc/mesh_cc.cc.s
@@ -1209,7 +1209,7 @@ trimesh2/utilsrc/mesh_cc.s: trimesh2/utilsrc/mesh_cc.cc.s
 
 # target to generate assembly for a file
 trimesh2/utilsrc/mesh_cc.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_cc.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_cc.cc.s
 .PHONY : trimesh2/utilsrc/mesh_cc.cc.s
 
 trimesh2/utilsrc/mesh_check.o: trimesh2/utilsrc/mesh_check.cc.o
@@ -1218,7 +1218,7 @@ trimesh2/utilsrc/mesh_check.o: trimesh2/utilsrc/mesh_check.cc.o
 
 # target to build an object file
 trimesh2/utilsrc/mesh_check.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_check.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_check.cc.o
 .PHONY : trimesh2/utilsrc/mesh_check.cc.o
 
 trimesh2/utilsrc/mesh_check.i: trimesh2/utilsrc/mesh_check.cc.i
@@ -1227,7 +1227,7 @@ trimesh2/utilsrc/mesh_check.i: trimesh2/utilsrc/mesh_check.cc.i
 
 # target to preprocess a source file
 trimesh2/utilsrc/mesh_check.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_check.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_check.cc.i
 .PHONY : trimesh2/utilsrc/mesh_check.cc.i
 
 trimesh2/utilsrc/mesh_check.s: trimesh2/utilsrc/mesh_check.cc.s
@@ -1236,7 +1236,7 @@ trimesh2/utilsrc/mesh_check.s: trimesh2/utilsrc/mesh_check.cc.s
 
 # target to generate assembly for a file
 trimesh2/utilsrc/mesh_check.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_check.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_check.cc.s
 .PHONY : trimesh2/utilsrc/mesh_check.cc.s
 
 trimesh2/utilsrc/mesh_crunch.o: trimesh2/utilsrc/mesh_crunch.cc.o
@@ -1245,7 +1245,7 @@ trimesh2/utilsrc/mesh_crunch.o: trimesh2/utilsrc/mesh_crunch.cc.o
 
 # target to build an object file
 trimesh2/utilsrc/mesh_crunch.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_crunch.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_crunch.cc.o
 .PHONY : trimesh2/utilsrc/mesh_crunch.cc.o
 
 trimesh2/utilsrc/mesh_crunch.i: trimesh2/utilsrc/mesh_crunch.cc.i
@@ -1254,7 +1254,7 @@ trimesh2/utilsrc/mesh_crunch.i: trimesh2/utilsrc/mesh_crunch.cc.i
 
 # target to preprocess a source file
 trimesh2/utilsrc/mesh_crunch.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_crunch.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_crunch.cc.i
 .PHONY : trimesh2/utilsrc/mesh_crunch.cc.i
 
 trimesh2/utilsrc/mesh_crunch.s: trimesh2/utilsrc/mesh_crunch.cc.s
@@ -1263,7 +1263,7 @@ trimesh2/utilsrc/mesh_crunch.s: trimesh2/utilsrc/mesh_crunch.cc.s
 
 # target to generate assembly for a file
 trimesh2/utilsrc/mesh_crunch.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_crunch.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_crunch.cc.s
 .PHONY : trimesh2/utilsrc/mesh_crunch.cc.s
 
 trimesh2/utilsrc/mesh_filter.o: trimesh2/utilsrc/mesh_filter.cc.o
@@ -1272,7 +1272,7 @@ trimesh2/utilsrc/mesh_filter.o: trimesh2/utilsrc/mesh_filter.cc.o
 
 # target to build an object file
 trimesh2/utilsrc/mesh_filter.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_filter.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_filter.cc.o
 .PHONY : trimesh2/utilsrc/mesh_filter.cc.o
 
 trimesh2/utilsrc/mesh_filter.i: trimesh2/utilsrc/mesh_filter.cc.i
@@ -1281,7 +1281,7 @@ trimesh2/utilsrc/mesh_filter.i: trimesh2/utilsrc/mesh_filter.cc.i
 
 # target to preprocess a source file
 trimesh2/utilsrc/mesh_filter.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_filter.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_filter.cc.i
 .PHONY : trimesh2/utilsrc/mesh_filter.cc.i
 
 trimesh2/utilsrc/mesh_filter.s: trimesh2/utilsrc/mesh_filter.cc.s
@@ -1290,7 +1290,7 @@ trimesh2/utilsrc/mesh_filter.s: trimesh2/utilsrc/mesh_filter.cc.s
 
 # target to generate assembly for a file
 trimesh2/utilsrc/mesh_filter.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_filter.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_filter.cc.s
 .PHONY : trimesh2/utilsrc/mesh_filter.cc.s
 
 trimesh2/utilsrc/mesh_hf.o: trimesh2/utilsrc/mesh_hf.cc.o
@@ -1299,7 +1299,7 @@ trimesh2/utilsrc/mesh_hf.o: trimesh2/utilsrc/mesh_hf.cc.o
 
 # target to build an object file
 trimesh2/utilsrc/mesh_hf.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_hf.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_hf.cc.o
 .PHONY : trimesh2/utilsrc/mesh_hf.cc.o
 
 trimesh2/utilsrc/mesh_hf.i: trimesh2/utilsrc/mesh_hf.cc.i
@@ -1308,7 +1308,7 @@ trimesh2/utilsrc/mesh_hf.i: trimesh2/utilsrc/mesh_hf.cc.i
 
 # target to preprocess a source file
 trimesh2/utilsrc/mesh_hf.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_hf.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_hf.cc.i
 .PHONY : trimesh2/utilsrc/mesh_hf.cc.i
 
 trimesh2/utilsrc/mesh_hf.s: trimesh2/utilsrc/mesh_hf.cc.s
@@ -1317,7 +1317,7 @@ trimesh2/utilsrc/mesh_hf.s: trimesh2/utilsrc/mesh_hf.cc.s
 
 # target to generate assembly for a file
 trimesh2/utilsrc/mesh_hf.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_hf.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_hf.cc.s
 .PHONY : trimesh2/utilsrc/mesh_hf.cc.s
 
 trimesh2/utilsrc/mesh_info.o: trimesh2/utilsrc/mesh_info.cc.o
@@ -1326,7 +1326,7 @@ trimesh2/utilsrc/mesh_info.o: trimesh2/utilsrc/mesh_info.cc.o
 
 # target to build an object file
 trimesh2/utilsrc/mesh_info.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_info.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_info.cc.o
 .PHONY : trimesh2/utilsrc/mesh_info.cc.o
 
 trimesh2/utilsrc/mesh_info.i: trimesh2/utilsrc/mesh_info.cc.i
@@ -1335,7 +1335,7 @@ trimesh2/utilsrc/mesh_info.i: trimesh2/utilsrc/mesh_info.cc.i
 
 # target to preprocess a source file
 trimesh2/utilsrc/mesh_info.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_info.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_info.cc.i
 .PHONY : trimesh2/utilsrc/mesh_info.cc.i
 
 trimesh2/utilsrc/mesh_info.s: trimesh2/utilsrc/mesh_info.cc.s
@@ -1344,7 +1344,7 @@ trimesh2/utilsrc/mesh_info.s: trimesh2/utilsrc/mesh_info.cc.s
 
 # target to generate assembly for a file
 trimesh2/utilsrc/mesh_info.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_info.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_info.cc.s
 .PHONY : trimesh2/utilsrc/mesh_info.cc.s
 
 trimesh2/utilsrc/mesh_make.o: trimesh2/utilsrc/mesh_make.cc.o
@@ -1353,7 +1353,7 @@ trimesh2/utilsrc/mesh_make.o: trimesh2/utilsrc/mesh_make.cc.o
 
 # target to build an object file
 trimesh2/utilsrc/mesh_make.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_make.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_make.cc.o
 .PHONY : trimesh2/utilsrc/mesh_make.cc.o
 
 trimesh2/utilsrc/mesh_make.i: trimesh2/utilsrc/mesh_make.cc.i
@@ -1362,7 +1362,7 @@ trimesh2/utilsrc/mesh_make.i: trimesh2/utilsrc/mesh_make.cc.i
 
 # target to preprocess a source file
 trimesh2/utilsrc/mesh_make.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_make.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_make.cc.i
 .PHONY : trimesh2/utilsrc/mesh_make.cc.i
 
 trimesh2/utilsrc/mesh_make.s: trimesh2/utilsrc/mesh_make.cc.s
@@ -1371,7 +1371,7 @@ trimesh2/utilsrc/mesh_make.s: trimesh2/utilsrc/mesh_make.cc.s
 
 # target to generate assembly for a file
 trimesh2/utilsrc/mesh_make.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_make.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_make.cc.s
 .PHONY : trimesh2/utilsrc/mesh_make.cc.s
 
 trimesh2/utilsrc/mesh_shade.o: trimesh2/utilsrc/mesh_shade.cc.o
@@ -1380,7 +1380,7 @@ trimesh2/utilsrc/mesh_shade.o: trimesh2/utilsrc/mesh_shade.cc.o
 
 # target to build an object file
 trimesh2/utilsrc/mesh_shade.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_shade.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_shade.cc.o
 .PHONY : trimesh2/utilsrc/mesh_shade.cc.o
 
 trimesh2/utilsrc/mesh_shade.i: trimesh2/utilsrc/mesh_shade.cc.i
@@ -1389,7 +1389,7 @@ trimesh2/utilsrc/mesh_shade.i: trimesh2/utilsrc/mesh_shade.cc.i
 
 # target to preprocess a source file
 trimesh2/utilsrc/mesh_shade.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_shade.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_shade.cc.i
 .PHONY : trimesh2/utilsrc/mesh_shade.cc.i
 
 trimesh2/utilsrc/mesh_shade.s: trimesh2/utilsrc/mesh_shade.cc.s
@@ -1398,7 +1398,7 @@ trimesh2/utilsrc/mesh_shade.s: trimesh2/utilsrc/mesh_shade.cc.s
 
 # target to generate assembly for a file
 trimesh2/utilsrc/mesh_shade.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_shade.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_shade.cc.s
 .PHONY : trimesh2/utilsrc/mesh_shade.cc.s
 
 trimesh2/utilsrc/mesh_view.o: trimesh2/utilsrc/mesh_view.cc.o
@@ -1407,7 +1407,7 @@ trimesh2/utilsrc/mesh_view.o: trimesh2/utilsrc/mesh_view.cc.o
 
 # target to build an object file
 trimesh2/utilsrc/mesh_view.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_view.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_view.cc.o
 .PHONY : trimesh2/utilsrc/mesh_view.cc.o
 
 trimesh2/utilsrc/mesh_view.i: trimesh2/utilsrc/mesh_view.cc.i
@@ -1416,7 +1416,7 @@ trimesh2/utilsrc/mesh_view.i: trimesh2/utilsrc/mesh_view.cc.i
 
 # target to preprocess a source file
 trimesh2/utilsrc/mesh_view.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_view.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_view.cc.i
 .PHONY : trimesh2/utilsrc/mesh_view.cc.i
 
 trimesh2/utilsrc/mesh_view.s: trimesh2/utilsrc/mesh_view.cc.s
@@ -1425,7 +1425,7 @@ trimesh2/utilsrc/mesh_view.s: trimesh2/utilsrc/mesh_view.cc.s
 
 # target to generate assembly for a file
 trimesh2/utilsrc/mesh_view.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_view.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/mesh_view.cc.s
 .PHONY : trimesh2/utilsrc/mesh_view.cc.s
 
 trimesh2/utilsrc/xf.o: trimesh2/utilsrc/xf.cc.o
@@ -1434,7 +1434,7 @@ trimesh2/utilsrc/xf.o: trimesh2/utilsrc/xf.cc.o
 
 # target to build an object file
 trimesh2/utilsrc/xf.cc.o:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/xf.cc.o
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/xf.cc.o
 .PHONY : trimesh2/utilsrc/xf.cc.o
 
 trimesh2/utilsrc/xf.i: trimesh2/utilsrc/xf.cc.i
@@ -1443,7 +1443,7 @@ trimesh2/utilsrc/xf.i: trimesh2/utilsrc/xf.cc.i
 
 # target to preprocess a source file
 trimesh2/utilsrc/xf.cc.i:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/xf.cc.i
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/xf.cc.i
 .PHONY : trimesh2/utilsrc/xf.cc.i
 
 trimesh2/utilsrc/xf.s: trimesh2/utilsrc/xf.cc.s
@@ -1452,7 +1452,7 @@ trimesh2/utilsrc/xf.s: trimesh2/utilsrc/xf.cc.s
 
 # target to generate assembly for a file
 trimesh2/utilsrc/xf.cc.s:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/xf.cc.s
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(MAKE) $(MAKESILENT) -f registration/CMakeFiles/trimesh2.dir/build.make registration/CMakeFiles/trimesh2.dir/trimesh2/utilsrc/xf.cc.s
 .PHONY : trimesh2/utilsrc/xf.cc.s
 
 # Help Target
@@ -1620,6 +1620,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/adminlocal/PhD/cpp/reconbench-Laurent/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/adminlocal/PhD/cpp/reconbench-CMake/build_debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

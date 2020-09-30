@@ -356,33 +356,33 @@ climits
 cfloat
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/ComputationTimer.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/ComputationTimer.h
 time.h
 -
 iostream
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/DenseEigenSystem.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseEigenSystem.h
 DenseMatrix.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/DenseMatrix.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseMatrix.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/DenseMatrix.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseMatrix.h
 Vector.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Vector.h
 Vector3.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector3.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Vector3.h
 linalg_consts.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/linalg_consts.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/linalg_consts.h
 string
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/ImplicitFunction.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/ImplicitFunction.h
 Vector3.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector3.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Vector3.h
 DenseEigenSystem.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/DenseEigenSystem.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseEigenSystem.h
 mesh_types.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/mesh_types.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/mesh_types.h
 teem/nrrd.h
 -
 iostream
@@ -392,9 +392,9 @@ vector
 stdio.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/ImplicitSphere.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/ImplicitSphere.h
 ImplicitFunction.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/ImplicitFunction.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/ImplicitFunction.h
 stdlib.h
 -
 fstream
@@ -402,9 +402,9 @@ fstream
 sstream
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Rigid.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Rigid.h
 DenseEigenSystem.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/DenseEigenSystem.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseEigenSystem.h
 vector
 -
 stdio.h
@@ -412,49 +412,65 @@ stdio.h
 stdlib.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/RotationMatrix.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/RotationMatrix.h
 DenseMatrix.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/DenseMatrix.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseMatrix.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Vector.h
 iostream
 -
 math.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector3.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Vector3.h
 iostream
 -
 math.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/linalg_consts.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/collision.h
+math.h
+-
+stdio.h
+-
+float.h
+-
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/lm_method.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/linalg_consts.h
+
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/lm_method.h
 DenseMatrix.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/DenseMatrix.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseMatrix.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/mesh_types.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/mesh_types.h
 OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh
 -
 OpenMesh/Core/Mesh/PolyMesh_ArrayKernelT.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/GaussianFit.h
-../modeling/lm_method.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/lm_method.h
-vector
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/mpu_soup.h
+collision.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/collision.h
+tri_integrator.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/tri_integrator.h
+DenseMatrix.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseMatrix.h
+DenseEigenSystem.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseEigenSystem.h
+ANN/ANN.h
+-
+stdio.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/ImplicitNewton.h
-../modeling/ImplicitFunction.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/ImplicitFunction.h
-UniformOccupancyGrid.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/UniformOccupancyGrid.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/shape_loader.h
+mpu_soup.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/mpu_soup.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/NPTSReader.h
-OrientedPointCloud.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/OrientedPointCloud.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/tri_integrator.h
+mesh_types.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/mesh_types.h
+ImplicitFunction.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/ImplicitFunction.h
 string
 -
 vector
@@ -466,17 +482,43 @@ fstream
 sstream
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/OrientedPointCloud.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/GaussianFit.h
+../modeling/lm_method.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/lm_method.h
+vector
+-
+
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/ImplicitNewton.h
+../modeling/ImplicitFunction.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/ImplicitFunction.h
+UniformOccupancyGrid.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/UniformOccupancyGrid.h
+
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/NPTSReader.h
+OrientedPointCloud.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/OrientedPointCloud.h
+string
+-
+vector
+-
+iostream
+-
+fstream
+-
+sstream
+-
+
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/OrientedPointCloud.h
 stdio.h
 -
 vector
 -
 ../modeling/Vector3.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector3.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Vector3.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/OrientedRangeImage.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/OrientedRangeImage.h
 ../modeling/Vector3.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector3.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Vector3.h
 string
 -
 iostream
@@ -484,7 +526,7 @@ iostream
 stdio.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/PNGImage.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/PNGImage.h
 malloc.h
 -
 iostream
@@ -492,25 +534,25 @@ iostream
 png.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/PointCloud.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/PointCloud.h
 map
 -
 algorithm
 -
 OrientedPointCloud.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/OrientedPointCloud.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/OrientedPointCloud.h
 union_find.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/union_find.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/union_find.h
 basic_graph.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/basic_graph.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/basic_graph.h
 ../modeling/DenseEigenSystem.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/DenseEigenSystem.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseEigenSystem.h
 ANN/ANN.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RangeImage.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/RangeImage.h
 ../modeling/Vector3.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector3.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Vector3.h
 string
 -
 iostream
@@ -518,33 +560,33 @@ iostream
 stdio.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RangeScanner.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/RangeScanner.h
 RayCaster.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RayCaster.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/RayCaster.h
 OrientedRangeImage.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/OrientedRangeImage.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/OrientedRangeImage.h
 ImplicitNewton.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/ImplicitNewton.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/ImplicitNewton.h
 ../modeling/Rigid.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Rigid.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Rigid.h
 SparseRangeScan.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/SparseRangeScan.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/SparseRangeScan.h
 PNGImage.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/PNGImage.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/PNGImage.h
 ../modeling/RotationMatrix.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/RotationMatrix.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/RotationMatrix.h
 GaussianFit.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/GaussianFit.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/GaussianFit.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RayCaster.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/RayCaster.h
 ../modeling/Vector3.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector3.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Vector3.h
 ../modeling/RotationMatrix.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/RotationMatrix.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/RotationMatrix.h
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/SparseRangeScan.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/SparseRangeScan.h
 PointCloud.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/PointCloud.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/PointCloud.h
 string
 -
 vector
@@ -556,39 +598,39 @@ fstream
 sstream
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/UniformOccupancyGrid.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/UniformOccupancyGrid.h
 ../modeling/Vector3.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/Vector3.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Vector3.h
 iostream
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/UniformSampler.cpp
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/UniformSampler.cpp
 UniformSampler.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/UniformSampler.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/UniformSampler.h
 unistd.h
 -
 iostream
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/UniformSampler.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/UniformSampler.h
 ../evaluator/ComputationTimer.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/evaluator/ComputationTimer.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/ComputationTimer.h
 RayCaster.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RayCaster.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/RayCaster.h
 OrientedRangeImage.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/OrientedRangeImage.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/OrientedRangeImage.h
 RangeImage.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RangeImage.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/RangeImage.h
 NPTSReader.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/NPTSReader.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/NPTSReader.h
 PointCloud.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/PointCloud.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/PointCloud.h
 RangeScanner.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/RangeScanner.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/RangeScanner.h
 ../modeling/ImplicitSphere.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/ImplicitSphere.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/ImplicitSphere.h
 ../modeling/RotationMatrix.h
-/home/adminlocal/PhD/cpp/reconbench-Laurent/modeling/RotationMatrix.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/RotationMatrix.h
 stdio.h
 -
 stdlib.h
@@ -606,9 +648,21 @@ string
 vector
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/basic_graph.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/basic_graph.h
 vector
 -
 
-/home/adminlocal/PhD/cpp/reconbench-Laurent/sampler/union_find.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/run_uniform.cpp
+UniformSampler.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/UniformSampler.h
+../modeling/shape_loader.h
+/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/shape_loader.h
+cstdio
+-
+cstdlib
+-
+iostream
+-
+
+/home/adminlocal/PhD/cpp/reconbench-CMake/sampler/union_find.h
 

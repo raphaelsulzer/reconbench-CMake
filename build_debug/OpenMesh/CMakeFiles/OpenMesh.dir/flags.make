@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/adminlocal/PhD/cpp/reconbench-Laurent/OpenMesh/.
+CXX_INCLUDES = -I/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/.
 
-CXX_FLAGS = -O2 -g -DNDEBUG
+CXX_FLAGS = -g
 
