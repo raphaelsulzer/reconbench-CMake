@@ -702,7 +702,7 @@ StripifierT.cc
 
 ../OpenMesh/OpenMesh/Tools/Utils/conio.hh
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/BinaryHelper.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/BinaryHelper.cc
 OpenMesh/Core/System/config.h
 -
 algorithm
@@ -710,13 +710,13 @@ algorithm
 OpenMesh/Core/IO/BinaryHelper.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/IOManager.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/IOManager.cc
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/IO/IOManager.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/OMFormat.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/OMFormat.cc
 OpenMesh/Core/IO/OMFormat.hh
 -
 algorithm
@@ -724,7 +724,7 @@ algorithm
 iomanip
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/reader/BaseReader.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/reader/BaseReader.cc
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/IO/reader/BaseReader.hh
@@ -740,7 +740,7 @@ ctype.h
 cctype
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/reader/OBJReader.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/reader/OBJReader.cc
 OpenMesh/Core/IO/reader/OBJReader.hh
 -
 OpenMesh/Core/IO/IOManager.hh
@@ -760,7 +760,7 @@ cctype
 string.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/reader/OFFReader.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/reader/OFFReader.cc
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/System/omstream.hh
@@ -778,7 +778,7 @@ memory
 string.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/reader/OMReader.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/reader/OMReader.cc
 fstream
 -
 OpenMesh/Core/System/config.h
@@ -792,11 +792,11 @@ OpenMesh/Core/IO/OMFormat.hh
 OpenMesh/Core/IO/reader/OMReader.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/reader/PLYReader.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/reader/PLYReader.cc
 OpenMesh/Core/IO/reader/PLYReader.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/reader/STLReader.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/reader/STLReader.cc
 map
 -
 float.h
@@ -814,7 +814,7 @@ OpenMesh/Core/System/omstream.hh
 OpenMesh/Core/IO/importer/BaseImporter.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/reader/ply.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/reader/ply.cc
 stdio.h
 -
 stdlib.h
@@ -826,7 +826,7 @@ string.h
 OpenMesh/Core/IO/reader/ply.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/writer/BaseWriter.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/writer/BaseWriter.cc
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/IO/writer/BaseWriter.hh
@@ -842,7 +842,7 @@ ctype.h
 cctype
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/writer/OBJWriter.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/writer/OBJWriter.cc
 fstream
 -
 OpenMesh/Core/System/config.h
@@ -856,7 +856,7 @@ OpenMesh/Core/IO/IOManager.hh
 OpenMesh/Core/System/omstream.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/writer/OFFWriter.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/writer/OFFWriter.cc
 OpenMesh/Core/System/config.h
 -
 OpenMesh/Core/System/omstream.hh
@@ -870,7 +870,7 @@ OpenMesh/Core/IO/BinaryHelper.hh
 OpenMesh/Core/IO/writer/OFFWriter.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/writer/OMWriter.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/writer/OMWriter.cc
 OpenMesh/Core/System/config.h
 -
 time.h
@@ -894,7 +894,7 @@ OpenMesh/Core/IO/exporter/BaseExporter.hh
 OpenMesh/Core/IO/writer/OMWriter.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/writer/STLWriter.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/IO/writer/STLWriter.cc
 fstream
 -
 OpenMesh/Core/System/config.h
@@ -910,21 +910,21 @@ OpenMesh/Core/IO/IOManager.hh
 OpenMesh/Core/IO/writer/STLWriter.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Mesh/ArrayKernel.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Mesh/ArrayKernel.cc
 OpenMesh/Core/Mesh/ArrayKernel.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Mesh/BaseKernel.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Mesh/BaseKernel.cc
 OpenMesh/Core/Mesh/BaseKernel.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Mesh/PolyConnectivity.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Mesh/PolyConnectivity.cc
 OpenMesh/Core/Mesh/PolyConnectivity.hh
 -
 set
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Mesh/PolyMeshT.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Mesh/PolyMeshT.cc
 OpenMesh/Core/Mesh/PolyMeshT.hh
 -
 OpenMesh/Core/Geometry/LoopSchemeMaskT.hh
@@ -936,13 +936,13 @@ OpenMesh/Core/System/omstream.hh
 vector
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Mesh/TriConnectivity.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Mesh/TriConnectivity.cc
 OpenMesh/Core/Mesh/TriConnectivity.hh
 -
 OpenMesh/Core/System/omstream.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Mesh/TriMeshT.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Mesh/TriMeshT.cc
 OpenMesh/Core/Mesh/TriMeshT.hh
 -
 OpenMesh/Core/System/omstream.hh
@@ -950,25 +950,25 @@ OpenMesh/Core/System/omstream.hh
 vector
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/System/omstream.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/System/omstream.cc
 OpenMesh/Core/System/omstream.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Templates/newClass.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Templates/newClass.cc
 OpenMesh/Core/Templates/newClass.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Templates/newClassT.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Templates/newClassT.cc
 OpenMesh/Core/Templates/newClass.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Utils/BaseProperty.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Utils/BaseProperty.cc
 OpenMesh/Core/Utils/BaseProperty.hh
 -
 iostream
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Utils/Endian.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Utils/Endian.cc
 iostream
 -
 algorithm
@@ -976,13 +976,13 @@ algorithm
 OpenMesh/Core/Utils/Endian.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Utils/SingletonT.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Core/Utils/SingletonT.cc
 OpenMesh/Core/Utils/SingletonT.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Tools/Utils/Gnuplot.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Tools/Utils/Gnuplot.cc
 Gnuplot.hh
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Tools/Utils/Gnuplot.hh
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Tools/Utils/Gnuplot.hh
 stdarg.h
 -
 io.h
@@ -1004,7 +1004,7 @@ stdlib.h
 string.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Tools/Utils/Gnuplot.hh
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Tools/Utils/Gnuplot.hh
 OpenMesh/Core/System/config.hh
 -
 stdio.h
@@ -1018,17 +1018,17 @@ vector
 stdexcept
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Tools/Utils/MeshCheckerT.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Tools/Utils/MeshCheckerT.cc
 OpenMesh/Tools/Utils/MeshCheckerT.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Tools/Utils/StripifierT.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Tools/Utils/StripifierT.cc
 OpenMesh/Tools/Utils/StripifierT.hh
 -
 list
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Tools/Utils/Timer.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Tools/Utils/Timer.cc
 OpenMesh/Core/System/config.h
 -
 math.h
@@ -1040,7 +1040,7 @@ cmath
 cstdio
 -
 Timer.hh
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Tools/Utils/Timer.hh
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Tools/Utils/Timer.hh
 windows.h
 -
 time.h
@@ -1054,7 +1054,7 @@ unistd.h
 time.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Tools/Utils/Timer.hh
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Tools/Utils/Timer.hh
 OpenMesh/Core/System/config.hh
 -
 iostream
@@ -1066,7 +1066,7 @@ assert.h
 cassert
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/OpenMesh/Tools/Utils/conio.cc
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/OpenMesh/Tools/Utils/conio.cc
 OpenMesh/Core/System/config.hh
 -
 OpenMesh/Tools/Utils/conio.hh

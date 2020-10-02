@@ -360,13 +360,13 @@ sys/time.h
 unistd.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/EdgeMesh.cc
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/EdgeMesh.cc
 EdgeMesh.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/EdgeMesh.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/EdgeMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/TriMesh_algo.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/TriMesh_algo.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/ICP.cc
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/ICP.cc
 cmath
 -
 algorithm
@@ -374,29 +374,29 @@ algorithm
 stdio.h
 -
 ICP.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/ICP.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/ICP.h
 KDtree.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/KDtree.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/KDtree.h
 timestamp.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/timestamp.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/timestamp.h
 lineqn.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/lineqn.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/lineqn.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/KDtree.cc
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/KDtree.cc
 math.h
 -
 string.h
 -
 KDtree.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/KDtree.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/KDtree.h
 mempool.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/mempool.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/mempool.h
 vector
 -
 algorithm
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/autorient.cc
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/autorient.cc
 stdio.h
 -
 stdlib.h
@@ -406,17 +406,17 @@ unistd.h
 string.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/TriMesh.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/TriMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/TriMesh_algo.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/TriMesh_algo.h
 XForm.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/XForm.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/XForm.h
 bsphere.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/bsphere.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/bsphere.h
 iostream
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/correspond.cc
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/correspond.cc
 math.h
 -
 stdio.h
@@ -430,31 +430,31 @@ assert.h
 vector
 -
 timestamp.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/timestamp.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/timestamp.h
 EdgeMesh.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/EdgeMesh.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/EdgeMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/TriMesh_algo.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/TriMesh_algo.h
 ICP.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/ICP.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/ICP.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/distance.cc
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/distance.cc
 assert.h
 -
 XForm.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/XForm.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/XForm.h
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/TriMesh.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/TriMesh.h
 KDtree.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/KDtree.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/KDtree.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/global_reg.cc
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/global_reg.cc
 global_reg.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/global_reg.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/global_reg.h
 timestamp.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/timestamp.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/timestamp.h
 KDtree.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/KDtree.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/KDtree.h
 math.h
 -
 time.h
@@ -474,13 +474,13 @@ iostream
 fstream
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/global_reg_util.cc
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/global_reg_util.cc
 global_reg.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/global_reg.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/global_reg.h
 jama_svd.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/jama_svd.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/jama_svd.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/interactive.cc
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/interactive.cc
 stdio.h
 -
 stdlib.h
@@ -488,31 +488,31 @@ stdlib.h
 assert.h
 -
 EdgeMesh.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/EdgeMesh.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/EdgeMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/TriMesh_algo.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/TriMesh_algo.h
 XForm.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/XForm.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/XForm.h
 KDtree.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/KDtree.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/KDtree.h
 GLCamera.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/GLCamera.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/GLCamera.h
 ICP.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/ICP.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/ICP.h
 GL/glut.h
 -
 glui.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/glui.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/glui.h
 vector
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/make_session.cc
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/make_session.cc
 stdio.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/TriMesh.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/TriMesh.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/ply2vn.cc
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/ply2vn.cc
 math.h
 -
 time.h
@@ -542,9 +542,9 @@ fstream
 tnt_array2d.h
 -
 TriMesh.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/TriMesh.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/TriMesh.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/pre_to_ply.cc
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/pre_to_ply.cc
 math.h
 -
 time.h
@@ -574,9 +574,9 @@ fstream
 tnt_array2d.h
 -
 EdgeMesh.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/EdgeMesh.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/EdgeMesh.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/preprocess.cc
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/preprocess.cc
 math.h
 -
 time.h
@@ -606,13 +606,13 @@ fstream
 tnt_array2d.h
 -
 EdgeMesh.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/EdgeMesh.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/EdgeMesh.h
 TriMesh_algo.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/TriMesh_algo.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/TriMesh_algo.h
 ICP.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/ICP.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/ICP.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/tps.cc
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/tps.cc
 stdlib.h
 -
 stdio.h
@@ -624,9 +624,9 @@ vector
 queue
 -
 tnt_array2d.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/tnt_array2d.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/tnt_array2d.h
 jama_lu.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/jama_lu.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/jama_lu.h
 tps.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/registration/tps_alignment/src/tps.h
+/home/rsulzer/cpp/reconbench-CMake/registration/tps_alignment/src/tps.h
 

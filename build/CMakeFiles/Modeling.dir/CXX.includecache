@@ -804,51 +804,51 @@ climits
 cfloat
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/ComputationTimer.h
+/home/rsulzer/cpp/reconbench-CMake/evaluator/ComputationTimer.h
 time.h
 -
 iostream
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseEigenSystem.cpp
+/home/rsulzer/cpp/reconbench-CMake/modeling/DenseEigenSystem.cpp
 DenseEigenSystem.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseEigenSystem.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/DenseEigenSystem.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseEigenSystem.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/DenseEigenSystem.h
 DenseMatrix.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseMatrix.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/DenseMatrix.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseMatrix.cpp
+/home/rsulzer/cpp/reconbench-CMake/modeling/DenseMatrix.cpp
 DenseMatrix.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseMatrix.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/DenseMatrix.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseMatrix.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/DenseMatrix.h
 Vector.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Vector.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/Vector.h
 Vector3.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Vector3.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/Vector3.h
 linalg_consts.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/linalg_consts.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/linalg_consts.h
 string
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/ImplicitFunction.cpp
+/home/rsulzer/cpp/reconbench-CMake/modeling/ImplicitFunction.cpp
 ImplicitFunction.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/ImplicitFunction.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/ImplicitFunction.h
 cstdlib
 -
 cstdio
 -
 ../evaluator/ComputationTimer.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/evaluator/ComputationTimer.h
+/home/rsulzer/cpp/reconbench-CMake/evaluator/ComputationTimer.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/ImplicitFunction.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/ImplicitFunction.h
 Vector3.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Vector3.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/Vector3.h
 DenseEigenSystem.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseEigenSystem.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/DenseEigenSystem.h
 mesh_types.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/mesh_types.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/mesh_types.h
 teem/nrrd.h
 -
 iostream
@@ -858,13 +858,13 @@ vector
 stdio.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Rigid.cpp
+/home/rsulzer/cpp/reconbench-CMake/modeling/Rigid.cpp
 Rigid.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Rigid.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/Rigid.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Rigid.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/Rigid.h
 DenseEigenSystem.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseEigenSystem.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/DenseEigenSystem.h
 vector
 -
 stdio.h
@@ -872,31 +872,31 @@ stdio.h
 stdlib.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/RotationMatrix.cpp
+/home/rsulzer/cpp/reconbench-CMake/modeling/RotationMatrix.cpp
 RotationMatrix.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/RotationMatrix.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/RotationMatrix.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/RotationMatrix.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/RotationMatrix.h
 DenseMatrix.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseMatrix.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/DenseMatrix.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Vector.cpp
+/home/rsulzer/cpp/reconbench-CMake/modeling/Vector.cpp
 Vector.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Vector.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/Vector.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Vector.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/Vector.h
 iostream
 -
 math.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/Vector3.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/Vector3.h
 iostream
 -
 math.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/collision.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/collision.h
 math.h
 -
 stdio.h
@@ -904,11 +904,11 @@ stdio.h
 float.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/isosurface.cpp
+/home/rsulzer/cpp/reconbench-CMake/modeling/isosurface.cpp
 OpenMesh/Core/IO/MeshIO.hh
 -
 shape_loader.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/shape_loader.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/shape_loader.h
 cstdio
 -
 cstdlib
@@ -916,21 +916,21 @@ cstdlib
 iostream
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/linalg_consts.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/linalg_consts.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/lm_method.cpp
+/home/rsulzer/cpp/reconbench-CMake/modeling/lm_method.cpp
 lm_method.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/lm_method.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/lm_method.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/lm_method.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/lm_method.h
 DenseMatrix.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseMatrix.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/DenseMatrix.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/mesh_to_implicit.cpp
+/home/rsulzer/cpp/reconbench-CMake/modeling/mesh_to_implicit.cpp
 OpenMesh/Core/IO/MeshIO.hh
 -
 shape_loader.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/shape_loader.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/shape_loader.h
 cstdio
 -
 cstdlib
@@ -938,35 +938,35 @@ cstdlib
 iostream
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/mesh_types.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/mesh_types.h
 OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh
 -
 OpenMesh/Core/Mesh/PolyMesh_ArrayKernelT.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/mpu_soup.cpp
+/home/rsulzer/cpp/reconbench-CMake/modeling/mpu_soup.cpp
 mpu_soup.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/mpu_soup.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/mpu_soup.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/mpu_soup.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/mpu_soup.h
 collision.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/collision.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/collision.h
 tri_integrator.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/tri_integrator.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/tri_integrator.h
 DenseMatrix.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseMatrix.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/DenseMatrix.h
 DenseEigenSystem.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/DenseEigenSystem.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/DenseEigenSystem.h
 ANN/ANN.h
 -
 stdio.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/post-processing.cpp
+/home/rsulzer/cpp/reconbench-CMake/modeling/post-processing.cpp
 OpenMesh/Core/IO/MeshIO.hh
 -
 shape_loader.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/shape_loader.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/shape_loader.h
 cstdio
 -
 cstdlib
@@ -974,19 +974,19 @@ cstdlib
 iostream
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/shape_loader.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/shape_loader.h
 mpu_soup.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/mpu_soup.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/mpu_soup.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/tri_integrator.cpp
+/home/rsulzer/cpp/reconbench-CMake/modeling/tri_integrator.cpp
 tri_integrator.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/tri_integrator.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/tri_integrator.h
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/tri_integrator.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/tri_integrator.h
 mesh_types.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/mesh_types.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/mesh_types.h
 ImplicitFunction.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/modeling/ImplicitFunction.h
+/home/rsulzer/cpp/reconbench-CMake/modeling/ImplicitFunction.h
 string
 -
 vector

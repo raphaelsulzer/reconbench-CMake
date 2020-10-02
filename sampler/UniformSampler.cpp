@@ -408,13 +408,20 @@ void UniformSampler::dump_to_ply(string _filename, PointCloud& _pc, vector<Vecto
     // header info
     fprintf(ply_out, "ply\n");
     fprintf(ply_out, "format ascii 1.0\n");
-    fprintf(ply_out, "element vertex %i\n ", num_vertices);
+    fprintf(ply_out, "element vertex %i\n", num_vertices);
     fprintf(ply_out, "property float x\n");
     fprintf(ply_out, "property float y\n");
     fprintf(ply_out, "property float z\n");
-    fprintf(ply_out, "property float nx\n");
-    fprintf(ply_out, "property float ny\n");
-    fprintf(ply_out, "property float nz\n");
+    if(normal_type == NORMALS_SENSOR_POS){
+        fprintf(ply_out, "property float sx\n");
+        fprintf(ply_out, "property float sy\n");
+        fprintf(ply_out, "property float sz\n");
+    }
+    else{
+        fprintf(ply_out, "property float nx\n");
+        fprintf(ply_out, "property float ny\n");
+        fprintf(ply_out, "property float nz\n");
+    }
     fprintf(ply_out, "end_header\n");
 
     // write out vertices

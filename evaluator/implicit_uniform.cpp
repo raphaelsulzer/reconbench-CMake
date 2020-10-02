@@ -29,12 +29,14 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "../sampler/OrientedPointCloud.h"
 
 int main(int argc, char **argv) {
-	if(argc != 3)  {
-		std::cerr << "usage: " << argv[0] << " shape num_samples" << std::endl;
+    if(argc != 4)  {
+        std::cerr << "usage: " << argv[0] << " shape num_samples out_file" << std::endl;
 		return 1;
 	}
 	ImplicitFunction* shape = ShapeLoader::load_shape(argv[1]);
 	int num_samples = atoi(argv[2]);
+
+    string out_file = argv[3];
 
 	Vector3* points = new Vector3[num_samples];
 	Vector3* normals = new Vector3[num_samples];
@@ -43,5 +45,5 @@ int main(int argc, char **argv) {
 	OrientedPointCloud pc;
 	for(int i = 0; i < num_samples; i++)
 		pc.addOrientedPoint(points[i],normals[i]);
-	pc.write_to_file("particles.npts");
+    pc.write_to_file(out_file);
 }
