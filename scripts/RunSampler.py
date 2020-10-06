@@ -114,8 +114,13 @@ def runUniform(config, pathdir, infile, outfile):
 
             runcommand(args)
 
+if(not os.path.exists(sys.argv[1])):
+    print("Config file does not exist")
+    sys.exit(1)
+
 try:
 	config = configparser.ConfigParser()
+
 	config.read(sys.argv[1])
 
 	infile = config.get("sampler", "infile")
