@@ -74,27 +74,27 @@ include CMakeFiles/uniform_sampler.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/uniform_sampler.dir/flags.make
 
-CMakeFiles/uniform_sampler.dir/sampler/run_uniform.cpp.o: CMakeFiles/uniform_sampler.dir/flags.make
-CMakeFiles/uniform_sampler.dir/sampler/run_uniform.cpp.o: ../sampler/run_uniform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/uniform_sampler.dir/sampler/run_uniform.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uniform_sampler.dir/sampler/run_uniform.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/run_uniform.cpp
+CMakeFiles/uniform_sampler.dir/src/sampler/run_uniform.cpp.o: CMakeFiles/uniform_sampler.dir/flags.make
+CMakeFiles/uniform_sampler.dir/src/sampler/run_uniform.cpp.o: ../src/sampler/run_uniform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/uniform_sampler.dir/src/sampler/run_uniform.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uniform_sampler.dir/src/sampler/run_uniform.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/run_uniform.cpp
 
-CMakeFiles/uniform_sampler.dir/sampler/run_uniform.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uniform_sampler.dir/sampler/run_uniform.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/run_uniform.cpp > CMakeFiles/uniform_sampler.dir/sampler/run_uniform.cpp.i
+CMakeFiles/uniform_sampler.dir/src/sampler/run_uniform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uniform_sampler.dir/src/sampler/run_uniform.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/run_uniform.cpp > CMakeFiles/uniform_sampler.dir/src/sampler/run_uniform.cpp.i
 
-CMakeFiles/uniform_sampler.dir/sampler/run_uniform.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uniform_sampler.dir/sampler/run_uniform.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/run_uniform.cpp -o CMakeFiles/uniform_sampler.dir/sampler/run_uniform.cpp.s
+CMakeFiles/uniform_sampler.dir/src/sampler/run_uniform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uniform_sampler.dir/src/sampler/run_uniform.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/run_uniform.cpp -o CMakeFiles/uniform_sampler.dir/src/sampler/run_uniform.cpp.s
 
 # Object files for target uniform_sampler
 uniform_sampler_OBJECTS = \
-"CMakeFiles/uniform_sampler.dir/sampler/run_uniform.cpp.o"
+"CMakeFiles/uniform_sampler.dir/src/sampler/run_uniform.cpp.o"
 
 # External object files for target uniform_sampler
 uniform_sampler_EXTERNAL_OBJECTS =
 
-uniform_sampler: CMakeFiles/uniform_sampler.dir/sampler/run_uniform.cpp.o
+uniform_sampler: CMakeFiles/uniform_sampler.dir/src/sampler/run_uniform.cpp.o
 uniform_sampler: CMakeFiles/uniform_sampler.dir/build.make
 uniform_sampler: ann/libann.a
 uniform_sampler: OpenMesh/libOpenMesh.a

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/isosurface.dir/modeling/isosurface.cpp.o"
+  "CMakeFiles/isosurface.dir/src/modeling/isosurface.cpp.o"
   "isosurface"
   "isosurface.pdb"
 )

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pc_generator.dir/sampler/pc_generator.cpp.o"
+  "CMakeFiles/pc_generator.dir/src/sampler/pc_generator.cpp.o"
   "pc_generator"
   "pc_generator.pdb"
 )

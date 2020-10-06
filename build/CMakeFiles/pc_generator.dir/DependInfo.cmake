@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/pc_generator.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/pc_generator.dir/sampler/pc_generator.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/pc_generator.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/pc_generator.dir/src/sampler/pc_generator.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,7 +15,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../sampler"
+  "../src/sampler"
   "../ann/include"
   "../OpenMesh/."
   "../pbrt/src"

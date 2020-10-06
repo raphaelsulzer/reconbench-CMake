@@ -491,1230 +491,6 @@ tps/fast:
 	$(MAKE) -f registration/CMakeFiles/tps.dir/build.make registration/CMakeFiles/tps.dir/build
 .PHONY : tps/fast
 
-evaluator/GlobalStats.o: evaluator/GlobalStats.cpp.o
-
-.PHONY : evaluator/GlobalStats.o
-
-# target to build an object file
-evaluator/GlobalStats.cpp.o:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/GlobalStats.cpp.o
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/GlobalStats.cpp.o
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.o
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/GlobalStats.cpp.o
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/GlobalStats.cpp.o
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/GlobalStats.cpp.o
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/GlobalStats.cpp.o
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/GlobalStats.cpp.o
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/GlobalStats.cpp.o
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/GlobalStats.cpp.o
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/GlobalStats.cpp.o
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/GlobalStats.cpp.o
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/GlobalStats.cpp.o
-.PHONY : evaluator/GlobalStats.cpp.o
-
-evaluator/GlobalStats.i: evaluator/GlobalStats.cpp.i
-
-.PHONY : evaluator/GlobalStats.i
-
-# target to preprocess a source file
-evaluator/GlobalStats.cpp.i:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/GlobalStats.cpp.i
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/GlobalStats.cpp.i
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.i
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/GlobalStats.cpp.i
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/GlobalStats.cpp.i
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/GlobalStats.cpp.i
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/GlobalStats.cpp.i
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/GlobalStats.cpp.i
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/GlobalStats.cpp.i
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/GlobalStats.cpp.i
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/GlobalStats.cpp.i
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/GlobalStats.cpp.i
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/GlobalStats.cpp.i
-.PHONY : evaluator/GlobalStats.cpp.i
-
-evaluator/GlobalStats.s: evaluator/GlobalStats.cpp.s
-
-.PHONY : evaluator/GlobalStats.s
-
-# target to generate assembly for a file
-evaluator/GlobalStats.cpp.s:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/GlobalStats.cpp.s
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/GlobalStats.cpp.s
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/GlobalStats.cpp.s
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/GlobalStats.cpp.s
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/GlobalStats.cpp.s
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/GlobalStats.cpp.s
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/GlobalStats.cpp.s
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/GlobalStats.cpp.s
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/GlobalStats.cpp.s
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/GlobalStats.cpp.s
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/GlobalStats.cpp.s
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/GlobalStats.cpp.s
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/GlobalStats.cpp.s
-.PHONY : evaluator/GlobalStats.cpp.s
-
-evaluator/KdOpenMesh.o: evaluator/KdOpenMesh.cpp.o
-
-.PHONY : evaluator/KdOpenMesh.o
-
-# target to build an object file
-evaluator/KdOpenMesh.cpp.o:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/KdOpenMesh.cpp.o
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/KdOpenMesh.cpp.o
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.o
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/KdOpenMesh.cpp.o
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/KdOpenMesh.cpp.o
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/KdOpenMesh.cpp.o
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/KdOpenMesh.cpp.o
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/KdOpenMesh.cpp.o
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/KdOpenMesh.cpp.o
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/KdOpenMesh.cpp.o
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/KdOpenMesh.cpp.o
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/KdOpenMesh.cpp.o
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/KdOpenMesh.cpp.o
-.PHONY : evaluator/KdOpenMesh.cpp.o
-
-evaluator/KdOpenMesh.i: evaluator/KdOpenMesh.cpp.i
-
-.PHONY : evaluator/KdOpenMesh.i
-
-# target to preprocess a source file
-evaluator/KdOpenMesh.cpp.i:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/KdOpenMesh.cpp.i
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/KdOpenMesh.cpp.i
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.i
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/KdOpenMesh.cpp.i
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/KdOpenMesh.cpp.i
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/KdOpenMesh.cpp.i
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/KdOpenMesh.cpp.i
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/KdOpenMesh.cpp.i
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/KdOpenMesh.cpp.i
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/KdOpenMesh.cpp.i
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/KdOpenMesh.cpp.i
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/KdOpenMesh.cpp.i
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/KdOpenMesh.cpp.i
-.PHONY : evaluator/KdOpenMesh.cpp.i
-
-evaluator/KdOpenMesh.s: evaluator/KdOpenMesh.cpp.s
-
-.PHONY : evaluator/KdOpenMesh.s
-
-# target to generate assembly for a file
-evaluator/KdOpenMesh.cpp.s:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/KdOpenMesh.cpp.s
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/KdOpenMesh.cpp.s
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/KdOpenMesh.cpp.s
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/KdOpenMesh.cpp.s
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/KdOpenMesh.cpp.s
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/KdOpenMesh.cpp.s
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/KdOpenMesh.cpp.s
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/KdOpenMesh.cpp.s
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/KdOpenMesh.cpp.s
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/KdOpenMesh.cpp.s
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/KdOpenMesh.cpp.s
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/KdOpenMesh.cpp.s
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/KdOpenMesh.cpp.s
-.PHONY : evaluator/KdOpenMesh.cpp.s
-
-evaluator/ShortestDistanceMap.o: evaluator/ShortestDistanceMap.cpp.o
-
-.PHONY : evaluator/ShortestDistanceMap.o
-
-# target to build an object file
-evaluator/ShortestDistanceMap.cpp.o:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/ShortestDistanceMap.cpp.o
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/ShortestDistanceMap.cpp.o
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.o
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/ShortestDistanceMap.cpp.o
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/ShortestDistanceMap.cpp.o
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/ShortestDistanceMap.cpp.o
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/ShortestDistanceMap.cpp.o
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/ShortestDistanceMap.cpp.o
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/ShortestDistanceMap.cpp.o
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/ShortestDistanceMap.cpp.o
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/ShortestDistanceMap.cpp.o
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/ShortestDistanceMap.cpp.o
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/ShortestDistanceMap.cpp.o
-.PHONY : evaluator/ShortestDistanceMap.cpp.o
-
-evaluator/ShortestDistanceMap.i: evaluator/ShortestDistanceMap.cpp.i
-
-.PHONY : evaluator/ShortestDistanceMap.i
-
-# target to preprocess a source file
-evaluator/ShortestDistanceMap.cpp.i:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/ShortestDistanceMap.cpp.i
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/ShortestDistanceMap.cpp.i
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.i
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/ShortestDistanceMap.cpp.i
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/ShortestDistanceMap.cpp.i
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/ShortestDistanceMap.cpp.i
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/ShortestDistanceMap.cpp.i
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/ShortestDistanceMap.cpp.i
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/ShortestDistanceMap.cpp.i
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/ShortestDistanceMap.cpp.i
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/ShortestDistanceMap.cpp.i
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/ShortestDistanceMap.cpp.i
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/ShortestDistanceMap.cpp.i
-.PHONY : evaluator/ShortestDistanceMap.cpp.i
-
-evaluator/ShortestDistanceMap.s: evaluator/ShortestDistanceMap.cpp.s
-
-.PHONY : evaluator/ShortestDistanceMap.s
-
-# target to generate assembly for a file
-evaluator/ShortestDistanceMap.cpp.s:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/ShortestDistanceMap.cpp.s
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/ShortestDistanceMap.cpp.s
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/ShortestDistanceMap.cpp.s
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/ShortestDistanceMap.cpp.s
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/ShortestDistanceMap.cpp.s
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/ShortestDistanceMap.cpp.s
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/ShortestDistanceMap.cpp.s
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/ShortestDistanceMap.cpp.s
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/ShortestDistanceMap.cpp.s
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/ShortestDistanceMap.cpp.s
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/ShortestDistanceMap.cpp.s
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/ShortestDistanceMap.cpp.s
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/ShortestDistanceMap.cpp.s
-.PHONY : evaluator/ShortestDistanceMap.cpp.s
-
-evaluator/UniformGrid.o: evaluator/UniformGrid.cpp.o
-
-.PHONY : evaluator/UniformGrid.o
-
-# target to build an object file
-evaluator/UniformGrid.cpp.o:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/UniformGrid.cpp.o
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/UniformGrid.cpp.o
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.o
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/UniformGrid.cpp.o
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/UniformGrid.cpp.o
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/UniformGrid.cpp.o
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/UniformGrid.cpp.o
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/UniformGrid.cpp.o
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/UniformGrid.cpp.o
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/UniformGrid.cpp.o
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/UniformGrid.cpp.o
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/UniformGrid.cpp.o
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/UniformGrid.cpp.o
-.PHONY : evaluator/UniformGrid.cpp.o
-
-evaluator/UniformGrid.i: evaluator/UniformGrid.cpp.i
-
-.PHONY : evaluator/UniformGrid.i
-
-# target to preprocess a source file
-evaluator/UniformGrid.cpp.i:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/UniformGrid.cpp.i
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/UniformGrid.cpp.i
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.i
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/UniformGrid.cpp.i
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/UniformGrid.cpp.i
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/UniformGrid.cpp.i
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/UniformGrid.cpp.i
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/UniformGrid.cpp.i
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/UniformGrid.cpp.i
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/UniformGrid.cpp.i
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/UniformGrid.cpp.i
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/UniformGrid.cpp.i
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/UniformGrid.cpp.i
-.PHONY : evaluator/UniformGrid.cpp.i
-
-evaluator/UniformGrid.s: evaluator/UniformGrid.cpp.s
-
-.PHONY : evaluator/UniformGrid.s
-
-# target to generate assembly for a file
-evaluator/UniformGrid.cpp.s:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/UniformGrid.cpp.s
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/UniformGrid.cpp.s
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/UniformGrid.cpp.s
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/UniformGrid.cpp.s
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/UniformGrid.cpp.s
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/UniformGrid.cpp.s
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/UniformGrid.cpp.s
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/UniformGrid.cpp.s
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/UniformGrid.cpp.s
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/UniformGrid.cpp.s
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/UniformGrid.cpp.s
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/UniformGrid.cpp.s
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/UniformGrid.cpp.s
-.PHONY : evaluator/UniformGrid.cpp.s
-
-evaluator/implicit_sampler.o: evaluator/implicit_sampler.cpp.o
-
-.PHONY : evaluator/implicit_sampler.o
-
-# target to build an object file
-evaluator/implicit_sampler.cpp.o:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/implicit_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/implicit_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/implicit_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/implicit_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/implicit_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/implicit_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/implicit_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/implicit_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/implicit_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/implicit_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/implicit_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/implicit_sampler.cpp.o
-.PHONY : evaluator/implicit_sampler.cpp.o
-
-evaluator/implicit_sampler.i: evaluator/implicit_sampler.cpp.i
-
-.PHONY : evaluator/implicit_sampler.i
-
-# target to preprocess a source file
-evaluator/implicit_sampler.cpp.i:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/implicit_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/implicit_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/implicit_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/implicit_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/implicit_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/implicit_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/implicit_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/implicit_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/implicit_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/implicit_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/implicit_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/implicit_sampler.cpp.i
-.PHONY : evaluator/implicit_sampler.cpp.i
-
-evaluator/implicit_sampler.s: evaluator/implicit_sampler.cpp.s
-
-.PHONY : evaluator/implicit_sampler.s
-
-# target to generate assembly for a file
-evaluator/implicit_sampler.cpp.s:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/implicit_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/implicit_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/implicit_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/implicit_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/implicit_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/implicit_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/implicit_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/implicit_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/implicit_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/implicit_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/implicit_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/implicit_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/implicit_sampler.cpp.s
-.PHONY : evaluator/implicit_sampler.cpp.s
-
-evaluator/implicit_uniform.o: evaluator/implicit_uniform.cpp.o
-
-.PHONY : evaluator/implicit_uniform.o
-
-# target to build an object file
-evaluator/implicit_uniform.cpp.o:
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/implicit_uniform.cpp.o
-.PHONY : evaluator/implicit_uniform.cpp.o
-
-evaluator/implicit_uniform.i: evaluator/implicit_uniform.cpp.i
-
-.PHONY : evaluator/implicit_uniform.i
-
-# target to preprocess a source file
-evaluator/implicit_uniform.cpp.i:
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/implicit_uniform.cpp.i
-.PHONY : evaluator/implicit_uniform.cpp.i
-
-evaluator/implicit_uniform.s: evaluator/implicit_uniform.cpp.s
-
-.PHONY : evaluator/implicit_uniform.s
-
-# target to generate assembly for a file
-evaluator/implicit_uniform.cpp.s:
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/implicit_uniform.cpp.s
-.PHONY : evaluator/implicit_uniform.cpp.s
-
-evaluator/kd_tree.o: evaluator/kd_tree.cpp.o
-
-.PHONY : evaluator/kd_tree.o
-
-# target to build an object file
-evaluator/kd_tree.cpp.o:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/kd_tree.cpp.o
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/kd_tree.cpp.o
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.o
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/kd_tree.cpp.o
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/kd_tree.cpp.o
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/kd_tree.cpp.o
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/kd_tree.cpp.o
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/kd_tree.cpp.o
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/kd_tree.cpp.o
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/kd_tree.cpp.o
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/kd_tree.cpp.o
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/kd_tree.cpp.o
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/kd_tree.cpp.o
-.PHONY : evaluator/kd_tree.cpp.o
-
-evaluator/kd_tree.i: evaluator/kd_tree.cpp.i
-
-.PHONY : evaluator/kd_tree.i
-
-# target to preprocess a source file
-evaluator/kd_tree.cpp.i:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/kd_tree.cpp.i
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/kd_tree.cpp.i
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.i
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/kd_tree.cpp.i
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/kd_tree.cpp.i
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/kd_tree.cpp.i
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/kd_tree.cpp.i
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/kd_tree.cpp.i
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/kd_tree.cpp.i
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/kd_tree.cpp.i
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/kd_tree.cpp.i
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/kd_tree.cpp.i
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/kd_tree.cpp.i
-.PHONY : evaluator/kd_tree.cpp.i
-
-evaluator/kd_tree.s: evaluator/kd_tree.cpp.s
-
-.PHONY : evaluator/kd_tree.s
-
-# target to generate assembly for a file
-evaluator/kd_tree.cpp.s:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/kd_tree.cpp.s
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/kd_tree.cpp.s
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/kd_tree.cpp.s
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/kd_tree.cpp.s
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/kd_tree.cpp.s
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/kd_tree.cpp.s
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/kd_tree.cpp.s
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/kd_tree.cpp.s
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/kd_tree.cpp.s
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/kd_tree.cpp.s
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/kd_tree.cpp.s
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/kd_tree.cpp.s
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/kd_tree.cpp.s
-.PHONY : evaluator/kd_tree.cpp.s
-
-evaluator/mesh_fixer.o: evaluator/mesh_fixer.cpp.o
-
-.PHONY : evaluator/mesh_fixer.o
-
-# target to build an object file
-evaluator/mesh_fixer.cpp.o:
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/mesh_fixer.cpp.o
-.PHONY : evaluator/mesh_fixer.cpp.o
-
-evaluator/mesh_fixer.i: evaluator/mesh_fixer.cpp.i
-
-.PHONY : evaluator/mesh_fixer.i
-
-# target to preprocess a source file
-evaluator/mesh_fixer.cpp.i:
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/mesh_fixer.cpp.i
-.PHONY : evaluator/mesh_fixer.cpp.i
-
-evaluator/mesh_fixer.s: evaluator/mesh_fixer.cpp.s
-
-.PHONY : evaluator/mesh_fixer.s
-
-# target to generate assembly for a file
-evaluator/mesh_fixer.cpp.s:
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/mesh_fixer.cpp.s
-.PHONY : evaluator/mesh_fixer.cpp.s
-
-evaluator/mesh_sampler.o: evaluator/mesh_sampler.cpp.o
-
-.PHONY : evaluator/mesh_sampler.o
-
-# target to build an object file
-evaluator/mesh_sampler.cpp.o:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/mesh_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/mesh_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/mesh_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/mesh_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/mesh_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/mesh_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/mesh_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/mesh_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/mesh_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/mesh_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/mesh_sampler.cpp.o
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/mesh_sampler.cpp.o
-.PHONY : evaluator/mesh_sampler.cpp.o
-
-evaluator/mesh_sampler.i: evaluator/mesh_sampler.cpp.i
-
-.PHONY : evaluator/mesh_sampler.i
-
-# target to preprocess a source file
-evaluator/mesh_sampler.cpp.i:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/mesh_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/mesh_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/mesh_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/mesh_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/mesh_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/mesh_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/mesh_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/mesh_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/mesh_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/mesh_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/mesh_sampler.cpp.i
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/mesh_sampler.cpp.i
-.PHONY : evaluator/mesh_sampler.cpp.i
-
-evaluator/mesh_sampler.s: evaluator/mesh_sampler.cpp.s
-
-.PHONY : evaluator/mesh_sampler.s
-
-# target to generate assembly for a file
-evaluator/mesh_sampler.cpp.s:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/mesh_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/mesh_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/mesh_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/mesh_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/mesh_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/mesh_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/mesh_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/mesh_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/mesh_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/mesh_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/mesh_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/mesh_sampler.cpp.s
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/mesh_sampler.cpp.s
-.PHONY : evaluator/mesh_sampler.cpp.s
-
-evaluator/plot/aggregate_distribution.o: evaluator/plot/aggregate_distribution.cpp.o
-
-.PHONY : evaluator/plot/aggregate_distribution.o
-
-# target to build an object file
-evaluator/plot/aggregate_distribution.cpp.o:
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/plot/aggregate_distribution.cpp.o
-.PHONY : evaluator/plot/aggregate_distribution.cpp.o
-
-evaluator/plot/aggregate_distribution.i: evaluator/plot/aggregate_distribution.cpp.i
-
-.PHONY : evaluator/plot/aggregate_distribution.i
-
-# target to preprocess a source file
-evaluator/plot/aggregate_distribution.cpp.i:
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/plot/aggregate_distribution.cpp.i
-.PHONY : evaluator/plot/aggregate_distribution.cpp.i
-
-evaluator/plot/aggregate_distribution.s: evaluator/plot/aggregate_distribution.cpp.s
-
-.PHONY : evaluator/plot/aggregate_distribution.s
-
-# target to generate assembly for a file
-evaluator/plot/aggregate_distribution.cpp.s:
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/plot/aggregate_distribution.cpp.s
-.PHONY : evaluator/plot/aggregate_distribution.cpp.s
-
-evaluator/plot/aggregation.o: evaluator/plot/aggregation.cpp.o
-
-.PHONY : evaluator/plot/aggregation.o
-
-# target to build an object file
-evaluator/plot/aggregation.cpp.o:
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/plot/aggregation.cpp.o
-.PHONY : evaluator/plot/aggregation.cpp.o
-
-evaluator/plot/aggregation.i: evaluator/plot/aggregation.cpp.i
-
-.PHONY : evaluator/plot/aggregation.i
-
-# target to preprocess a source file
-evaluator/plot/aggregation.cpp.i:
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/plot/aggregation.cpp.i
-.PHONY : evaluator/plot/aggregation.cpp.i
-
-evaluator/plot/aggregation.s: evaluator/plot/aggregation.cpp.s
-
-.PHONY : evaluator/plot/aggregation.s
-
-# target to generate assembly for a file
-evaluator/plot/aggregation.cpp.s:
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/plot/aggregation.cpp.s
-.PHONY : evaluator/plot/aggregation.cpp.s
-
-evaluator/plot/dump_barplot.o: evaluator/plot/dump_barplot.cpp.o
-
-.PHONY : evaluator/plot/dump_barplot.o
-
-# target to build an object file
-evaluator/plot/dump_barplot.cpp.o:
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/plot/dump_barplot.cpp.o
-.PHONY : evaluator/plot/dump_barplot.cpp.o
-
-evaluator/plot/dump_barplot.i: evaluator/plot/dump_barplot.cpp.i
-
-.PHONY : evaluator/plot/dump_barplot.i
-
-# target to preprocess a source file
-evaluator/plot/dump_barplot.cpp.i:
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/plot/dump_barplot.cpp.i
-.PHONY : evaluator/plot/dump_barplot.cpp.i
-
-evaluator/plot/dump_barplot.s: evaluator/plot/dump_barplot.cpp.s
-
-.PHONY : evaluator/plot/dump_barplot.s
-
-# target to generate assembly for a file
-evaluator/plot/dump_barplot.cpp.s:
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/plot/dump_barplot.cpp.s
-.PHONY : evaluator/plot/dump_barplot.cpp.s
-
-evaluator/plot/dump_distribution.o: evaluator/plot/dump_distribution.cpp.o
-
-.PHONY : evaluator/plot/dump_distribution.o
-
-# target to build an object file
-evaluator/plot/dump_distribution.cpp.o:
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/plot/dump_distribution.cpp.o
-.PHONY : evaluator/plot/dump_distribution.cpp.o
-
-evaluator/plot/dump_distribution.i: evaluator/plot/dump_distribution.cpp.i
-
-.PHONY : evaluator/plot/dump_distribution.i
-
-# target to preprocess a source file
-evaluator/plot/dump_distribution.cpp.i:
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/plot/dump_distribution.cpp.i
-.PHONY : evaluator/plot/dump_distribution.cpp.i
-
-evaluator/plot/dump_distribution.s: evaluator/plot/dump_distribution.cpp.s
-
-.PHONY : evaluator/plot/dump_distribution.s
-
-# target to generate assembly for a file
-evaluator/plot/dump_distribution.cpp.s:
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/plot/dump_distribution.cpp.s
-.PHONY : evaluator/plot/dump_distribution.cpp.s
-
-evaluator/plot/dump_lines.o: evaluator/plot/dump_lines.cpp.o
-
-.PHONY : evaluator/plot/dump_lines.o
-
-# target to build an object file
-evaluator/plot/dump_lines.cpp.o:
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/plot/dump_lines.cpp.o
-.PHONY : evaluator/plot/dump_lines.cpp.o
-
-evaluator/plot/dump_lines.i: evaluator/plot/dump_lines.cpp.i
-
-.PHONY : evaluator/plot/dump_lines.i
-
-# target to preprocess a source file
-evaluator/plot/dump_lines.cpp.i:
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/plot/dump_lines.cpp.i
-.PHONY : evaluator/plot/dump_lines.cpp.i
-
-evaluator/plot/dump_lines.s: evaluator/plot/dump_lines.cpp.s
-
-.PHONY : evaluator/plot/dump_lines.s
-
-# target to generate assembly for a file
-evaluator/plot/dump_lines.cpp.s:
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/plot/dump_lines.cpp.s
-.PHONY : evaluator/plot/dump_lines.cpp.s
-
-evaluator/plot/dump_meta.o: evaluator/plot/dump_meta.cpp.o
-
-.PHONY : evaluator/plot/dump_meta.o
-
-# target to build an object file
-evaluator/plot/dump_meta.cpp.o:
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/plot/dump_meta.cpp.o
-.PHONY : evaluator/plot/dump_meta.cpp.o
-
-evaluator/plot/dump_meta.i: evaluator/plot/dump_meta.cpp.i
-
-.PHONY : evaluator/plot/dump_meta.i
-
-# target to preprocess a source file
-evaluator/plot/dump_meta.cpp.i:
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/plot/dump_meta.cpp.i
-.PHONY : evaluator/plot/dump_meta.cpp.i
-
-evaluator/plot/dump_meta.s: evaluator/plot/dump_meta.cpp.s
-
-.PHONY : evaluator/plot/dump_meta.s
-
-# target to generate assembly for a file
-evaluator/plot/dump_meta.cpp.s:
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/plot/dump_meta.cpp.s
-.PHONY : evaluator/plot/dump_meta.cpp.s
-
-evaluator/plot/dump_single.o: evaluator/plot/dump_single.cpp.o
-
-.PHONY : evaluator/plot/dump_single.o
-
-# target to build an object file
-evaluator/plot/dump_single.cpp.o:
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/plot/dump_single.cpp.o
-.PHONY : evaluator/plot/dump_single.cpp.o
-
-evaluator/plot/dump_single.i: evaluator/plot/dump_single.cpp.i
-
-.PHONY : evaluator/plot/dump_single.i
-
-# target to preprocess a source file
-evaluator/plot/dump_single.cpp.i:
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/plot/dump_single.cpp.i
-.PHONY : evaluator/plot/dump_single.cpp.i
-
-evaluator/plot/dump_single.s: evaluator/plot/dump_single.cpp.s
-
-.PHONY : evaluator/plot/dump_single.s
-
-# target to generate assembly for a file
-evaluator/plot/dump_single.cpp.s:
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/plot/dump_single.cpp.s
-.PHONY : evaluator/plot/dump_single.cpp.s
-
-evaluator/plot/single_distribution.o: evaluator/plot/single_distribution.cpp.o
-
-.PHONY : evaluator/plot/single_distribution.o
-
-# target to build an object file
-evaluator/plot/single_distribution.cpp.o:
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/plot/single_distribution.cpp.o
-.PHONY : evaluator/plot/single_distribution.cpp.o
-
-evaluator/plot/single_distribution.i: evaluator/plot/single_distribution.cpp.i
-
-.PHONY : evaluator/plot/single_distribution.i
-
-# target to preprocess a source file
-evaluator/plot/single_distribution.cpp.i:
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/plot/single_distribution.cpp.i
-.PHONY : evaluator/plot/single_distribution.cpp.i
-
-evaluator/plot/single_distribution.s: evaluator/plot/single_distribution.cpp.s
-
-.PHONY : evaluator/plot/single_distribution.s
-
-# target to generate assembly for a file
-evaluator/plot/single_distribution.cpp.s:
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/plot/single_distribution.cpp.s
-.PHONY : evaluator/plot/single_distribution.cpp.s
-
-evaluator/recon_evaluation.o: evaluator/recon_evaluation.cpp.o
-
-.PHONY : evaluator/recon_evaluation.o
-
-# target to build an object file
-evaluator/recon_evaluation.cpp.o:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/recon_evaluation.cpp.o
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/recon_evaluation.cpp.o
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.o
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/recon_evaluation.cpp.o
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/recon_evaluation.cpp.o
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/recon_evaluation.cpp.o
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/recon_evaluation.cpp.o
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/recon_evaluation.cpp.o
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/recon_evaluation.cpp.o
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/recon_evaluation.cpp.o
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/recon_evaluation.cpp.o
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/recon_evaluation.cpp.o
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/recon_evaluation.cpp.o
-.PHONY : evaluator/recon_evaluation.cpp.o
-
-evaluator/recon_evaluation.i: evaluator/recon_evaluation.cpp.i
-
-.PHONY : evaluator/recon_evaluation.i
-
-# target to preprocess a source file
-evaluator/recon_evaluation.cpp.i:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/recon_evaluation.cpp.i
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/recon_evaluation.cpp.i
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.i
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/recon_evaluation.cpp.i
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/recon_evaluation.cpp.i
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/recon_evaluation.cpp.i
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/recon_evaluation.cpp.i
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/recon_evaluation.cpp.i
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/recon_evaluation.cpp.i
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/recon_evaluation.cpp.i
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/recon_evaluation.cpp.i
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/recon_evaluation.cpp.i
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/recon_evaluation.cpp.i
-.PHONY : evaluator/recon_evaluation.cpp.i
-
-evaluator/recon_evaluation.s: evaluator/recon_evaluation.cpp.s
-
-.PHONY : evaluator/recon_evaluation.s
-
-# target to generate assembly for a file
-evaluator/recon_evaluation.cpp.s:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/recon_evaluation.cpp.s
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/recon_evaluation.cpp.s
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/recon_evaluation.cpp.s
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/recon_evaluation.cpp.s
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/recon_evaluation.cpp.s
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/recon_evaluation.cpp.s
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/recon_evaluation.cpp.s
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/recon_evaluation.cpp.s
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/recon_evaluation.cpp.s
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/recon_evaluation.cpp.s
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/recon_evaluation.cpp.s
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/recon_evaluation.cpp.s
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/recon_evaluation.cpp.s
-.PHONY : evaluator/recon_evaluation.cpp.s
-
-evaluator/run_evaluation.o: evaluator/run_evaluation.cpp.o
-
-.PHONY : evaluator/run_evaluation.o
-
-# target to build an object file
-evaluator/run_evaluation.cpp.o:
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/run_evaluation.cpp.o
-.PHONY : evaluator/run_evaluation.cpp.o
-
-evaluator/run_evaluation.i: evaluator/run_evaluation.cpp.i
-
-.PHONY : evaluator/run_evaluation.i
-
-# target to preprocess a source file
-evaluator/run_evaluation.cpp.i:
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/run_evaluation.cpp.i
-.PHONY : evaluator/run_evaluation.cpp.i
-
-evaluator/run_evaluation.s: evaluator/run_evaluation.cpp.s
-
-.PHONY : evaluator/run_evaluation.s
-
-# target to generate assembly for a file
-evaluator/run_evaluation.cpp.s:
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/run_evaluation.cpp.s
-.PHONY : evaluator/run_evaluation.cpp.s
-
-evaluator/sample_mesh.o: evaluator/sample_mesh.cpp.o
-
-.PHONY : evaluator/sample_mesh.o
-
-# target to build an object file
-evaluator/sample_mesh.cpp.o:
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/sample_mesh.cpp.o
-.PHONY : evaluator/sample_mesh.cpp.o
-
-evaluator/sample_mesh.i: evaluator/sample_mesh.cpp.i
-
-.PHONY : evaluator/sample_mesh.i
-
-# target to preprocess a source file
-evaluator/sample_mesh.cpp.i:
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/sample_mesh.cpp.i
-.PHONY : evaluator/sample_mesh.cpp.i
-
-evaluator/sample_mesh.s: evaluator/sample_mesh.cpp.s
-
-.PHONY : evaluator/sample_mesh.s
-
-# target to generate assembly for a file
-evaluator/sample_mesh.cpp.s:
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/sample_mesh.cpp.s
-.PHONY : evaluator/sample_mesh.cpp.s
-
-evaluator/shape_distribution.o: evaluator/shape_distribution.cpp.o
-
-.PHONY : evaluator/shape_distribution.o
-
-# target to build an object file
-evaluator/shape_distribution.cpp.o:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/shape_distribution.cpp.o
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/shape_distribution.cpp.o
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.o
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/shape_distribution.cpp.o
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/shape_distribution.cpp.o
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/shape_distribution.cpp.o
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/shape_distribution.cpp.o
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/shape_distribution.cpp.o
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/shape_distribution.cpp.o
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/shape_distribution.cpp.o
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/shape_distribution.cpp.o
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/shape_distribution.cpp.o
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/shape_distribution.cpp.o
-.PHONY : evaluator/shape_distribution.cpp.o
-
-evaluator/shape_distribution.i: evaluator/shape_distribution.cpp.i
-
-.PHONY : evaluator/shape_distribution.i
-
-# target to preprocess a source file
-evaluator/shape_distribution.cpp.i:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/shape_distribution.cpp.i
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/shape_distribution.cpp.i
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.i
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/shape_distribution.cpp.i
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/shape_distribution.cpp.i
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/shape_distribution.cpp.i
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/shape_distribution.cpp.i
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/shape_distribution.cpp.i
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/shape_distribution.cpp.i
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/shape_distribution.cpp.i
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/shape_distribution.cpp.i
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/shape_distribution.cpp.i
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/shape_distribution.cpp.i
-.PHONY : evaluator/shape_distribution.cpp.i
-
-evaluator/shape_distribution.s: evaluator/shape_distribution.cpp.s
-
-.PHONY : evaluator/shape_distribution.s
-
-# target to generate assembly for a file
-evaluator/shape_distribution.cpp.s:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/evaluator/shape_distribution.cpp.s
-	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/evaluator/shape_distribution.cpp.s
-	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/evaluator/shape_distribution.cpp.s
-	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/evaluator/shape_distribution.cpp.s
-	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/evaluator/shape_distribution.cpp.s
-	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/evaluator/shape_distribution.cpp.s
-	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/evaluator/shape_distribution.cpp.s
-	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/evaluator/shape_distribution.cpp.s
-	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/evaluator/shape_distribution.cpp.s
-	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/evaluator/shape_distribution.cpp.s
-	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/evaluator/shape_distribution.cpp.s
-	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/evaluator/shape_distribution.cpp.s
-	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/evaluator/shape_distribution.cpp.s
-.PHONY : evaluator/shape_distribution.cpp.s
-
-modeling/DenseEigenSystem.o: modeling/DenseEigenSystem.cpp.o
-
-.PHONY : modeling/DenseEigenSystem.o
-
-# target to build an object file
-modeling/DenseEigenSystem.cpp.o:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/DenseEigenSystem.cpp.o
-.PHONY : modeling/DenseEigenSystem.cpp.o
-
-modeling/DenseEigenSystem.i: modeling/DenseEigenSystem.cpp.i
-
-.PHONY : modeling/DenseEigenSystem.i
-
-# target to preprocess a source file
-modeling/DenseEigenSystem.cpp.i:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/DenseEigenSystem.cpp.i
-.PHONY : modeling/DenseEigenSystem.cpp.i
-
-modeling/DenseEigenSystem.s: modeling/DenseEigenSystem.cpp.s
-
-.PHONY : modeling/DenseEigenSystem.s
-
-# target to generate assembly for a file
-modeling/DenseEigenSystem.cpp.s:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/DenseEigenSystem.cpp.s
-.PHONY : modeling/DenseEigenSystem.cpp.s
-
-modeling/DenseMatrix.o: modeling/DenseMatrix.cpp.o
-
-.PHONY : modeling/DenseMatrix.o
-
-# target to build an object file
-modeling/DenseMatrix.cpp.o:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/DenseMatrix.cpp.o
-.PHONY : modeling/DenseMatrix.cpp.o
-
-modeling/DenseMatrix.i: modeling/DenseMatrix.cpp.i
-
-.PHONY : modeling/DenseMatrix.i
-
-# target to preprocess a source file
-modeling/DenseMatrix.cpp.i:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/DenseMatrix.cpp.i
-.PHONY : modeling/DenseMatrix.cpp.i
-
-modeling/DenseMatrix.s: modeling/DenseMatrix.cpp.s
-
-.PHONY : modeling/DenseMatrix.s
-
-# target to generate assembly for a file
-modeling/DenseMatrix.cpp.s:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/DenseMatrix.cpp.s
-.PHONY : modeling/DenseMatrix.cpp.s
-
-modeling/ImplicitFunction.o: modeling/ImplicitFunction.cpp.o
-
-.PHONY : modeling/ImplicitFunction.o
-
-# target to build an object file
-modeling/ImplicitFunction.cpp.o:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/ImplicitFunction.cpp.o
-.PHONY : modeling/ImplicitFunction.cpp.o
-
-modeling/ImplicitFunction.i: modeling/ImplicitFunction.cpp.i
-
-.PHONY : modeling/ImplicitFunction.i
-
-# target to preprocess a source file
-modeling/ImplicitFunction.cpp.i:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/ImplicitFunction.cpp.i
-.PHONY : modeling/ImplicitFunction.cpp.i
-
-modeling/ImplicitFunction.s: modeling/ImplicitFunction.cpp.s
-
-.PHONY : modeling/ImplicitFunction.s
-
-# target to generate assembly for a file
-modeling/ImplicitFunction.cpp.s:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/ImplicitFunction.cpp.s
-.PHONY : modeling/ImplicitFunction.cpp.s
-
-modeling/Rigid.o: modeling/Rigid.cpp.o
-
-.PHONY : modeling/Rigid.o
-
-# target to build an object file
-modeling/Rigid.cpp.o:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/Rigid.cpp.o
-.PHONY : modeling/Rigid.cpp.o
-
-modeling/Rigid.i: modeling/Rigid.cpp.i
-
-.PHONY : modeling/Rigid.i
-
-# target to preprocess a source file
-modeling/Rigid.cpp.i:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/Rigid.cpp.i
-.PHONY : modeling/Rigid.cpp.i
-
-modeling/Rigid.s: modeling/Rigid.cpp.s
-
-.PHONY : modeling/Rigid.s
-
-# target to generate assembly for a file
-modeling/Rigid.cpp.s:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/Rigid.cpp.s
-.PHONY : modeling/Rigid.cpp.s
-
-modeling/RotationMatrix.o: modeling/RotationMatrix.cpp.o
-
-.PHONY : modeling/RotationMatrix.o
-
-# target to build an object file
-modeling/RotationMatrix.cpp.o:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/RotationMatrix.cpp.o
-.PHONY : modeling/RotationMatrix.cpp.o
-
-modeling/RotationMatrix.i: modeling/RotationMatrix.cpp.i
-
-.PHONY : modeling/RotationMatrix.i
-
-# target to preprocess a source file
-modeling/RotationMatrix.cpp.i:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/RotationMatrix.cpp.i
-.PHONY : modeling/RotationMatrix.cpp.i
-
-modeling/RotationMatrix.s: modeling/RotationMatrix.cpp.s
-
-.PHONY : modeling/RotationMatrix.s
-
-# target to generate assembly for a file
-modeling/RotationMatrix.cpp.s:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/RotationMatrix.cpp.s
-.PHONY : modeling/RotationMatrix.cpp.s
-
-modeling/Vector.o: modeling/Vector.cpp.o
-
-.PHONY : modeling/Vector.o
-
-# target to build an object file
-modeling/Vector.cpp.o:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/Vector.cpp.o
-.PHONY : modeling/Vector.cpp.o
-
-modeling/Vector.i: modeling/Vector.cpp.i
-
-.PHONY : modeling/Vector.i
-
-# target to preprocess a source file
-modeling/Vector.cpp.i:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/Vector.cpp.i
-.PHONY : modeling/Vector.cpp.i
-
-modeling/Vector.s: modeling/Vector.cpp.s
-
-.PHONY : modeling/Vector.s
-
-# target to generate assembly for a file
-modeling/Vector.cpp.s:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/Vector.cpp.s
-.PHONY : modeling/Vector.cpp.s
-
-modeling/isosurface.o: modeling/isosurface.cpp.o
-
-.PHONY : modeling/isosurface.o
-
-# target to build an object file
-modeling/isosurface.cpp.o:
-	$(MAKE) -f CMakeFiles/isosurface.dir/build.make CMakeFiles/isosurface.dir/modeling/isosurface.cpp.o
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/isosurface.cpp.o
-.PHONY : modeling/isosurface.cpp.o
-
-modeling/isosurface.i: modeling/isosurface.cpp.i
-
-.PHONY : modeling/isosurface.i
-
-# target to preprocess a source file
-modeling/isosurface.cpp.i:
-	$(MAKE) -f CMakeFiles/isosurface.dir/build.make CMakeFiles/isosurface.dir/modeling/isosurface.cpp.i
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/isosurface.cpp.i
-.PHONY : modeling/isosurface.cpp.i
-
-modeling/isosurface.s: modeling/isosurface.cpp.s
-
-.PHONY : modeling/isosurface.s
-
-# target to generate assembly for a file
-modeling/isosurface.cpp.s:
-	$(MAKE) -f CMakeFiles/isosurface.dir/build.make CMakeFiles/isosurface.dir/modeling/isosurface.cpp.s
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/isosurface.cpp.s
-.PHONY : modeling/isosurface.cpp.s
-
-modeling/lm_method.o: modeling/lm_method.cpp.o
-
-.PHONY : modeling/lm_method.o
-
-# target to build an object file
-modeling/lm_method.cpp.o:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/lm_method.cpp.o
-.PHONY : modeling/lm_method.cpp.o
-
-modeling/lm_method.i: modeling/lm_method.cpp.i
-
-.PHONY : modeling/lm_method.i
-
-# target to preprocess a source file
-modeling/lm_method.cpp.i:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/lm_method.cpp.i
-.PHONY : modeling/lm_method.cpp.i
-
-modeling/lm_method.s: modeling/lm_method.cpp.s
-
-.PHONY : modeling/lm_method.s
-
-# target to generate assembly for a file
-modeling/lm_method.cpp.s:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/lm_method.cpp.s
-.PHONY : modeling/lm_method.cpp.s
-
-modeling/mesh_to_implicit.o: modeling/mesh_to_implicit.cpp.o
-
-.PHONY : modeling/mesh_to_implicit.o
-
-# target to build an object file
-modeling/mesh_to_implicit.cpp.o:
-	$(MAKE) -f CMakeFiles/mesh_to_implicit.dir/build.make CMakeFiles/mesh_to_implicit.dir/modeling/mesh_to_implicit.cpp.o
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/mesh_to_implicit.cpp.o
-.PHONY : modeling/mesh_to_implicit.cpp.o
-
-modeling/mesh_to_implicit.i: modeling/mesh_to_implicit.cpp.i
-
-.PHONY : modeling/mesh_to_implicit.i
-
-# target to preprocess a source file
-modeling/mesh_to_implicit.cpp.i:
-	$(MAKE) -f CMakeFiles/mesh_to_implicit.dir/build.make CMakeFiles/mesh_to_implicit.dir/modeling/mesh_to_implicit.cpp.i
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/mesh_to_implicit.cpp.i
-.PHONY : modeling/mesh_to_implicit.cpp.i
-
-modeling/mesh_to_implicit.s: modeling/mesh_to_implicit.cpp.s
-
-.PHONY : modeling/mesh_to_implicit.s
-
-# target to generate assembly for a file
-modeling/mesh_to_implicit.cpp.s:
-	$(MAKE) -f CMakeFiles/mesh_to_implicit.dir/build.make CMakeFiles/mesh_to_implicit.dir/modeling/mesh_to_implicit.cpp.s
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/mesh_to_implicit.cpp.s
-.PHONY : modeling/mesh_to_implicit.cpp.s
-
-modeling/mpu_soup.o: modeling/mpu_soup.cpp.o
-
-.PHONY : modeling/mpu_soup.o
-
-# target to build an object file
-modeling/mpu_soup.cpp.o:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/mpu_soup.cpp.o
-.PHONY : modeling/mpu_soup.cpp.o
-
-modeling/mpu_soup.i: modeling/mpu_soup.cpp.i
-
-.PHONY : modeling/mpu_soup.i
-
-# target to preprocess a source file
-modeling/mpu_soup.cpp.i:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/mpu_soup.cpp.i
-.PHONY : modeling/mpu_soup.cpp.i
-
-modeling/mpu_soup.s: modeling/mpu_soup.cpp.s
-
-.PHONY : modeling/mpu_soup.s
-
-# target to generate assembly for a file
-modeling/mpu_soup.cpp.s:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/mpu_soup.cpp.s
-.PHONY : modeling/mpu_soup.cpp.s
-
-modeling/post-processing.o: modeling/post-processing.cpp.o
-
-.PHONY : modeling/post-processing.o
-
-# target to build an object file
-modeling/post-processing.cpp.o:
-	$(MAKE) -f CMakeFiles/post-processing.dir/build.make CMakeFiles/post-processing.dir/modeling/post-processing.cpp.o
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/post-processing.cpp.o
-.PHONY : modeling/post-processing.cpp.o
-
-modeling/post-processing.i: modeling/post-processing.cpp.i
-
-.PHONY : modeling/post-processing.i
-
-# target to preprocess a source file
-modeling/post-processing.cpp.i:
-	$(MAKE) -f CMakeFiles/post-processing.dir/build.make CMakeFiles/post-processing.dir/modeling/post-processing.cpp.i
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/post-processing.cpp.i
-.PHONY : modeling/post-processing.cpp.i
-
-modeling/post-processing.s: modeling/post-processing.cpp.s
-
-.PHONY : modeling/post-processing.s
-
-# target to generate assembly for a file
-modeling/post-processing.cpp.s:
-	$(MAKE) -f CMakeFiles/post-processing.dir/build.make CMakeFiles/post-processing.dir/modeling/post-processing.cpp.s
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/post-processing.cpp.s
-.PHONY : modeling/post-processing.cpp.s
-
-modeling/tri_integrator.o: modeling/tri_integrator.cpp.o
-
-.PHONY : modeling/tri_integrator.o
-
-# target to build an object file
-modeling/tri_integrator.cpp.o:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/tri_integrator.cpp.o
-.PHONY : modeling/tri_integrator.cpp.o
-
-modeling/tri_integrator.i: modeling/tri_integrator.cpp.i
-
-.PHONY : modeling/tri_integrator.i
-
-# target to preprocess a source file
-modeling/tri_integrator.cpp.i:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/tri_integrator.cpp.i
-.PHONY : modeling/tri_integrator.cpp.i
-
-modeling/tri_integrator.s: modeling/tri_integrator.cpp.s
-
-.PHONY : modeling/tri_integrator.s
-
-# target to generate assembly for a file
-modeling/tri_integrator.cpp.s:
-	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/modeling/tri_integrator.cpp.s
-.PHONY : modeling/tri_integrator.cpp.s
-
 recon/poisson/Src/CmdLineParser.o: recon/poisson/Src/CmdLineParser.cpp.o
 
 .PHONY : recon/poisson/Src/CmdLineParser.o
@@ -1958,551 +734,1775 @@ registration/tps_alignment/src/global_reg.cc.s:
 	$(MAKE) -f CMakeFiles/global_reg.dir/build.make CMakeFiles/global_reg.dir/registration/tps_alignment/src/global_reg.cc.s
 .PHONY : registration/tps_alignment/src/global_reg.cc.s
 
-sample_implicit.o: sample_implicit.cpp.o
+src/evaluator/GlobalStats.o: src/evaluator/GlobalStats.cpp.o
 
-.PHONY : sample_implicit.o
-
-# target to build an object file
-sample_implicit.cpp.o:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/sample_implicit.cpp.o
-.PHONY : sample_implicit.cpp.o
-
-sample_implicit.i: sample_implicit.cpp.i
-
-.PHONY : sample_implicit.i
-
-# target to preprocess a source file
-sample_implicit.cpp.i:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/sample_implicit.cpp.i
-.PHONY : sample_implicit.cpp.i
-
-sample_implicit.s: sample_implicit.cpp.s
-
-.PHONY : sample_implicit.s
-
-# target to generate assembly for a file
-sample_implicit.cpp.s:
-	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/sample_implicit.cpp.s
-.PHONY : sample_implicit.cpp.s
-
-sampler/GaussianFit.o: sampler/GaussianFit.cpp.o
-
-.PHONY : sampler/GaussianFit.o
+.PHONY : src/evaluator/GlobalStats.o
 
 # target to build an object file
-sampler/GaussianFit.cpp.o:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/GaussianFit.cpp.o
-.PHONY : sampler/GaussianFit.cpp.o
+src/evaluator/GlobalStats.cpp.o:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/GlobalStats.cpp.o
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/GlobalStats.cpp.o
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/GlobalStats.cpp.o
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/GlobalStats.cpp.o
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/GlobalStats.cpp.o
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/GlobalStats.cpp.o
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/GlobalStats.cpp.o
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/GlobalStats.cpp.o
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/GlobalStats.cpp.o
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/GlobalStats.cpp.o
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/GlobalStats.cpp.o
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/GlobalStats.cpp.o
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/GlobalStats.cpp.o
+.PHONY : src/evaluator/GlobalStats.cpp.o
 
-sampler/GaussianFit.i: sampler/GaussianFit.cpp.i
+src/evaluator/GlobalStats.i: src/evaluator/GlobalStats.cpp.i
 
-.PHONY : sampler/GaussianFit.i
+.PHONY : src/evaluator/GlobalStats.i
 
 # target to preprocess a source file
-sampler/GaussianFit.cpp.i:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/GaussianFit.cpp.i
-.PHONY : sampler/GaussianFit.cpp.i
+src/evaluator/GlobalStats.cpp.i:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/GlobalStats.cpp.i
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/GlobalStats.cpp.i
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/GlobalStats.cpp.i
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/GlobalStats.cpp.i
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/GlobalStats.cpp.i
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/GlobalStats.cpp.i
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/GlobalStats.cpp.i
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/GlobalStats.cpp.i
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/GlobalStats.cpp.i
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/GlobalStats.cpp.i
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/GlobalStats.cpp.i
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/GlobalStats.cpp.i
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/GlobalStats.cpp.i
+.PHONY : src/evaluator/GlobalStats.cpp.i
 
-sampler/GaussianFit.s: sampler/GaussianFit.cpp.s
+src/evaluator/GlobalStats.s: src/evaluator/GlobalStats.cpp.s
 
-.PHONY : sampler/GaussianFit.s
+.PHONY : src/evaluator/GlobalStats.s
 
 # target to generate assembly for a file
-sampler/GaussianFit.cpp.s:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/GaussianFit.cpp.s
-.PHONY : sampler/GaussianFit.cpp.s
+src/evaluator/GlobalStats.cpp.s:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/GlobalStats.cpp.s
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/GlobalStats.cpp.s
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/GlobalStats.cpp.s
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/GlobalStats.cpp.s
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/GlobalStats.cpp.s
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/GlobalStats.cpp.s
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/GlobalStats.cpp.s
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/GlobalStats.cpp.s
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/GlobalStats.cpp.s
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/GlobalStats.cpp.s
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/GlobalStats.cpp.s
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/GlobalStats.cpp.s
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/GlobalStats.cpp.s
+.PHONY : src/evaluator/GlobalStats.cpp.s
 
-sampler/ImplicitNewton.o: sampler/ImplicitNewton.cpp.o
+src/evaluator/KdOpenMesh.o: src/evaluator/KdOpenMesh.cpp.o
 
-.PHONY : sampler/ImplicitNewton.o
+.PHONY : src/evaluator/KdOpenMesh.o
 
 # target to build an object file
-sampler/ImplicitNewton.cpp.o:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/ImplicitNewton.cpp.o
-.PHONY : sampler/ImplicitNewton.cpp.o
+src/evaluator/KdOpenMesh.cpp.o:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/KdOpenMesh.cpp.o
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/KdOpenMesh.cpp.o
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/KdOpenMesh.cpp.o
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/KdOpenMesh.cpp.o
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/KdOpenMesh.cpp.o
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/KdOpenMesh.cpp.o
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/KdOpenMesh.cpp.o
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/KdOpenMesh.cpp.o
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/KdOpenMesh.cpp.o
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/KdOpenMesh.cpp.o
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/KdOpenMesh.cpp.o
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/KdOpenMesh.cpp.o
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/KdOpenMesh.cpp.o
+.PHONY : src/evaluator/KdOpenMesh.cpp.o
 
-sampler/ImplicitNewton.i: sampler/ImplicitNewton.cpp.i
+src/evaluator/KdOpenMesh.i: src/evaluator/KdOpenMesh.cpp.i
 
-.PHONY : sampler/ImplicitNewton.i
+.PHONY : src/evaluator/KdOpenMesh.i
 
 # target to preprocess a source file
-sampler/ImplicitNewton.cpp.i:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/ImplicitNewton.cpp.i
-.PHONY : sampler/ImplicitNewton.cpp.i
+src/evaluator/KdOpenMesh.cpp.i:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/KdOpenMesh.cpp.i
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/KdOpenMesh.cpp.i
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/KdOpenMesh.cpp.i
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/KdOpenMesh.cpp.i
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/KdOpenMesh.cpp.i
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/KdOpenMesh.cpp.i
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/KdOpenMesh.cpp.i
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/KdOpenMesh.cpp.i
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/KdOpenMesh.cpp.i
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/KdOpenMesh.cpp.i
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/KdOpenMesh.cpp.i
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/KdOpenMesh.cpp.i
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/KdOpenMesh.cpp.i
+.PHONY : src/evaluator/KdOpenMesh.cpp.i
 
-sampler/ImplicitNewton.s: sampler/ImplicitNewton.cpp.s
+src/evaluator/KdOpenMesh.s: src/evaluator/KdOpenMesh.cpp.s
 
-.PHONY : sampler/ImplicitNewton.s
+.PHONY : src/evaluator/KdOpenMesh.s
 
 # target to generate assembly for a file
-sampler/ImplicitNewton.cpp.s:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/ImplicitNewton.cpp.s
-.PHONY : sampler/ImplicitNewton.cpp.s
+src/evaluator/KdOpenMesh.cpp.s:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/KdOpenMesh.cpp.s
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/KdOpenMesh.cpp.s
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/KdOpenMesh.cpp.s
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/KdOpenMesh.cpp.s
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/KdOpenMesh.cpp.s
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/KdOpenMesh.cpp.s
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/KdOpenMesh.cpp.s
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/KdOpenMesh.cpp.s
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/KdOpenMesh.cpp.s
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/KdOpenMesh.cpp.s
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/KdOpenMesh.cpp.s
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/KdOpenMesh.cpp.s
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/KdOpenMesh.cpp.s
+.PHONY : src/evaluator/KdOpenMesh.cpp.s
 
-sampler/NPTSReader.o: sampler/NPTSReader.cpp.o
+src/evaluator/ShortestDistanceMap.o: src/evaluator/ShortestDistanceMap.cpp.o
 
-.PHONY : sampler/NPTSReader.o
+.PHONY : src/evaluator/ShortestDistanceMap.o
 
 # target to build an object file
-sampler/NPTSReader.cpp.o:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/NPTSReader.cpp.o
-.PHONY : sampler/NPTSReader.cpp.o
+src/evaluator/ShortestDistanceMap.cpp.o:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/ShortestDistanceMap.cpp.o
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/ShortestDistanceMap.cpp.o
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/ShortestDistanceMap.cpp.o
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/ShortestDistanceMap.cpp.o
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/ShortestDistanceMap.cpp.o
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.o
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/ShortestDistanceMap.cpp.o
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/ShortestDistanceMap.cpp.o
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.o
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/ShortestDistanceMap.cpp.o
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/ShortestDistanceMap.cpp.o
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/ShortestDistanceMap.cpp.o
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.o
+.PHONY : src/evaluator/ShortestDistanceMap.cpp.o
 
-sampler/NPTSReader.i: sampler/NPTSReader.cpp.i
+src/evaluator/ShortestDistanceMap.i: src/evaluator/ShortestDistanceMap.cpp.i
 
-.PHONY : sampler/NPTSReader.i
+.PHONY : src/evaluator/ShortestDistanceMap.i
 
 # target to preprocess a source file
-sampler/NPTSReader.cpp.i:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/NPTSReader.cpp.i
-.PHONY : sampler/NPTSReader.cpp.i
+src/evaluator/ShortestDistanceMap.cpp.i:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/ShortestDistanceMap.cpp.i
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/ShortestDistanceMap.cpp.i
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/ShortestDistanceMap.cpp.i
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/ShortestDistanceMap.cpp.i
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/ShortestDistanceMap.cpp.i
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.i
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/ShortestDistanceMap.cpp.i
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/ShortestDistanceMap.cpp.i
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.i
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/ShortestDistanceMap.cpp.i
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/ShortestDistanceMap.cpp.i
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/ShortestDistanceMap.cpp.i
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.i
+.PHONY : src/evaluator/ShortestDistanceMap.cpp.i
 
-sampler/NPTSReader.s: sampler/NPTSReader.cpp.s
+src/evaluator/ShortestDistanceMap.s: src/evaluator/ShortestDistanceMap.cpp.s
 
-.PHONY : sampler/NPTSReader.s
+.PHONY : src/evaluator/ShortestDistanceMap.s
 
 # target to generate assembly for a file
-sampler/NPTSReader.cpp.s:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/NPTSReader.cpp.s
-.PHONY : sampler/NPTSReader.cpp.s
+src/evaluator/ShortestDistanceMap.cpp.s:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/ShortestDistanceMap.cpp.s
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/ShortestDistanceMap.cpp.s
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/ShortestDistanceMap.cpp.s
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/ShortestDistanceMap.cpp.s
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/ShortestDistanceMap.cpp.s
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.s
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/ShortestDistanceMap.cpp.s
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/ShortestDistanceMap.cpp.s
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.s
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/ShortestDistanceMap.cpp.s
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/ShortestDistanceMap.cpp.s
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/ShortestDistanceMap.cpp.s
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.s
+.PHONY : src/evaluator/ShortestDistanceMap.cpp.s
 
-sampler/OrientedPointCloud.o: sampler/OrientedPointCloud.cpp.o
+src/evaluator/UniformGrid.o: src/evaluator/UniformGrid.cpp.o
 
-.PHONY : sampler/OrientedPointCloud.o
+.PHONY : src/evaluator/UniformGrid.o
 
 # target to build an object file
-sampler/OrientedPointCloud.cpp.o:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/OrientedPointCloud.cpp.o
-.PHONY : sampler/OrientedPointCloud.cpp.o
+src/evaluator/UniformGrid.cpp.o:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/UniformGrid.cpp.o
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/UniformGrid.cpp.o
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/UniformGrid.cpp.o
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/UniformGrid.cpp.o
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/UniformGrid.cpp.o
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/UniformGrid.cpp.o
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/UniformGrid.cpp.o
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/UniformGrid.cpp.o
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/UniformGrid.cpp.o
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/UniformGrid.cpp.o
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/UniformGrid.cpp.o
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/UniformGrid.cpp.o
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/UniformGrid.cpp.o
+.PHONY : src/evaluator/UniformGrid.cpp.o
 
-sampler/OrientedPointCloud.i: sampler/OrientedPointCloud.cpp.i
+src/evaluator/UniformGrid.i: src/evaluator/UniformGrid.cpp.i
 
-.PHONY : sampler/OrientedPointCloud.i
+.PHONY : src/evaluator/UniformGrid.i
 
 # target to preprocess a source file
-sampler/OrientedPointCloud.cpp.i:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/OrientedPointCloud.cpp.i
-.PHONY : sampler/OrientedPointCloud.cpp.i
+src/evaluator/UniformGrid.cpp.i:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/UniformGrid.cpp.i
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/UniformGrid.cpp.i
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/UniformGrid.cpp.i
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/UniformGrid.cpp.i
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/UniformGrid.cpp.i
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/UniformGrid.cpp.i
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/UniformGrid.cpp.i
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/UniformGrid.cpp.i
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/UniformGrid.cpp.i
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/UniformGrid.cpp.i
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/UniformGrid.cpp.i
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/UniformGrid.cpp.i
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/UniformGrid.cpp.i
+.PHONY : src/evaluator/UniformGrid.cpp.i
 
-sampler/OrientedPointCloud.s: sampler/OrientedPointCloud.cpp.s
+src/evaluator/UniformGrid.s: src/evaluator/UniformGrid.cpp.s
 
-.PHONY : sampler/OrientedPointCloud.s
+.PHONY : src/evaluator/UniformGrid.s
 
 # target to generate assembly for a file
-sampler/OrientedPointCloud.cpp.s:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/OrientedPointCloud.cpp.s
-.PHONY : sampler/OrientedPointCloud.cpp.s
+src/evaluator/UniformGrid.cpp.s:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/UniformGrid.cpp.s
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/UniformGrid.cpp.s
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/UniformGrid.cpp.s
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/UniformGrid.cpp.s
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/UniformGrid.cpp.s
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/UniformGrid.cpp.s
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/UniformGrid.cpp.s
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/UniformGrid.cpp.s
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/UniformGrid.cpp.s
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/UniformGrid.cpp.s
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/UniformGrid.cpp.s
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/UniformGrid.cpp.s
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/UniformGrid.cpp.s
+.PHONY : src/evaluator/UniformGrid.cpp.s
 
-sampler/OrientedRangeImage.o: sampler/OrientedRangeImage.cpp.o
+src/evaluator/implicit_sampler.o: src/evaluator/implicit_sampler.cpp.o
 
-.PHONY : sampler/OrientedRangeImage.o
+.PHONY : src/evaluator/implicit_sampler.o
 
 # target to build an object file
-sampler/OrientedRangeImage.cpp.o:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/OrientedRangeImage.cpp.o
-.PHONY : sampler/OrientedRangeImage.cpp.o
+src/evaluator/implicit_sampler.cpp.o:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/implicit_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/implicit_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/implicit_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/implicit_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/implicit_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/implicit_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/implicit_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/implicit_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/implicit_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/implicit_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/implicit_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/implicit_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/implicit_sampler.cpp.o
+.PHONY : src/evaluator/implicit_sampler.cpp.o
 
-sampler/OrientedRangeImage.i: sampler/OrientedRangeImage.cpp.i
+src/evaluator/implicit_sampler.i: src/evaluator/implicit_sampler.cpp.i
 
-.PHONY : sampler/OrientedRangeImage.i
+.PHONY : src/evaluator/implicit_sampler.i
 
 # target to preprocess a source file
-sampler/OrientedRangeImage.cpp.i:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/OrientedRangeImage.cpp.i
-.PHONY : sampler/OrientedRangeImage.cpp.i
+src/evaluator/implicit_sampler.cpp.i:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/implicit_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/implicit_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/implicit_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/implicit_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/implicit_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/implicit_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/implicit_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/implicit_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/implicit_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/implicit_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/implicit_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/implicit_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/implicit_sampler.cpp.i
+.PHONY : src/evaluator/implicit_sampler.cpp.i
 
-sampler/OrientedRangeImage.s: sampler/OrientedRangeImage.cpp.s
+src/evaluator/implicit_sampler.s: src/evaluator/implicit_sampler.cpp.s
 
-.PHONY : sampler/OrientedRangeImage.s
+.PHONY : src/evaluator/implicit_sampler.s
 
 # target to generate assembly for a file
-sampler/OrientedRangeImage.cpp.s:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/OrientedRangeImage.cpp.s
-.PHONY : sampler/OrientedRangeImage.cpp.s
+src/evaluator/implicit_sampler.cpp.s:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/implicit_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/implicit_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/implicit_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/implicit_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/implicit_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/implicit_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/implicit_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/implicit_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/implicit_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/implicit_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/implicit_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/implicit_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/implicit_sampler.cpp.s
+.PHONY : src/evaluator/implicit_sampler.cpp.s
 
-sampler/PNGImage.o: sampler/PNGImage.cpp.o
+src/evaluator/implicit_uniform.o: src/evaluator/implicit_uniform.cpp.o
 
-.PHONY : sampler/PNGImage.o
+.PHONY : src/evaluator/implicit_uniform.o
 
 # target to build an object file
-sampler/PNGImage.cpp.o:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/PNGImage.cpp.o
-.PHONY : sampler/PNGImage.cpp.o
+src/evaluator/implicit_uniform.cpp.o:
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/implicit_uniform.cpp.o
+.PHONY : src/evaluator/implicit_uniform.cpp.o
 
-sampler/PNGImage.i: sampler/PNGImage.cpp.i
+src/evaluator/implicit_uniform.i: src/evaluator/implicit_uniform.cpp.i
 
-.PHONY : sampler/PNGImage.i
+.PHONY : src/evaluator/implicit_uniform.i
 
 # target to preprocess a source file
-sampler/PNGImage.cpp.i:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/PNGImage.cpp.i
-.PHONY : sampler/PNGImage.cpp.i
+src/evaluator/implicit_uniform.cpp.i:
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/implicit_uniform.cpp.i
+.PHONY : src/evaluator/implicit_uniform.cpp.i
 
-sampler/PNGImage.s: sampler/PNGImage.cpp.s
+src/evaluator/implicit_uniform.s: src/evaluator/implicit_uniform.cpp.s
 
-.PHONY : sampler/PNGImage.s
+.PHONY : src/evaluator/implicit_uniform.s
 
 # target to generate assembly for a file
-sampler/PNGImage.cpp.s:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/PNGImage.cpp.s
-.PHONY : sampler/PNGImage.cpp.s
+src/evaluator/implicit_uniform.cpp.s:
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/implicit_uniform.cpp.s
+.PHONY : src/evaluator/implicit_uniform.cpp.s
 
-sampler/PointCloud.o: sampler/PointCloud.cpp.o
+src/evaluator/kd_tree.o: src/evaluator/kd_tree.cpp.o
 
-.PHONY : sampler/PointCloud.o
+.PHONY : src/evaluator/kd_tree.o
 
 # target to build an object file
-sampler/PointCloud.cpp.o:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/PointCloud.cpp.o
-.PHONY : sampler/PointCloud.cpp.o
+src/evaluator/kd_tree.cpp.o:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/kd_tree.cpp.o
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/kd_tree.cpp.o
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/kd_tree.cpp.o
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/kd_tree.cpp.o
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/kd_tree.cpp.o
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/kd_tree.cpp.o
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/kd_tree.cpp.o
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/kd_tree.cpp.o
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/kd_tree.cpp.o
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/kd_tree.cpp.o
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/kd_tree.cpp.o
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/kd_tree.cpp.o
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/kd_tree.cpp.o
+.PHONY : src/evaluator/kd_tree.cpp.o
 
-sampler/PointCloud.i: sampler/PointCloud.cpp.i
+src/evaluator/kd_tree.i: src/evaluator/kd_tree.cpp.i
 
-.PHONY : sampler/PointCloud.i
+.PHONY : src/evaluator/kd_tree.i
 
 # target to preprocess a source file
-sampler/PointCloud.cpp.i:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/PointCloud.cpp.i
-.PHONY : sampler/PointCloud.cpp.i
+src/evaluator/kd_tree.cpp.i:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/kd_tree.cpp.i
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/kd_tree.cpp.i
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/kd_tree.cpp.i
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/kd_tree.cpp.i
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/kd_tree.cpp.i
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/kd_tree.cpp.i
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/kd_tree.cpp.i
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/kd_tree.cpp.i
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/kd_tree.cpp.i
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/kd_tree.cpp.i
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/kd_tree.cpp.i
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/kd_tree.cpp.i
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/kd_tree.cpp.i
+.PHONY : src/evaluator/kd_tree.cpp.i
 
-sampler/PointCloud.s: sampler/PointCloud.cpp.s
+src/evaluator/kd_tree.s: src/evaluator/kd_tree.cpp.s
 
-.PHONY : sampler/PointCloud.s
+.PHONY : src/evaluator/kd_tree.s
 
 # target to generate assembly for a file
-sampler/PointCloud.cpp.s:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/PointCloud.cpp.s
-.PHONY : sampler/PointCloud.cpp.s
+src/evaluator/kd_tree.cpp.s:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/kd_tree.cpp.s
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/kd_tree.cpp.s
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/kd_tree.cpp.s
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/kd_tree.cpp.s
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/kd_tree.cpp.s
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/kd_tree.cpp.s
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/kd_tree.cpp.s
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/kd_tree.cpp.s
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/kd_tree.cpp.s
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/kd_tree.cpp.s
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/kd_tree.cpp.s
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/kd_tree.cpp.s
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/kd_tree.cpp.s
+.PHONY : src/evaluator/kd_tree.cpp.s
 
-sampler/RangeImage.o: sampler/RangeImage.cpp.o
+src/evaluator/mesh_fixer.o: src/evaluator/mesh_fixer.cpp.o
 
-.PHONY : sampler/RangeImage.o
+.PHONY : src/evaluator/mesh_fixer.o
 
 # target to build an object file
-sampler/RangeImage.cpp.o:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/RangeImage.cpp.o
-.PHONY : sampler/RangeImage.cpp.o
+src/evaluator/mesh_fixer.cpp.o:
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/mesh_fixer.cpp.o
+.PHONY : src/evaluator/mesh_fixer.cpp.o
 
-sampler/RangeImage.i: sampler/RangeImage.cpp.i
+src/evaluator/mesh_fixer.i: src/evaluator/mesh_fixer.cpp.i
 
-.PHONY : sampler/RangeImage.i
+.PHONY : src/evaluator/mesh_fixer.i
 
 # target to preprocess a source file
-sampler/RangeImage.cpp.i:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/RangeImage.cpp.i
-.PHONY : sampler/RangeImage.cpp.i
+src/evaluator/mesh_fixer.cpp.i:
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/mesh_fixer.cpp.i
+.PHONY : src/evaluator/mesh_fixer.cpp.i
 
-sampler/RangeImage.s: sampler/RangeImage.cpp.s
+src/evaluator/mesh_fixer.s: src/evaluator/mesh_fixer.cpp.s
 
-.PHONY : sampler/RangeImage.s
+.PHONY : src/evaluator/mesh_fixer.s
 
 # target to generate assembly for a file
-sampler/RangeImage.cpp.s:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/RangeImage.cpp.s
-.PHONY : sampler/RangeImage.cpp.s
+src/evaluator/mesh_fixer.cpp.s:
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/mesh_fixer.cpp.s
+.PHONY : src/evaluator/mesh_fixer.cpp.s
 
-sampler/RangeScanner.o: sampler/RangeScanner.cpp.o
+src/evaluator/mesh_sampler.o: src/evaluator/mesh_sampler.cpp.o
 
-.PHONY : sampler/RangeScanner.o
+.PHONY : src/evaluator/mesh_sampler.o
 
 # target to build an object file
-sampler/RangeScanner.cpp.o:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/RangeScanner.cpp.o
-.PHONY : sampler/RangeScanner.cpp.o
+src/evaluator/mesh_sampler.cpp.o:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/mesh_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/mesh_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/mesh_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/mesh_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/mesh_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/mesh_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/mesh_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/mesh_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/mesh_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/mesh_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/mesh_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/mesh_sampler.cpp.o
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/mesh_sampler.cpp.o
+.PHONY : src/evaluator/mesh_sampler.cpp.o
 
-sampler/RangeScanner.i: sampler/RangeScanner.cpp.i
+src/evaluator/mesh_sampler.i: src/evaluator/mesh_sampler.cpp.i
 
-.PHONY : sampler/RangeScanner.i
+.PHONY : src/evaluator/mesh_sampler.i
 
 # target to preprocess a source file
-sampler/RangeScanner.cpp.i:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/RangeScanner.cpp.i
-.PHONY : sampler/RangeScanner.cpp.i
+src/evaluator/mesh_sampler.cpp.i:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/mesh_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/mesh_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/mesh_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/mesh_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/mesh_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/mesh_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/mesh_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/mesh_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/mesh_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/mesh_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/mesh_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/mesh_sampler.cpp.i
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/mesh_sampler.cpp.i
+.PHONY : src/evaluator/mesh_sampler.cpp.i
 
-sampler/RangeScanner.s: sampler/RangeScanner.cpp.s
+src/evaluator/mesh_sampler.s: src/evaluator/mesh_sampler.cpp.s
 
-.PHONY : sampler/RangeScanner.s
+.PHONY : src/evaluator/mesh_sampler.s
 
 # target to generate assembly for a file
-sampler/RangeScanner.cpp.s:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/RangeScanner.cpp.s
-.PHONY : sampler/RangeScanner.cpp.s
+src/evaluator/mesh_sampler.cpp.s:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/mesh_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/mesh_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/mesh_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/mesh_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/mesh_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/mesh_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/mesh_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/mesh_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/mesh_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/mesh_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/mesh_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/mesh_sampler.cpp.s
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/mesh_sampler.cpp.s
+.PHONY : src/evaluator/mesh_sampler.cpp.s
 
-sampler/RayCaster.o: sampler/RayCaster.cpp.o
+src/evaluator/plot/aggregate_distribution.o: src/evaluator/plot/aggregate_distribution.cpp.o
 
-.PHONY : sampler/RayCaster.o
+.PHONY : src/evaluator/plot/aggregate_distribution.o
 
 # target to build an object file
-sampler/RayCaster.cpp.o:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/RayCaster.cpp.o
-.PHONY : sampler/RayCaster.cpp.o
+src/evaluator/plot/aggregate_distribution.cpp.o:
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/plot/aggregate_distribution.cpp.o
+.PHONY : src/evaluator/plot/aggregate_distribution.cpp.o
 
-sampler/RayCaster.i: sampler/RayCaster.cpp.i
+src/evaluator/plot/aggregate_distribution.i: src/evaluator/plot/aggregate_distribution.cpp.i
 
-.PHONY : sampler/RayCaster.i
+.PHONY : src/evaluator/plot/aggregate_distribution.i
 
 # target to preprocess a source file
-sampler/RayCaster.cpp.i:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/RayCaster.cpp.i
-.PHONY : sampler/RayCaster.cpp.i
+src/evaluator/plot/aggregate_distribution.cpp.i:
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/plot/aggregate_distribution.cpp.i
+.PHONY : src/evaluator/plot/aggregate_distribution.cpp.i
 
-sampler/RayCaster.s: sampler/RayCaster.cpp.s
+src/evaluator/plot/aggregate_distribution.s: src/evaluator/plot/aggregate_distribution.cpp.s
 
-.PHONY : sampler/RayCaster.s
+.PHONY : src/evaluator/plot/aggregate_distribution.s
 
 # target to generate assembly for a file
-sampler/RayCaster.cpp.s:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/RayCaster.cpp.s
-.PHONY : sampler/RayCaster.cpp.s
+src/evaluator/plot/aggregate_distribution.cpp.s:
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/plot/aggregate_distribution.cpp.s
+.PHONY : src/evaluator/plot/aggregate_distribution.cpp.s
 
-sampler/SparseRangeScan.o: sampler/SparseRangeScan.cpp.o
+src/evaluator/plot/aggregation.o: src/evaluator/plot/aggregation.cpp.o
 
-.PHONY : sampler/SparseRangeScan.o
+.PHONY : src/evaluator/plot/aggregation.o
 
 # target to build an object file
-sampler/SparseRangeScan.cpp.o:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/SparseRangeScan.cpp.o
-.PHONY : sampler/SparseRangeScan.cpp.o
+src/evaluator/plot/aggregation.cpp.o:
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/plot/aggregation.cpp.o
+.PHONY : src/evaluator/plot/aggregation.cpp.o
 
-sampler/SparseRangeScan.i: sampler/SparseRangeScan.cpp.i
+src/evaluator/plot/aggregation.i: src/evaluator/plot/aggregation.cpp.i
 
-.PHONY : sampler/SparseRangeScan.i
+.PHONY : src/evaluator/plot/aggregation.i
 
 # target to preprocess a source file
-sampler/SparseRangeScan.cpp.i:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/SparseRangeScan.cpp.i
-.PHONY : sampler/SparseRangeScan.cpp.i
+src/evaluator/plot/aggregation.cpp.i:
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/plot/aggregation.cpp.i
+.PHONY : src/evaluator/plot/aggregation.cpp.i
 
-sampler/SparseRangeScan.s: sampler/SparseRangeScan.cpp.s
+src/evaluator/plot/aggregation.s: src/evaluator/plot/aggregation.cpp.s
 
-.PHONY : sampler/SparseRangeScan.s
+.PHONY : src/evaluator/plot/aggregation.s
 
 # target to generate assembly for a file
-sampler/SparseRangeScan.cpp.s:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/SparseRangeScan.cpp.s
-.PHONY : sampler/SparseRangeScan.cpp.s
+src/evaluator/plot/aggregation.cpp.s:
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/plot/aggregation.cpp.s
+.PHONY : src/evaluator/plot/aggregation.cpp.s
 
-sampler/SphericalImager.o: sampler/SphericalImager.cpp.o
+src/evaluator/plot/dump_barplot.o: src/evaluator/plot/dump_barplot.cpp.o
 
-.PHONY : sampler/SphericalImager.o
+.PHONY : src/evaluator/plot/dump_barplot.o
 
 # target to build an object file
-sampler/SphericalImager.cpp.o:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/SphericalImager.cpp.o
-.PHONY : sampler/SphericalImager.cpp.o
+src/evaluator/plot/dump_barplot.cpp.o:
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/plot/dump_barplot.cpp.o
+.PHONY : src/evaluator/plot/dump_barplot.cpp.o
 
-sampler/SphericalImager.i: sampler/SphericalImager.cpp.i
+src/evaluator/plot/dump_barplot.i: src/evaluator/plot/dump_barplot.cpp.i
 
-.PHONY : sampler/SphericalImager.i
+.PHONY : src/evaluator/plot/dump_barplot.i
 
 # target to preprocess a source file
-sampler/SphericalImager.cpp.i:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/SphericalImager.cpp.i
-.PHONY : sampler/SphericalImager.cpp.i
+src/evaluator/plot/dump_barplot.cpp.i:
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/plot/dump_barplot.cpp.i
+.PHONY : src/evaluator/plot/dump_barplot.cpp.i
 
-sampler/SphericalImager.s: sampler/SphericalImager.cpp.s
+src/evaluator/plot/dump_barplot.s: src/evaluator/plot/dump_barplot.cpp.s
 
-.PHONY : sampler/SphericalImager.s
+.PHONY : src/evaluator/plot/dump_barplot.s
 
 # target to generate assembly for a file
-sampler/SphericalImager.cpp.s:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/SphericalImager.cpp.s
-.PHONY : sampler/SphericalImager.cpp.s
+src/evaluator/plot/dump_barplot.cpp.s:
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/plot/dump_barplot.cpp.s
+.PHONY : src/evaluator/plot/dump_barplot.cpp.s
 
-sampler/UniformOccupancyGrid.o: sampler/UniformOccupancyGrid.cpp.o
+src/evaluator/plot/dump_distribution.o: src/evaluator/plot/dump_distribution.cpp.o
 
-.PHONY : sampler/UniformOccupancyGrid.o
+.PHONY : src/evaluator/plot/dump_distribution.o
 
 # target to build an object file
-sampler/UniformOccupancyGrid.cpp.o:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/UniformOccupancyGrid.cpp.o
-.PHONY : sampler/UniformOccupancyGrid.cpp.o
+src/evaluator/plot/dump_distribution.cpp.o:
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/plot/dump_distribution.cpp.o
+.PHONY : src/evaluator/plot/dump_distribution.cpp.o
 
-sampler/UniformOccupancyGrid.i: sampler/UniformOccupancyGrid.cpp.i
+src/evaluator/plot/dump_distribution.i: src/evaluator/plot/dump_distribution.cpp.i
 
-.PHONY : sampler/UniformOccupancyGrid.i
+.PHONY : src/evaluator/plot/dump_distribution.i
 
 # target to preprocess a source file
-sampler/UniformOccupancyGrid.cpp.i:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/UniformOccupancyGrid.cpp.i
-.PHONY : sampler/UniformOccupancyGrid.cpp.i
+src/evaluator/plot/dump_distribution.cpp.i:
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/plot/dump_distribution.cpp.i
+.PHONY : src/evaluator/plot/dump_distribution.cpp.i
 
-sampler/UniformOccupancyGrid.s: sampler/UniformOccupancyGrid.cpp.s
+src/evaluator/plot/dump_distribution.s: src/evaluator/plot/dump_distribution.cpp.s
 
-.PHONY : sampler/UniformOccupancyGrid.s
+.PHONY : src/evaluator/plot/dump_distribution.s
 
 # target to generate assembly for a file
-sampler/UniformOccupancyGrid.cpp.s:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/UniformOccupancyGrid.cpp.s
-.PHONY : sampler/UniformOccupancyGrid.cpp.s
+src/evaluator/plot/dump_distribution.cpp.s:
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/plot/dump_distribution.cpp.s
+.PHONY : src/evaluator/plot/dump_distribution.cpp.s
 
-sampler/UniformSampler.o: sampler/UniformSampler.cpp.o
+src/evaluator/plot/dump_lines.o: src/evaluator/plot/dump_lines.cpp.o
 
-.PHONY : sampler/UniformSampler.o
+.PHONY : src/evaluator/plot/dump_lines.o
 
 # target to build an object file
-sampler/UniformSampler.cpp.o:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/UniformSampler.cpp.o
-.PHONY : sampler/UniformSampler.cpp.o
+src/evaluator/plot/dump_lines.cpp.o:
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/plot/dump_lines.cpp.o
+.PHONY : src/evaluator/plot/dump_lines.cpp.o
 
-sampler/UniformSampler.i: sampler/UniformSampler.cpp.i
+src/evaluator/plot/dump_lines.i: src/evaluator/plot/dump_lines.cpp.i
 
-.PHONY : sampler/UniformSampler.i
+.PHONY : src/evaluator/plot/dump_lines.i
 
 # target to preprocess a source file
-sampler/UniformSampler.cpp.i:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/UniformSampler.cpp.i
-.PHONY : sampler/UniformSampler.cpp.i
+src/evaluator/plot/dump_lines.cpp.i:
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/plot/dump_lines.cpp.i
+.PHONY : src/evaluator/plot/dump_lines.cpp.i
 
-sampler/UniformSampler.s: sampler/UniformSampler.cpp.s
+src/evaluator/plot/dump_lines.s: src/evaluator/plot/dump_lines.cpp.s
 
-.PHONY : sampler/UniformSampler.s
+.PHONY : src/evaluator/plot/dump_lines.s
 
 # target to generate assembly for a file
-sampler/UniformSampler.cpp.s:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/UniformSampler.cpp.s
-.PHONY : sampler/UniformSampler.cpp.s
+src/evaluator/plot/dump_lines.cpp.s:
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/plot/dump_lines.cpp.s
+.PHONY : src/evaluator/plot/dump_lines.cpp.s
 
-sampler/XYZReader.o: sampler/XYZReader.cpp.o
+src/evaluator/plot/dump_meta.o: src/evaluator/plot/dump_meta.cpp.o
 
-.PHONY : sampler/XYZReader.o
+.PHONY : src/evaluator/plot/dump_meta.o
 
 # target to build an object file
-sampler/XYZReader.cpp.o:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/XYZReader.cpp.o
-.PHONY : sampler/XYZReader.cpp.o
+src/evaluator/plot/dump_meta.cpp.o:
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/plot/dump_meta.cpp.o
+.PHONY : src/evaluator/plot/dump_meta.cpp.o
 
-sampler/XYZReader.i: sampler/XYZReader.cpp.i
+src/evaluator/plot/dump_meta.i: src/evaluator/plot/dump_meta.cpp.i
 
-.PHONY : sampler/XYZReader.i
+.PHONY : src/evaluator/plot/dump_meta.i
 
 # target to preprocess a source file
-sampler/XYZReader.cpp.i:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/XYZReader.cpp.i
-.PHONY : sampler/XYZReader.cpp.i
+src/evaluator/plot/dump_meta.cpp.i:
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/plot/dump_meta.cpp.i
+.PHONY : src/evaluator/plot/dump_meta.cpp.i
 
-sampler/XYZReader.s: sampler/XYZReader.cpp.s
+src/evaluator/plot/dump_meta.s: src/evaluator/plot/dump_meta.cpp.s
 
-.PHONY : sampler/XYZReader.s
+.PHONY : src/evaluator/plot/dump_meta.s
 
 # target to generate assembly for a file
-sampler/XYZReader.cpp.s:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/XYZReader.cpp.s
-.PHONY : sampler/XYZReader.cpp.s
+src/evaluator/plot/dump_meta.cpp.s:
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/plot/dump_meta.cpp.s
+.PHONY : src/evaluator/plot/dump_meta.cpp.s
 
-sampler/pc_generator.o: sampler/pc_generator.cpp.o
+src/evaluator/plot/dump_single.o: src/evaluator/plot/dump_single.cpp.o
 
-.PHONY : sampler/pc_generator.o
+.PHONY : src/evaluator/plot/dump_single.o
 
 # target to build an object file
-sampler/pc_generator.cpp.o:
-	$(MAKE) -f CMakeFiles/pc_generator.dir/build.make CMakeFiles/pc_generator.dir/sampler/pc_generator.cpp.o
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/pc_generator.cpp.o
-.PHONY : sampler/pc_generator.cpp.o
+src/evaluator/plot/dump_single.cpp.o:
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/plot/dump_single.cpp.o
+.PHONY : src/evaluator/plot/dump_single.cpp.o
 
-sampler/pc_generator.i: sampler/pc_generator.cpp.i
+src/evaluator/plot/dump_single.i: src/evaluator/plot/dump_single.cpp.i
 
-.PHONY : sampler/pc_generator.i
+.PHONY : src/evaluator/plot/dump_single.i
 
 # target to preprocess a source file
-sampler/pc_generator.cpp.i:
-	$(MAKE) -f CMakeFiles/pc_generator.dir/build.make CMakeFiles/pc_generator.dir/sampler/pc_generator.cpp.i
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/pc_generator.cpp.i
-.PHONY : sampler/pc_generator.cpp.i
+src/evaluator/plot/dump_single.cpp.i:
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/plot/dump_single.cpp.i
+.PHONY : src/evaluator/plot/dump_single.cpp.i
 
-sampler/pc_generator.s: sampler/pc_generator.cpp.s
+src/evaluator/plot/dump_single.s: src/evaluator/plot/dump_single.cpp.s
 
-.PHONY : sampler/pc_generator.s
+.PHONY : src/evaluator/plot/dump_single.s
 
 # target to generate assembly for a file
-sampler/pc_generator.cpp.s:
-	$(MAKE) -f CMakeFiles/pc_generator.dir/build.make CMakeFiles/pc_generator.dir/sampler/pc_generator.cpp.s
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/pc_generator.cpp.s
-.PHONY : sampler/pc_generator.cpp.s
+src/evaluator/plot/dump_single.cpp.s:
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/plot/dump_single.cpp.s
+.PHONY : src/evaluator/plot/dump_single.cpp.s
 
-sampler/point_orienter.o: sampler/point_orienter.cpp.o
+src/evaluator/plot/single_distribution.o: src/evaluator/plot/single_distribution.cpp.o
 
-.PHONY : sampler/point_orienter.o
+.PHONY : src/evaluator/plot/single_distribution.o
 
 # target to build an object file
-sampler/point_orienter.cpp.o:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/point_orienter.cpp.o
-.PHONY : sampler/point_orienter.cpp.o
+src/evaluator/plot/single_distribution.cpp.o:
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/plot/single_distribution.cpp.o
+.PHONY : src/evaluator/plot/single_distribution.cpp.o
 
-sampler/point_orienter.i: sampler/point_orienter.cpp.i
+src/evaluator/plot/single_distribution.i: src/evaluator/plot/single_distribution.cpp.i
 
-.PHONY : sampler/point_orienter.i
+.PHONY : src/evaluator/plot/single_distribution.i
 
 # target to preprocess a source file
-sampler/point_orienter.cpp.i:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/point_orienter.cpp.i
-.PHONY : sampler/point_orienter.cpp.i
+src/evaluator/plot/single_distribution.cpp.i:
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/plot/single_distribution.cpp.i
+.PHONY : src/evaluator/plot/single_distribution.cpp.i
 
-sampler/point_orienter.s: sampler/point_orienter.cpp.s
+src/evaluator/plot/single_distribution.s: src/evaluator/plot/single_distribution.cpp.s
 
-.PHONY : sampler/point_orienter.s
+.PHONY : src/evaluator/plot/single_distribution.s
 
 # target to generate assembly for a file
-sampler/point_orienter.cpp.s:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/point_orienter.cpp.s
-.PHONY : sampler/point_orienter.cpp.s
+src/evaluator/plot/single_distribution.cpp.s:
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/plot/single_distribution.cpp.s
+.PHONY : src/evaluator/plot/single_distribution.cpp.s
 
-sampler/projection_cleanup.o: sampler/projection_cleanup.cpp.o
+src/evaluator/recon_evaluation.o: src/evaluator/recon_evaluation.cpp.o
 
-.PHONY : sampler/projection_cleanup.o
+.PHONY : src/evaluator/recon_evaluation.o
 
 # target to build an object file
-sampler/projection_cleanup.cpp.o:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/projection_cleanup.cpp.o
-.PHONY : sampler/projection_cleanup.cpp.o
+src/evaluator/recon_evaluation.cpp.o:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/recon_evaluation.cpp.o
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/recon_evaluation.cpp.o
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/recon_evaluation.cpp.o
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/recon_evaluation.cpp.o
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/recon_evaluation.cpp.o
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/recon_evaluation.cpp.o
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/recon_evaluation.cpp.o
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/recon_evaluation.cpp.o
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/recon_evaluation.cpp.o
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/recon_evaluation.cpp.o
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/recon_evaluation.cpp.o
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/recon_evaluation.cpp.o
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/recon_evaluation.cpp.o
+.PHONY : src/evaluator/recon_evaluation.cpp.o
 
-sampler/projection_cleanup.i: sampler/projection_cleanup.cpp.i
+src/evaluator/recon_evaluation.i: src/evaluator/recon_evaluation.cpp.i
 
-.PHONY : sampler/projection_cleanup.i
+.PHONY : src/evaluator/recon_evaluation.i
 
 # target to preprocess a source file
-sampler/projection_cleanup.cpp.i:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/projection_cleanup.cpp.i
-.PHONY : sampler/projection_cleanup.cpp.i
+src/evaluator/recon_evaluation.cpp.i:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/recon_evaluation.cpp.i
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/recon_evaluation.cpp.i
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/recon_evaluation.cpp.i
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/recon_evaluation.cpp.i
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/recon_evaluation.cpp.i
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/recon_evaluation.cpp.i
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/recon_evaluation.cpp.i
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/recon_evaluation.cpp.i
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/recon_evaluation.cpp.i
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/recon_evaluation.cpp.i
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/recon_evaluation.cpp.i
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/recon_evaluation.cpp.i
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/recon_evaluation.cpp.i
+.PHONY : src/evaluator/recon_evaluation.cpp.i
 
-sampler/projection_cleanup.s: sampler/projection_cleanup.cpp.s
+src/evaluator/recon_evaluation.s: src/evaluator/recon_evaluation.cpp.s
 
-.PHONY : sampler/projection_cleanup.s
+.PHONY : src/evaluator/recon_evaluation.s
 
 # target to generate assembly for a file
-sampler/projection_cleanup.cpp.s:
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/projection_cleanup.cpp.s
-.PHONY : sampler/projection_cleanup.cpp.s
+src/evaluator/recon_evaluation.cpp.s:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/recon_evaluation.cpp.s
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/recon_evaluation.cpp.s
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/recon_evaluation.cpp.s
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/recon_evaluation.cpp.s
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/recon_evaluation.cpp.s
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/recon_evaluation.cpp.s
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/recon_evaluation.cpp.s
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/recon_evaluation.cpp.s
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/recon_evaluation.cpp.s
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/recon_evaluation.cpp.s
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/recon_evaluation.cpp.s
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/recon_evaluation.cpp.s
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/recon_evaluation.cpp.s
+.PHONY : src/evaluator/recon_evaluation.cpp.s
 
-sampler/run_uniform.o: sampler/run_uniform.cpp.o
+src/evaluator/run_evaluation.o: src/evaluator/run_evaluation.cpp.o
 
-.PHONY : sampler/run_uniform.o
+.PHONY : src/evaluator/run_evaluation.o
 
 # target to build an object file
-sampler/run_uniform.cpp.o:
-	$(MAKE) -f CMakeFiles/uniform_sampler.dir/build.make CMakeFiles/uniform_sampler.dir/sampler/run_uniform.cpp.o
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/run_uniform.cpp.o
-.PHONY : sampler/run_uniform.cpp.o
+src/evaluator/run_evaluation.cpp.o:
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/run_evaluation.cpp.o
+.PHONY : src/evaluator/run_evaluation.cpp.o
 
-sampler/run_uniform.i: sampler/run_uniform.cpp.i
+src/evaluator/run_evaluation.i: src/evaluator/run_evaluation.cpp.i
 
-.PHONY : sampler/run_uniform.i
+.PHONY : src/evaluator/run_evaluation.i
 
 # target to preprocess a source file
-sampler/run_uniform.cpp.i:
-	$(MAKE) -f CMakeFiles/uniform_sampler.dir/build.make CMakeFiles/uniform_sampler.dir/sampler/run_uniform.cpp.i
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/run_uniform.cpp.i
-.PHONY : sampler/run_uniform.cpp.i
+src/evaluator/run_evaluation.cpp.i:
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/run_evaluation.cpp.i
+.PHONY : src/evaluator/run_evaluation.cpp.i
 
-sampler/run_uniform.s: sampler/run_uniform.cpp.s
+src/evaluator/run_evaluation.s: src/evaluator/run_evaluation.cpp.s
 
-.PHONY : sampler/run_uniform.s
+.PHONY : src/evaluator/run_evaluation.s
 
 # target to generate assembly for a file
-sampler/run_uniform.cpp.s:
-	$(MAKE) -f CMakeFiles/uniform_sampler.dir/build.make CMakeFiles/uniform_sampler.dir/sampler/run_uniform.cpp.s
-	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/sampler/run_uniform.cpp.s
-.PHONY : sampler/run_uniform.cpp.s
+src/evaluator/run_evaluation.cpp.s:
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/run_evaluation.cpp.s
+.PHONY : src/evaluator/run_evaluation.cpp.s
+
+src/evaluator/sample_mesh.o: src/evaluator/sample_mesh.cpp.o
+
+.PHONY : src/evaluator/sample_mesh.o
+
+# target to build an object file
+src/evaluator/sample_mesh.cpp.o:
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/sample_mesh.cpp.o
+.PHONY : src/evaluator/sample_mesh.cpp.o
+
+src/evaluator/sample_mesh.i: src/evaluator/sample_mesh.cpp.i
+
+.PHONY : src/evaluator/sample_mesh.i
+
+# target to preprocess a source file
+src/evaluator/sample_mesh.cpp.i:
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/sample_mesh.cpp.i
+.PHONY : src/evaluator/sample_mesh.cpp.i
+
+src/evaluator/sample_mesh.s: src/evaluator/sample_mesh.cpp.s
+
+.PHONY : src/evaluator/sample_mesh.s
+
+# target to generate assembly for a file
+src/evaluator/sample_mesh.cpp.s:
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/sample_mesh.cpp.s
+.PHONY : src/evaluator/sample_mesh.cpp.s
+
+src/evaluator/shape_distribution.o: src/evaluator/shape_distribution.cpp.o
+
+.PHONY : src/evaluator/shape_distribution.o
+
+# target to build an object file
+src/evaluator/shape_distribution.cpp.o:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/shape_distribution.cpp.o
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/shape_distribution.cpp.o
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/shape_distribution.cpp.o
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/shape_distribution.cpp.o
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/shape_distribution.cpp.o
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/shape_distribution.cpp.o
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/shape_distribution.cpp.o
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/shape_distribution.cpp.o
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/shape_distribution.cpp.o
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/shape_distribution.cpp.o
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/shape_distribution.cpp.o
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/shape_distribution.cpp.o
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/shape_distribution.cpp.o
+.PHONY : src/evaluator/shape_distribution.cpp.o
+
+src/evaluator/shape_distribution.i: src/evaluator/shape_distribution.cpp.i
+
+.PHONY : src/evaluator/shape_distribution.i
+
+# target to preprocess a source file
+src/evaluator/shape_distribution.cpp.i:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/shape_distribution.cpp.i
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/shape_distribution.cpp.i
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/shape_distribution.cpp.i
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/shape_distribution.cpp.i
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/shape_distribution.cpp.i
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/shape_distribution.cpp.i
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/shape_distribution.cpp.i
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/shape_distribution.cpp.i
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/shape_distribution.cpp.i
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/shape_distribution.cpp.i
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/shape_distribution.cpp.i
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/shape_distribution.cpp.i
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/shape_distribution.cpp.i
+.PHONY : src/evaluator/shape_distribution.cpp.i
+
+src/evaluator/shape_distribution.s: src/evaluator/shape_distribution.cpp.s
+
+.PHONY : src/evaluator/shape_distribution.s
+
+# target to generate assembly for a file
+src/evaluator/shape_distribution.cpp.s:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/evaluator/shape_distribution.cpp.s
+	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/src/evaluator/shape_distribution.cpp.s
+	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/src/evaluator/shape_distribution.cpp.s
+	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/src/evaluator/shape_distribution.cpp.s
+	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/src/evaluator/shape_distribution.cpp.s
+	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/src/evaluator/shape_distribution.cpp.s
+	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/src/evaluator/shape_distribution.cpp.s
+	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/src/evaluator/shape_distribution.cpp.s
+	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/src/evaluator/shape_distribution.cpp.s
+	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/src/evaluator/shape_distribution.cpp.s
+	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/src/evaluator/shape_distribution.cpp.s
+	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/src/evaluator/shape_distribution.cpp.s
+	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/src/evaluator/shape_distribution.cpp.s
+.PHONY : src/evaluator/shape_distribution.cpp.s
+
+src/modeling/DenseEigenSystem.o: src/modeling/DenseEigenSystem.cpp.o
+
+.PHONY : src/modeling/DenseEigenSystem.o
+
+# target to build an object file
+src/modeling/DenseEigenSystem.cpp.o:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/DenseEigenSystem.cpp.o
+.PHONY : src/modeling/DenseEigenSystem.cpp.o
+
+src/modeling/DenseEigenSystem.i: src/modeling/DenseEigenSystem.cpp.i
+
+.PHONY : src/modeling/DenseEigenSystem.i
+
+# target to preprocess a source file
+src/modeling/DenseEigenSystem.cpp.i:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/DenseEigenSystem.cpp.i
+.PHONY : src/modeling/DenseEigenSystem.cpp.i
+
+src/modeling/DenseEigenSystem.s: src/modeling/DenseEigenSystem.cpp.s
+
+.PHONY : src/modeling/DenseEigenSystem.s
+
+# target to generate assembly for a file
+src/modeling/DenseEigenSystem.cpp.s:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/DenseEigenSystem.cpp.s
+.PHONY : src/modeling/DenseEigenSystem.cpp.s
+
+src/modeling/DenseMatrix.o: src/modeling/DenseMatrix.cpp.o
+
+.PHONY : src/modeling/DenseMatrix.o
+
+# target to build an object file
+src/modeling/DenseMatrix.cpp.o:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/DenseMatrix.cpp.o
+.PHONY : src/modeling/DenseMatrix.cpp.o
+
+src/modeling/DenseMatrix.i: src/modeling/DenseMatrix.cpp.i
+
+.PHONY : src/modeling/DenseMatrix.i
+
+# target to preprocess a source file
+src/modeling/DenseMatrix.cpp.i:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/DenseMatrix.cpp.i
+.PHONY : src/modeling/DenseMatrix.cpp.i
+
+src/modeling/DenseMatrix.s: src/modeling/DenseMatrix.cpp.s
+
+.PHONY : src/modeling/DenseMatrix.s
+
+# target to generate assembly for a file
+src/modeling/DenseMatrix.cpp.s:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/DenseMatrix.cpp.s
+.PHONY : src/modeling/DenseMatrix.cpp.s
+
+src/modeling/ImplicitFunction.o: src/modeling/ImplicitFunction.cpp.o
+
+.PHONY : src/modeling/ImplicitFunction.o
+
+# target to build an object file
+src/modeling/ImplicitFunction.cpp.o:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/ImplicitFunction.cpp.o
+.PHONY : src/modeling/ImplicitFunction.cpp.o
+
+src/modeling/ImplicitFunction.i: src/modeling/ImplicitFunction.cpp.i
+
+.PHONY : src/modeling/ImplicitFunction.i
+
+# target to preprocess a source file
+src/modeling/ImplicitFunction.cpp.i:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/ImplicitFunction.cpp.i
+.PHONY : src/modeling/ImplicitFunction.cpp.i
+
+src/modeling/ImplicitFunction.s: src/modeling/ImplicitFunction.cpp.s
+
+.PHONY : src/modeling/ImplicitFunction.s
+
+# target to generate assembly for a file
+src/modeling/ImplicitFunction.cpp.s:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/ImplicitFunction.cpp.s
+.PHONY : src/modeling/ImplicitFunction.cpp.s
+
+src/modeling/Rigid.o: src/modeling/Rigid.cpp.o
+
+.PHONY : src/modeling/Rigid.o
+
+# target to build an object file
+src/modeling/Rigid.cpp.o:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/Rigid.cpp.o
+.PHONY : src/modeling/Rigid.cpp.o
+
+src/modeling/Rigid.i: src/modeling/Rigid.cpp.i
+
+.PHONY : src/modeling/Rigid.i
+
+# target to preprocess a source file
+src/modeling/Rigid.cpp.i:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/Rigid.cpp.i
+.PHONY : src/modeling/Rigid.cpp.i
+
+src/modeling/Rigid.s: src/modeling/Rigid.cpp.s
+
+.PHONY : src/modeling/Rigid.s
+
+# target to generate assembly for a file
+src/modeling/Rigid.cpp.s:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/Rigid.cpp.s
+.PHONY : src/modeling/Rigid.cpp.s
+
+src/modeling/RotationMatrix.o: src/modeling/RotationMatrix.cpp.o
+
+.PHONY : src/modeling/RotationMatrix.o
+
+# target to build an object file
+src/modeling/RotationMatrix.cpp.o:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/RotationMatrix.cpp.o
+.PHONY : src/modeling/RotationMatrix.cpp.o
+
+src/modeling/RotationMatrix.i: src/modeling/RotationMatrix.cpp.i
+
+.PHONY : src/modeling/RotationMatrix.i
+
+# target to preprocess a source file
+src/modeling/RotationMatrix.cpp.i:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/RotationMatrix.cpp.i
+.PHONY : src/modeling/RotationMatrix.cpp.i
+
+src/modeling/RotationMatrix.s: src/modeling/RotationMatrix.cpp.s
+
+.PHONY : src/modeling/RotationMatrix.s
+
+# target to generate assembly for a file
+src/modeling/RotationMatrix.cpp.s:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/RotationMatrix.cpp.s
+.PHONY : src/modeling/RotationMatrix.cpp.s
+
+src/modeling/Vector.o: src/modeling/Vector.cpp.o
+
+.PHONY : src/modeling/Vector.o
+
+# target to build an object file
+src/modeling/Vector.cpp.o:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/Vector.cpp.o
+.PHONY : src/modeling/Vector.cpp.o
+
+src/modeling/Vector.i: src/modeling/Vector.cpp.i
+
+.PHONY : src/modeling/Vector.i
+
+# target to preprocess a source file
+src/modeling/Vector.cpp.i:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/Vector.cpp.i
+.PHONY : src/modeling/Vector.cpp.i
+
+src/modeling/Vector.s: src/modeling/Vector.cpp.s
+
+.PHONY : src/modeling/Vector.s
+
+# target to generate assembly for a file
+src/modeling/Vector.cpp.s:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/Vector.cpp.s
+.PHONY : src/modeling/Vector.cpp.s
+
+src/modeling/isosurface.o: src/modeling/isosurface.cpp.o
+
+.PHONY : src/modeling/isosurface.o
+
+# target to build an object file
+src/modeling/isosurface.cpp.o:
+	$(MAKE) -f CMakeFiles/isosurface.dir/build.make CMakeFiles/isosurface.dir/src/modeling/isosurface.cpp.o
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/isosurface.cpp.o
+.PHONY : src/modeling/isosurface.cpp.o
+
+src/modeling/isosurface.i: src/modeling/isosurface.cpp.i
+
+.PHONY : src/modeling/isosurface.i
+
+# target to preprocess a source file
+src/modeling/isosurface.cpp.i:
+	$(MAKE) -f CMakeFiles/isosurface.dir/build.make CMakeFiles/isosurface.dir/src/modeling/isosurface.cpp.i
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/isosurface.cpp.i
+.PHONY : src/modeling/isosurface.cpp.i
+
+src/modeling/isosurface.s: src/modeling/isosurface.cpp.s
+
+.PHONY : src/modeling/isosurface.s
+
+# target to generate assembly for a file
+src/modeling/isosurface.cpp.s:
+	$(MAKE) -f CMakeFiles/isosurface.dir/build.make CMakeFiles/isosurface.dir/src/modeling/isosurface.cpp.s
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/isosurface.cpp.s
+.PHONY : src/modeling/isosurface.cpp.s
+
+src/modeling/lm_method.o: src/modeling/lm_method.cpp.o
+
+.PHONY : src/modeling/lm_method.o
+
+# target to build an object file
+src/modeling/lm_method.cpp.o:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/lm_method.cpp.o
+.PHONY : src/modeling/lm_method.cpp.o
+
+src/modeling/lm_method.i: src/modeling/lm_method.cpp.i
+
+.PHONY : src/modeling/lm_method.i
+
+# target to preprocess a source file
+src/modeling/lm_method.cpp.i:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/lm_method.cpp.i
+.PHONY : src/modeling/lm_method.cpp.i
+
+src/modeling/lm_method.s: src/modeling/lm_method.cpp.s
+
+.PHONY : src/modeling/lm_method.s
+
+# target to generate assembly for a file
+src/modeling/lm_method.cpp.s:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/lm_method.cpp.s
+.PHONY : src/modeling/lm_method.cpp.s
+
+src/modeling/mesh_to_implicit.o: src/modeling/mesh_to_implicit.cpp.o
+
+.PHONY : src/modeling/mesh_to_implicit.o
+
+# target to build an object file
+src/modeling/mesh_to_implicit.cpp.o:
+	$(MAKE) -f CMakeFiles/mesh_to_implicit.dir/build.make CMakeFiles/mesh_to_implicit.dir/src/modeling/mesh_to_implicit.cpp.o
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/mesh_to_implicit.cpp.o
+.PHONY : src/modeling/mesh_to_implicit.cpp.o
+
+src/modeling/mesh_to_implicit.i: src/modeling/mesh_to_implicit.cpp.i
+
+.PHONY : src/modeling/mesh_to_implicit.i
+
+# target to preprocess a source file
+src/modeling/mesh_to_implicit.cpp.i:
+	$(MAKE) -f CMakeFiles/mesh_to_implicit.dir/build.make CMakeFiles/mesh_to_implicit.dir/src/modeling/mesh_to_implicit.cpp.i
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/mesh_to_implicit.cpp.i
+.PHONY : src/modeling/mesh_to_implicit.cpp.i
+
+src/modeling/mesh_to_implicit.s: src/modeling/mesh_to_implicit.cpp.s
+
+.PHONY : src/modeling/mesh_to_implicit.s
+
+# target to generate assembly for a file
+src/modeling/mesh_to_implicit.cpp.s:
+	$(MAKE) -f CMakeFiles/mesh_to_implicit.dir/build.make CMakeFiles/mesh_to_implicit.dir/src/modeling/mesh_to_implicit.cpp.s
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/mesh_to_implicit.cpp.s
+.PHONY : src/modeling/mesh_to_implicit.cpp.s
+
+src/modeling/mpu_soup.o: src/modeling/mpu_soup.cpp.o
+
+.PHONY : src/modeling/mpu_soup.o
+
+# target to build an object file
+src/modeling/mpu_soup.cpp.o:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/mpu_soup.cpp.o
+.PHONY : src/modeling/mpu_soup.cpp.o
+
+src/modeling/mpu_soup.i: src/modeling/mpu_soup.cpp.i
+
+.PHONY : src/modeling/mpu_soup.i
+
+# target to preprocess a source file
+src/modeling/mpu_soup.cpp.i:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/mpu_soup.cpp.i
+.PHONY : src/modeling/mpu_soup.cpp.i
+
+src/modeling/mpu_soup.s: src/modeling/mpu_soup.cpp.s
+
+.PHONY : src/modeling/mpu_soup.s
+
+# target to generate assembly for a file
+src/modeling/mpu_soup.cpp.s:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/mpu_soup.cpp.s
+.PHONY : src/modeling/mpu_soup.cpp.s
+
+src/modeling/post-processing.o: src/modeling/post-processing.cpp.o
+
+.PHONY : src/modeling/post-processing.o
+
+# target to build an object file
+src/modeling/post-processing.cpp.o:
+	$(MAKE) -f CMakeFiles/post-processing.dir/build.make CMakeFiles/post-processing.dir/src/modeling/post-processing.cpp.o
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/post-processing.cpp.o
+.PHONY : src/modeling/post-processing.cpp.o
+
+src/modeling/post-processing.i: src/modeling/post-processing.cpp.i
+
+.PHONY : src/modeling/post-processing.i
+
+# target to preprocess a source file
+src/modeling/post-processing.cpp.i:
+	$(MAKE) -f CMakeFiles/post-processing.dir/build.make CMakeFiles/post-processing.dir/src/modeling/post-processing.cpp.i
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/post-processing.cpp.i
+.PHONY : src/modeling/post-processing.cpp.i
+
+src/modeling/post-processing.s: src/modeling/post-processing.cpp.s
+
+.PHONY : src/modeling/post-processing.s
+
+# target to generate assembly for a file
+src/modeling/post-processing.cpp.s:
+	$(MAKE) -f CMakeFiles/post-processing.dir/build.make CMakeFiles/post-processing.dir/src/modeling/post-processing.cpp.s
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/post-processing.cpp.s
+.PHONY : src/modeling/post-processing.cpp.s
+
+src/modeling/tri_integrator.o: src/modeling/tri_integrator.cpp.o
+
+.PHONY : src/modeling/tri_integrator.o
+
+# target to build an object file
+src/modeling/tri_integrator.cpp.o:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/tri_integrator.cpp.o
+.PHONY : src/modeling/tri_integrator.cpp.o
+
+src/modeling/tri_integrator.i: src/modeling/tri_integrator.cpp.i
+
+.PHONY : src/modeling/tri_integrator.i
+
+# target to preprocess a source file
+src/modeling/tri_integrator.cpp.i:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/tri_integrator.cpp.i
+.PHONY : src/modeling/tri_integrator.cpp.i
+
+src/modeling/tri_integrator.s: src/modeling/tri_integrator.cpp.s
+
+.PHONY : src/modeling/tri_integrator.s
+
+# target to generate assembly for a file
+src/modeling/tri_integrator.cpp.s:
+	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/src/modeling/tri_integrator.cpp.s
+.PHONY : src/modeling/tri_integrator.cpp.s
+
+src/sample_implicit.o: src/sample_implicit.cpp.o
+
+.PHONY : src/sample_implicit.o
+
+# target to build an object file
+src/sample_implicit.cpp.o:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/sample_implicit.cpp.o
+.PHONY : src/sample_implicit.cpp.o
+
+src/sample_implicit.i: src/sample_implicit.cpp.i
+
+.PHONY : src/sample_implicit.i
+
+# target to preprocess a source file
+src/sample_implicit.cpp.i:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/sample_implicit.cpp.i
+.PHONY : src/sample_implicit.cpp.i
+
+src/sample_implicit.s: src/sample_implicit.cpp.s
+
+.PHONY : src/sample_implicit.s
+
+# target to generate assembly for a file
+src/sample_implicit.cpp.s:
+	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/src/sample_implicit.cpp.s
+.PHONY : src/sample_implicit.cpp.s
+
+src/sampler/GaussianFit.o: src/sampler/GaussianFit.cpp.o
+
+.PHONY : src/sampler/GaussianFit.o
+
+# target to build an object file
+src/sampler/GaussianFit.cpp.o:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/GaussianFit.cpp.o
+.PHONY : src/sampler/GaussianFit.cpp.o
+
+src/sampler/GaussianFit.i: src/sampler/GaussianFit.cpp.i
+
+.PHONY : src/sampler/GaussianFit.i
+
+# target to preprocess a source file
+src/sampler/GaussianFit.cpp.i:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/GaussianFit.cpp.i
+.PHONY : src/sampler/GaussianFit.cpp.i
+
+src/sampler/GaussianFit.s: src/sampler/GaussianFit.cpp.s
+
+.PHONY : src/sampler/GaussianFit.s
+
+# target to generate assembly for a file
+src/sampler/GaussianFit.cpp.s:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/GaussianFit.cpp.s
+.PHONY : src/sampler/GaussianFit.cpp.s
+
+src/sampler/ImplicitNewton.o: src/sampler/ImplicitNewton.cpp.o
+
+.PHONY : src/sampler/ImplicitNewton.o
+
+# target to build an object file
+src/sampler/ImplicitNewton.cpp.o:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/ImplicitNewton.cpp.o
+.PHONY : src/sampler/ImplicitNewton.cpp.o
+
+src/sampler/ImplicitNewton.i: src/sampler/ImplicitNewton.cpp.i
+
+.PHONY : src/sampler/ImplicitNewton.i
+
+# target to preprocess a source file
+src/sampler/ImplicitNewton.cpp.i:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/ImplicitNewton.cpp.i
+.PHONY : src/sampler/ImplicitNewton.cpp.i
+
+src/sampler/ImplicitNewton.s: src/sampler/ImplicitNewton.cpp.s
+
+.PHONY : src/sampler/ImplicitNewton.s
+
+# target to generate assembly for a file
+src/sampler/ImplicitNewton.cpp.s:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/ImplicitNewton.cpp.s
+.PHONY : src/sampler/ImplicitNewton.cpp.s
+
+src/sampler/NPTSReader.o: src/sampler/NPTSReader.cpp.o
+
+.PHONY : src/sampler/NPTSReader.o
+
+# target to build an object file
+src/sampler/NPTSReader.cpp.o:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/NPTSReader.cpp.o
+.PHONY : src/sampler/NPTSReader.cpp.o
+
+src/sampler/NPTSReader.i: src/sampler/NPTSReader.cpp.i
+
+.PHONY : src/sampler/NPTSReader.i
+
+# target to preprocess a source file
+src/sampler/NPTSReader.cpp.i:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/NPTSReader.cpp.i
+.PHONY : src/sampler/NPTSReader.cpp.i
+
+src/sampler/NPTSReader.s: src/sampler/NPTSReader.cpp.s
+
+.PHONY : src/sampler/NPTSReader.s
+
+# target to generate assembly for a file
+src/sampler/NPTSReader.cpp.s:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/NPTSReader.cpp.s
+.PHONY : src/sampler/NPTSReader.cpp.s
+
+src/sampler/OrientedPointCloud.o: src/sampler/OrientedPointCloud.cpp.o
+
+.PHONY : src/sampler/OrientedPointCloud.o
+
+# target to build an object file
+src/sampler/OrientedPointCloud.cpp.o:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/OrientedPointCloud.cpp.o
+.PHONY : src/sampler/OrientedPointCloud.cpp.o
+
+src/sampler/OrientedPointCloud.i: src/sampler/OrientedPointCloud.cpp.i
+
+.PHONY : src/sampler/OrientedPointCloud.i
+
+# target to preprocess a source file
+src/sampler/OrientedPointCloud.cpp.i:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/OrientedPointCloud.cpp.i
+.PHONY : src/sampler/OrientedPointCloud.cpp.i
+
+src/sampler/OrientedPointCloud.s: src/sampler/OrientedPointCloud.cpp.s
+
+.PHONY : src/sampler/OrientedPointCloud.s
+
+# target to generate assembly for a file
+src/sampler/OrientedPointCloud.cpp.s:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/OrientedPointCloud.cpp.s
+.PHONY : src/sampler/OrientedPointCloud.cpp.s
+
+src/sampler/OrientedRangeImage.o: src/sampler/OrientedRangeImage.cpp.o
+
+.PHONY : src/sampler/OrientedRangeImage.o
+
+# target to build an object file
+src/sampler/OrientedRangeImage.cpp.o:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/OrientedRangeImage.cpp.o
+.PHONY : src/sampler/OrientedRangeImage.cpp.o
+
+src/sampler/OrientedRangeImage.i: src/sampler/OrientedRangeImage.cpp.i
+
+.PHONY : src/sampler/OrientedRangeImage.i
+
+# target to preprocess a source file
+src/sampler/OrientedRangeImage.cpp.i:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/OrientedRangeImage.cpp.i
+.PHONY : src/sampler/OrientedRangeImage.cpp.i
+
+src/sampler/OrientedRangeImage.s: src/sampler/OrientedRangeImage.cpp.s
+
+.PHONY : src/sampler/OrientedRangeImage.s
+
+# target to generate assembly for a file
+src/sampler/OrientedRangeImage.cpp.s:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/OrientedRangeImage.cpp.s
+.PHONY : src/sampler/OrientedRangeImage.cpp.s
+
+src/sampler/PNGImage.o: src/sampler/PNGImage.cpp.o
+
+.PHONY : src/sampler/PNGImage.o
+
+# target to build an object file
+src/sampler/PNGImage.cpp.o:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/PNGImage.cpp.o
+.PHONY : src/sampler/PNGImage.cpp.o
+
+src/sampler/PNGImage.i: src/sampler/PNGImage.cpp.i
+
+.PHONY : src/sampler/PNGImage.i
+
+# target to preprocess a source file
+src/sampler/PNGImage.cpp.i:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/PNGImage.cpp.i
+.PHONY : src/sampler/PNGImage.cpp.i
+
+src/sampler/PNGImage.s: src/sampler/PNGImage.cpp.s
+
+.PHONY : src/sampler/PNGImage.s
+
+# target to generate assembly for a file
+src/sampler/PNGImage.cpp.s:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/PNGImage.cpp.s
+.PHONY : src/sampler/PNGImage.cpp.s
+
+src/sampler/PointCloud.o: src/sampler/PointCloud.cpp.o
+
+.PHONY : src/sampler/PointCloud.o
+
+# target to build an object file
+src/sampler/PointCloud.cpp.o:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/PointCloud.cpp.o
+.PHONY : src/sampler/PointCloud.cpp.o
+
+src/sampler/PointCloud.i: src/sampler/PointCloud.cpp.i
+
+.PHONY : src/sampler/PointCloud.i
+
+# target to preprocess a source file
+src/sampler/PointCloud.cpp.i:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/PointCloud.cpp.i
+.PHONY : src/sampler/PointCloud.cpp.i
+
+src/sampler/PointCloud.s: src/sampler/PointCloud.cpp.s
+
+.PHONY : src/sampler/PointCloud.s
+
+# target to generate assembly for a file
+src/sampler/PointCloud.cpp.s:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/PointCloud.cpp.s
+.PHONY : src/sampler/PointCloud.cpp.s
+
+src/sampler/RangeImage.o: src/sampler/RangeImage.cpp.o
+
+.PHONY : src/sampler/RangeImage.o
+
+# target to build an object file
+src/sampler/RangeImage.cpp.o:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/RangeImage.cpp.o
+.PHONY : src/sampler/RangeImage.cpp.o
+
+src/sampler/RangeImage.i: src/sampler/RangeImage.cpp.i
+
+.PHONY : src/sampler/RangeImage.i
+
+# target to preprocess a source file
+src/sampler/RangeImage.cpp.i:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/RangeImage.cpp.i
+.PHONY : src/sampler/RangeImage.cpp.i
+
+src/sampler/RangeImage.s: src/sampler/RangeImage.cpp.s
+
+.PHONY : src/sampler/RangeImage.s
+
+# target to generate assembly for a file
+src/sampler/RangeImage.cpp.s:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/RangeImage.cpp.s
+.PHONY : src/sampler/RangeImage.cpp.s
+
+src/sampler/RangeScanner.o: src/sampler/RangeScanner.cpp.o
+
+.PHONY : src/sampler/RangeScanner.o
+
+# target to build an object file
+src/sampler/RangeScanner.cpp.o:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/RangeScanner.cpp.o
+.PHONY : src/sampler/RangeScanner.cpp.o
+
+src/sampler/RangeScanner.i: src/sampler/RangeScanner.cpp.i
+
+.PHONY : src/sampler/RangeScanner.i
+
+# target to preprocess a source file
+src/sampler/RangeScanner.cpp.i:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/RangeScanner.cpp.i
+.PHONY : src/sampler/RangeScanner.cpp.i
+
+src/sampler/RangeScanner.s: src/sampler/RangeScanner.cpp.s
+
+.PHONY : src/sampler/RangeScanner.s
+
+# target to generate assembly for a file
+src/sampler/RangeScanner.cpp.s:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/RangeScanner.cpp.s
+.PHONY : src/sampler/RangeScanner.cpp.s
+
+src/sampler/RayCaster.o: src/sampler/RayCaster.cpp.o
+
+.PHONY : src/sampler/RayCaster.o
+
+# target to build an object file
+src/sampler/RayCaster.cpp.o:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/RayCaster.cpp.o
+.PHONY : src/sampler/RayCaster.cpp.o
+
+src/sampler/RayCaster.i: src/sampler/RayCaster.cpp.i
+
+.PHONY : src/sampler/RayCaster.i
+
+# target to preprocess a source file
+src/sampler/RayCaster.cpp.i:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/RayCaster.cpp.i
+.PHONY : src/sampler/RayCaster.cpp.i
+
+src/sampler/RayCaster.s: src/sampler/RayCaster.cpp.s
+
+.PHONY : src/sampler/RayCaster.s
+
+# target to generate assembly for a file
+src/sampler/RayCaster.cpp.s:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/RayCaster.cpp.s
+.PHONY : src/sampler/RayCaster.cpp.s
+
+src/sampler/SparseRangeScan.o: src/sampler/SparseRangeScan.cpp.o
+
+.PHONY : src/sampler/SparseRangeScan.o
+
+# target to build an object file
+src/sampler/SparseRangeScan.cpp.o:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/SparseRangeScan.cpp.o
+.PHONY : src/sampler/SparseRangeScan.cpp.o
+
+src/sampler/SparseRangeScan.i: src/sampler/SparseRangeScan.cpp.i
+
+.PHONY : src/sampler/SparseRangeScan.i
+
+# target to preprocess a source file
+src/sampler/SparseRangeScan.cpp.i:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/SparseRangeScan.cpp.i
+.PHONY : src/sampler/SparseRangeScan.cpp.i
+
+src/sampler/SparseRangeScan.s: src/sampler/SparseRangeScan.cpp.s
+
+.PHONY : src/sampler/SparseRangeScan.s
+
+# target to generate assembly for a file
+src/sampler/SparseRangeScan.cpp.s:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/SparseRangeScan.cpp.s
+.PHONY : src/sampler/SparseRangeScan.cpp.s
+
+src/sampler/SphericalImager.o: src/sampler/SphericalImager.cpp.o
+
+.PHONY : src/sampler/SphericalImager.o
+
+# target to build an object file
+src/sampler/SphericalImager.cpp.o:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/SphericalImager.cpp.o
+.PHONY : src/sampler/SphericalImager.cpp.o
+
+src/sampler/SphericalImager.i: src/sampler/SphericalImager.cpp.i
+
+.PHONY : src/sampler/SphericalImager.i
+
+# target to preprocess a source file
+src/sampler/SphericalImager.cpp.i:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/SphericalImager.cpp.i
+.PHONY : src/sampler/SphericalImager.cpp.i
+
+src/sampler/SphericalImager.s: src/sampler/SphericalImager.cpp.s
+
+.PHONY : src/sampler/SphericalImager.s
+
+# target to generate assembly for a file
+src/sampler/SphericalImager.cpp.s:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/SphericalImager.cpp.s
+.PHONY : src/sampler/SphericalImager.cpp.s
+
+src/sampler/UniformOccupancyGrid.o: src/sampler/UniformOccupancyGrid.cpp.o
+
+.PHONY : src/sampler/UniformOccupancyGrid.o
+
+# target to build an object file
+src/sampler/UniformOccupancyGrid.cpp.o:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/UniformOccupancyGrid.cpp.o
+.PHONY : src/sampler/UniformOccupancyGrid.cpp.o
+
+src/sampler/UniformOccupancyGrid.i: src/sampler/UniformOccupancyGrid.cpp.i
+
+.PHONY : src/sampler/UniformOccupancyGrid.i
+
+# target to preprocess a source file
+src/sampler/UniformOccupancyGrid.cpp.i:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/UniformOccupancyGrid.cpp.i
+.PHONY : src/sampler/UniformOccupancyGrid.cpp.i
+
+src/sampler/UniformOccupancyGrid.s: src/sampler/UniformOccupancyGrid.cpp.s
+
+.PHONY : src/sampler/UniformOccupancyGrid.s
+
+# target to generate assembly for a file
+src/sampler/UniformOccupancyGrid.cpp.s:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/UniformOccupancyGrid.cpp.s
+.PHONY : src/sampler/UniformOccupancyGrid.cpp.s
+
+src/sampler/UniformSampler.o: src/sampler/UniformSampler.cpp.o
+
+.PHONY : src/sampler/UniformSampler.o
+
+# target to build an object file
+src/sampler/UniformSampler.cpp.o:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/UniformSampler.cpp.o
+.PHONY : src/sampler/UniformSampler.cpp.o
+
+src/sampler/UniformSampler.i: src/sampler/UniformSampler.cpp.i
+
+.PHONY : src/sampler/UniformSampler.i
+
+# target to preprocess a source file
+src/sampler/UniformSampler.cpp.i:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/UniformSampler.cpp.i
+.PHONY : src/sampler/UniformSampler.cpp.i
+
+src/sampler/UniformSampler.s: src/sampler/UniformSampler.cpp.s
+
+.PHONY : src/sampler/UniformSampler.s
+
+# target to generate assembly for a file
+src/sampler/UniformSampler.cpp.s:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/UniformSampler.cpp.s
+.PHONY : src/sampler/UniformSampler.cpp.s
+
+src/sampler/XYZReader.o: src/sampler/XYZReader.cpp.o
+
+.PHONY : src/sampler/XYZReader.o
+
+# target to build an object file
+src/sampler/XYZReader.cpp.o:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/XYZReader.cpp.o
+.PHONY : src/sampler/XYZReader.cpp.o
+
+src/sampler/XYZReader.i: src/sampler/XYZReader.cpp.i
+
+.PHONY : src/sampler/XYZReader.i
+
+# target to preprocess a source file
+src/sampler/XYZReader.cpp.i:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/XYZReader.cpp.i
+.PHONY : src/sampler/XYZReader.cpp.i
+
+src/sampler/XYZReader.s: src/sampler/XYZReader.cpp.s
+
+.PHONY : src/sampler/XYZReader.s
+
+# target to generate assembly for a file
+src/sampler/XYZReader.cpp.s:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/XYZReader.cpp.s
+.PHONY : src/sampler/XYZReader.cpp.s
+
+src/sampler/pc_generator.o: src/sampler/pc_generator.cpp.o
+
+.PHONY : src/sampler/pc_generator.o
+
+# target to build an object file
+src/sampler/pc_generator.cpp.o:
+	$(MAKE) -f CMakeFiles/pc_generator.dir/build.make CMakeFiles/pc_generator.dir/src/sampler/pc_generator.cpp.o
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/pc_generator.cpp.o
+.PHONY : src/sampler/pc_generator.cpp.o
+
+src/sampler/pc_generator.i: src/sampler/pc_generator.cpp.i
+
+.PHONY : src/sampler/pc_generator.i
+
+# target to preprocess a source file
+src/sampler/pc_generator.cpp.i:
+	$(MAKE) -f CMakeFiles/pc_generator.dir/build.make CMakeFiles/pc_generator.dir/src/sampler/pc_generator.cpp.i
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/pc_generator.cpp.i
+.PHONY : src/sampler/pc_generator.cpp.i
+
+src/sampler/pc_generator.s: src/sampler/pc_generator.cpp.s
+
+.PHONY : src/sampler/pc_generator.s
+
+# target to generate assembly for a file
+src/sampler/pc_generator.cpp.s:
+	$(MAKE) -f CMakeFiles/pc_generator.dir/build.make CMakeFiles/pc_generator.dir/src/sampler/pc_generator.cpp.s
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/pc_generator.cpp.s
+.PHONY : src/sampler/pc_generator.cpp.s
+
+src/sampler/point_orienter.o: src/sampler/point_orienter.cpp.o
+
+.PHONY : src/sampler/point_orienter.o
+
+# target to build an object file
+src/sampler/point_orienter.cpp.o:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/point_orienter.cpp.o
+.PHONY : src/sampler/point_orienter.cpp.o
+
+src/sampler/point_orienter.i: src/sampler/point_orienter.cpp.i
+
+.PHONY : src/sampler/point_orienter.i
+
+# target to preprocess a source file
+src/sampler/point_orienter.cpp.i:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/point_orienter.cpp.i
+.PHONY : src/sampler/point_orienter.cpp.i
+
+src/sampler/point_orienter.s: src/sampler/point_orienter.cpp.s
+
+.PHONY : src/sampler/point_orienter.s
+
+# target to generate assembly for a file
+src/sampler/point_orienter.cpp.s:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/point_orienter.cpp.s
+.PHONY : src/sampler/point_orienter.cpp.s
+
+src/sampler/projection_cleanup.o: src/sampler/projection_cleanup.cpp.o
+
+.PHONY : src/sampler/projection_cleanup.o
+
+# target to build an object file
+src/sampler/projection_cleanup.cpp.o:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/projection_cleanup.cpp.o
+.PHONY : src/sampler/projection_cleanup.cpp.o
+
+src/sampler/projection_cleanup.i: src/sampler/projection_cleanup.cpp.i
+
+.PHONY : src/sampler/projection_cleanup.i
+
+# target to preprocess a source file
+src/sampler/projection_cleanup.cpp.i:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/projection_cleanup.cpp.i
+.PHONY : src/sampler/projection_cleanup.cpp.i
+
+src/sampler/projection_cleanup.s: src/sampler/projection_cleanup.cpp.s
+
+.PHONY : src/sampler/projection_cleanup.s
+
+# target to generate assembly for a file
+src/sampler/projection_cleanup.cpp.s:
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/projection_cleanup.cpp.s
+.PHONY : src/sampler/projection_cleanup.cpp.s
+
+src/sampler/run_uniform.o: src/sampler/run_uniform.cpp.o
+
+.PHONY : src/sampler/run_uniform.o
+
+# target to build an object file
+src/sampler/run_uniform.cpp.o:
+	$(MAKE) -f CMakeFiles/uniform_sampler.dir/build.make CMakeFiles/uniform_sampler.dir/src/sampler/run_uniform.cpp.o
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/run_uniform.cpp.o
+.PHONY : src/sampler/run_uniform.cpp.o
+
+src/sampler/run_uniform.i: src/sampler/run_uniform.cpp.i
+
+.PHONY : src/sampler/run_uniform.i
+
+# target to preprocess a source file
+src/sampler/run_uniform.cpp.i:
+	$(MAKE) -f CMakeFiles/uniform_sampler.dir/build.make CMakeFiles/uniform_sampler.dir/src/sampler/run_uniform.cpp.i
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/run_uniform.cpp.i
+.PHONY : src/sampler/run_uniform.cpp.i
+
+src/sampler/run_uniform.s: src/sampler/run_uniform.cpp.s
+
+.PHONY : src/sampler/run_uniform.s
+
+# target to generate assembly for a file
+src/sampler/run_uniform.cpp.s:
+	$(MAKE) -f CMakeFiles/uniform_sampler.dir/build.make CMakeFiles/uniform_sampler.dir/src/sampler/run_uniform.cpp.s
+	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/src/sampler/run_uniform.cpp.s
+.PHONY : src/sampler/run_uniform.cpp.s
 
 # Help Target
 help:
@@ -2540,105 +2540,6 @@ help:
 	@echo "... tps"
 	@echo "... trimesh2"
 	@echo "... uniform_sampler"
-	@echo "... evaluator/GlobalStats.o"
-	@echo "... evaluator/GlobalStats.i"
-	@echo "... evaluator/GlobalStats.s"
-	@echo "... evaluator/KdOpenMesh.o"
-	@echo "... evaluator/KdOpenMesh.i"
-	@echo "... evaluator/KdOpenMesh.s"
-	@echo "... evaluator/ShortestDistanceMap.o"
-	@echo "... evaluator/ShortestDistanceMap.i"
-	@echo "... evaluator/ShortestDistanceMap.s"
-	@echo "... evaluator/UniformGrid.o"
-	@echo "... evaluator/UniformGrid.i"
-	@echo "... evaluator/UniformGrid.s"
-	@echo "... evaluator/implicit_sampler.o"
-	@echo "... evaluator/implicit_sampler.i"
-	@echo "... evaluator/implicit_sampler.s"
-	@echo "... evaluator/implicit_uniform.o"
-	@echo "... evaluator/implicit_uniform.i"
-	@echo "... evaluator/implicit_uniform.s"
-	@echo "... evaluator/kd_tree.o"
-	@echo "... evaluator/kd_tree.i"
-	@echo "... evaluator/kd_tree.s"
-	@echo "... evaluator/mesh_fixer.o"
-	@echo "... evaluator/mesh_fixer.i"
-	@echo "... evaluator/mesh_fixer.s"
-	@echo "... evaluator/mesh_sampler.o"
-	@echo "... evaluator/mesh_sampler.i"
-	@echo "... evaluator/mesh_sampler.s"
-	@echo "... evaluator/plot/aggregate_distribution.o"
-	@echo "... evaluator/plot/aggregate_distribution.i"
-	@echo "... evaluator/plot/aggregate_distribution.s"
-	@echo "... evaluator/plot/aggregation.o"
-	@echo "... evaluator/plot/aggregation.i"
-	@echo "... evaluator/plot/aggregation.s"
-	@echo "... evaluator/plot/dump_barplot.o"
-	@echo "... evaluator/plot/dump_barplot.i"
-	@echo "... evaluator/plot/dump_barplot.s"
-	@echo "... evaluator/plot/dump_distribution.o"
-	@echo "... evaluator/plot/dump_distribution.i"
-	@echo "... evaluator/plot/dump_distribution.s"
-	@echo "... evaluator/plot/dump_lines.o"
-	@echo "... evaluator/plot/dump_lines.i"
-	@echo "... evaluator/plot/dump_lines.s"
-	@echo "... evaluator/plot/dump_meta.o"
-	@echo "... evaluator/plot/dump_meta.i"
-	@echo "... evaluator/plot/dump_meta.s"
-	@echo "... evaluator/plot/dump_single.o"
-	@echo "... evaluator/plot/dump_single.i"
-	@echo "... evaluator/plot/dump_single.s"
-	@echo "... evaluator/plot/single_distribution.o"
-	@echo "... evaluator/plot/single_distribution.i"
-	@echo "... evaluator/plot/single_distribution.s"
-	@echo "... evaluator/recon_evaluation.o"
-	@echo "... evaluator/recon_evaluation.i"
-	@echo "... evaluator/recon_evaluation.s"
-	@echo "... evaluator/run_evaluation.o"
-	@echo "... evaluator/run_evaluation.i"
-	@echo "... evaluator/run_evaluation.s"
-	@echo "... evaluator/sample_mesh.o"
-	@echo "... evaluator/sample_mesh.i"
-	@echo "... evaluator/sample_mesh.s"
-	@echo "... evaluator/shape_distribution.o"
-	@echo "... evaluator/shape_distribution.i"
-	@echo "... evaluator/shape_distribution.s"
-	@echo "... modeling/DenseEigenSystem.o"
-	@echo "... modeling/DenseEigenSystem.i"
-	@echo "... modeling/DenseEigenSystem.s"
-	@echo "... modeling/DenseMatrix.o"
-	@echo "... modeling/DenseMatrix.i"
-	@echo "... modeling/DenseMatrix.s"
-	@echo "... modeling/ImplicitFunction.o"
-	@echo "... modeling/ImplicitFunction.i"
-	@echo "... modeling/ImplicitFunction.s"
-	@echo "... modeling/Rigid.o"
-	@echo "... modeling/Rigid.i"
-	@echo "... modeling/Rigid.s"
-	@echo "... modeling/RotationMatrix.o"
-	@echo "... modeling/RotationMatrix.i"
-	@echo "... modeling/RotationMatrix.s"
-	@echo "... modeling/Vector.o"
-	@echo "... modeling/Vector.i"
-	@echo "... modeling/Vector.s"
-	@echo "... modeling/isosurface.o"
-	@echo "... modeling/isosurface.i"
-	@echo "... modeling/isosurface.s"
-	@echo "... modeling/lm_method.o"
-	@echo "... modeling/lm_method.i"
-	@echo "... modeling/lm_method.s"
-	@echo "... modeling/mesh_to_implicit.o"
-	@echo "... modeling/mesh_to_implicit.i"
-	@echo "... modeling/mesh_to_implicit.s"
-	@echo "... modeling/mpu_soup.o"
-	@echo "... modeling/mpu_soup.i"
-	@echo "... modeling/mpu_soup.s"
-	@echo "... modeling/post-processing.o"
-	@echo "... modeling/post-processing.i"
-	@echo "... modeling/post-processing.s"
-	@echo "... modeling/tri_integrator.o"
-	@echo "... modeling/tri_integrator.i"
-	@echo "... modeling/tri_integrator.s"
 	@echo "... recon/poisson/Src/CmdLineParser.o"
 	@echo "... recon/poisson/Src/CmdLineParser.i"
 	@echo "... recon/poisson/Src/CmdLineParser.s"
@@ -2666,66 +2567,165 @@ help:
 	@echo "... registration/tps_alignment/src/global_reg.o"
 	@echo "... registration/tps_alignment/src/global_reg.i"
 	@echo "... registration/tps_alignment/src/global_reg.s"
-	@echo "... sample_implicit.o"
-	@echo "... sample_implicit.i"
-	@echo "... sample_implicit.s"
-	@echo "... sampler/GaussianFit.o"
-	@echo "... sampler/GaussianFit.i"
-	@echo "... sampler/GaussianFit.s"
-	@echo "... sampler/ImplicitNewton.o"
-	@echo "... sampler/ImplicitNewton.i"
-	@echo "... sampler/ImplicitNewton.s"
-	@echo "... sampler/NPTSReader.o"
-	@echo "... sampler/NPTSReader.i"
-	@echo "... sampler/NPTSReader.s"
-	@echo "... sampler/OrientedPointCloud.o"
-	@echo "... sampler/OrientedPointCloud.i"
-	@echo "... sampler/OrientedPointCloud.s"
-	@echo "... sampler/OrientedRangeImage.o"
-	@echo "... sampler/OrientedRangeImage.i"
-	@echo "... sampler/OrientedRangeImage.s"
-	@echo "... sampler/PNGImage.o"
-	@echo "... sampler/PNGImage.i"
-	@echo "... sampler/PNGImage.s"
-	@echo "... sampler/PointCloud.o"
-	@echo "... sampler/PointCloud.i"
-	@echo "... sampler/PointCloud.s"
-	@echo "... sampler/RangeImage.o"
-	@echo "... sampler/RangeImage.i"
-	@echo "... sampler/RangeImage.s"
-	@echo "... sampler/RangeScanner.o"
-	@echo "... sampler/RangeScanner.i"
-	@echo "... sampler/RangeScanner.s"
-	@echo "... sampler/RayCaster.o"
-	@echo "... sampler/RayCaster.i"
-	@echo "... sampler/RayCaster.s"
-	@echo "... sampler/SparseRangeScan.o"
-	@echo "... sampler/SparseRangeScan.i"
-	@echo "... sampler/SparseRangeScan.s"
-	@echo "... sampler/SphericalImager.o"
-	@echo "... sampler/SphericalImager.i"
-	@echo "... sampler/SphericalImager.s"
-	@echo "... sampler/UniformOccupancyGrid.o"
-	@echo "... sampler/UniformOccupancyGrid.i"
-	@echo "... sampler/UniformOccupancyGrid.s"
-	@echo "... sampler/UniformSampler.o"
-	@echo "... sampler/UniformSampler.i"
-	@echo "... sampler/UniformSampler.s"
-	@echo "... sampler/XYZReader.o"
-	@echo "... sampler/XYZReader.i"
-	@echo "... sampler/XYZReader.s"
-	@echo "... sampler/pc_generator.o"
-	@echo "... sampler/pc_generator.i"
-	@echo "... sampler/pc_generator.s"
-	@echo "... sampler/point_orienter.o"
-	@echo "... sampler/point_orienter.i"
-	@echo "... sampler/point_orienter.s"
-	@echo "... sampler/projection_cleanup.o"
-	@echo "... sampler/projection_cleanup.i"
-	@echo "... sampler/projection_cleanup.s"
-	@echo "... sampler/run_uniform.o"
-	@echo "... sampler/run_uniform.i"
-	@echo "... sampler/run_uniform.s"
+	@echo "... src/evaluator/GlobalStats.o"
+	@echo "... src/evaluator/GlobalStats.i"
+	@echo "... src/evaluator/GlobalStats.s"
+	@echo "... src/evaluator/KdOpenMesh.o"
+	@echo "... src/evaluator/KdOpenMesh.i"
+	@echo "... src/evaluator/KdOpenMesh.s"
+	@echo "... src/evaluator/ShortestDistanceMap.o"
+	@echo "... src/evaluator/ShortestDistanceMap.i"
+	@echo "... src/evaluator/ShortestDistanceMap.s"
+	@echo "... src/evaluator/UniformGrid.o"
+	@echo "... src/evaluator/UniformGrid.i"
+	@echo "... src/evaluator/UniformGrid.s"
+	@echo "... src/evaluator/implicit_sampler.o"
+	@echo "... src/evaluator/implicit_sampler.i"
+	@echo "... src/evaluator/implicit_sampler.s"
+	@echo "... src/evaluator/implicit_uniform.o"
+	@echo "... src/evaluator/implicit_uniform.i"
+	@echo "... src/evaluator/implicit_uniform.s"
+	@echo "... src/evaluator/kd_tree.o"
+	@echo "... src/evaluator/kd_tree.i"
+	@echo "... src/evaluator/kd_tree.s"
+	@echo "... src/evaluator/mesh_fixer.o"
+	@echo "... src/evaluator/mesh_fixer.i"
+	@echo "... src/evaluator/mesh_fixer.s"
+	@echo "... src/evaluator/mesh_sampler.o"
+	@echo "... src/evaluator/mesh_sampler.i"
+	@echo "... src/evaluator/mesh_sampler.s"
+	@echo "... src/evaluator/plot/aggregate_distribution.o"
+	@echo "... src/evaluator/plot/aggregate_distribution.i"
+	@echo "... src/evaluator/plot/aggregate_distribution.s"
+	@echo "... src/evaluator/plot/aggregation.o"
+	@echo "... src/evaluator/plot/aggregation.i"
+	@echo "... src/evaluator/plot/aggregation.s"
+	@echo "... src/evaluator/plot/dump_barplot.o"
+	@echo "... src/evaluator/plot/dump_barplot.i"
+	@echo "... src/evaluator/plot/dump_barplot.s"
+	@echo "... src/evaluator/plot/dump_distribution.o"
+	@echo "... src/evaluator/plot/dump_distribution.i"
+	@echo "... src/evaluator/plot/dump_distribution.s"
+	@echo "... src/evaluator/plot/dump_lines.o"
+	@echo "... src/evaluator/plot/dump_lines.i"
+	@echo "... src/evaluator/plot/dump_lines.s"
+	@echo "... src/evaluator/plot/dump_meta.o"
+	@echo "... src/evaluator/plot/dump_meta.i"
+	@echo "... src/evaluator/plot/dump_meta.s"
+	@echo "... src/evaluator/plot/dump_single.o"
+	@echo "... src/evaluator/plot/dump_single.i"
+	@echo "... src/evaluator/plot/dump_single.s"
+	@echo "... src/evaluator/plot/single_distribution.o"
+	@echo "... src/evaluator/plot/single_distribution.i"
+	@echo "... src/evaluator/plot/single_distribution.s"
+	@echo "... src/evaluator/recon_evaluation.o"
+	@echo "... src/evaluator/recon_evaluation.i"
+	@echo "... src/evaluator/recon_evaluation.s"
+	@echo "... src/evaluator/run_evaluation.o"
+	@echo "... src/evaluator/run_evaluation.i"
+	@echo "... src/evaluator/run_evaluation.s"
+	@echo "... src/evaluator/sample_mesh.o"
+	@echo "... src/evaluator/sample_mesh.i"
+	@echo "... src/evaluator/sample_mesh.s"
+	@echo "... src/evaluator/shape_distribution.o"
+	@echo "... src/evaluator/shape_distribution.i"
+	@echo "... src/evaluator/shape_distribution.s"
+	@echo "... src/modeling/DenseEigenSystem.o"
+	@echo "... src/modeling/DenseEigenSystem.i"
+	@echo "... src/modeling/DenseEigenSystem.s"
+	@echo "... src/modeling/DenseMatrix.o"
+	@echo "... src/modeling/DenseMatrix.i"
+	@echo "... src/modeling/DenseMatrix.s"
+	@echo "... src/modeling/ImplicitFunction.o"
+	@echo "... src/modeling/ImplicitFunction.i"
+	@echo "... src/modeling/ImplicitFunction.s"
+	@echo "... src/modeling/Rigid.o"
+	@echo "... src/modeling/Rigid.i"
+	@echo "... src/modeling/Rigid.s"
+	@echo "... src/modeling/RotationMatrix.o"
+	@echo "... src/modeling/RotationMatrix.i"
+	@echo "... src/modeling/RotationMatrix.s"
+	@echo "... src/modeling/Vector.o"
+	@echo "... src/modeling/Vector.i"
+	@echo "... src/modeling/Vector.s"
+	@echo "... src/modeling/isosurface.o"
+	@echo "... src/modeling/isosurface.i"
+	@echo "... src/modeling/isosurface.s"
+	@echo "... src/modeling/lm_method.o"
+	@echo "... src/modeling/lm_method.i"
+	@echo "... src/modeling/lm_method.s"
+	@echo "... src/modeling/mesh_to_implicit.o"
+	@echo "... src/modeling/mesh_to_implicit.i"
+	@echo "... src/modeling/mesh_to_implicit.s"
+	@echo "... src/modeling/mpu_soup.o"
+	@echo "... src/modeling/mpu_soup.i"
+	@echo "... src/modeling/mpu_soup.s"
+	@echo "... src/modeling/post-processing.o"
+	@echo "... src/modeling/post-processing.i"
+	@echo "... src/modeling/post-processing.s"
+	@echo "... src/modeling/tri_integrator.o"
+	@echo "... src/modeling/tri_integrator.i"
+	@echo "... src/modeling/tri_integrator.s"
+	@echo "... src/sample_implicit.o"
+	@echo "... src/sample_implicit.i"
+	@echo "... src/sample_implicit.s"
+	@echo "... src/sampler/GaussianFit.o"
+	@echo "... src/sampler/GaussianFit.i"
+	@echo "... src/sampler/GaussianFit.s"
+	@echo "... src/sampler/ImplicitNewton.o"
+	@echo "... src/sampler/ImplicitNewton.i"
+	@echo "... src/sampler/ImplicitNewton.s"
+	@echo "... src/sampler/NPTSReader.o"
+	@echo "... src/sampler/NPTSReader.i"
+	@echo "... src/sampler/NPTSReader.s"
+	@echo "... src/sampler/OrientedPointCloud.o"
+	@echo "... src/sampler/OrientedPointCloud.i"
+	@echo "... src/sampler/OrientedPointCloud.s"
+	@echo "... src/sampler/OrientedRangeImage.o"
+	@echo "... src/sampler/OrientedRangeImage.i"
+	@echo "... src/sampler/OrientedRangeImage.s"
+	@echo "... src/sampler/PNGImage.o"
+	@echo "... src/sampler/PNGImage.i"
+	@echo "... src/sampler/PNGImage.s"
+	@echo "... src/sampler/PointCloud.o"
+	@echo "... src/sampler/PointCloud.i"
+	@echo "... src/sampler/PointCloud.s"
+	@echo "... src/sampler/RangeImage.o"
+	@echo "... src/sampler/RangeImage.i"
+	@echo "... src/sampler/RangeImage.s"
+	@echo "... src/sampler/RangeScanner.o"
+	@echo "... src/sampler/RangeScanner.i"
+	@echo "... src/sampler/RangeScanner.s"
+	@echo "... src/sampler/RayCaster.o"
+	@echo "... src/sampler/RayCaster.i"
+	@echo "... src/sampler/RayCaster.s"
+	@echo "... src/sampler/SparseRangeScan.o"
+	@echo "... src/sampler/SparseRangeScan.i"
+	@echo "... src/sampler/SparseRangeScan.s"
+	@echo "... src/sampler/SphericalImager.o"
+	@echo "... src/sampler/SphericalImager.i"
+	@echo "... src/sampler/SphericalImager.s"
+	@echo "... src/sampler/UniformOccupancyGrid.o"
+	@echo "... src/sampler/UniformOccupancyGrid.i"
+	@echo "... src/sampler/UniformOccupancyGrid.s"
+	@echo "... src/sampler/UniformSampler.o"
+	@echo "... src/sampler/UniformSampler.i"
+	@echo "... src/sampler/UniformSampler.s"
+	@echo "... src/sampler/XYZReader.o"
+	@echo "... src/sampler/XYZReader.i"
+	@echo "... src/sampler/XYZReader.s"
+	@echo "... src/sampler/pc_generator.o"
+	@echo "... src/sampler/pc_generator.i"
+	@echo "... src/sampler/pc_generator.s"
+	@echo "... src/sampler/point_orienter.o"
+	@echo "... src/sampler/point_orienter.i"
+	@echo "... src/sampler/point_orienter.s"
+	@echo "... src/sampler/projection_cleanup.o"
+	@echo "... src/sampler/projection_cleanup.i"
+	@echo "... src/sampler/projection_cleanup.s"
+	@echo "... src/sampler/run_uniform.o"
+	@echo "... src/sampler/run_uniform.i"
+	@echo "... src/sampler/run_uniform.s"
 .PHONY : help
 
 

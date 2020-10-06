@@ -9,5 +9,5 @@ camera_res_x:50
 camera_res_y:50
 scan_res:8
 min_range:70.0000000
-registration_error:0.4000000
+registration_error:0.00000
 normal_type:2

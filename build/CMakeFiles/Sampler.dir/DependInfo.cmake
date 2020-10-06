@@ -4,25 +4,25 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/GaussianFit.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/sampler/GaussianFit.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/ImplicitNewton.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/sampler/ImplicitNewton.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/NPTSReader.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/sampler/NPTSReader.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/OrientedPointCloud.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/sampler/OrientedPointCloud.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/OrientedRangeImage.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/sampler/OrientedRangeImage.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/PNGImage.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/sampler/PNGImage.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/PointCloud.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/sampler/PointCloud.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/RangeImage.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/sampler/RangeImage.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/RangeScanner.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/sampler/RangeScanner.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/RayCaster.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/sampler/RayCaster.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/SparseRangeScan.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/sampler/SparseRangeScan.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/SphericalImager.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/sampler/SphericalImager.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/UniformOccupancyGrid.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/sampler/UniformOccupancyGrid.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/UniformSampler.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/sampler/UniformSampler.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/XYZReader.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/sampler/XYZReader.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/pc_generator.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/sampler/pc_generator.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/point_orienter.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/sampler/point_orienter.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/projection_cleanup.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/sampler/projection_cleanup.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/run_uniform.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/sampler/run_uniform.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/GaussianFit.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/src/sampler/GaussianFit.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/ImplicitNewton.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/src/sampler/ImplicitNewton.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/NPTSReader.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/src/sampler/NPTSReader.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/OrientedPointCloud.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/src/sampler/OrientedPointCloud.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/OrientedRangeImage.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/src/sampler/OrientedRangeImage.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/PNGImage.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/src/sampler/PNGImage.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/PointCloud.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/src/sampler/PointCloud.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/RangeImage.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/src/sampler/RangeImage.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/RangeScanner.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/src/sampler/RangeScanner.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/RayCaster.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/src/sampler/RayCaster.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/SparseRangeScan.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/src/sampler/SparseRangeScan.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/SphericalImager.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/src/sampler/SphericalImager.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/UniformOccupancyGrid.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/src/sampler/UniformOccupancyGrid.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/UniformSampler.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/src/sampler/UniformSampler.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/XYZReader.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/src/sampler/XYZReader.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/pc_generator.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/src/sampler/pc_generator.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/point_orienter.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/src/sampler/point_orienter.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/projection_cleanup.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/src/sampler/projection_cleanup.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/run_uniform.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Sampler.dir/src/sampler/run_uniform.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -33,7 +33,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../sampler"
+  "../src/sampler"
   "../ann/include"
   "../OpenMesh/."
   "../pbrt/src"

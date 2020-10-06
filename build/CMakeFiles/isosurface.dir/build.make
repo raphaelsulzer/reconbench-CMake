@@ -74,27 +74,27 @@ include CMakeFiles/isosurface.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/isosurface.dir/flags.make
 
-CMakeFiles/isosurface.dir/modeling/isosurface.cpp.o: CMakeFiles/isosurface.dir/flags.make
-CMakeFiles/isosurface.dir/modeling/isosurface.cpp.o: ../modeling/isosurface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/isosurface.dir/modeling/isosurface.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isosurface.dir/modeling/isosurface.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/modeling/isosurface.cpp
+CMakeFiles/isosurface.dir/src/modeling/isosurface.cpp.o: CMakeFiles/isosurface.dir/flags.make
+CMakeFiles/isosurface.dir/src/modeling/isosurface.cpp.o: ../src/modeling/isosurface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/isosurface.dir/src/modeling/isosurface.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isosurface.dir/src/modeling/isosurface.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/modeling/isosurface.cpp
 
-CMakeFiles/isosurface.dir/modeling/isosurface.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isosurface.dir/modeling/isosurface.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/modeling/isosurface.cpp > CMakeFiles/isosurface.dir/modeling/isosurface.cpp.i
+CMakeFiles/isosurface.dir/src/modeling/isosurface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isosurface.dir/src/modeling/isosurface.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/modeling/isosurface.cpp > CMakeFiles/isosurface.dir/src/modeling/isosurface.cpp.i
 
-CMakeFiles/isosurface.dir/modeling/isosurface.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isosurface.dir/modeling/isosurface.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/modeling/isosurface.cpp -o CMakeFiles/isosurface.dir/modeling/isosurface.cpp.s
+CMakeFiles/isosurface.dir/src/modeling/isosurface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isosurface.dir/src/modeling/isosurface.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/modeling/isosurface.cpp -o CMakeFiles/isosurface.dir/src/modeling/isosurface.cpp.s
 
 # Object files for target isosurface
 isosurface_OBJECTS = \
-"CMakeFiles/isosurface.dir/modeling/isosurface.cpp.o"
+"CMakeFiles/isosurface.dir/src/modeling/isosurface.cpp.o"
 
 # External object files for target isosurface
 isosurface_EXTERNAL_OBJECTS =
 
-isosurface: CMakeFiles/isosurface.dir/modeling/isosurface.cpp.o
+isosurface: CMakeFiles/isosurface.dir/src/modeling/isosurface.cpp.o
 isosurface: CMakeFiles/isosurface.dir/build.make
 isosurface: libModeling.a
 isosurface: ann/libann.a

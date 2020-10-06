@@ -74,27 +74,27 @@ include CMakeFiles/post-processing.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/post-processing.dir/flags.make
 
-CMakeFiles/post-processing.dir/modeling/post-processing.cpp.o: CMakeFiles/post-processing.dir/flags.make
-CMakeFiles/post-processing.dir/modeling/post-processing.cpp.o: ../modeling/post-processing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/post-processing.dir/modeling/post-processing.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/post-processing.dir/modeling/post-processing.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/modeling/post-processing.cpp
+CMakeFiles/post-processing.dir/src/modeling/post-processing.cpp.o: CMakeFiles/post-processing.dir/flags.make
+CMakeFiles/post-processing.dir/src/modeling/post-processing.cpp.o: ../src/modeling/post-processing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/post-processing.dir/src/modeling/post-processing.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/post-processing.dir/src/modeling/post-processing.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/modeling/post-processing.cpp
 
-CMakeFiles/post-processing.dir/modeling/post-processing.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/post-processing.dir/modeling/post-processing.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/modeling/post-processing.cpp > CMakeFiles/post-processing.dir/modeling/post-processing.cpp.i
+CMakeFiles/post-processing.dir/src/modeling/post-processing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/post-processing.dir/src/modeling/post-processing.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/modeling/post-processing.cpp > CMakeFiles/post-processing.dir/src/modeling/post-processing.cpp.i
 
-CMakeFiles/post-processing.dir/modeling/post-processing.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/post-processing.dir/modeling/post-processing.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/modeling/post-processing.cpp -o CMakeFiles/post-processing.dir/modeling/post-processing.cpp.s
+CMakeFiles/post-processing.dir/src/modeling/post-processing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/post-processing.dir/src/modeling/post-processing.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/modeling/post-processing.cpp -o CMakeFiles/post-processing.dir/src/modeling/post-processing.cpp.s
 
 # Object files for target post-processing
 post__processing_OBJECTS = \
-"CMakeFiles/post-processing.dir/modeling/post-processing.cpp.o"
+"CMakeFiles/post-processing.dir/src/modeling/post-processing.cpp.o"
 
 # External object files for target post-processing
 post__processing_EXTERNAL_OBJECTS =
 
-post-processing: CMakeFiles/post-processing.dir/modeling/post-processing.cpp.o
+post-processing: CMakeFiles/post-processing.dir/src/modeling/post-processing.cpp.o
 post-processing: CMakeFiles/post-processing.dir/build.make
 post-processing: libModeling.a
 post-processing: ann/libann.a

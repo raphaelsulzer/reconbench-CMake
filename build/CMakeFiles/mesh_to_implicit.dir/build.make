@@ -74,27 +74,27 @@ include CMakeFiles/mesh_to_implicit.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/mesh_to_implicit.dir/flags.make
 
-CMakeFiles/mesh_to_implicit.dir/modeling/mesh_to_implicit.cpp.o: CMakeFiles/mesh_to_implicit.dir/flags.make
-CMakeFiles/mesh_to_implicit.dir/modeling/mesh_to_implicit.cpp.o: ../modeling/mesh_to_implicit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mesh_to_implicit.dir/modeling/mesh_to_implicit.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_to_implicit.dir/modeling/mesh_to_implicit.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/modeling/mesh_to_implicit.cpp
+CMakeFiles/mesh_to_implicit.dir/src/modeling/mesh_to_implicit.cpp.o: CMakeFiles/mesh_to_implicit.dir/flags.make
+CMakeFiles/mesh_to_implicit.dir/src/modeling/mesh_to_implicit.cpp.o: ../src/modeling/mesh_to_implicit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mesh_to_implicit.dir/src/modeling/mesh_to_implicit.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesh_to_implicit.dir/src/modeling/mesh_to_implicit.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/modeling/mesh_to_implicit.cpp
 
-CMakeFiles/mesh_to_implicit.dir/modeling/mesh_to_implicit.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesh_to_implicit.dir/modeling/mesh_to_implicit.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/modeling/mesh_to_implicit.cpp > CMakeFiles/mesh_to_implicit.dir/modeling/mesh_to_implicit.cpp.i
+CMakeFiles/mesh_to_implicit.dir/src/modeling/mesh_to_implicit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesh_to_implicit.dir/src/modeling/mesh_to_implicit.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/modeling/mesh_to_implicit.cpp > CMakeFiles/mesh_to_implicit.dir/src/modeling/mesh_to_implicit.cpp.i
 
-CMakeFiles/mesh_to_implicit.dir/modeling/mesh_to_implicit.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesh_to_implicit.dir/modeling/mesh_to_implicit.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/modeling/mesh_to_implicit.cpp -o CMakeFiles/mesh_to_implicit.dir/modeling/mesh_to_implicit.cpp.s
+CMakeFiles/mesh_to_implicit.dir/src/modeling/mesh_to_implicit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesh_to_implicit.dir/src/modeling/mesh_to_implicit.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/modeling/mesh_to_implicit.cpp -o CMakeFiles/mesh_to_implicit.dir/src/modeling/mesh_to_implicit.cpp.s
 
 # Object files for target mesh_to_implicit
 mesh_to_implicit_OBJECTS = \
-"CMakeFiles/mesh_to_implicit.dir/modeling/mesh_to_implicit.cpp.o"
+"CMakeFiles/mesh_to_implicit.dir/src/modeling/mesh_to_implicit.cpp.o"
 
 # External object files for target mesh_to_implicit
 mesh_to_implicit_EXTERNAL_OBJECTS =
 
-mesh_to_implicit: CMakeFiles/mesh_to_implicit.dir/modeling/mesh_to_implicit.cpp.o
+mesh_to_implicit: CMakeFiles/mesh_to_implicit.dir/src/modeling/mesh_to_implicit.cpp.o
 mesh_to_implicit: CMakeFiles/mesh_to_implicit.dir/build.make
 mesh_to_implicit: libModeling.a
 mesh_to_implicit: ann/libann.a

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/post-processing.dir/modeling/post-processing.cpp.o"
+  "CMakeFiles/post-processing.dir/src/modeling/post-processing.cpp.o"
   "post-processing"
   "post-processing.pdb"
 )

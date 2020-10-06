@@ -15,7 +15,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../sampler"
+  "../src/registraction"
   "../ann/include"
   "../OpenMesh/."
   "../pbrt/src"
@@ -27,7 +27,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../registration/tnt"
   "../registration/trimesh2/include"
   "/usr/include/suitesparse"
-  "../modeling"
+  "../src/sampler"
+  "../src/modeling"
   )
 
 # Targets to which this target links.

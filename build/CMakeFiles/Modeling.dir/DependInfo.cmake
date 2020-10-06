@@ -4,18 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rsulzer/cpp/reconbench-CMake/modeling/DenseEigenSystem.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/modeling/DenseEigenSystem.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/modeling/DenseMatrix.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/modeling/DenseMatrix.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/modeling/ImplicitFunction.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/modeling/ImplicitFunction.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/modeling/Rigid.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/modeling/Rigid.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/modeling/RotationMatrix.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/modeling/RotationMatrix.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/modeling/Vector.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/modeling/Vector.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/modeling/isosurface.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/modeling/isosurface.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/modeling/lm_method.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/modeling/lm_method.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/modeling/mesh_to_implicit.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/modeling/mesh_to_implicit.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/modeling/mpu_soup.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/modeling/mpu_soup.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/modeling/post-processing.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/modeling/post-processing.cpp.o"
-  "/home/rsulzer/cpp/reconbench-CMake/modeling/tri_integrator.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/modeling/tri_integrator.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/modeling/DenseEigenSystem.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/src/modeling/DenseEigenSystem.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/modeling/DenseMatrix.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/src/modeling/DenseMatrix.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/modeling/ImplicitFunction.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/src/modeling/ImplicitFunction.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/modeling/Rigid.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/src/modeling/Rigid.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/modeling/RotationMatrix.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/src/modeling/RotationMatrix.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/src/modeling/Vector.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/modeling/isosurface.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/src/modeling/isosurface.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/modeling/lm_method.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/src/modeling/lm_method.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/modeling/mesh_to_implicit.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/src/modeling/mesh_to_implicit.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/modeling/mpu_soup.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/src/modeling/mpu_soup.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/modeling/post-processing.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/src/modeling/post-processing.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/modeling/tri_integrator.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/Modeling.dir/src/modeling/tri_integrator.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -26,7 +26,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../modeling"
+  "../src/modeling"
   "../ann/include"
   "../OpenMesh/."
   "../pbrt/src"

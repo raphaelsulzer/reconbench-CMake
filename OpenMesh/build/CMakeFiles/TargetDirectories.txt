@@ -1,0 +1,3 @@
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/build/CMakeFiles/rebuild_cache.dir
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/build/CMakeFiles/OpenMesh.dir
+/home/rsulzer/cpp/reconbench-CMake/OpenMesh/build/CMakeFiles/edit_cache.dir

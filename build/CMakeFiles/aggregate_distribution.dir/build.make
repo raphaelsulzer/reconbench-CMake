@@ -74,162 +74,162 @@ include CMakeFiles/aggregate_distribution.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/aggregate_distribution.dir/flags.make
 
-CMakeFiles/aggregate_distribution.dir/evaluator/GlobalStats.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
-CMakeFiles/aggregate_distribution.dir/evaluator/GlobalStats.cpp.o: ../evaluator/GlobalStats.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/aggregate_distribution.dir/evaluator/GlobalStats.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/evaluator/GlobalStats.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/evaluator/GlobalStats.cpp
+CMakeFiles/aggregate_distribution.dir/src/evaluator/GlobalStats.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
+CMakeFiles/aggregate_distribution.dir/src/evaluator/GlobalStats.cpp.o: ../src/evaluator/GlobalStats.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/aggregate_distribution.dir/src/evaluator/GlobalStats.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/src/evaluator/GlobalStats.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/evaluator/GlobalStats.cpp
 
-CMakeFiles/aggregate_distribution.dir/evaluator/GlobalStats.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/evaluator/GlobalStats.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/evaluator/GlobalStats.cpp > CMakeFiles/aggregate_distribution.dir/evaluator/GlobalStats.cpp.i
+CMakeFiles/aggregate_distribution.dir/src/evaluator/GlobalStats.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/src/evaluator/GlobalStats.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/evaluator/GlobalStats.cpp > CMakeFiles/aggregate_distribution.dir/src/evaluator/GlobalStats.cpp.i
 
-CMakeFiles/aggregate_distribution.dir/evaluator/GlobalStats.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/evaluator/GlobalStats.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/evaluator/GlobalStats.cpp -o CMakeFiles/aggregate_distribution.dir/evaluator/GlobalStats.cpp.s
+CMakeFiles/aggregate_distribution.dir/src/evaluator/GlobalStats.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/src/evaluator/GlobalStats.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/evaluator/GlobalStats.cpp -o CMakeFiles/aggregate_distribution.dir/src/evaluator/GlobalStats.cpp.s
 
-CMakeFiles/aggregate_distribution.dir/evaluator/ShortestDistanceMap.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
-CMakeFiles/aggregate_distribution.dir/evaluator/ShortestDistanceMap.cpp.o: ../evaluator/ShortestDistanceMap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/aggregate_distribution.dir/evaluator/ShortestDistanceMap.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/evaluator/ShortestDistanceMap.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/evaluator/ShortestDistanceMap.cpp
+CMakeFiles/aggregate_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
+CMakeFiles/aggregate_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.o: ../src/evaluator/ShortestDistanceMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/aggregate_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/evaluator/ShortestDistanceMap.cpp
 
-CMakeFiles/aggregate_distribution.dir/evaluator/ShortestDistanceMap.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/evaluator/ShortestDistanceMap.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/evaluator/ShortestDistanceMap.cpp > CMakeFiles/aggregate_distribution.dir/evaluator/ShortestDistanceMap.cpp.i
+CMakeFiles/aggregate_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/evaluator/ShortestDistanceMap.cpp > CMakeFiles/aggregate_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.i
 
-CMakeFiles/aggregate_distribution.dir/evaluator/ShortestDistanceMap.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/evaluator/ShortestDistanceMap.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/evaluator/ShortestDistanceMap.cpp -o CMakeFiles/aggregate_distribution.dir/evaluator/ShortestDistanceMap.cpp.s
+CMakeFiles/aggregate_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/evaluator/ShortestDistanceMap.cpp -o CMakeFiles/aggregate_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.s
 
-CMakeFiles/aggregate_distribution.dir/evaluator/implicit_sampler.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
-CMakeFiles/aggregate_distribution.dir/evaluator/implicit_sampler.cpp.o: ../evaluator/implicit_sampler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/aggregate_distribution.dir/evaluator/implicit_sampler.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/evaluator/implicit_sampler.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/evaluator/implicit_sampler.cpp
+CMakeFiles/aggregate_distribution.dir/src/evaluator/implicit_sampler.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
+CMakeFiles/aggregate_distribution.dir/src/evaluator/implicit_sampler.cpp.o: ../src/evaluator/implicit_sampler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/aggregate_distribution.dir/src/evaluator/implicit_sampler.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/src/evaluator/implicit_sampler.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/evaluator/implicit_sampler.cpp
 
-CMakeFiles/aggregate_distribution.dir/evaluator/implicit_sampler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/evaluator/implicit_sampler.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/evaluator/implicit_sampler.cpp > CMakeFiles/aggregate_distribution.dir/evaluator/implicit_sampler.cpp.i
+CMakeFiles/aggregate_distribution.dir/src/evaluator/implicit_sampler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/src/evaluator/implicit_sampler.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/evaluator/implicit_sampler.cpp > CMakeFiles/aggregate_distribution.dir/src/evaluator/implicit_sampler.cpp.i
 
-CMakeFiles/aggregate_distribution.dir/evaluator/implicit_sampler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/evaluator/implicit_sampler.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/evaluator/implicit_sampler.cpp -o CMakeFiles/aggregate_distribution.dir/evaluator/implicit_sampler.cpp.s
+CMakeFiles/aggregate_distribution.dir/src/evaluator/implicit_sampler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/src/evaluator/implicit_sampler.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/evaluator/implicit_sampler.cpp -o CMakeFiles/aggregate_distribution.dir/src/evaluator/implicit_sampler.cpp.s
 
-CMakeFiles/aggregate_distribution.dir/evaluator/UniformGrid.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
-CMakeFiles/aggregate_distribution.dir/evaluator/UniformGrid.cpp.o: ../evaluator/UniformGrid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/aggregate_distribution.dir/evaluator/UniformGrid.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/evaluator/UniformGrid.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/evaluator/UniformGrid.cpp
+CMakeFiles/aggregate_distribution.dir/src/evaluator/UniformGrid.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
+CMakeFiles/aggregate_distribution.dir/src/evaluator/UniformGrid.cpp.o: ../src/evaluator/UniformGrid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/aggregate_distribution.dir/src/evaluator/UniformGrid.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/src/evaluator/UniformGrid.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/evaluator/UniformGrid.cpp
 
-CMakeFiles/aggregate_distribution.dir/evaluator/UniformGrid.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/evaluator/UniformGrid.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/evaluator/UniformGrid.cpp > CMakeFiles/aggregate_distribution.dir/evaluator/UniformGrid.cpp.i
+CMakeFiles/aggregate_distribution.dir/src/evaluator/UniformGrid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/src/evaluator/UniformGrid.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/evaluator/UniformGrid.cpp > CMakeFiles/aggregate_distribution.dir/src/evaluator/UniformGrid.cpp.i
 
-CMakeFiles/aggregate_distribution.dir/evaluator/UniformGrid.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/evaluator/UniformGrid.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/evaluator/UniformGrid.cpp -o CMakeFiles/aggregate_distribution.dir/evaluator/UniformGrid.cpp.s
+CMakeFiles/aggregate_distribution.dir/src/evaluator/UniformGrid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/src/evaluator/UniformGrid.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/evaluator/UniformGrid.cpp -o CMakeFiles/aggregate_distribution.dir/src/evaluator/UniformGrid.cpp.s
 
-CMakeFiles/aggregate_distribution.dir/evaluator/mesh_sampler.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
-CMakeFiles/aggregate_distribution.dir/evaluator/mesh_sampler.cpp.o: ../evaluator/mesh_sampler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/aggregate_distribution.dir/evaluator/mesh_sampler.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/evaluator/mesh_sampler.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/evaluator/mesh_sampler.cpp
+CMakeFiles/aggregate_distribution.dir/src/evaluator/mesh_sampler.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
+CMakeFiles/aggregate_distribution.dir/src/evaluator/mesh_sampler.cpp.o: ../src/evaluator/mesh_sampler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/aggregate_distribution.dir/src/evaluator/mesh_sampler.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/src/evaluator/mesh_sampler.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_sampler.cpp
 
-CMakeFiles/aggregate_distribution.dir/evaluator/mesh_sampler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/evaluator/mesh_sampler.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/evaluator/mesh_sampler.cpp > CMakeFiles/aggregate_distribution.dir/evaluator/mesh_sampler.cpp.i
+CMakeFiles/aggregate_distribution.dir/src/evaluator/mesh_sampler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/src/evaluator/mesh_sampler.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_sampler.cpp > CMakeFiles/aggregate_distribution.dir/src/evaluator/mesh_sampler.cpp.i
 
-CMakeFiles/aggregate_distribution.dir/evaluator/mesh_sampler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/evaluator/mesh_sampler.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/evaluator/mesh_sampler.cpp -o CMakeFiles/aggregate_distribution.dir/evaluator/mesh_sampler.cpp.s
+CMakeFiles/aggregate_distribution.dir/src/evaluator/mesh_sampler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/src/evaluator/mesh_sampler.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_sampler.cpp -o CMakeFiles/aggregate_distribution.dir/src/evaluator/mesh_sampler.cpp.s
 
-CMakeFiles/aggregate_distribution.dir/evaluator/recon_evaluation.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
-CMakeFiles/aggregate_distribution.dir/evaluator/recon_evaluation.cpp.o: ../evaluator/recon_evaluation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/aggregate_distribution.dir/evaluator/recon_evaluation.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/evaluator/recon_evaluation.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/evaluator/recon_evaluation.cpp
+CMakeFiles/aggregate_distribution.dir/src/evaluator/recon_evaluation.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
+CMakeFiles/aggregate_distribution.dir/src/evaluator/recon_evaluation.cpp.o: ../src/evaluator/recon_evaluation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/aggregate_distribution.dir/src/evaluator/recon_evaluation.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/src/evaluator/recon_evaluation.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/evaluator/recon_evaluation.cpp
 
-CMakeFiles/aggregate_distribution.dir/evaluator/recon_evaluation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/evaluator/recon_evaluation.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/evaluator/recon_evaluation.cpp > CMakeFiles/aggregate_distribution.dir/evaluator/recon_evaluation.cpp.i
+CMakeFiles/aggregate_distribution.dir/src/evaluator/recon_evaluation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/src/evaluator/recon_evaluation.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/evaluator/recon_evaluation.cpp > CMakeFiles/aggregate_distribution.dir/src/evaluator/recon_evaluation.cpp.i
 
-CMakeFiles/aggregate_distribution.dir/evaluator/recon_evaluation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/evaluator/recon_evaluation.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/evaluator/recon_evaluation.cpp -o CMakeFiles/aggregate_distribution.dir/evaluator/recon_evaluation.cpp.s
+CMakeFiles/aggregate_distribution.dir/src/evaluator/recon_evaluation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/src/evaluator/recon_evaluation.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/evaluator/recon_evaluation.cpp -o CMakeFiles/aggregate_distribution.dir/src/evaluator/recon_evaluation.cpp.s
 
-CMakeFiles/aggregate_distribution.dir/evaluator/KdOpenMesh.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
-CMakeFiles/aggregate_distribution.dir/evaluator/KdOpenMesh.cpp.o: ../evaluator/KdOpenMesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/aggregate_distribution.dir/evaluator/KdOpenMesh.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/evaluator/KdOpenMesh.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/evaluator/KdOpenMesh.cpp
+CMakeFiles/aggregate_distribution.dir/src/evaluator/KdOpenMesh.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
+CMakeFiles/aggregate_distribution.dir/src/evaluator/KdOpenMesh.cpp.o: ../src/evaluator/KdOpenMesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/aggregate_distribution.dir/src/evaluator/KdOpenMesh.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/src/evaluator/KdOpenMesh.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/evaluator/KdOpenMesh.cpp
 
-CMakeFiles/aggregate_distribution.dir/evaluator/KdOpenMesh.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/evaluator/KdOpenMesh.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/evaluator/KdOpenMesh.cpp > CMakeFiles/aggregate_distribution.dir/evaluator/KdOpenMesh.cpp.i
+CMakeFiles/aggregate_distribution.dir/src/evaluator/KdOpenMesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/src/evaluator/KdOpenMesh.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/evaluator/KdOpenMesh.cpp > CMakeFiles/aggregate_distribution.dir/src/evaluator/KdOpenMesh.cpp.i
 
-CMakeFiles/aggregate_distribution.dir/evaluator/KdOpenMesh.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/evaluator/KdOpenMesh.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/evaluator/KdOpenMesh.cpp -o CMakeFiles/aggregate_distribution.dir/evaluator/KdOpenMesh.cpp.s
+CMakeFiles/aggregate_distribution.dir/src/evaluator/KdOpenMesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/src/evaluator/KdOpenMesh.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/evaluator/KdOpenMesh.cpp -o CMakeFiles/aggregate_distribution.dir/src/evaluator/KdOpenMesh.cpp.s
 
-CMakeFiles/aggregate_distribution.dir/evaluator/kd_tree.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
-CMakeFiles/aggregate_distribution.dir/evaluator/kd_tree.cpp.o: ../evaluator/kd_tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/aggregate_distribution.dir/evaluator/kd_tree.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/evaluator/kd_tree.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/evaluator/kd_tree.cpp
+CMakeFiles/aggregate_distribution.dir/src/evaluator/kd_tree.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
+CMakeFiles/aggregate_distribution.dir/src/evaluator/kd_tree.cpp.o: ../src/evaluator/kd_tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/aggregate_distribution.dir/src/evaluator/kd_tree.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/src/evaluator/kd_tree.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/evaluator/kd_tree.cpp
 
-CMakeFiles/aggregate_distribution.dir/evaluator/kd_tree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/evaluator/kd_tree.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/evaluator/kd_tree.cpp > CMakeFiles/aggregate_distribution.dir/evaluator/kd_tree.cpp.i
+CMakeFiles/aggregate_distribution.dir/src/evaluator/kd_tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/src/evaluator/kd_tree.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/evaluator/kd_tree.cpp > CMakeFiles/aggregate_distribution.dir/src/evaluator/kd_tree.cpp.i
 
-CMakeFiles/aggregate_distribution.dir/evaluator/kd_tree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/evaluator/kd_tree.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/evaluator/kd_tree.cpp -o CMakeFiles/aggregate_distribution.dir/evaluator/kd_tree.cpp.s
+CMakeFiles/aggregate_distribution.dir/src/evaluator/kd_tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/src/evaluator/kd_tree.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/evaluator/kd_tree.cpp -o CMakeFiles/aggregate_distribution.dir/src/evaluator/kd_tree.cpp.s
 
-CMakeFiles/aggregate_distribution.dir/evaluator/shape_distribution.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
-CMakeFiles/aggregate_distribution.dir/evaluator/shape_distribution.cpp.o: ../evaluator/shape_distribution.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/aggregate_distribution.dir/evaluator/shape_distribution.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/evaluator/shape_distribution.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/evaluator/shape_distribution.cpp
+CMakeFiles/aggregate_distribution.dir/src/evaluator/shape_distribution.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
+CMakeFiles/aggregate_distribution.dir/src/evaluator/shape_distribution.cpp.o: ../src/evaluator/shape_distribution.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/aggregate_distribution.dir/src/evaluator/shape_distribution.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/src/evaluator/shape_distribution.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/evaluator/shape_distribution.cpp
 
-CMakeFiles/aggregate_distribution.dir/evaluator/shape_distribution.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/evaluator/shape_distribution.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/evaluator/shape_distribution.cpp > CMakeFiles/aggregate_distribution.dir/evaluator/shape_distribution.cpp.i
+CMakeFiles/aggregate_distribution.dir/src/evaluator/shape_distribution.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/src/evaluator/shape_distribution.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/evaluator/shape_distribution.cpp > CMakeFiles/aggregate_distribution.dir/src/evaluator/shape_distribution.cpp.i
 
-CMakeFiles/aggregate_distribution.dir/evaluator/shape_distribution.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/evaluator/shape_distribution.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/evaluator/shape_distribution.cpp -o CMakeFiles/aggregate_distribution.dir/evaluator/shape_distribution.cpp.s
+CMakeFiles/aggregate_distribution.dir/src/evaluator/shape_distribution.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/src/evaluator/shape_distribution.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/evaluator/shape_distribution.cpp -o CMakeFiles/aggregate_distribution.dir/src/evaluator/shape_distribution.cpp.s
 
-CMakeFiles/aggregate_distribution.dir/evaluator/plot/aggregate_distribution.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
-CMakeFiles/aggregate_distribution.dir/evaluator/plot/aggregate_distribution.cpp.o: ../evaluator/plot/aggregate_distribution.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/aggregate_distribution.dir/evaluator/plot/aggregate_distribution.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/evaluator/plot/aggregate_distribution.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/evaluator/plot/aggregate_distribution.cpp
+CMakeFiles/aggregate_distribution.dir/src/evaluator/plot/aggregate_distribution.cpp.o: CMakeFiles/aggregate_distribution.dir/flags.make
+CMakeFiles/aggregate_distribution.dir/src/evaluator/plot/aggregate_distribution.cpp.o: ../src/evaluator/plot/aggregate_distribution.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/aggregate_distribution.dir/src/evaluator/plot/aggregate_distribution.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aggregate_distribution.dir/src/evaluator/plot/aggregate_distribution.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/evaluator/plot/aggregate_distribution.cpp
 
-CMakeFiles/aggregate_distribution.dir/evaluator/plot/aggregate_distribution.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/evaluator/plot/aggregate_distribution.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/evaluator/plot/aggregate_distribution.cpp > CMakeFiles/aggregate_distribution.dir/evaluator/plot/aggregate_distribution.cpp.i
+CMakeFiles/aggregate_distribution.dir/src/evaluator/plot/aggregate_distribution.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aggregate_distribution.dir/src/evaluator/plot/aggregate_distribution.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/evaluator/plot/aggregate_distribution.cpp > CMakeFiles/aggregate_distribution.dir/src/evaluator/plot/aggregate_distribution.cpp.i
 
-CMakeFiles/aggregate_distribution.dir/evaluator/plot/aggregate_distribution.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/evaluator/plot/aggregate_distribution.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/evaluator/plot/aggregate_distribution.cpp -o CMakeFiles/aggregate_distribution.dir/evaluator/plot/aggregate_distribution.cpp.s
+CMakeFiles/aggregate_distribution.dir/src/evaluator/plot/aggregate_distribution.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aggregate_distribution.dir/src/evaluator/plot/aggregate_distribution.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/evaluator/plot/aggregate_distribution.cpp -o CMakeFiles/aggregate_distribution.dir/src/evaluator/plot/aggregate_distribution.cpp.s
 
 # Object files for target aggregate_distribution
 aggregate_distribution_OBJECTS = \
-"CMakeFiles/aggregate_distribution.dir/evaluator/GlobalStats.cpp.o" \
-"CMakeFiles/aggregate_distribution.dir/evaluator/ShortestDistanceMap.cpp.o" \
-"CMakeFiles/aggregate_distribution.dir/evaluator/implicit_sampler.cpp.o" \
-"CMakeFiles/aggregate_distribution.dir/evaluator/UniformGrid.cpp.o" \
-"CMakeFiles/aggregate_distribution.dir/evaluator/mesh_sampler.cpp.o" \
-"CMakeFiles/aggregate_distribution.dir/evaluator/recon_evaluation.cpp.o" \
-"CMakeFiles/aggregate_distribution.dir/evaluator/KdOpenMesh.cpp.o" \
-"CMakeFiles/aggregate_distribution.dir/evaluator/kd_tree.cpp.o" \
-"CMakeFiles/aggregate_distribution.dir/evaluator/shape_distribution.cpp.o" \
-"CMakeFiles/aggregate_distribution.dir/evaluator/plot/aggregate_distribution.cpp.o"
+"CMakeFiles/aggregate_distribution.dir/src/evaluator/GlobalStats.cpp.o" \
+"CMakeFiles/aggregate_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.o" \
+"CMakeFiles/aggregate_distribution.dir/src/evaluator/implicit_sampler.cpp.o" \
+"CMakeFiles/aggregate_distribution.dir/src/evaluator/UniformGrid.cpp.o" \
+"CMakeFiles/aggregate_distribution.dir/src/evaluator/mesh_sampler.cpp.o" \
+"CMakeFiles/aggregate_distribution.dir/src/evaluator/recon_evaluation.cpp.o" \
+"CMakeFiles/aggregate_distribution.dir/src/evaluator/KdOpenMesh.cpp.o" \
+"CMakeFiles/aggregate_distribution.dir/src/evaluator/kd_tree.cpp.o" \
+"CMakeFiles/aggregate_distribution.dir/src/evaluator/shape_distribution.cpp.o" \
+"CMakeFiles/aggregate_distribution.dir/src/evaluator/plot/aggregate_distribution.cpp.o"
 
 # External object files for target aggregate_distribution
 aggregate_distribution_EXTERNAL_OBJECTS =
 
-aggregate_distribution: CMakeFiles/aggregate_distribution.dir/evaluator/GlobalStats.cpp.o
-aggregate_distribution: CMakeFiles/aggregate_distribution.dir/evaluator/ShortestDistanceMap.cpp.o
-aggregate_distribution: CMakeFiles/aggregate_distribution.dir/evaluator/implicit_sampler.cpp.o
-aggregate_distribution: CMakeFiles/aggregate_distribution.dir/evaluator/UniformGrid.cpp.o
-aggregate_distribution: CMakeFiles/aggregate_distribution.dir/evaluator/mesh_sampler.cpp.o
-aggregate_distribution: CMakeFiles/aggregate_distribution.dir/evaluator/recon_evaluation.cpp.o
-aggregate_distribution: CMakeFiles/aggregate_distribution.dir/evaluator/KdOpenMesh.cpp.o
-aggregate_distribution: CMakeFiles/aggregate_distribution.dir/evaluator/kd_tree.cpp.o
-aggregate_distribution: CMakeFiles/aggregate_distribution.dir/evaluator/shape_distribution.cpp.o
-aggregate_distribution: CMakeFiles/aggregate_distribution.dir/evaluator/plot/aggregate_distribution.cpp.o
+aggregate_distribution: CMakeFiles/aggregate_distribution.dir/src/evaluator/GlobalStats.cpp.o
+aggregate_distribution: CMakeFiles/aggregate_distribution.dir/src/evaluator/ShortestDistanceMap.cpp.o
+aggregate_distribution: CMakeFiles/aggregate_distribution.dir/src/evaluator/implicit_sampler.cpp.o
+aggregate_distribution: CMakeFiles/aggregate_distribution.dir/src/evaluator/UniformGrid.cpp.o
+aggregate_distribution: CMakeFiles/aggregate_distribution.dir/src/evaluator/mesh_sampler.cpp.o
+aggregate_distribution: CMakeFiles/aggregate_distribution.dir/src/evaluator/recon_evaluation.cpp.o
+aggregate_distribution: CMakeFiles/aggregate_distribution.dir/src/evaluator/KdOpenMesh.cpp.o
+aggregate_distribution: CMakeFiles/aggregate_distribution.dir/src/evaluator/kd_tree.cpp.o
+aggregate_distribution: CMakeFiles/aggregate_distribution.dir/src/evaluator/shape_distribution.cpp.o
+aggregate_distribution: CMakeFiles/aggregate_distribution.dir/src/evaluator/plot/aggregate_distribution.cpp.o
 aggregate_distribution: CMakeFiles/aggregate_distribution.dir/build.make
 aggregate_distribution: libModeling.a
 aggregate_distribution: libSampler.a

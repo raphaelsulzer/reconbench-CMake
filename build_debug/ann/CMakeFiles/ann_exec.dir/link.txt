@@ -1,1 +1,0 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/ann_exec.dir/sample/ann_sample.cpp.o -o ann_exec  libann.a 

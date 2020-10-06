@@ -74,297 +74,297 @@ include CMakeFiles/Sampler.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Sampler.dir/flags.make
 
-CMakeFiles/Sampler.dir/sampler/GaussianFit.cpp.o: CMakeFiles/Sampler.dir/flags.make
-CMakeFiles/Sampler.dir/sampler/GaussianFit.cpp.o: ../sampler/GaussianFit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Sampler.dir/sampler/GaussianFit.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/sampler/GaussianFit.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/GaussianFit.cpp
+CMakeFiles/Sampler.dir/src/sampler/GaussianFit.cpp.o: CMakeFiles/Sampler.dir/flags.make
+CMakeFiles/Sampler.dir/src/sampler/GaussianFit.cpp.o: ../src/sampler/GaussianFit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Sampler.dir/src/sampler/GaussianFit.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/src/sampler/GaussianFit.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/GaussianFit.cpp
 
-CMakeFiles/Sampler.dir/sampler/GaussianFit.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/sampler/GaussianFit.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/GaussianFit.cpp > CMakeFiles/Sampler.dir/sampler/GaussianFit.cpp.i
+CMakeFiles/Sampler.dir/src/sampler/GaussianFit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/src/sampler/GaussianFit.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/GaussianFit.cpp > CMakeFiles/Sampler.dir/src/sampler/GaussianFit.cpp.i
 
-CMakeFiles/Sampler.dir/sampler/GaussianFit.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/sampler/GaussianFit.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/GaussianFit.cpp -o CMakeFiles/Sampler.dir/sampler/GaussianFit.cpp.s
+CMakeFiles/Sampler.dir/src/sampler/GaussianFit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/src/sampler/GaussianFit.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/GaussianFit.cpp -o CMakeFiles/Sampler.dir/src/sampler/GaussianFit.cpp.s
 
-CMakeFiles/Sampler.dir/sampler/ImplicitNewton.cpp.o: CMakeFiles/Sampler.dir/flags.make
-CMakeFiles/Sampler.dir/sampler/ImplicitNewton.cpp.o: ../sampler/ImplicitNewton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Sampler.dir/sampler/ImplicitNewton.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/sampler/ImplicitNewton.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/ImplicitNewton.cpp
+CMakeFiles/Sampler.dir/src/sampler/ImplicitNewton.cpp.o: CMakeFiles/Sampler.dir/flags.make
+CMakeFiles/Sampler.dir/src/sampler/ImplicitNewton.cpp.o: ../src/sampler/ImplicitNewton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Sampler.dir/src/sampler/ImplicitNewton.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/src/sampler/ImplicitNewton.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/ImplicitNewton.cpp
 
-CMakeFiles/Sampler.dir/sampler/ImplicitNewton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/sampler/ImplicitNewton.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/ImplicitNewton.cpp > CMakeFiles/Sampler.dir/sampler/ImplicitNewton.cpp.i
+CMakeFiles/Sampler.dir/src/sampler/ImplicitNewton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/src/sampler/ImplicitNewton.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/ImplicitNewton.cpp > CMakeFiles/Sampler.dir/src/sampler/ImplicitNewton.cpp.i
 
-CMakeFiles/Sampler.dir/sampler/ImplicitNewton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/sampler/ImplicitNewton.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/ImplicitNewton.cpp -o CMakeFiles/Sampler.dir/sampler/ImplicitNewton.cpp.s
+CMakeFiles/Sampler.dir/src/sampler/ImplicitNewton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/src/sampler/ImplicitNewton.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/ImplicitNewton.cpp -o CMakeFiles/Sampler.dir/src/sampler/ImplicitNewton.cpp.s
 
-CMakeFiles/Sampler.dir/sampler/NPTSReader.cpp.o: CMakeFiles/Sampler.dir/flags.make
-CMakeFiles/Sampler.dir/sampler/NPTSReader.cpp.o: ../sampler/NPTSReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Sampler.dir/sampler/NPTSReader.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/sampler/NPTSReader.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/NPTSReader.cpp
+CMakeFiles/Sampler.dir/src/sampler/NPTSReader.cpp.o: CMakeFiles/Sampler.dir/flags.make
+CMakeFiles/Sampler.dir/src/sampler/NPTSReader.cpp.o: ../src/sampler/NPTSReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Sampler.dir/src/sampler/NPTSReader.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/src/sampler/NPTSReader.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/NPTSReader.cpp
 
-CMakeFiles/Sampler.dir/sampler/NPTSReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/sampler/NPTSReader.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/NPTSReader.cpp > CMakeFiles/Sampler.dir/sampler/NPTSReader.cpp.i
+CMakeFiles/Sampler.dir/src/sampler/NPTSReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/src/sampler/NPTSReader.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/NPTSReader.cpp > CMakeFiles/Sampler.dir/src/sampler/NPTSReader.cpp.i
 
-CMakeFiles/Sampler.dir/sampler/NPTSReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/sampler/NPTSReader.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/NPTSReader.cpp -o CMakeFiles/Sampler.dir/sampler/NPTSReader.cpp.s
+CMakeFiles/Sampler.dir/src/sampler/NPTSReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/src/sampler/NPTSReader.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/NPTSReader.cpp -o CMakeFiles/Sampler.dir/src/sampler/NPTSReader.cpp.s
 
-CMakeFiles/Sampler.dir/sampler/OrientedPointCloud.cpp.o: CMakeFiles/Sampler.dir/flags.make
-CMakeFiles/Sampler.dir/sampler/OrientedPointCloud.cpp.o: ../sampler/OrientedPointCloud.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Sampler.dir/sampler/OrientedPointCloud.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/sampler/OrientedPointCloud.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/OrientedPointCloud.cpp
+CMakeFiles/Sampler.dir/src/sampler/OrientedPointCloud.cpp.o: CMakeFiles/Sampler.dir/flags.make
+CMakeFiles/Sampler.dir/src/sampler/OrientedPointCloud.cpp.o: ../src/sampler/OrientedPointCloud.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Sampler.dir/src/sampler/OrientedPointCloud.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/src/sampler/OrientedPointCloud.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/OrientedPointCloud.cpp
 
-CMakeFiles/Sampler.dir/sampler/OrientedPointCloud.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/sampler/OrientedPointCloud.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/OrientedPointCloud.cpp > CMakeFiles/Sampler.dir/sampler/OrientedPointCloud.cpp.i
+CMakeFiles/Sampler.dir/src/sampler/OrientedPointCloud.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/src/sampler/OrientedPointCloud.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/OrientedPointCloud.cpp > CMakeFiles/Sampler.dir/src/sampler/OrientedPointCloud.cpp.i
 
-CMakeFiles/Sampler.dir/sampler/OrientedPointCloud.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/sampler/OrientedPointCloud.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/OrientedPointCloud.cpp -o CMakeFiles/Sampler.dir/sampler/OrientedPointCloud.cpp.s
+CMakeFiles/Sampler.dir/src/sampler/OrientedPointCloud.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/src/sampler/OrientedPointCloud.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/OrientedPointCloud.cpp -o CMakeFiles/Sampler.dir/src/sampler/OrientedPointCloud.cpp.s
 
-CMakeFiles/Sampler.dir/sampler/OrientedRangeImage.cpp.o: CMakeFiles/Sampler.dir/flags.make
-CMakeFiles/Sampler.dir/sampler/OrientedRangeImage.cpp.o: ../sampler/OrientedRangeImage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Sampler.dir/sampler/OrientedRangeImage.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/sampler/OrientedRangeImage.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/OrientedRangeImage.cpp
+CMakeFiles/Sampler.dir/src/sampler/OrientedRangeImage.cpp.o: CMakeFiles/Sampler.dir/flags.make
+CMakeFiles/Sampler.dir/src/sampler/OrientedRangeImage.cpp.o: ../src/sampler/OrientedRangeImage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Sampler.dir/src/sampler/OrientedRangeImage.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/src/sampler/OrientedRangeImage.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/OrientedRangeImage.cpp
 
-CMakeFiles/Sampler.dir/sampler/OrientedRangeImage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/sampler/OrientedRangeImage.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/OrientedRangeImage.cpp > CMakeFiles/Sampler.dir/sampler/OrientedRangeImage.cpp.i
+CMakeFiles/Sampler.dir/src/sampler/OrientedRangeImage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/src/sampler/OrientedRangeImage.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/OrientedRangeImage.cpp > CMakeFiles/Sampler.dir/src/sampler/OrientedRangeImage.cpp.i
 
-CMakeFiles/Sampler.dir/sampler/OrientedRangeImage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/sampler/OrientedRangeImage.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/OrientedRangeImage.cpp -o CMakeFiles/Sampler.dir/sampler/OrientedRangeImage.cpp.s
+CMakeFiles/Sampler.dir/src/sampler/OrientedRangeImage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/src/sampler/OrientedRangeImage.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/OrientedRangeImage.cpp -o CMakeFiles/Sampler.dir/src/sampler/OrientedRangeImage.cpp.s
 
-CMakeFiles/Sampler.dir/sampler/PNGImage.cpp.o: CMakeFiles/Sampler.dir/flags.make
-CMakeFiles/Sampler.dir/sampler/PNGImage.cpp.o: ../sampler/PNGImage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Sampler.dir/sampler/PNGImage.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/sampler/PNGImage.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/PNGImage.cpp
+CMakeFiles/Sampler.dir/src/sampler/PNGImage.cpp.o: CMakeFiles/Sampler.dir/flags.make
+CMakeFiles/Sampler.dir/src/sampler/PNGImage.cpp.o: ../src/sampler/PNGImage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Sampler.dir/src/sampler/PNGImage.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/src/sampler/PNGImage.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/PNGImage.cpp
 
-CMakeFiles/Sampler.dir/sampler/PNGImage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/sampler/PNGImage.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/PNGImage.cpp > CMakeFiles/Sampler.dir/sampler/PNGImage.cpp.i
+CMakeFiles/Sampler.dir/src/sampler/PNGImage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/src/sampler/PNGImage.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/PNGImage.cpp > CMakeFiles/Sampler.dir/src/sampler/PNGImage.cpp.i
 
-CMakeFiles/Sampler.dir/sampler/PNGImage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/sampler/PNGImage.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/PNGImage.cpp -o CMakeFiles/Sampler.dir/sampler/PNGImage.cpp.s
+CMakeFiles/Sampler.dir/src/sampler/PNGImage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/src/sampler/PNGImage.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/PNGImage.cpp -o CMakeFiles/Sampler.dir/src/sampler/PNGImage.cpp.s
 
-CMakeFiles/Sampler.dir/sampler/PointCloud.cpp.o: CMakeFiles/Sampler.dir/flags.make
-CMakeFiles/Sampler.dir/sampler/PointCloud.cpp.o: ../sampler/PointCloud.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Sampler.dir/sampler/PointCloud.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/sampler/PointCloud.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/PointCloud.cpp
+CMakeFiles/Sampler.dir/src/sampler/PointCloud.cpp.o: CMakeFiles/Sampler.dir/flags.make
+CMakeFiles/Sampler.dir/src/sampler/PointCloud.cpp.o: ../src/sampler/PointCloud.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Sampler.dir/src/sampler/PointCloud.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/src/sampler/PointCloud.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/PointCloud.cpp
 
-CMakeFiles/Sampler.dir/sampler/PointCloud.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/sampler/PointCloud.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/PointCloud.cpp > CMakeFiles/Sampler.dir/sampler/PointCloud.cpp.i
+CMakeFiles/Sampler.dir/src/sampler/PointCloud.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/src/sampler/PointCloud.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/PointCloud.cpp > CMakeFiles/Sampler.dir/src/sampler/PointCloud.cpp.i
 
-CMakeFiles/Sampler.dir/sampler/PointCloud.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/sampler/PointCloud.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/PointCloud.cpp -o CMakeFiles/Sampler.dir/sampler/PointCloud.cpp.s
+CMakeFiles/Sampler.dir/src/sampler/PointCloud.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/src/sampler/PointCloud.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/PointCloud.cpp -o CMakeFiles/Sampler.dir/src/sampler/PointCloud.cpp.s
 
-CMakeFiles/Sampler.dir/sampler/RangeImage.cpp.o: CMakeFiles/Sampler.dir/flags.make
-CMakeFiles/Sampler.dir/sampler/RangeImage.cpp.o: ../sampler/RangeImage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Sampler.dir/sampler/RangeImage.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/sampler/RangeImage.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/RangeImage.cpp
+CMakeFiles/Sampler.dir/src/sampler/RangeImage.cpp.o: CMakeFiles/Sampler.dir/flags.make
+CMakeFiles/Sampler.dir/src/sampler/RangeImage.cpp.o: ../src/sampler/RangeImage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Sampler.dir/src/sampler/RangeImage.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/src/sampler/RangeImage.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/RangeImage.cpp
 
-CMakeFiles/Sampler.dir/sampler/RangeImage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/sampler/RangeImage.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/RangeImage.cpp > CMakeFiles/Sampler.dir/sampler/RangeImage.cpp.i
+CMakeFiles/Sampler.dir/src/sampler/RangeImage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/src/sampler/RangeImage.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/RangeImage.cpp > CMakeFiles/Sampler.dir/src/sampler/RangeImage.cpp.i
 
-CMakeFiles/Sampler.dir/sampler/RangeImage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/sampler/RangeImage.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/RangeImage.cpp -o CMakeFiles/Sampler.dir/sampler/RangeImage.cpp.s
+CMakeFiles/Sampler.dir/src/sampler/RangeImage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/src/sampler/RangeImage.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/RangeImage.cpp -o CMakeFiles/Sampler.dir/src/sampler/RangeImage.cpp.s
 
-CMakeFiles/Sampler.dir/sampler/RangeScanner.cpp.o: CMakeFiles/Sampler.dir/flags.make
-CMakeFiles/Sampler.dir/sampler/RangeScanner.cpp.o: ../sampler/RangeScanner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Sampler.dir/sampler/RangeScanner.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/sampler/RangeScanner.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/RangeScanner.cpp
+CMakeFiles/Sampler.dir/src/sampler/RangeScanner.cpp.o: CMakeFiles/Sampler.dir/flags.make
+CMakeFiles/Sampler.dir/src/sampler/RangeScanner.cpp.o: ../src/sampler/RangeScanner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Sampler.dir/src/sampler/RangeScanner.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/src/sampler/RangeScanner.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/RangeScanner.cpp
 
-CMakeFiles/Sampler.dir/sampler/RangeScanner.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/sampler/RangeScanner.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/RangeScanner.cpp > CMakeFiles/Sampler.dir/sampler/RangeScanner.cpp.i
+CMakeFiles/Sampler.dir/src/sampler/RangeScanner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/src/sampler/RangeScanner.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/RangeScanner.cpp > CMakeFiles/Sampler.dir/src/sampler/RangeScanner.cpp.i
 
-CMakeFiles/Sampler.dir/sampler/RangeScanner.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/sampler/RangeScanner.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/RangeScanner.cpp -o CMakeFiles/Sampler.dir/sampler/RangeScanner.cpp.s
+CMakeFiles/Sampler.dir/src/sampler/RangeScanner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/src/sampler/RangeScanner.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/RangeScanner.cpp -o CMakeFiles/Sampler.dir/src/sampler/RangeScanner.cpp.s
 
-CMakeFiles/Sampler.dir/sampler/RayCaster.cpp.o: CMakeFiles/Sampler.dir/flags.make
-CMakeFiles/Sampler.dir/sampler/RayCaster.cpp.o: ../sampler/RayCaster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Sampler.dir/sampler/RayCaster.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/sampler/RayCaster.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/RayCaster.cpp
+CMakeFiles/Sampler.dir/src/sampler/RayCaster.cpp.o: CMakeFiles/Sampler.dir/flags.make
+CMakeFiles/Sampler.dir/src/sampler/RayCaster.cpp.o: ../src/sampler/RayCaster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Sampler.dir/src/sampler/RayCaster.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/src/sampler/RayCaster.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/RayCaster.cpp
 
-CMakeFiles/Sampler.dir/sampler/RayCaster.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/sampler/RayCaster.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/RayCaster.cpp > CMakeFiles/Sampler.dir/sampler/RayCaster.cpp.i
+CMakeFiles/Sampler.dir/src/sampler/RayCaster.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/src/sampler/RayCaster.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/RayCaster.cpp > CMakeFiles/Sampler.dir/src/sampler/RayCaster.cpp.i
 
-CMakeFiles/Sampler.dir/sampler/RayCaster.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/sampler/RayCaster.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/RayCaster.cpp -o CMakeFiles/Sampler.dir/sampler/RayCaster.cpp.s
+CMakeFiles/Sampler.dir/src/sampler/RayCaster.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/src/sampler/RayCaster.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/RayCaster.cpp -o CMakeFiles/Sampler.dir/src/sampler/RayCaster.cpp.s
 
-CMakeFiles/Sampler.dir/sampler/SparseRangeScan.cpp.o: CMakeFiles/Sampler.dir/flags.make
-CMakeFiles/Sampler.dir/sampler/SparseRangeScan.cpp.o: ../sampler/SparseRangeScan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Sampler.dir/sampler/SparseRangeScan.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/sampler/SparseRangeScan.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/SparseRangeScan.cpp
+CMakeFiles/Sampler.dir/src/sampler/SparseRangeScan.cpp.o: CMakeFiles/Sampler.dir/flags.make
+CMakeFiles/Sampler.dir/src/sampler/SparseRangeScan.cpp.o: ../src/sampler/SparseRangeScan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Sampler.dir/src/sampler/SparseRangeScan.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/src/sampler/SparseRangeScan.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/SparseRangeScan.cpp
 
-CMakeFiles/Sampler.dir/sampler/SparseRangeScan.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/sampler/SparseRangeScan.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/SparseRangeScan.cpp > CMakeFiles/Sampler.dir/sampler/SparseRangeScan.cpp.i
+CMakeFiles/Sampler.dir/src/sampler/SparseRangeScan.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/src/sampler/SparseRangeScan.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/SparseRangeScan.cpp > CMakeFiles/Sampler.dir/src/sampler/SparseRangeScan.cpp.i
 
-CMakeFiles/Sampler.dir/sampler/SparseRangeScan.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/sampler/SparseRangeScan.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/SparseRangeScan.cpp -o CMakeFiles/Sampler.dir/sampler/SparseRangeScan.cpp.s
+CMakeFiles/Sampler.dir/src/sampler/SparseRangeScan.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/src/sampler/SparseRangeScan.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/SparseRangeScan.cpp -o CMakeFiles/Sampler.dir/src/sampler/SparseRangeScan.cpp.s
 
-CMakeFiles/Sampler.dir/sampler/SphericalImager.cpp.o: CMakeFiles/Sampler.dir/flags.make
-CMakeFiles/Sampler.dir/sampler/SphericalImager.cpp.o: ../sampler/SphericalImager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Sampler.dir/sampler/SphericalImager.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/sampler/SphericalImager.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/SphericalImager.cpp
+CMakeFiles/Sampler.dir/src/sampler/SphericalImager.cpp.o: CMakeFiles/Sampler.dir/flags.make
+CMakeFiles/Sampler.dir/src/sampler/SphericalImager.cpp.o: ../src/sampler/SphericalImager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Sampler.dir/src/sampler/SphericalImager.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/src/sampler/SphericalImager.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/SphericalImager.cpp
 
-CMakeFiles/Sampler.dir/sampler/SphericalImager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/sampler/SphericalImager.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/SphericalImager.cpp > CMakeFiles/Sampler.dir/sampler/SphericalImager.cpp.i
+CMakeFiles/Sampler.dir/src/sampler/SphericalImager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/src/sampler/SphericalImager.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/SphericalImager.cpp > CMakeFiles/Sampler.dir/src/sampler/SphericalImager.cpp.i
 
-CMakeFiles/Sampler.dir/sampler/SphericalImager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/sampler/SphericalImager.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/SphericalImager.cpp -o CMakeFiles/Sampler.dir/sampler/SphericalImager.cpp.s
+CMakeFiles/Sampler.dir/src/sampler/SphericalImager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/src/sampler/SphericalImager.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/SphericalImager.cpp -o CMakeFiles/Sampler.dir/src/sampler/SphericalImager.cpp.s
 
-CMakeFiles/Sampler.dir/sampler/UniformOccupancyGrid.cpp.o: CMakeFiles/Sampler.dir/flags.make
-CMakeFiles/Sampler.dir/sampler/UniformOccupancyGrid.cpp.o: ../sampler/UniformOccupancyGrid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Sampler.dir/sampler/UniformOccupancyGrid.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/sampler/UniformOccupancyGrid.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/UniformOccupancyGrid.cpp
+CMakeFiles/Sampler.dir/src/sampler/UniformOccupancyGrid.cpp.o: CMakeFiles/Sampler.dir/flags.make
+CMakeFiles/Sampler.dir/src/sampler/UniformOccupancyGrid.cpp.o: ../src/sampler/UniformOccupancyGrid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Sampler.dir/src/sampler/UniformOccupancyGrid.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/src/sampler/UniformOccupancyGrid.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/UniformOccupancyGrid.cpp
 
-CMakeFiles/Sampler.dir/sampler/UniformOccupancyGrid.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/sampler/UniformOccupancyGrid.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/UniformOccupancyGrid.cpp > CMakeFiles/Sampler.dir/sampler/UniformOccupancyGrid.cpp.i
+CMakeFiles/Sampler.dir/src/sampler/UniformOccupancyGrid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/src/sampler/UniformOccupancyGrid.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/UniformOccupancyGrid.cpp > CMakeFiles/Sampler.dir/src/sampler/UniformOccupancyGrid.cpp.i
 
-CMakeFiles/Sampler.dir/sampler/UniformOccupancyGrid.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/sampler/UniformOccupancyGrid.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/UniformOccupancyGrid.cpp -o CMakeFiles/Sampler.dir/sampler/UniformOccupancyGrid.cpp.s
+CMakeFiles/Sampler.dir/src/sampler/UniformOccupancyGrid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/src/sampler/UniformOccupancyGrid.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/UniformOccupancyGrid.cpp -o CMakeFiles/Sampler.dir/src/sampler/UniformOccupancyGrid.cpp.s
 
-CMakeFiles/Sampler.dir/sampler/UniformSampler.cpp.o: CMakeFiles/Sampler.dir/flags.make
-CMakeFiles/Sampler.dir/sampler/UniformSampler.cpp.o: ../sampler/UniformSampler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Sampler.dir/sampler/UniformSampler.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/sampler/UniformSampler.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/UniformSampler.cpp
+CMakeFiles/Sampler.dir/src/sampler/UniformSampler.cpp.o: CMakeFiles/Sampler.dir/flags.make
+CMakeFiles/Sampler.dir/src/sampler/UniformSampler.cpp.o: ../src/sampler/UniformSampler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Sampler.dir/src/sampler/UniformSampler.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/src/sampler/UniformSampler.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/UniformSampler.cpp
 
-CMakeFiles/Sampler.dir/sampler/UniformSampler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/sampler/UniformSampler.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/UniformSampler.cpp > CMakeFiles/Sampler.dir/sampler/UniformSampler.cpp.i
+CMakeFiles/Sampler.dir/src/sampler/UniformSampler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/src/sampler/UniformSampler.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/UniformSampler.cpp > CMakeFiles/Sampler.dir/src/sampler/UniformSampler.cpp.i
 
-CMakeFiles/Sampler.dir/sampler/UniformSampler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/sampler/UniformSampler.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/UniformSampler.cpp -o CMakeFiles/Sampler.dir/sampler/UniformSampler.cpp.s
+CMakeFiles/Sampler.dir/src/sampler/UniformSampler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/src/sampler/UniformSampler.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/UniformSampler.cpp -o CMakeFiles/Sampler.dir/src/sampler/UniformSampler.cpp.s
 
-CMakeFiles/Sampler.dir/sampler/XYZReader.cpp.o: CMakeFiles/Sampler.dir/flags.make
-CMakeFiles/Sampler.dir/sampler/XYZReader.cpp.o: ../sampler/XYZReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Sampler.dir/sampler/XYZReader.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/sampler/XYZReader.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/XYZReader.cpp
+CMakeFiles/Sampler.dir/src/sampler/XYZReader.cpp.o: CMakeFiles/Sampler.dir/flags.make
+CMakeFiles/Sampler.dir/src/sampler/XYZReader.cpp.o: ../src/sampler/XYZReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Sampler.dir/src/sampler/XYZReader.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/src/sampler/XYZReader.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/XYZReader.cpp
 
-CMakeFiles/Sampler.dir/sampler/XYZReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/sampler/XYZReader.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/XYZReader.cpp > CMakeFiles/Sampler.dir/sampler/XYZReader.cpp.i
+CMakeFiles/Sampler.dir/src/sampler/XYZReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/src/sampler/XYZReader.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/XYZReader.cpp > CMakeFiles/Sampler.dir/src/sampler/XYZReader.cpp.i
 
-CMakeFiles/Sampler.dir/sampler/XYZReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/sampler/XYZReader.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/XYZReader.cpp -o CMakeFiles/Sampler.dir/sampler/XYZReader.cpp.s
+CMakeFiles/Sampler.dir/src/sampler/XYZReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/src/sampler/XYZReader.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/XYZReader.cpp -o CMakeFiles/Sampler.dir/src/sampler/XYZReader.cpp.s
 
-CMakeFiles/Sampler.dir/sampler/pc_generator.cpp.o: CMakeFiles/Sampler.dir/flags.make
-CMakeFiles/Sampler.dir/sampler/pc_generator.cpp.o: ../sampler/pc_generator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Sampler.dir/sampler/pc_generator.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/sampler/pc_generator.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/pc_generator.cpp
+CMakeFiles/Sampler.dir/src/sampler/pc_generator.cpp.o: CMakeFiles/Sampler.dir/flags.make
+CMakeFiles/Sampler.dir/src/sampler/pc_generator.cpp.o: ../src/sampler/pc_generator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Sampler.dir/src/sampler/pc_generator.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/src/sampler/pc_generator.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/pc_generator.cpp
 
-CMakeFiles/Sampler.dir/sampler/pc_generator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/sampler/pc_generator.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/pc_generator.cpp > CMakeFiles/Sampler.dir/sampler/pc_generator.cpp.i
+CMakeFiles/Sampler.dir/src/sampler/pc_generator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/src/sampler/pc_generator.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/pc_generator.cpp > CMakeFiles/Sampler.dir/src/sampler/pc_generator.cpp.i
 
-CMakeFiles/Sampler.dir/sampler/pc_generator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/sampler/pc_generator.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/pc_generator.cpp -o CMakeFiles/Sampler.dir/sampler/pc_generator.cpp.s
+CMakeFiles/Sampler.dir/src/sampler/pc_generator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/src/sampler/pc_generator.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/pc_generator.cpp -o CMakeFiles/Sampler.dir/src/sampler/pc_generator.cpp.s
 
-CMakeFiles/Sampler.dir/sampler/point_orienter.cpp.o: CMakeFiles/Sampler.dir/flags.make
-CMakeFiles/Sampler.dir/sampler/point_orienter.cpp.o: ../sampler/point_orienter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Sampler.dir/sampler/point_orienter.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/sampler/point_orienter.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/point_orienter.cpp
+CMakeFiles/Sampler.dir/src/sampler/point_orienter.cpp.o: CMakeFiles/Sampler.dir/flags.make
+CMakeFiles/Sampler.dir/src/sampler/point_orienter.cpp.o: ../src/sampler/point_orienter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Sampler.dir/src/sampler/point_orienter.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/src/sampler/point_orienter.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/point_orienter.cpp
 
-CMakeFiles/Sampler.dir/sampler/point_orienter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/sampler/point_orienter.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/point_orienter.cpp > CMakeFiles/Sampler.dir/sampler/point_orienter.cpp.i
+CMakeFiles/Sampler.dir/src/sampler/point_orienter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/src/sampler/point_orienter.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/point_orienter.cpp > CMakeFiles/Sampler.dir/src/sampler/point_orienter.cpp.i
 
-CMakeFiles/Sampler.dir/sampler/point_orienter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/sampler/point_orienter.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/point_orienter.cpp -o CMakeFiles/Sampler.dir/sampler/point_orienter.cpp.s
+CMakeFiles/Sampler.dir/src/sampler/point_orienter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/src/sampler/point_orienter.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/point_orienter.cpp -o CMakeFiles/Sampler.dir/src/sampler/point_orienter.cpp.s
 
-CMakeFiles/Sampler.dir/sampler/projection_cleanup.cpp.o: CMakeFiles/Sampler.dir/flags.make
-CMakeFiles/Sampler.dir/sampler/projection_cleanup.cpp.o: ../sampler/projection_cleanup.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Sampler.dir/sampler/projection_cleanup.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/sampler/projection_cleanup.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/projection_cleanup.cpp
+CMakeFiles/Sampler.dir/src/sampler/projection_cleanup.cpp.o: CMakeFiles/Sampler.dir/flags.make
+CMakeFiles/Sampler.dir/src/sampler/projection_cleanup.cpp.o: ../src/sampler/projection_cleanup.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Sampler.dir/src/sampler/projection_cleanup.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/src/sampler/projection_cleanup.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/projection_cleanup.cpp
 
-CMakeFiles/Sampler.dir/sampler/projection_cleanup.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/sampler/projection_cleanup.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/projection_cleanup.cpp > CMakeFiles/Sampler.dir/sampler/projection_cleanup.cpp.i
+CMakeFiles/Sampler.dir/src/sampler/projection_cleanup.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/src/sampler/projection_cleanup.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/projection_cleanup.cpp > CMakeFiles/Sampler.dir/src/sampler/projection_cleanup.cpp.i
 
-CMakeFiles/Sampler.dir/sampler/projection_cleanup.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/sampler/projection_cleanup.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/projection_cleanup.cpp -o CMakeFiles/Sampler.dir/sampler/projection_cleanup.cpp.s
+CMakeFiles/Sampler.dir/src/sampler/projection_cleanup.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/src/sampler/projection_cleanup.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/projection_cleanup.cpp -o CMakeFiles/Sampler.dir/src/sampler/projection_cleanup.cpp.s
 
-CMakeFiles/Sampler.dir/sampler/run_uniform.cpp.o: CMakeFiles/Sampler.dir/flags.make
-CMakeFiles/Sampler.dir/sampler/run_uniform.cpp.o: ../sampler/run_uniform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Sampler.dir/sampler/run_uniform.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/sampler/run_uniform.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/run_uniform.cpp
+CMakeFiles/Sampler.dir/src/sampler/run_uniform.cpp.o: CMakeFiles/Sampler.dir/flags.make
+CMakeFiles/Sampler.dir/src/sampler/run_uniform.cpp.o: ../src/sampler/run_uniform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Sampler.dir/src/sampler/run_uniform.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sampler.dir/src/sampler/run_uniform.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/run_uniform.cpp
 
-CMakeFiles/Sampler.dir/sampler/run_uniform.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/sampler/run_uniform.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/run_uniform.cpp > CMakeFiles/Sampler.dir/sampler/run_uniform.cpp.i
+CMakeFiles/Sampler.dir/src/sampler/run_uniform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sampler.dir/src/sampler/run_uniform.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/run_uniform.cpp > CMakeFiles/Sampler.dir/src/sampler/run_uniform.cpp.i
 
-CMakeFiles/Sampler.dir/sampler/run_uniform.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/sampler/run_uniform.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/run_uniform.cpp -o CMakeFiles/Sampler.dir/sampler/run_uniform.cpp.s
+CMakeFiles/Sampler.dir/src/sampler/run_uniform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sampler.dir/src/sampler/run_uniform.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/run_uniform.cpp -o CMakeFiles/Sampler.dir/src/sampler/run_uniform.cpp.s
 
 # Object files for target Sampler
 Sampler_OBJECTS = \
-"CMakeFiles/Sampler.dir/sampler/GaussianFit.cpp.o" \
-"CMakeFiles/Sampler.dir/sampler/ImplicitNewton.cpp.o" \
-"CMakeFiles/Sampler.dir/sampler/NPTSReader.cpp.o" \
-"CMakeFiles/Sampler.dir/sampler/OrientedPointCloud.cpp.o" \
-"CMakeFiles/Sampler.dir/sampler/OrientedRangeImage.cpp.o" \
-"CMakeFiles/Sampler.dir/sampler/PNGImage.cpp.o" \
-"CMakeFiles/Sampler.dir/sampler/PointCloud.cpp.o" \
-"CMakeFiles/Sampler.dir/sampler/RangeImage.cpp.o" \
-"CMakeFiles/Sampler.dir/sampler/RangeScanner.cpp.o" \
-"CMakeFiles/Sampler.dir/sampler/RayCaster.cpp.o" \
-"CMakeFiles/Sampler.dir/sampler/SparseRangeScan.cpp.o" \
-"CMakeFiles/Sampler.dir/sampler/SphericalImager.cpp.o" \
-"CMakeFiles/Sampler.dir/sampler/UniformOccupancyGrid.cpp.o" \
-"CMakeFiles/Sampler.dir/sampler/UniformSampler.cpp.o" \
-"CMakeFiles/Sampler.dir/sampler/XYZReader.cpp.o" \
-"CMakeFiles/Sampler.dir/sampler/pc_generator.cpp.o" \
-"CMakeFiles/Sampler.dir/sampler/point_orienter.cpp.o" \
-"CMakeFiles/Sampler.dir/sampler/projection_cleanup.cpp.o" \
-"CMakeFiles/Sampler.dir/sampler/run_uniform.cpp.o"
+"CMakeFiles/Sampler.dir/src/sampler/GaussianFit.cpp.o" \
+"CMakeFiles/Sampler.dir/src/sampler/ImplicitNewton.cpp.o" \
+"CMakeFiles/Sampler.dir/src/sampler/NPTSReader.cpp.o" \
+"CMakeFiles/Sampler.dir/src/sampler/OrientedPointCloud.cpp.o" \
+"CMakeFiles/Sampler.dir/src/sampler/OrientedRangeImage.cpp.o" \
+"CMakeFiles/Sampler.dir/src/sampler/PNGImage.cpp.o" \
+"CMakeFiles/Sampler.dir/src/sampler/PointCloud.cpp.o" \
+"CMakeFiles/Sampler.dir/src/sampler/RangeImage.cpp.o" \
+"CMakeFiles/Sampler.dir/src/sampler/RangeScanner.cpp.o" \
+"CMakeFiles/Sampler.dir/src/sampler/RayCaster.cpp.o" \
+"CMakeFiles/Sampler.dir/src/sampler/SparseRangeScan.cpp.o" \
+"CMakeFiles/Sampler.dir/src/sampler/SphericalImager.cpp.o" \
+"CMakeFiles/Sampler.dir/src/sampler/UniformOccupancyGrid.cpp.o" \
+"CMakeFiles/Sampler.dir/src/sampler/UniformSampler.cpp.o" \
+"CMakeFiles/Sampler.dir/src/sampler/XYZReader.cpp.o" \
+"CMakeFiles/Sampler.dir/src/sampler/pc_generator.cpp.o" \
+"CMakeFiles/Sampler.dir/src/sampler/point_orienter.cpp.o" \
+"CMakeFiles/Sampler.dir/src/sampler/projection_cleanup.cpp.o" \
+"CMakeFiles/Sampler.dir/src/sampler/run_uniform.cpp.o"
 
 # External object files for target Sampler
 Sampler_EXTERNAL_OBJECTS =
 
-libSampler.a: CMakeFiles/Sampler.dir/sampler/GaussianFit.cpp.o
-libSampler.a: CMakeFiles/Sampler.dir/sampler/ImplicitNewton.cpp.o
-libSampler.a: CMakeFiles/Sampler.dir/sampler/NPTSReader.cpp.o
-libSampler.a: CMakeFiles/Sampler.dir/sampler/OrientedPointCloud.cpp.o
-libSampler.a: CMakeFiles/Sampler.dir/sampler/OrientedRangeImage.cpp.o
-libSampler.a: CMakeFiles/Sampler.dir/sampler/PNGImage.cpp.o
-libSampler.a: CMakeFiles/Sampler.dir/sampler/PointCloud.cpp.o
-libSampler.a: CMakeFiles/Sampler.dir/sampler/RangeImage.cpp.o
-libSampler.a: CMakeFiles/Sampler.dir/sampler/RangeScanner.cpp.o
-libSampler.a: CMakeFiles/Sampler.dir/sampler/RayCaster.cpp.o
-libSampler.a: CMakeFiles/Sampler.dir/sampler/SparseRangeScan.cpp.o
-libSampler.a: CMakeFiles/Sampler.dir/sampler/SphericalImager.cpp.o
-libSampler.a: CMakeFiles/Sampler.dir/sampler/UniformOccupancyGrid.cpp.o
-libSampler.a: CMakeFiles/Sampler.dir/sampler/UniformSampler.cpp.o
-libSampler.a: CMakeFiles/Sampler.dir/sampler/XYZReader.cpp.o
-libSampler.a: CMakeFiles/Sampler.dir/sampler/pc_generator.cpp.o
-libSampler.a: CMakeFiles/Sampler.dir/sampler/point_orienter.cpp.o
-libSampler.a: CMakeFiles/Sampler.dir/sampler/projection_cleanup.cpp.o
-libSampler.a: CMakeFiles/Sampler.dir/sampler/run_uniform.cpp.o
+libSampler.a: CMakeFiles/Sampler.dir/src/sampler/GaussianFit.cpp.o
+libSampler.a: CMakeFiles/Sampler.dir/src/sampler/ImplicitNewton.cpp.o
+libSampler.a: CMakeFiles/Sampler.dir/src/sampler/NPTSReader.cpp.o
+libSampler.a: CMakeFiles/Sampler.dir/src/sampler/OrientedPointCloud.cpp.o
+libSampler.a: CMakeFiles/Sampler.dir/src/sampler/OrientedRangeImage.cpp.o
+libSampler.a: CMakeFiles/Sampler.dir/src/sampler/PNGImage.cpp.o
+libSampler.a: CMakeFiles/Sampler.dir/src/sampler/PointCloud.cpp.o
+libSampler.a: CMakeFiles/Sampler.dir/src/sampler/RangeImage.cpp.o
+libSampler.a: CMakeFiles/Sampler.dir/src/sampler/RangeScanner.cpp.o
+libSampler.a: CMakeFiles/Sampler.dir/src/sampler/RayCaster.cpp.o
+libSampler.a: CMakeFiles/Sampler.dir/src/sampler/SparseRangeScan.cpp.o
+libSampler.a: CMakeFiles/Sampler.dir/src/sampler/SphericalImager.cpp.o
+libSampler.a: CMakeFiles/Sampler.dir/src/sampler/UniformOccupancyGrid.cpp.o
+libSampler.a: CMakeFiles/Sampler.dir/src/sampler/UniformSampler.cpp.o
+libSampler.a: CMakeFiles/Sampler.dir/src/sampler/XYZReader.cpp.o
+libSampler.a: CMakeFiles/Sampler.dir/src/sampler/pc_generator.cpp.o
+libSampler.a: CMakeFiles/Sampler.dir/src/sampler/point_orienter.cpp.o
+libSampler.a: CMakeFiles/Sampler.dir/src/sampler/projection_cleanup.cpp.o
+libSampler.a: CMakeFiles/Sampler.dir/src/sampler/run_uniform.cpp.o
 libSampler.a: CMakeFiles/Sampler.dir/build.make
 libSampler.a: CMakeFiles/Sampler.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX static library libSampler.a"

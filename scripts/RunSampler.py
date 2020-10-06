@@ -52,7 +52,7 @@ def runUniform(config, pathdir, infile, outfile):
             args = []
             #args.append('bin/bash')
             #args.append('-c')
-            args.append("./" + pathdir + "/" + config.get("uniform", "exec_name"))
+            args.append(pathdir + "/" + config.get("uniform", "exec_name"))
             args.append(infile)
             args.append(outfile)
 

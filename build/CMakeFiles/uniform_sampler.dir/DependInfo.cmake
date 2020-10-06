@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rsulzer/cpp/reconbench-CMake/sampler/run_uniform.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/uniform_sampler.dir/sampler/run_uniform.cpp.o"
+  "/home/rsulzer/cpp/reconbench-CMake/src/sampler/run_uniform.cpp" "/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles/uniform_sampler.dir/src/sampler/run_uniform.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,7 +15,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../sampler"
+  "../src/sampler"
   "../ann/include"
   "../OpenMesh/."
   "../pbrt/src"
@@ -27,7 +27,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../registration/tnt"
   "../registration/trimesh2/include"
   "/usr/include/suitesparse"
-  "../modeling"
+  "../src/modeling"
   )
 
 # Targets to which this target links.

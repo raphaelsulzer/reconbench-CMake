@@ -74,27 +74,27 @@ include CMakeFiles/pc_generator.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pc_generator.dir/flags.make
 
-CMakeFiles/pc_generator.dir/sampler/pc_generator.cpp.o: CMakeFiles/pc_generator.dir/flags.make
-CMakeFiles/pc_generator.dir/sampler/pc_generator.cpp.o: ../sampler/pc_generator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pc_generator.dir/sampler/pc_generator.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pc_generator.dir/sampler/pc_generator.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/sampler/pc_generator.cpp
+CMakeFiles/pc_generator.dir/src/sampler/pc_generator.cpp.o: CMakeFiles/pc_generator.dir/flags.make
+CMakeFiles/pc_generator.dir/src/sampler/pc_generator.cpp.o: ../src/sampler/pc_generator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rsulzer/cpp/reconbench-CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pc_generator.dir/src/sampler/pc_generator.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pc_generator.dir/src/sampler/pc_generator.cpp.o -c /home/rsulzer/cpp/reconbench-CMake/src/sampler/pc_generator.cpp
 
-CMakeFiles/pc_generator.dir/sampler/pc_generator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pc_generator.dir/sampler/pc_generator.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/sampler/pc_generator.cpp > CMakeFiles/pc_generator.dir/sampler/pc_generator.cpp.i
+CMakeFiles/pc_generator.dir/src/sampler/pc_generator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pc_generator.dir/src/sampler/pc_generator.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rsulzer/cpp/reconbench-CMake/src/sampler/pc_generator.cpp > CMakeFiles/pc_generator.dir/src/sampler/pc_generator.cpp.i
 
-CMakeFiles/pc_generator.dir/sampler/pc_generator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pc_generator.dir/sampler/pc_generator.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/sampler/pc_generator.cpp -o CMakeFiles/pc_generator.dir/sampler/pc_generator.cpp.s
+CMakeFiles/pc_generator.dir/src/sampler/pc_generator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pc_generator.dir/src/sampler/pc_generator.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rsulzer/cpp/reconbench-CMake/src/sampler/pc_generator.cpp -o CMakeFiles/pc_generator.dir/src/sampler/pc_generator.cpp.s
 
 # Object files for target pc_generator
 pc_generator_OBJECTS = \
-"CMakeFiles/pc_generator.dir/sampler/pc_generator.cpp.o"
+"CMakeFiles/pc_generator.dir/src/sampler/pc_generator.cpp.o"
 
 # External object files for target pc_generator
 pc_generator_EXTERNAL_OBJECTS =
 
-pc_generator: CMakeFiles/pc_generator.dir/sampler/pc_generator.cpp.o
+pc_generator: CMakeFiles/pc_generator.dir/src/sampler/pc_generator.cpp.o
 pc_generator: CMakeFiles/pc_generator.dir/build.make
 pc_generator: libSampler.a
 pc_generator: ann/libann.a

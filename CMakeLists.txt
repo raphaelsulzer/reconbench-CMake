@@ -21,10 +21,10 @@ endif()
 
 ###########################
 # Sources
-file(GLOB_RECURSE Modeling_SOURCES "modeling/*.cpp")
-file(GLOB_RECURSE Modeling_HEADERS "modeling/*.h")
+file(GLOB_RECURSE Modeling_SOURCES "src/modeling/*.cpp")
+file(GLOB_RECURSE Modeling_HEADERS "src/modeling/*.h")
 
-SET(Modeling_INCLUDE "modeling")
+SET(Modeling_INCLUDE "src/modeling")
 
 add_library(Modeling ${Modeling_SOURCES} ${Modeling_HEADERS})
 target_include_directories(Modeling PUBLIC ${Modeling_INCLUDE})
@@ -32,17 +32,17 @@ target_link_libraries(Modeling PUBLIC ann OpenMesh pbrt tps ${LAPACK_LIBRARIES})
 target_compile_definitions(Modeling PUBLIC ${LAPACK_LINKER_FLAGS})
 
 
-add_executable(mesh_to_implicit ${modeling_SOURCES} ${modeling_HEADERS} modeling/mesh_to_implicit.cpp)
+add_executable(mesh_to_implicit ${modeling_SOURCES} ${modeling_HEADERS} src/modeling/mesh_to_implicit.cpp)
 target_include_directories(mesh_to_implicit PUBLIC ${modeling_INCLUDE})
 target_link_libraries(mesh_to_implicit PUBLIC Modeling)
 
-add_executable(post-processing ${modeling_SOURCES} ${modeling_HEADERS} modeling/post-processing.cpp)
+add_executable(post-processing ${modeling_SOURCES} ${modeling_HEADERS} src/modeling/post-processing.cpp)
 target_include_directories(post-processing PUBLIC ${modeling_INCLUDE})
 target_link_libraries(post-processing PUBLIC Modeling)
 
 
 
-add_executable(isosurface ${modeling_SOURCES} ${modeling_HEADERS} modeling/isosurface.cpp)
+add_executable(isosurface ${modeling_SOURCES} ${modeling_HEADERS} src/modeling/isosurface.cpp)
 target_include_directories(isosurface PUBLIC ${modeling_INCLUDE})
 target_link_libraries(isosurface PUBLIC Modeling)
 
@@ -50,12 +50,12 @@ target_link_libraries(isosurface PUBLIC Modeling)
 
 
 # Sources
-file(GLOB_RECURSE sampler_SOURCES "sampler/*.cpp")
-file(GLOB_RECURSE sampler_HEADERS "sampler/*.h")
+file(GLOB_RECURSE sampler_SOURCES "src/sampler/*.cpp")
+file(GLOB_RECURSE sampler_HEADERS "src/sampler/*.h")
 
 
 
-SET(sampler_INCLUDE "sampler")
+SET(sampler_INCLUDE "src/sampler")
 
 
 add_library(Sampler ${sampler_SOURCES} ${sampler_HEADERS})
@@ -63,11 +63,11 @@ target_include_directories(Sampler PUBLIC ${sampler_INCLUDE} ${PNG_INCLUDE_DIRS}
 target_link_libraries(Sampler PUBLIC ann OpenMesh pbrt tps ${PNG_LIBRARIES} ${PNG_LIBRARY})
 target_compile_definitions(Sampler PUBLIC ${PNG_DEFINITIONS})
 
-add_executable(pc_generator  ${sampler_HEADERS} sampler/pc_generator.cpp)
+add_executable(pc_generator  ${sampler_HEADERS} src/sampler/pc_generator.cpp)
 target_include_directories(pc_generator PUBLIC ${sampler_INCLUDE})
 target_link_libraries(pc_generator PUBLIC Sampler)
 
-add_executable(uniform_sampler  ${sampler_HEADERS} sampler/run_uniform.cpp)
+add_executable(uniform_sampler  ${sampler_HEADERS} src/sampler/run_uniform.cpp)
 target_include_directories(uniform_sampler PUBLIC ${sampler_INCLUDE})
 target_link_libraries(uniform_sampler PUBLIC ann OpenMesh pbrt tps Sampler Modeling)
 
@@ -75,10 +75,10 @@ target_link_libraries(uniform_sampler PUBLIC ann OpenMesh pbrt tps Sampler Model
 
 
 # Sources
-file(GLOB_RECURSE reg_SOURCES "registration/tps_allignment/src/*.cc")
-file(GLOB_RECURSE reg_HEADERS "registration/tps_allignment/include/*.h")
+file(GLOB_RECURSE reg_SOURCES "src/registration/tps_allignment/src/*.cc")
+file(GLOB_RECURSE reg_HEADERS "src/registration/tps_allignment/include/*.h")
 
-SET(reg_INCLUDE "sampler")
+SET(reg_INCLUDE "src/registraction")
 
 add_executable(global_reg  ${reg_HEADERS} registration/tps_alignment/src/global_reg.cc)
 target_include_directories(global_reg PUBLIC ${reg_INCLUDE})
@@ -88,74 +88,74 @@ target_link_libraries(global_reg PUBLIC ann OpenMesh pbrt tps Sampler Modeling)
 
 
 # Sources
-file(GLOB_RECURSE evaluator_HEADERS "evaluator/*.h")
+file(GLOB_RECURSE evaluator_HEADERS "src/evaluator/*.h")
 
 set(evaluator_SOURCES
-	evaluator/GlobalStats.cpp
-	evaluator/ShortestDistanceMap.cpp
-	evaluator/implicit_sampler.cpp
-	evaluator/UniformGrid.cpp
-	evaluator/mesh_sampler.cpp
-	evaluator/recon_evaluation.cpp
-	evaluator/KdOpenMesh.cpp
-	evaluator/kd_tree.cpp
-	evaluator/shape_distribution.cpp
+        src/evaluator/GlobalStats.cpp
+        src/evaluator/ShortestDistanceMap.cpp
+        src/evaluator/implicit_sampler.cpp
+        src/evaluator/UniformGrid.cpp
+        src/evaluator/mesh_sampler.cpp
+        src/evaluator/recon_evaluation.cpp
+        src/evaluator/KdOpenMesh.cpp
+        src/evaluator/kd_tree.cpp
+        src/evaluator/shape_distribution.cpp
 )
-SET(evaluator_INCLUDE "evaluator")
+SET(evaluator_INCLUDE "src/evaluator")
 
 
 #poisson/Src/MultiGridOctest.cpp
-add_executable(implicit_uniform ${evaluator_SOURCES} ${evaluator_HEADERS} evaluator/implicit_uniform.cpp)
+add_executable(implicit_uniform ${evaluator_SOURCES} ${evaluator_HEADERS} src/evaluator/implicit_uniform.cpp)
 target_include_directories(implicit_uniform PUBLIC ${evaluator_INCLUDE})
 target_link_libraries(implicit_uniform PUBLIC Modeling Sampler)
 
-add_executable(mesh_fixer ${evaluator_SOURCES} ${evaluator_HEADERS} evaluator/mesh_fixer.cpp)
+add_executable(mesh_fixer ${evaluator_SOURCES} ${evaluator_HEADERS} src/evaluator/mesh_fixer.cpp)
 target_include_directories(mesh_fixer PUBLIC ${evaluator_INCLUDE})
 target_link_libraries(mesh_fixer PUBLIC Modeling Sampler)
 
-add_executable(run_evaluation ${evaluator_SOURCES} ${evaluator_HEADERS} evaluator/run_evaluation.cpp)
+add_executable(run_evaluation ${evaluator_SOURCES} ${evaluator_HEADERS} src/evaluator/run_evaluation.cpp)
 target_include_directories(run_evaluation PUBLIC ${evaluator_INCLUDE})
 target_link_libraries(run_evaluation PUBLIC Modeling Sampler)
 
-add_executable(sample_mesh ${evaluator_SOURCES} ${evaluator_HEADERS} evaluator/sample_mesh.cpp)
+add_executable(sample_mesh ${evaluator_SOURCES} ${evaluator_HEADERS} src/evaluator/sample_mesh.cpp)
 target_include_directories(sample_mesh PUBLIC ${evaluator_INCLUDE})
 target_link_libraries(sample_mesh PUBLIC Modeling Sampler)
 
-add_executable(aggregate_distribution ${evaluator_SOURCES} ${evaluator_HEADERS} evaluator/plot/aggregate_distribution.cpp)
+add_executable(aggregate_distribution ${evaluator_SOURCES} ${evaluator_HEADERS} src/evaluator/plot/aggregate_distribution.cpp)
 target_include_directories(aggregate_distribution PUBLIC ${evaluator_INCLUDE})
 target_link_libraries(aggregate_distribution PUBLIC Modeling Sampler)
 
-add_executable(aggregation ${evaluator_SOURCES} ${evaluator_HEADERS} evaluator/plot/aggregation.cpp)
+add_executable(aggregation ${evaluator_SOURCES} ${evaluator_HEADERS} src/evaluator/plot/aggregation.cpp)
 target_include_directories(aggregation PUBLIC ${evaluator_INCLUDE})
 target_link_libraries(aggregation PUBLIC Modeling Sampler)
 
-add_executable(dump_barplot ${evaluator_SOURCES} ${evaluator_HEADERS} evaluator/plot/dump_barplot.cpp)
+add_executable(dump_barplot ${evaluator_SOURCES} ${evaluator_HEADERS} src/evaluator/plot/dump_barplot.cpp)
 target_include_directories(dump_barplot PUBLIC ${evaluator_INCLUDE})
 target_link_libraries(dump_barplot PUBLIC Modeling Sampler)
 
-add_executable(dump_distribution ${evaluator_SOURCES} ${evaluator_HEADERS} evaluator/plot/dump_distribution.cpp)
+add_executable(dump_distribution ${evaluator_SOURCES} ${evaluator_HEADERS} src/evaluator/plot/dump_distribution.cpp)
 target_include_directories(dump_distribution PUBLIC ${evaluator_INCLUDE})
 target_link_libraries(dump_distribution PUBLIC Modeling Sampler)
 
-add_executable(dump_lines ${evaluator_SOURCES} ${evaluator_HEADERS} evaluator/plot/dump_lines.cpp)
+add_executable(dump_lines ${evaluator_SOURCES} ${evaluator_HEADERS} src/evaluator/plot/dump_lines.cpp)
 target_include_directories(dump_lines PUBLIC ${evaluator_INCLUDE})
 target_link_libraries(dump_lines PUBLIC Modeling Sampler)
 
-add_executable(dump_meta ${evaluator_SOURCES} ${evaluator_HEADERS} evaluator/plot/dump_meta.cpp)
+add_executable(dump_meta ${evaluator_SOURCES} ${evaluator_HEADERS} src/evaluator/plot/dump_meta.cpp)
 target_include_directories(dump_meta PUBLIC ${evaluator_INCLUDE})
 target_link_libraries(dump_meta PUBLIC Modeling Sampler)
 
-add_executable(dump_single ${evaluator_SOURCES} ${evaluator_HEADERS} evaluator/plot/dump_single.cpp)
+add_executable(dump_single ${evaluator_SOURCES} ${evaluator_HEADERS} src/evaluator/plot/dump_single.cpp)
 target_include_directories(dump_single PUBLIC ${evaluator_INCLUDE})
 target_link_libraries(dump_single PUBLIC Modeling Sampler)
 
 
-add_executable(single_distribution ${evaluator_SOURCES} ${evaluator_HEADERS} evaluator/plot/single_distribution.cpp)
+add_executable(single_distribution ${evaluator_SOURCES} ${evaluator_HEADERS} src/evaluator/plot/single_distribution.cpp)
 target_include_directories(single_distribution PUBLIC ${evaluator_INCLUDE})
 target_link_libraries(single_distribution PUBLIC Modeling Sampler)
 
 
-add_executable(sample_implicit ${evaluator_SOURCES} ${evaluator_HEADERS} sample_implicit.cpp)
+add_executable(sample_implicit ${evaluator_SOURCES} ${evaluator_HEADERS} src/sample_implicit.cpp)
 target_include_directories(sample_implicit PUBLIC ${evaluator_INCLUDE})
 target_link_libraries(sample_implicit PUBLIC Modeling Sampler)
 

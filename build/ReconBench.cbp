@@ -35,8 +35,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -48,7 +48,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -73,8 +73,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -86,7 +86,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -111,7 +111,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -123,7 +123,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -148,7 +148,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -160,7 +160,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -185,7 +185,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -221,7 +221,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -257,7 +257,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -293,7 +293,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -329,7 +329,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/registraction"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -341,7 +341,8 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -366,7 +367,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/registraction"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -378,7 +379,8 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -403,7 +405,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -439,7 +441,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -475,7 +477,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -511,7 +513,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -547,8 +549,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -560,7 +562,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -585,8 +587,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -598,7 +600,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -623,8 +625,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -636,7 +638,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -661,8 +663,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -674,7 +676,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -699,8 +701,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -712,7 +714,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -737,8 +739,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -750,7 +752,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -775,8 +777,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -788,7 +790,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -813,8 +815,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -826,7 +828,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -851,7 +853,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -887,7 +889,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -923,8 +925,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -936,7 +938,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -961,8 +963,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -974,7 +976,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -999,8 +1001,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -1012,7 +1014,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -1037,8 +1039,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -1050,7 +1052,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -1075,8 +1077,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -1088,7 +1090,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -1113,8 +1115,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -1126,7 +1128,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -1151,8 +1153,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -1164,7 +1166,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -1189,8 +1191,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -1202,7 +1204,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -1227,8 +1229,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -1240,7 +1242,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -1265,8 +1267,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -1278,7 +1280,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -1303,8 +1305,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -1316,7 +1318,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -1341,8 +1343,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -1354,7 +1356,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -1379,7 +1381,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -1415,7 +1417,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -1451,8 +1453,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -1464,7 +1466,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -1489,8 +1491,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -1502,7 +1504,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -1527,8 +1529,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -1540,7 +1542,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -1565,8 +1567,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/evaluator"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/evaluator"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -1578,7 +1580,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -1603,7 +1605,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -1615,7 +1617,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -1640,7 +1642,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DPBRT_PROBES_NONE"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/modeling"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/modeling"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/ann/include"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/OpenMesh/."/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/pbrt/src"/>
@@ -1652,7 +1654,7 @@
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/tnt"/>
 					<Add directory="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/include"/>
 					<Add directory="/usr/include/suitesparse"/>
-					<Add directory="/home/rsulzer/cpp/reconbench-CMake/sampler"/>
+					<Add directory="/home/rsulzer/cpp/reconbench-CMake/src/sampler"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -2249,426 +2251,6 @@
 		</Unit>
 		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/ann/src/pr_queue_k.h">
 			<Option target="ann"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/ComputationTimer.h">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/GlobalStats.cpp">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/GlobalStats.h">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/KdOpenMesh.cpp">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/KdOpenMesh.h">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/ShortestDistanceMap.cpp">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/ShortestDistanceMap.h">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/UniformGrid.cpp">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/UniformGrid.h">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/implicit_sampler.cpp">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/implicit_sampler.h">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/implicit_uniform.cpp">
-			<Option target="implicit_uniform"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/kd_tree.cpp">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/kd_tree.h">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/mesh_fixer.cpp">
-			<Option target="mesh_fixer"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/mesh_sampler.cpp">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/mesh_sampler.h">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/mesh_types.h">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/plot/aggregate_distribution.cpp">
-			<Option target="aggregate_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/plot/aggregation.cpp">
-			<Option target="aggregation"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/plot/dump_barplot.cpp">
-			<Option target="dump_barplot"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/plot/dump_distribution.cpp">
-			<Option target="dump_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/plot/dump_lines.cpp">
-			<Option target="dump_lines"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/plot/dump_meta.cpp">
-			<Option target="dump_meta"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/plot/dump_single.cpp">
-			<Option target="dump_single"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/plot/single_distribution.cpp">
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/recon_evaluation.cpp">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/recon_evaluation.h">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/run_evaluation.cpp">
-			<Option target="run_evaluation"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/sample_mesh.cpp">
-			<Option target="sample_mesh"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/shape_distribution.cpp">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/evaluator/shape_distribution.h">
-			<Option target="sample_implicit"/>
-			<Option target="dump_barplot"/>
-			<Option target="mesh_fixer"/>
-			<Option target="run_evaluation"/>
-			<Option target="implicit_uniform"/>
-			<Option target="dump_distribution"/>
-			<Option target="sample_mesh"/>
-			<Option target="dump_meta"/>
-			<Option target="aggregate_distribution"/>
-			<Option target="aggregation"/>
-			<Option target="dump_lines"/>
-			<Option target="dump_single"/>
-			<Option target="single_distribution"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/DenseEigenSystem.cpp">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/DenseEigenSystem.h">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/DenseMatrix.cpp">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/DenseMatrix.h">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/ImplicitFunction.cpp">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/ImplicitFunction.h">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/ImplicitSphere.h">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/Rigid.cpp">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/Rigid.h">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/RotationMatrix.cpp">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/RotationMatrix.h">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/Vector.cpp">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/Vector.h">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/Vector3.h">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/collision.h">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/isosurface.cpp">
-			<Option target="isosurface"/>
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/linalg_consts.h">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/lm_method.cpp">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/lm_method.h">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/mesh_to_implicit.cpp">
-			<Option target="mesh_to_implicit"/>
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/mesh_types.h">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/mpu_soup.cpp">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/mpu_soup.h">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/post-processing.cpp">
-			<Option target="post-processing"/>
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/shape_loader.h">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/tri_integrator.cpp">
-			<Option target="Modeling"/>
-		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/modeling/tri_integrator.h">
-			<Option target="Modeling"/>
 		</Unit>
 		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/pbrt/src/accelerators/bvh.cpp">
 			<Option target="pbrt"/>
@@ -3670,154 +3252,574 @@
 		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/registration/trimesh2/utilsrc/xf.cc">
 			<Option target="trimesh2"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sample_implicit.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/ComputationTimer.h">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/GlobalStats.cpp">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/GlobalStats.h">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/KdOpenMesh.cpp">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/KdOpenMesh.h">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/ShortestDistanceMap.cpp">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/ShortestDistanceMap.h">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/UniformGrid.cpp">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/UniformGrid.h">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/implicit_sampler.cpp">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/implicit_sampler.h">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/implicit_uniform.cpp">
+			<Option target="implicit_uniform"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/kd_tree.cpp">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/kd_tree.h">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_fixer.cpp">
+			<Option target="mesh_fixer"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_sampler.cpp">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_sampler.h">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_types.h">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/plot/aggregate_distribution.cpp">
+			<Option target="aggregate_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/plot/aggregation.cpp">
+			<Option target="aggregation"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/plot/dump_barplot.cpp">
+			<Option target="dump_barplot"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/plot/dump_distribution.cpp">
+			<Option target="dump_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/plot/dump_lines.cpp">
+			<Option target="dump_lines"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/plot/dump_meta.cpp">
+			<Option target="dump_meta"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/plot/dump_single.cpp">
+			<Option target="dump_single"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/plot/single_distribution.cpp">
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/recon_evaluation.cpp">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/recon_evaluation.h">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/run_evaluation.cpp">
+			<Option target="run_evaluation"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/sample_mesh.cpp">
+			<Option target="sample_mesh"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/shape_distribution.cpp">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/evaluator/shape_distribution.h">
+			<Option target="sample_implicit"/>
+			<Option target="dump_barplot"/>
+			<Option target="mesh_fixer"/>
+			<Option target="run_evaluation"/>
+			<Option target="implicit_uniform"/>
+			<Option target="dump_distribution"/>
+			<Option target="sample_mesh"/>
+			<Option target="dump_meta"/>
+			<Option target="aggregate_distribution"/>
+			<Option target="aggregation"/>
+			<Option target="dump_lines"/>
+			<Option target="dump_single"/>
+			<Option target="single_distribution"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/DenseEigenSystem.cpp">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/DenseEigenSystem.h">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/DenseMatrix.cpp">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/DenseMatrix.h">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/ImplicitFunction.cpp">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/ImplicitFunction.h">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/ImplicitSphere.h">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/Rigid.cpp">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/Rigid.h">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/RotationMatrix.cpp">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/RotationMatrix.h">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector.cpp">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector.h">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector3.h">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/collision.h">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/isosurface.cpp">
+			<Option target="isosurface"/>
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/linalg_consts.h">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/lm_method.cpp">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/lm_method.h">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/mesh_to_implicit.cpp">
+			<Option target="mesh_to_implicit"/>
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/mesh_types.h">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/mpu_soup.cpp">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/mpu_soup.h">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/post-processing.cpp">
+			<Option target="post-processing"/>
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/shape_loader.h">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/tri_integrator.cpp">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/modeling/tri_integrator.h">
+			<Option target="Modeling"/>
+		</Unit>
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sample_implicit.cpp">
 			<Option target="sample_implicit"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/GaussianFit.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/GaussianFit.cpp">
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/GaussianFit.h">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/GaussianFit.h">
 			<Option target="uniform_sampler"/>
 			<Option target="pc_generator"/>
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/ImplicitNewton.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/ImplicitNewton.cpp">
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/ImplicitNewton.h">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/ImplicitNewton.h">
 			<Option target="uniform_sampler"/>
 			<Option target="pc_generator"/>
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/NPTSReader.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/NPTSReader.cpp">
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/NPTSReader.h">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/NPTSReader.h">
 			<Option target="uniform_sampler"/>
 			<Option target="pc_generator"/>
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/OrientedPointCloud.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/OrientedPointCloud.cpp">
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/OrientedPointCloud.h">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/OrientedPointCloud.h">
 			<Option target="uniform_sampler"/>
 			<Option target="pc_generator"/>
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/OrientedRangeImage.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/OrientedRangeImage.cpp">
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/OrientedRangeImage.h">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/OrientedRangeImage.h">
 			<Option target="uniform_sampler"/>
 			<Option target="pc_generator"/>
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/PNGImage.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/PNGImage.cpp">
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/PNGImage.h">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/PNGImage.h">
 			<Option target="uniform_sampler"/>
 			<Option target="pc_generator"/>
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/PointCloud.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/PointCloud.cpp">
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/PointCloud.h">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/PointCloud.h">
 			<Option target="uniform_sampler"/>
 			<Option target="pc_generator"/>
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/RangeImage.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/RangeImage.cpp">
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/RangeImage.h">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/RangeImage.h">
 			<Option target="uniform_sampler"/>
 			<Option target="pc_generator"/>
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/RangeScanner.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/RangeScanner.cpp">
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/RangeScanner.h">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/RangeScanner.h">
 			<Option target="uniform_sampler"/>
 			<Option target="pc_generator"/>
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/RayCaster.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/RayCaster.cpp">
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/RayCaster.h">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/RayCaster.h">
 			<Option target="uniform_sampler"/>
 			<Option target="pc_generator"/>
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/SparseRangeScan.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/SparseRangeScan.cpp">
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/SparseRangeScan.h">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/SparseRangeScan.h">
 			<Option target="uniform_sampler"/>
 			<Option target="pc_generator"/>
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/SphericalImager.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/SphericalImager.cpp">
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/SphericalImager.h">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/SphericalImager.h">
 			<Option target="uniform_sampler"/>
 			<Option target="pc_generator"/>
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/UniformOccupancyGrid.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/UniformOccupancyGrid.cpp">
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/UniformOccupancyGrid.h">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/UniformOccupancyGrid.h">
 			<Option target="uniform_sampler"/>
 			<Option target="pc_generator"/>
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/UniformSampler.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/UniformSampler.cpp">
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/UniformSampler.h">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/UniformSampler.h">
 			<Option target="uniform_sampler"/>
 			<Option target="pc_generator"/>
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/XYZReader.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/XYZReader.cpp">
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/XYZReader.h">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/XYZReader.h">
 			<Option target="uniform_sampler"/>
 			<Option target="pc_generator"/>
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/basic_graph.h">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/basic_graph.h">
 			<Option target="uniform_sampler"/>
 			<Option target="pc_generator"/>
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/mesh_types.h">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/mesh_types.h">
 			<Option target="uniform_sampler"/>
 			<Option target="pc_generator"/>
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/pc_generator.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/pc_generator.cpp">
 			<Option target="pc_generator"/>
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/point_orienter.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/point_orienter.cpp">
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/projection_cleanup.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/projection_cleanup.cpp">
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/run_uniform.cpp">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/run_uniform.cpp">
 			<Option target="uniform_sampler"/>
 			<Option target="Sampler"/>
 		</Unit>
-		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/sampler/union_find.h">
+		<Unit filename="/home/rsulzer/cpp/reconbench-CMake/src/sampler/union_find.h">
 			<Option target="uniform_sampler"/>
 			<Option target="pc_generator"/>
 			<Option target="Sampler"/>

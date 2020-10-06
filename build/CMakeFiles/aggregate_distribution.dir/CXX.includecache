@@ -976,35 +976,35 @@ shape.h
 map
 -
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/ComputationTimer.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/ComputationTimer.h
 time.h
 -
 iostream
 -
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/GlobalStats.cpp
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/GlobalStats.cpp
 GlobalStats.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/GlobalStats.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/GlobalStats.h
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/GlobalStats.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/GlobalStats.h
 vector
 -
 string.h
 -
 ../modeling/Vector3.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/Vector3.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector3.h
 stdio.h
 -
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/KdOpenMesh.cpp
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/KdOpenMesh.cpp
 KdOpenMesh.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/KdOpenMesh.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/KdOpenMesh.h
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/KdOpenMesh.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/KdOpenMesh.h
 mesh_types.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/mesh_types.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_types.h
 ../modeling/Vector3.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/Vector3.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector3.h
 intersection.h
 -
 paramset.h
@@ -1016,87 +1016,87 @@ kdtreeaccel.h
 matte.h
 -
 ../sampler/RayCaster.h
-/home/rsulzer/cpp/reconbench-CMake/sampler/RayCaster.h
+/home/rsulzer/cpp/reconbench-CMake/src/sampler/RayCaster.h
 ../sampler/NPTSReader.h
-/home/rsulzer/cpp/reconbench-CMake/sampler/NPTSReader.h
+/home/rsulzer/cpp/reconbench-CMake/src/sampler/NPTSReader.h
 ../sampler/PNGImage.h
-/home/rsulzer/cpp/reconbench-CMake/sampler/PNGImage.h
+/home/rsulzer/cpp/reconbench-CMake/src/sampler/PNGImage.h
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/ShortestDistanceMap.cpp
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/ShortestDistanceMap.cpp
 ShortestDistanceMap.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/ShortestDistanceMap.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/ShortestDistanceMap.h
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/ShortestDistanceMap.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/ShortestDistanceMap.h
 vector
 -
 string.h
 -
 ../modeling/Vector3.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/Vector3.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector3.h
 stdio.h
 -
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/UniformGrid.cpp
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/UniformGrid.cpp
 UniformGrid.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/UniformGrid.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/UniformGrid.h
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/UniformGrid.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/UniformGrid.h
 ../modeling/Vector3.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/Vector3.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector3.h
 vector
 -
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/implicit_sampler.cpp
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/implicit_sampler.cpp
 implicit_sampler.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/implicit_sampler.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/implicit_sampler.h
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/implicit_sampler.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/implicit_sampler.h
 UniformGrid.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/UniformGrid.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/UniformGrid.h
 mesh_sampler.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/mesh_sampler.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_sampler.h
 ../modeling/ImplicitFunction.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/ImplicitFunction.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/ImplicitFunction.h
 mesh_types.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/mesh_types.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_types.h
 ComputationTimer.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/ComputationTimer.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/ComputationTimer.h
 algorithm
 -
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/kd_tree.cpp
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/kd_tree.cpp
 kd_tree.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/kd_tree.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/kd_tree.h
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/kd_tree.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/kd_tree.h
 mesh_types.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/mesh_types.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_types.h
 ../modeling/Vector3.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/Vector3.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector3.h
 ANN/ANN.h
 -
 iostream
 -
 ../modeling/ImplicitFunction.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/ImplicitFunction.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/ImplicitFunction.h
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/mesh_sampler.cpp
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_sampler.cpp
 mesh_sampler.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/mesh_sampler.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_sampler.h
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/mesh_sampler.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_sampler.h
 UniformGrid.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/UniformGrid.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/UniformGrid.h
 ../modeling/Vector3.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/Vector3.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector3.h
 mesh_types.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/mesh_types.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_types.h
 ComputationTimer.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/ComputationTimer.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/ComputationTimer.h
 algorithm
 -
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/mesh_types.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_types.h
 OpenMesh/Core/IO/MeshIO.hh
 -
 OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh
@@ -1104,71 +1104,71 @@ OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh
 OpenMesh/Core/Mesh/PolyMesh_ArrayKernelT.hh
 -
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/plot/aggregate_distribution.cpp
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/plot/aggregate_distribution.cpp
 ../ShortestDistanceMap.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/ShortestDistanceMap.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/ShortestDistanceMap.h
 ../GlobalStats.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/GlobalStats.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/GlobalStats.h
 algorithm
 -
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/recon_evaluation.cpp
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/recon_evaluation.cpp
 recon_evaluation.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/recon_evaluation.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/recon_evaluation.h
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/recon_evaluation.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/recon_evaluation.h
 shape_distribution.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/shape_distribution.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/shape_distribution.h
 ComputationTimer.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/ComputationTimer.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/ComputationTimer.h
 GlobalStats.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/GlobalStats.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/GlobalStats.h
 KdOpenMesh.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/KdOpenMesh.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/KdOpenMesh.h
 kd_tree.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/kd_tree.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/kd_tree.h
 ../modeling/ImplicitFunction.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/ImplicitFunction.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/ImplicitFunction.h
 ../sampler/OrientedPointCloud.h
-/home/rsulzer/cpp/reconbench-CMake/sampler/OrientedPointCloud.h
+/home/rsulzer/cpp/reconbench-CMake/src/sampler/OrientedPointCloud.h
 ../sampler/ImplicitNewton.h
-/home/rsulzer/cpp/reconbench-CMake/sampler/ImplicitNewton.h
+/home/rsulzer/cpp/reconbench-CMake/src/sampler/ImplicitNewton.h
 mesh_sampler.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/mesh_sampler.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_sampler.h
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/shape_distribution.cpp
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/shape_distribution.cpp
 shape_distribution.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/shape_distribution.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/shape_distribution.h
 
-/home/rsulzer/cpp/reconbench-CMake/evaluator/shape_distribution.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/shape_distribution.h
 ShortestDistanceMap.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/ShortestDistanceMap.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/ShortestDistanceMap.h
 GlobalStats.h
-/home/rsulzer/cpp/reconbench-CMake/evaluator/GlobalStats.h
+/home/rsulzer/cpp/reconbench-CMake/src/evaluator/GlobalStats.h
 algorithm
 -
 
-/home/rsulzer/cpp/reconbench-CMake/modeling/DenseEigenSystem.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/DenseEigenSystem.h
 DenseMatrix.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/DenseMatrix.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/DenseMatrix.h
 
-/home/rsulzer/cpp/reconbench-CMake/modeling/DenseMatrix.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/DenseMatrix.h
 Vector.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/Vector.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector.h
 Vector3.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/Vector3.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector3.h
 linalg_consts.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/linalg_consts.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/linalg_consts.h
 string
 -
 
-/home/rsulzer/cpp/reconbench-CMake/modeling/ImplicitFunction.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/ImplicitFunction.h
 Vector3.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/Vector3.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector3.h
 DenseEigenSystem.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/DenseEigenSystem.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/DenseEigenSystem.h
 mesh_types.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/mesh_types.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/mesh_types.h
 teem/nrrd.h
 -
 iostream
@@ -1178,33 +1178,33 @@ vector
 stdio.h
 -
 
-/home/rsulzer/cpp/reconbench-CMake/modeling/RotationMatrix.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/RotationMatrix.h
 DenseMatrix.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/DenseMatrix.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/DenseMatrix.h
 
-/home/rsulzer/cpp/reconbench-CMake/modeling/Vector.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector.h
 iostream
 -
 math.h
 -
 
-/home/rsulzer/cpp/reconbench-CMake/modeling/Vector3.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector3.h
 iostream
 -
 math.h
 -
 
-/home/rsulzer/cpp/reconbench-CMake/modeling/linalg_consts.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/linalg_consts.h
 
-/home/rsulzer/cpp/reconbench-CMake/sampler/ImplicitNewton.h
+/home/rsulzer/cpp/reconbench-CMake/src/sampler/ImplicitNewton.h
 ../modeling/ImplicitFunction.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/ImplicitFunction.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/ImplicitFunction.h
 UniformOccupancyGrid.h
-/home/rsulzer/cpp/reconbench-CMake/sampler/UniformOccupancyGrid.h
+/home/rsulzer/cpp/reconbench-CMake/src/sampler/UniformOccupancyGrid.h
 
-/home/rsulzer/cpp/reconbench-CMake/sampler/NPTSReader.h
+/home/rsulzer/cpp/reconbench-CMake/src/sampler/NPTSReader.h
 OrientedPointCloud.h
-/home/rsulzer/cpp/reconbench-CMake/sampler/OrientedPointCloud.h
+/home/rsulzer/cpp/reconbench-CMake/src/sampler/OrientedPointCloud.h
 string
 -
 vector
@@ -1216,15 +1216,15 @@ fstream
 sstream
 -
 
-/home/rsulzer/cpp/reconbench-CMake/sampler/OrientedPointCloud.h
+/home/rsulzer/cpp/reconbench-CMake/src/sampler/OrientedPointCloud.h
 stdio.h
 -
 vector
 -
 ../modeling/Vector3.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/Vector3.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector3.h
 
-/home/rsulzer/cpp/reconbench-CMake/sampler/PNGImage.h
+/home/rsulzer/cpp/reconbench-CMake/src/sampler/PNGImage.h
 malloc.h
 -
 iostream
@@ -1232,15 +1232,15 @@ iostream
 png.h
 -
 
-/home/rsulzer/cpp/reconbench-CMake/sampler/RayCaster.h
+/home/rsulzer/cpp/reconbench-CMake/src/sampler/RayCaster.h
 ../modeling/Vector3.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/Vector3.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector3.h
 ../modeling/RotationMatrix.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/RotationMatrix.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/RotationMatrix.h
 
-/home/rsulzer/cpp/reconbench-CMake/sampler/UniformOccupancyGrid.h
+/home/rsulzer/cpp/reconbench-CMake/src/sampler/UniformOccupancyGrid.h
 ../modeling/Vector3.h
-/home/rsulzer/cpp/reconbench-CMake/modeling/Vector3.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector3.h
 iostream
 -
 

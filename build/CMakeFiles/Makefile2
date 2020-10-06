@@ -217,12 +217,12 @@ registration/clean: registration/CMakeFiles/tps.dir/clean
 # Target rules for target CMakeFiles/sample_implicit.dir
 
 # All Build rule for target.
-CMakeFiles/sample_implicit.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/sample_implicit.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/sample_implicit.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/sample_implicit.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/sample_implicit.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/sample_implicit.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/sample_implicit.dir/all: pbrt/CMakeFiles/pbrt.dir/all
+CMakeFiles/sample_implicit.dir/all: CMakeFiles/Modeling.dir/all
+CMakeFiles/sample_implicit.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/sample_implicit.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/depend
 	$(MAKE) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/build
@@ -250,12 +250,12 @@ CMakeFiles/sample_implicit.dir/clean:
 # Target rules for target CMakeFiles/uniform_sampler.dir
 
 # All Build rule for target.
-CMakeFiles/uniform_sampler.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/uniform_sampler.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/uniform_sampler.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/uniform_sampler.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/uniform_sampler.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/uniform_sampler.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/uniform_sampler.dir/all: pbrt/CMakeFiles/pbrt.dir/all
+CMakeFiles/uniform_sampler.dir/all: CMakeFiles/Modeling.dir/all
+CMakeFiles/uniform_sampler.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/uniform_sampler.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/uniform_sampler.dir/build.make CMakeFiles/uniform_sampler.dir/depend
 	$(MAKE) -f CMakeFiles/uniform_sampler.dir/build.make CMakeFiles/uniform_sampler.dir/build
@@ -283,11 +283,11 @@ CMakeFiles/uniform_sampler.dir/clean:
 # Target rules for target CMakeFiles/pc_generator.dir
 
 # All Build rule for target.
-CMakeFiles/pc_generator.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/pc_generator.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/pc_generator.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/pc_generator.dir/all: registration/CMakeFiles/tps.dir/all
 CMakeFiles/pc_generator.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/pc_generator.dir/all: pbrt/CMakeFiles/pbrt.dir/all
+CMakeFiles/pc_generator.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/pc_generator.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/pc_generator.dir/build.make CMakeFiles/pc_generator.dir/depend
 	$(MAKE) -f CMakeFiles/pc_generator.dir/build.make CMakeFiles/pc_generator.dir/build
@@ -315,10 +315,10 @@ CMakeFiles/pc_generator.dir/clean:
 # Target rules for target CMakeFiles/Sampler.dir
 
 # All Build rule for target.
-CMakeFiles/Sampler.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/Sampler.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/Sampler.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/Sampler.dir/all: registration/CMakeFiles/tps.dir/all
+CMakeFiles/Sampler.dir/all: pbrt/CMakeFiles/pbrt.dir/all
+CMakeFiles/Sampler.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/Sampler.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/depend
 	$(MAKE) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/build
@@ -346,12 +346,12 @@ CMakeFiles/Sampler.dir/clean:
 # Target rules for target CMakeFiles/global_reg.dir
 
 # All Build rule for target.
-CMakeFiles/global_reg.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/global_reg.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/global_reg.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/global_reg.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/global_reg.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/global_reg.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/global_reg.dir/all: pbrt/CMakeFiles/pbrt.dir/all
+CMakeFiles/global_reg.dir/all: CMakeFiles/Modeling.dir/all
+CMakeFiles/global_reg.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/global_reg.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/global_reg.dir/build.make CMakeFiles/global_reg.dir/depend
 	$(MAKE) -f CMakeFiles/global_reg.dir/build.make CMakeFiles/global_reg.dir/build
@@ -379,11 +379,11 @@ CMakeFiles/global_reg.dir/clean:
 # Target rules for target CMakeFiles/mesh_to_implicit.dir
 
 # All Build rule for target.
-CMakeFiles/mesh_to_implicit.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/mesh_to_implicit.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/mesh_to_implicit.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/mesh_to_implicit.dir/all: registration/CMakeFiles/tps.dir/all
+CMakeFiles/mesh_to_implicit.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/mesh_to_implicit.dir/all: CMakeFiles/Modeling.dir/all
+CMakeFiles/mesh_to_implicit.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/mesh_to_implicit.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/mesh_to_implicit.dir/build.make CMakeFiles/mesh_to_implicit.dir/depend
 	$(MAKE) -f CMakeFiles/mesh_to_implicit.dir/build.make CMakeFiles/mesh_to_implicit.dir/build
@@ -411,11 +411,11 @@ CMakeFiles/mesh_to_implicit.dir/clean:
 # Target rules for target CMakeFiles/isosurface.dir
 
 # All Build rule for target.
-CMakeFiles/isosurface.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/isosurface.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/isosurface.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/isosurface.dir/all: registration/CMakeFiles/tps.dir/all
+CMakeFiles/isosurface.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/isosurface.dir/all: CMakeFiles/Modeling.dir/all
+CMakeFiles/isosurface.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/isosurface.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/isosurface.dir/build.make CMakeFiles/isosurface.dir/depend
 	$(MAKE) -f CMakeFiles/isosurface.dir/build.make CMakeFiles/isosurface.dir/build
@@ -443,12 +443,12 @@ CMakeFiles/isosurface.dir/clean:
 # Target rules for target CMakeFiles/dump_barplot.dir
 
 # All Build rule for target.
-CMakeFiles/dump_barplot.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/dump_barplot.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/dump_barplot.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/dump_barplot.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/dump_barplot.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/dump_barplot.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/dump_barplot.dir/all: pbrt/CMakeFiles/pbrt.dir/all
+CMakeFiles/dump_barplot.dir/all: CMakeFiles/Modeling.dir/all
+CMakeFiles/dump_barplot.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/dump_barplot.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/depend
 	$(MAKE) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/build
@@ -476,12 +476,12 @@ CMakeFiles/dump_barplot.dir/clean:
 # Target rules for target CMakeFiles/mesh_fixer.dir
 
 # All Build rule for target.
-CMakeFiles/mesh_fixer.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/mesh_fixer.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/mesh_fixer.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/mesh_fixer.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/mesh_fixer.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/mesh_fixer.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/mesh_fixer.dir/all: pbrt/CMakeFiles/pbrt.dir/all
+CMakeFiles/mesh_fixer.dir/all: CMakeFiles/Modeling.dir/all
+CMakeFiles/mesh_fixer.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/mesh_fixer.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/depend
 	$(MAKE) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/build
@@ -509,12 +509,12 @@ CMakeFiles/mesh_fixer.dir/clean:
 # Target rules for target CMakeFiles/run_evaluation.dir
 
 # All Build rule for target.
-CMakeFiles/run_evaluation.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/run_evaluation.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/run_evaluation.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/run_evaluation.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/run_evaluation.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/run_evaluation.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/run_evaluation.dir/all: pbrt/CMakeFiles/pbrt.dir/all
+CMakeFiles/run_evaluation.dir/all: CMakeFiles/Modeling.dir/all
+CMakeFiles/run_evaluation.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/run_evaluation.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/depend
 	$(MAKE) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/build
@@ -542,12 +542,12 @@ CMakeFiles/run_evaluation.dir/clean:
 # Target rules for target CMakeFiles/implicit_uniform.dir
 
 # All Build rule for target.
-CMakeFiles/implicit_uniform.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/implicit_uniform.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/implicit_uniform.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/implicit_uniform.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/implicit_uniform.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/implicit_uniform.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/implicit_uniform.dir/all: pbrt/CMakeFiles/pbrt.dir/all
+CMakeFiles/implicit_uniform.dir/all: CMakeFiles/Modeling.dir/all
+CMakeFiles/implicit_uniform.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/implicit_uniform.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/depend
 	$(MAKE) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/build
@@ -575,11 +575,11 @@ CMakeFiles/implicit_uniform.dir/clean:
 # Target rules for target CMakeFiles/post-processing.dir
 
 # All Build rule for target.
-CMakeFiles/post-processing.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/post-processing.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/post-processing.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/post-processing.dir/all: registration/CMakeFiles/tps.dir/all
+CMakeFiles/post-processing.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/post-processing.dir/all: CMakeFiles/Modeling.dir/all
+CMakeFiles/post-processing.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/post-processing.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/post-processing.dir/build.make CMakeFiles/post-processing.dir/depend
 	$(MAKE) -f CMakeFiles/post-processing.dir/build.make CMakeFiles/post-processing.dir/build
@@ -607,12 +607,12 @@ CMakeFiles/post-processing.dir/clean:
 # Target rules for target CMakeFiles/dump_distribution.dir
 
 # All Build rule for target.
-CMakeFiles/dump_distribution.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/dump_distribution.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/dump_distribution.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/dump_distribution.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/dump_distribution.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/dump_distribution.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/dump_distribution.dir/all: pbrt/CMakeFiles/pbrt.dir/all
+CMakeFiles/dump_distribution.dir/all: CMakeFiles/Modeling.dir/all
+CMakeFiles/dump_distribution.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/dump_distribution.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/depend
 	$(MAKE) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/build
@@ -640,12 +640,12 @@ CMakeFiles/dump_distribution.dir/clean:
 # Target rules for target CMakeFiles/sample_mesh.dir
 
 # All Build rule for target.
-CMakeFiles/sample_mesh.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/sample_mesh.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/sample_mesh.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/sample_mesh.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/sample_mesh.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/sample_mesh.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/sample_mesh.dir/all: pbrt/CMakeFiles/pbrt.dir/all
+CMakeFiles/sample_mesh.dir/all: CMakeFiles/Modeling.dir/all
+CMakeFiles/sample_mesh.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/sample_mesh.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/depend
 	$(MAKE) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/build
@@ -673,12 +673,12 @@ CMakeFiles/sample_mesh.dir/clean:
 # Target rules for target CMakeFiles/dump_meta.dir
 
 # All Build rule for target.
-CMakeFiles/dump_meta.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/dump_meta.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/dump_meta.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/dump_meta.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/dump_meta.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/dump_meta.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/dump_meta.dir/all: pbrt/CMakeFiles/pbrt.dir/all
+CMakeFiles/dump_meta.dir/all: CMakeFiles/Modeling.dir/all
+CMakeFiles/dump_meta.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/dump_meta.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/depend
 	$(MAKE) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/build
@@ -706,12 +706,12 @@ CMakeFiles/dump_meta.dir/clean:
 # Target rules for target CMakeFiles/aggregate_distribution.dir
 
 # All Build rule for target.
-CMakeFiles/aggregate_distribution.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/aggregate_distribution.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/aggregate_distribution.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/aggregate_distribution.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/aggregate_distribution.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/aggregate_distribution.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/aggregate_distribution.dir/all: pbrt/CMakeFiles/pbrt.dir/all
+CMakeFiles/aggregate_distribution.dir/all: CMakeFiles/Modeling.dir/all
+CMakeFiles/aggregate_distribution.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/aggregate_distribution.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/depend
 	$(MAKE) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/build
@@ -739,12 +739,12 @@ CMakeFiles/aggregate_distribution.dir/clean:
 # Target rules for target CMakeFiles/aggregation.dir
 
 # All Build rule for target.
-CMakeFiles/aggregation.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/aggregation.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/aggregation.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/aggregation.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/aggregation.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/aggregation.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/aggregation.dir/all: pbrt/CMakeFiles/pbrt.dir/all
+CMakeFiles/aggregation.dir/all: CMakeFiles/Modeling.dir/all
+CMakeFiles/aggregation.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/aggregation.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/depend
 	$(MAKE) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/build
@@ -772,12 +772,12 @@ CMakeFiles/aggregation.dir/clean:
 # Target rules for target CMakeFiles/dump_lines.dir
 
 # All Build rule for target.
-CMakeFiles/dump_lines.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/dump_lines.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/dump_lines.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/dump_lines.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/dump_lines.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/dump_lines.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/dump_lines.dir/all: pbrt/CMakeFiles/pbrt.dir/all
+CMakeFiles/dump_lines.dir/all: CMakeFiles/Modeling.dir/all
+CMakeFiles/dump_lines.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/dump_lines.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/depend
 	$(MAKE) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/build
@@ -805,10 +805,10 @@ CMakeFiles/dump_lines.dir/clean:
 # Target rules for target CMakeFiles/Modeling.dir
 
 # All Build rule for target.
-CMakeFiles/Modeling.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/Modeling.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/Modeling.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/Modeling.dir/all: registration/CMakeFiles/tps.dir/all
+CMakeFiles/Modeling.dir/all: pbrt/CMakeFiles/pbrt.dir/all
+CMakeFiles/Modeling.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/Modeling.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/depend
 	$(MAKE) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/build
@@ -836,12 +836,12 @@ CMakeFiles/Modeling.dir/clean:
 # Target rules for target CMakeFiles/dump_single.dir
 
 # All Build rule for target.
-CMakeFiles/dump_single.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/dump_single.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/dump_single.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/dump_single.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/dump_single.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/dump_single.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/dump_single.dir/all: pbrt/CMakeFiles/pbrt.dir/all
+CMakeFiles/dump_single.dir/all: CMakeFiles/Modeling.dir/all
+CMakeFiles/dump_single.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/dump_single.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/depend
 	$(MAKE) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/build
@@ -869,12 +869,12 @@ CMakeFiles/dump_single.dir/clean:
 # Target rules for target CMakeFiles/single_distribution.dir
 
 # All Build rule for target.
-CMakeFiles/single_distribution.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/single_distribution.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/single_distribution.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/single_distribution.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/single_distribution.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/single_distribution.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/single_distribution.dir/all: pbrt/CMakeFiles/pbrt.dir/all
+CMakeFiles/single_distribution.dir/all: CMakeFiles/Modeling.dir/all
+CMakeFiles/single_distribution.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/single_distribution.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/depend
 	$(MAKE) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/build
@@ -902,12 +902,12 @@ CMakeFiles/single_distribution.dir/clean:
 # Target rules for target CMakeFiles/PoissonRecon.dir
 
 # All Build rule for target.
-CMakeFiles/PoissonRecon.dir/all: pbrt/CMakeFiles/pbrt.dir/all
-CMakeFiles/PoissonRecon.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/PoissonRecon.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/PoissonRecon.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/PoissonRecon.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/PoissonRecon.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/PoissonRecon.dir/all: pbrt/CMakeFiles/pbrt.dir/all
+CMakeFiles/PoissonRecon.dir/all: CMakeFiles/Modeling.dir/all
+CMakeFiles/PoissonRecon.dir/all: ann/CMakeFiles/ann.dir/all
 CMakeFiles/PoissonRecon.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) -f CMakeFiles/PoissonRecon.dir/build.make CMakeFiles/PoissonRecon.dir/depend
 	$(MAKE) -f CMakeFiles/PoissonRecon.dir/build.make CMakeFiles/PoissonRecon.dir/build
