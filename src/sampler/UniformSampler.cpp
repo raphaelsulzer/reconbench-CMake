@@ -27,6 +27,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "UniformSampler.h"
 // added for getcwd
 #include <unistd.h>
+#include <random>
 
 #include <iostream>
 using namespace std;
@@ -51,8 +52,9 @@ UniformSampler::UniformSampler(ImplicitFunction* _implicit, int _numScans, int _
 	double fov_thickness = (default_fov / (double)num_stripes) * default_thickness;
 	laser_fov = (fov_thickness/180.0)*acos(-1);
 
-	additive_noise = 0.0;
-	laser_smoother = 0.1;
+    additive_noise = 0.0;
+    outlier_percentage = 0.0;
+    laser_smoother = 0.1;
 
 	peak_threshold = 0.1;
 	std_threshold = 1.5;
@@ -90,8 +92,10 @@ void UniformSampler::sample()  {
 	cout << "   sensor range : " << min_range << ", " << max_range << endl;
 	cout << "   num stripes : " << num_stripes <<  endl;
 	cout << "   laser fov : " << ((laser_fov/my_pi)*180.0) <<  endl;
-	cout << "   additive noise : " << additive_noise << " laser smoother : " << laser_smoother << endl;
-	cout << "   peak threshold : " << peak_threshold << " std threshold : " << std_threshold << endl;
+    cout << "   additive noise : " << additive_noise << endl;
+    cout << "   laser smoother : " << laser_smoother << endl;
+    cout << "   outlier threshold : " << outlier_percentage << endl;
+    cout << "   peak threshold : " << peak_threshold << " std threshold : " << std_threshold << endl;
 
 	cout << "   do register ? " << to_register << " : registration error: " << ((registration_error/my_pi)*180.0) << endl;
 
@@ -207,6 +211,7 @@ void UniformSampler::sample()  {
 		range_scanner.set_laser_fov(laser_fov);
 
 		range_scanner.set_noise(additive_noise);
+        range_scanner.set_outlier(outlier_percentage);
 		range_scanner.set_laser_smoother(laser_smoother);
 		range_scanner.set_peak_threshold(peak_threshold);
 		range_scanner.set_std_threshold(std_threshold);
@@ -232,7 +237,6 @@ void UniformSampler::sample()  {
 				normal = random_rotation.rotate(normal);
 			}
 
-//            range_image->setRangePoint(pix.x, pix.y, pt, normal);
             // instead of saving the normal for a range point I'm going to set the sensor direction
             if(normal_type == NORMALS_SENSOR_DIR)
                 range_image->setRangePoint(pix.x, pix.y, pt, look_from-pt);
@@ -335,6 +339,7 @@ void UniformSampler::dump_to_file(string _filename)  {
 //                                range_normal.x, range_normal.y, range_normal.z);
 //                    }
                     pc.addPoint(range_pt);
+                    // the "range_normal" here can actually already be the sensor, depending on how it is set in sample() method
                     analytical_normals.push_back(range_normal);
 				}
 			}
@@ -364,6 +369,7 @@ void UniformSampler::dump_to_file(string _filename)  {
 //                    }
 
                     pc.addPoint(range_pt);
+                    // the "range_normal" here can actually already be the sensor, depending on how it is set in sample() method
                     analytical_normals.push_back(range_normal);
 				}
 			}
@@ -371,6 +377,7 @@ void UniformSampler::dump_to_file(string _filename)  {
 
 		cout << "num pts: " << num_pts << endl;
 	}
+
 
     vector<Vector3> pca_normals;
     if(normal_type == NORMALS_PCA_MST || normal_type == NORMALS_PCA_ORIENTED)  {
@@ -398,6 +405,23 @@ void UniformSampler::dump_to_file(string _filename)  {
     this->dump_to_ply(_filename.c_str(),pc,analytical_normals);
 
 //	fclose(pts_file);
+}
+
+
+void UniformSampler::add_outliers(PointCloud& _pc)  {
+
+    int ouliers = _pc.size()*outlier_percentage;
+    std::uniform_int_distribution<int> rpoint(0, _pc.size()-1);
+    default_random_engine rand_gen;
+    rand_gen.seed(42);
+    for(int i = 0; i < outliers; i++){
+        // replace a random point from the point cloud and set it to a random coordinate inside the bounding box of the object
+        int idx = rpoint(rand_gen);
+        _pc[idx] = Point(random)
+        // sensor can just be kept
+    }
+
+
 }
 
 void UniformSampler::dump_to_ply(string _filename, PointCloud& _pc, vector<Vector3>& _normals)  {

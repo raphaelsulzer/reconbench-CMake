@@ -148,6 +148,7 @@ class RangeScanner  {
 		void set_laser_fov(double _laserFOV)  { laser_fov = _laserFOV; }
 
 		void set_noise(double _noise)  { additive_noise = _noise; }
+        void set_outlier(double _outlier) { outlier_percentage = _outlier; }
 		void set_peak_threshold(double _threshold)  { peak_threshold = _threshold; }
 		void set_std_threshold(double _threshold)  { std_threshold = _threshold; }
 		void set_laser_smoother(double _smoother)  { laser_smoother = _smoother; }
@@ -177,6 +178,7 @@ class RangeScanner  {
 		double additive_noise;
 		double peak_threshold, std_threshold;
 		double laser_smoother;
+        double outlier_percentage;
 
 		SparseRangeScan sparse_scan;
 		SparseRangeScan image_scan;

@@ -35,7 +35,7 @@ using namespace std;
 int main(int argc, char** argv)  {
     if(argc < 7)  {
         cerr << "usage: " << argv[0] << " input_mpu output_ply sensor_positions_output res_x res_y num_scans [min_range] [max_range] [num_stripes] " <<
-												  "[laser_fov] [peak_threshold] [std_threshold] [additive_noise] [laser_smoother] " <<
+                                                  "[laser_fov] [peak_threshold] [std_threshold] [additive_noise] [outlier_percentage] [laser_smoother] " <<
 												  "[registration_error] [normal_type] [pca_knn] [random_sample_rotation]" << endl;
 		return 1;
 	}
@@ -85,6 +85,10 @@ int main(int argc, char** argv)  {
 			double additive_noise = atof(argv[arg_num++]);
 			sampler.set_noise(additive_noise);
 		}
+        else if(next_arg.compare("outlier_percentage") == 0)  {
+            double outlier_percentage = atof(argv[arg_num++]);
+            sampler.set_outlier(outlier_percentage);
+        }
 		else if(next_arg.compare("laser_smoother") == 0)  {
 			double laser_smoother = atof(argv[arg_num++]);
 			sampler.set_laser_smoother(laser_smoother);
@@ -123,6 +127,7 @@ int main(int argc, char** argv)  {
 	cout << "base pc: " << base_pc << endl;
 	sampler.set_stripe_dump(base_pc);
 	sampler.sample();
+    // TODO: add outliers after sample()
 	sampler.dump_to_file(pc_file);
 
 //    string ply_path=sensor_file_path+".ply";

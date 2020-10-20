@@ -71,6 +71,7 @@ class UniformSampler  {
 		void set_laser_fov(double _laserFOV)  { laser_fov = acos(-1.0)*(_laserFOV/180.0); }
 
 		void set_noise(double _noise)  { additive_noise = _noise; }
+        void set_outlier(double _outlier)  { outlier_percentage = _outlier; }
 		void set_laser_smoother(double _smoother)  { laser_smoother = _smoother; }
 		void set_peak_threshold(double _threshold)  { peak_threshold = _threshold; }
 		void set_std_threshold(double _threshold)  { std_threshold = _threshold; }
@@ -122,6 +123,7 @@ class UniformSampler  {
 		int num_stripes;
 		double laser_fov;
 		double additive_noise;
+        double outlier_percentage;
 		double laser_smoother;
 		double peak_threshold, std_threshold;
 

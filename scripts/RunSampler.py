@@ -93,6 +93,10 @@ def runUniform(config, pathdir, infile, outfile):
                     args.append("additive_noise")
                     args.append(config.get("uniform", "additive_noise"))
 
+            if config.has_option("uniform", "outlier_threshold"):
+                    args.append("outlier_threshold")
+                    args.append(config.get("uniform", "outlier_threshold"))
+
             if config.has_option("uniform", "laser_smoother"):
                     args.append("laser_smoother")
                     args.append(config.get("uniform", "laser_smoother"))

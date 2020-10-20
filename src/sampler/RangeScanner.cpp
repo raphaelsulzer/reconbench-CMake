@@ -367,6 +367,7 @@ RangeScanner::RangeScanner(ImplicitFunction* _shape, RayCaster _sensor, Vector3 
 	laser_fov = (fov_thickness/180.0)*acos(-1);
 
 	additive_noise = 0.0;
+    outlier_percentage = 0.0;
 	laser_smoother = 0.2;
 
 	peak_threshold = 0.05;
@@ -394,6 +395,7 @@ RangeScanner::RangeScanner(ImplicitFunction* _shape, RayCaster _sensor, Vector3 
 	//additive_noise = 0.35;
 	//laser_smoother = 5.0;
 	additive_noise = 0.0;
+    outlier_percentage = 0.0;
 	laser_smoother = 0.2;
 
 	peak_threshold = 0.05;
@@ -587,7 +589,7 @@ SparseRangeScan* RangeScanner::optical_triangulation()  {
 	delete [] g_scan;
 	delete [] b_scan;
 
-	double outlier_threshold = 4.0;
+    double outlier_threshold = 4.0;
 	SparseRangeScan* depth_scan = new SparseRangeScan();
 	int num_retained = 0, num_peak_rejections = 0, num_std_rejections = 0;
 	double ave_weight = 0;
@@ -619,7 +621,7 @@ SparseRangeScan* RangeScanner::optical_triangulation()  {
 			this->construct_laser_stripe(start_pt, proper_time, laser_fov, stripe);
 			double local_depth = -(ray_pos.dotProduct(stripe.n)+stripe.d) / ray_dir.dotProduct(stripe.n);
 
-			if(fabs(local_depth-reference_depth) > outlier_threshold)
+            if(fabs(local_depth-reference_depth) > outlier_threshold)
 				continue;
 
 			Vector3 depth_pt = ray_pos + ray_dir*local_depth;

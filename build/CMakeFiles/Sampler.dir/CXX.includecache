@@ -428,14 +428,6 @@ iostream
 math.h
 -
 
-/home/rsulzer/cpp/reconbench-CMake/src/modeling/collision.h
-math.h
--
-stdio.h
--
-float.h
--
-
 /home/rsulzer/cpp/reconbench-CMake/src/modeling/linalg_consts.h
 
 /home/rsulzer/cpp/reconbench-CMake/src/modeling/lm_method.h
@@ -446,40 +438,6 @@ DenseMatrix.h
 OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh
 -
 OpenMesh/Core/Mesh/PolyMesh_ArrayKernelT.hh
--
-
-/home/rsulzer/cpp/reconbench-CMake/src/modeling/mpu_soup.h
-collision.h
-/home/rsulzer/cpp/reconbench-CMake/src/modeling/collision.h
-tri_integrator.h
-/home/rsulzer/cpp/reconbench-CMake/src/modeling/tri_integrator.h
-DenseMatrix.h
-/home/rsulzer/cpp/reconbench-CMake/src/modeling/DenseMatrix.h
-DenseEigenSystem.h
-/home/rsulzer/cpp/reconbench-CMake/src/modeling/DenseEigenSystem.h
-ANN/ANN.h
--
-stdio.h
--
-
-/home/rsulzer/cpp/reconbench-CMake/src/modeling/shape_loader.h
-mpu_soup.h
-/home/rsulzer/cpp/reconbench-CMake/src/modeling/mpu_soup.h
-
-/home/rsulzer/cpp/reconbench-CMake/src/modeling/tri_integrator.h
-mesh_types.h
-/home/rsulzer/cpp/reconbench-CMake/src/modeling/mesh_types.h
-ImplicitFunction.h
-/home/rsulzer/cpp/reconbench-CMake/src/modeling/ImplicitFunction.h
-string
--
-vector
--
-iostream
--
-fstream
--
-sstream
 -
 
 /home/rsulzer/cpp/reconbench-CMake/src/sampler/GaussianFit.h
@@ -604,6 +562,14 @@ sstream
 iostream
 -
 
+/home/rsulzer/cpp/reconbench-CMake/src/sampler/UniformSampler.cpp
+UniformSampler.h
+/home/rsulzer/cpp/reconbench-CMake/src/sampler/UniformSampler.h
+unistd.h
+-
+iostream
+-
+
 /home/rsulzer/cpp/reconbench-CMake/src/sampler/UniformSampler.h
 ../evaluator/ComputationTimer.h
 /home/rsulzer/cpp/reconbench-CMake/src/evaluator/ComputationTimer.h
@@ -642,18 +608,6 @@ vector
 
 /home/rsulzer/cpp/reconbench-CMake/src/sampler/basic_graph.h
 vector
--
-
-/home/rsulzer/cpp/reconbench-CMake/src/sampler/run_uniform.cpp
-UniformSampler.h
-/home/rsulzer/cpp/reconbench-CMake/src/sampler/UniformSampler.h
-../modeling/shape_loader.h
-/home/rsulzer/cpp/reconbench-CMake/src/modeling/shape_loader.h
-cstdio
--
-cstdlib
--
-iostream
 -
 
 /home/rsulzer/cpp/reconbench-CMake/src/sampler/union_find.h
