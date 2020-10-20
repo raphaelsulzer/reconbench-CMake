@@ -33,8 +33,8 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 using namespace std;
 
 int main(int argc, char** argv)  {
-	if(argc < 6)  {
-        cerr << "usage: " << argv[0] << " input_mpu output_ply res_x res_y num_scans [min_range] [max_range] [num_stripes] " <<
+    if(argc < 7)  {
+        cerr << "usage: " << argv[0] << " input_mpu output_ply sensor_positions_output res_x res_y num_scans [min_range] [max_range] [num_stripes] " <<
 												  "[laser_fov] [peak_threshold] [std_threshold] [additive_noise] [laser_smoother] " <<
 												  "[registration_error] [normal_type] [pca_knn] [random_sample_rotation]" << endl;
 		return 1;
@@ -43,7 +43,8 @@ int main(int argc, char** argv)  {
 	int arg_num = 1;
 	ImplicitFunction* shape = ShapeLoader::load_shape(argv[arg_num++]);
 	string pc_file = argv[arg_num++];
-	int cresx = atoi(argv[arg_num++]);
+    string sensor_file_path = argv[arg_num++];
+    int cresx = atoi(argv[arg_num++]);
 	int cresy = atoi(argv[arg_num++]);
 	int num_scans = atoi(argv[arg_num++]);
 
@@ -51,16 +52,16 @@ int main(int argc, char** argv)  {
 
 	std::cout << "hello" << std::endl;
 	while(arg_num < argc)  {
-		string next_arg = argv[arg_num++];
+        string next_arg = argv[arg_num++];
 
-		if(next_arg.compare("min_range") == 0)  {
+        if(next_arg.compare("min_range") == 0)  {
 			double min_range = atof(argv[arg_num++]);
 			sampler.setMinRange(min_range);
 		}
 		else if(next_arg.compare("max_range") == 0)  {
 			double max_range = atof(argv[arg_num++]);
 			sampler.setMaxRange(max_range);
-		}
+        }
 
 		else if(next_arg.compare("num_stripes") == 0)  {
 			int num_stripes = atoi(argv[arg_num++]);
@@ -115,11 +116,36 @@ int main(int argc, char** argv)  {
 		}
 	}
 
+
+
+
 	string base_pc = pc_file.substr(0, (pc_file.size()-5));
 	cout << "base pc: " << base_pc << endl;
 	sampler.set_stripe_dump(base_pc);
 	sampler.sample();
 	sampler.dump_to_file(pc_file);
+
+//    string ply_path=sensor_file_path+".ply";
+//    FILE* sensor_file_ply = fopen(ply_path.c_str(), "w");
+//    cout << "\nwrite sensor positions to " << sensor_file_path+".ply" << endl;
+//    fprintf(sensor_file_ply, "ply\n");
+//    fprintf(sensor_file_ply, "format ascii 1.0\n");
+//    fprintf(sensor_file_ply, "element vertex %i\n", (int)sampler.sensors.size());
+//    fprintf(sensor_file_ply, "property float x\n");
+//    fprintf(sensor_file_ply, "property float y\n");
+//    fprintf(sensor_file_ply, "property float z\n");
+//    fprintf(sensor_file_ply, "end_header\n");
+//    for(auto look_from : sampler.sensors)
+//        fprintf(sensor_file_ply, "%.7f %.7f %.7f\n", look_from.x, look_from.y, look_from.z);
+//    fclose(sensor_file_ply);
+
+//    string xyz_path=sensor_file_path+".xyz";
+//    FILE* sensor_file_xyz = fopen(xyz_path.c_str(), "w");
+//    cout << "\nwrite sensor positions to " << sensor_file_path+".xyz" << endl;
+//    for(auto look_from : sampler.sensors)
+//        fprintf(sensor_file_xyz, "%.7f %.7f %.7f\n", look_from.x, look_from.y, look_from.z);
+//    fclose(sensor_file_xyz);
+
 	std::cout << "sampling ok" << std::endl;
 	return 0;
 }

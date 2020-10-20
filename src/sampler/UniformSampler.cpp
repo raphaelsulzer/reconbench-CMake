@@ -160,9 +160,9 @@ void UniformSampler::sample()  {
 	double lipschitz = implicit_function->lipschitz_constant(100);
 	int num_stripes_processed = 0;
 
-    string sensor_file_path = string(cwd)+"/sensor_file.xyz";
-    FILE* sensor_file = fopen(sensor_file_path.c_str(), "w");
-    cout << "\nwrite sensor positions to " << sensor_file_path << endl;
+//    string sensor_file_path = string(cwd)+"/sensor_file.xyz";
+//    FILE* sensor_file = fopen(sensor_file_path.c_str(), "w");
+//    cout << "\nwrite sensor positions to " << sensor_file_path << endl;
 
 	for(int s = 0; s < num_scans; s++)  {
 		ComputationTimer timer("uniform sampler");
@@ -178,8 +178,9 @@ void UniformSampler::sample()  {
 		Vector3 sphere_sample = uniform_sampling[s];
 		Vector3 look_from = center + sphere_sample*sampling_radius;
 
-        cout << "look from: " << look_from << endl;
-        fprintf(sensor_file, "%.7f %.7f %.7f\n", look_from.x, look_from.y, look_from.z);
+//        cout << "look from: " << look_from << endl;
+//        fprintf(sensor_file, "%.7f %.7f %.7f\n", look_from.x, look_from.y, look_from.z);
+        sensors.push_back(look_from);
 
 		Vector3 look_at = center;
 		Vector3 view_dir = look_at-look_from;
@@ -250,7 +251,7 @@ void UniformSampler::sample()  {
 		timer.end();
 		cout << timer.getComputation() << " : " << timer.getElapsedTime() << "s" << endl;
 	}
-    fclose(sensor_file);
+//    fclose(sensor_file);
 //    this->dump_to_movie();
 }
 

@@ -102,6 +102,9 @@ class UniformSampler  {
 
 		bool getRigidTransformation(string _filename, DenseMatrix& rotation, Vector3& translation);
 
+        // sensors
+        vector<Vector3> sensors;
+
 	private:
 		ImplicitFunction* implicit_function;
 		vector<OrientedRangeImage*> range_images;
@@ -140,6 +143,8 @@ class UniformSampler  {
 		void dump_to_movie();
 		void clear_range_images();
 		void tokenize_line(vector<string>* tokens, const string& input, string sep);
+
+
 };
 
 #endif

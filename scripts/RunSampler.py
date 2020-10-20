@@ -55,6 +55,7 @@ def runUniform(config, pathdir, infile, outfile):
             args.append(pathdir + "/" + config.get("uniform", "exec_name"))
             args.append(infile)
             args.append(outfile)
+            #args.append(sensor_file)
 
             # required
 
