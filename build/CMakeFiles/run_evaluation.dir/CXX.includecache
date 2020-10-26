@@ -982,10 +982,6 @@ time.h
 iostream
 -
 
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/GlobalStats.cpp
-GlobalStats.h
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/GlobalStats.h
-
 /home/rsulzer/cpp/reconbench-CMake/src/evaluator/GlobalStats.h
 vector
 -
@@ -995,10 +991,6 @@ string.h
 /home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector3.h
 stdio.h
 -
-
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/KdOpenMesh.cpp
-KdOpenMesh.h
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/KdOpenMesh.h
 
 /home/rsulzer/cpp/reconbench-CMake/src/evaluator/KdOpenMesh.h
 mesh_types.h
@@ -1022,10 +1014,6 @@ matte.h
 ../sampler/PNGImage.h
 /home/rsulzer/cpp/reconbench-CMake/src/sampler/PNGImage.h
 
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/ShortestDistanceMap.cpp
-ShortestDistanceMap.h
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/ShortestDistanceMap.h
-
 /home/rsulzer/cpp/reconbench-CMake/src/evaluator/ShortestDistanceMap.h
 vector
 -
@@ -1036,37 +1024,11 @@ string.h
 stdio.h
 -
 
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/UniformGrid.cpp
-UniformGrid.h
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/UniformGrid.h
-
 /home/rsulzer/cpp/reconbench-CMake/src/evaluator/UniformGrid.h
 ../modeling/Vector3.h
 /home/rsulzer/cpp/reconbench-CMake/src/modeling/Vector3.h
 vector
 -
-
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/implicit_sampler.cpp
-implicit_sampler.h
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/implicit_sampler.h
-
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/implicit_sampler.h
-UniformGrid.h
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/UniformGrid.h
-mesh_sampler.h
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_sampler.h
-../modeling/ImplicitFunction.h
-/home/rsulzer/cpp/reconbench-CMake/src/modeling/ImplicitFunction.h
-mesh_types.h
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_types.h
-ComputationTimer.h
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/ComputationTimer.h
-algorithm
--
-
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/kd_tree.cpp
-kd_tree.h
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/kd_tree.h
 
 /home/rsulzer/cpp/reconbench-CMake/src/evaluator/kd_tree.h
 mesh_types.h
@@ -1079,10 +1041,6 @@ iostream
 -
 ../modeling/ImplicitFunction.h
 /home/rsulzer/cpp/reconbench-CMake/src/modeling/ImplicitFunction.h
-
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_sampler.cpp
-mesh_sampler.h
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_sampler.h
 
 /home/rsulzer/cpp/reconbench-CMake/src/evaluator/mesh_sampler.h
 UniformGrid.h
@@ -1103,10 +1061,6 @@ OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh
 -
 OpenMesh/Core/Mesh/PolyMesh_ArrayKernelT.hh
 -
-
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/recon_evaluation.cpp
-recon_evaluation.h
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/recon_evaluation.h
 
 /home/rsulzer/cpp/reconbench-CMake/src/evaluator/recon_evaluation.h
 shape_distribution.h
@@ -1139,10 +1093,6 @@ fstream
 -
 sstream
 -
-
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/shape_distribution.cpp
-shape_distribution.h
-/home/rsulzer/cpp/reconbench-CMake/src/evaluator/shape_distribution.h
 
 /home/rsulzer/cpp/reconbench-CMake/src/evaluator/shape_distribution.h
 ShortestDistanceMap.h

@@ -49,7 +49,7 @@ target_link_libraries(isosurface PUBLIC Modeling)
 
 
 
-# Sources
+## Sources
 file(GLOB_RECURSE sampler_SOURCES "src/sampler/*.cpp")
 file(GLOB_RECURSE sampler_HEADERS "src/sampler/*.h")
 
@@ -59,16 +59,16 @@ SET(sampler_INCLUDE "src/sampler")
 
 
 add_library(Sampler ${sampler_SOURCES} ${sampler_HEADERS})
-target_include_directories(Sampler PUBLIC ${sampler_INCLUDE} ${PNG_INCLUDE_DIRS})
+target_include_directories(Sampler PUBLIC ${sampler_INCLUDE} ${PNG_INCLUDE_DIRS} ${Modeling_INCLUDE})
 target_link_libraries(Sampler PUBLIC ann OpenMesh pbrt tps ${PNG_LIBRARIES} ${PNG_LIBRARY})
 target_compile_definitions(Sampler PUBLIC ${PNG_DEFINITIONS})
 
-add_executable(pc_generator  ${sampler_HEADERS} src/sampler/pc_generator.cpp)
-target_include_directories(pc_generator PUBLIC ${sampler_INCLUDE})
-target_link_libraries(pc_generator PUBLIC Sampler)
+add_executable(pc_generator  ${sampler_HEADERS} ${Modeling_HEADERS} src/sampler/pc_generator.cpp)
+target_include_directories(pc_generator PUBLIC ${sampler_INCLUDE} ${Modeling_INCLUDE})
+target_link_libraries(pc_generator PUBLIC Sampler Modeling)
 
-add_executable(uniform_sampler  ${sampler_HEADERS} src/sampler/run_uniform.cpp)
-target_include_directories(uniform_sampler PUBLIC ${sampler_INCLUDE})
+add_executable(uniform_sampler  ${sampler_HEADERS} ${Modeling_HEADERS} src/sampler/run_uniform.cpp)
+target_include_directories(uniform_sampler PUBLIC ${sampler_INCLUDE} ${Modeling_INCLUDE})
 target_link_libraries(uniform_sampler PUBLIC ann OpenMesh pbrt tps Sampler Modeling)
 
 
@@ -161,21 +161,21 @@ target_link_libraries(sample_implicit PUBLIC Modeling Sampler)
 
 
 
-set(recon_SOURCES
-  recon/poisson/Src/CmdLineParser.cpp
-  recon/poisson/Src/MarchingCubes.cpp
-  recon/poisson/Src/plyfile.cpp
-  recon/poisson/Src/Factor.cpp
-  recon/poisson/Src/MultiGridOctest.cpp
-  recon/poisson/Src/Time.cpp
-  recon/poisson/Src/Geometry.cpp
-  recon/poisson/Src/ply.cpp
-)
-#poisson/Src/MultiGridOctest.cpp
-add_executable(PoissonRecon ${recon_SOURCES} ${recon_HEADERS} )
-target_include_directories(PoissonRecon PUBLIC ${recon_INCLUDE})
-target_link_libraries(PoissonRecon PUBLIC Modeling Sampler -fpermissive)
+#set(recon_SOURCES
+#  recon/poisson/Src/CmdLineParser.cpp
+#  recon/poisson/Src/MarchingCubes.cpp
+#  recon/poisson/Src/plyfile.cpp
+#  recon/poisson/Src/Factor.cpp
+#  recon/poisson/Src/MultiGridOctest.cpp
+#  recon/poisson/Src/Time.cpp
+#  recon/poisson/Src/Geometry.cpp
+#  recon/poisson/Src/ply.cpp
+#)
+##poisson/Src/MultiGridOctest.cpp
+#add_executable(PoissonRecon ${recon_SOURCES} ${recon_HEADERS} )
+#target_include_directories(PoissonRecon PUBLIC ${recon_INCLUDE})
+#target_link_libraries(PoissonRecon PUBLIC Modeling Sampler -fpermissive)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fpermissive")
-set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fpermissive")
-set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -fpermissive")
+#set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fpermissive")
+#set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -fpermissive")

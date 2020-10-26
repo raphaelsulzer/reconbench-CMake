@@ -129,6 +129,7 @@ int main(int argc, char** argv)  {
 	sampler.sample();
     // TODO: add outliers after sample()
 	sampler.dump_to_file(pc_file);
+    cout << "why does it crash?" << endl;
 
 //    string ply_path=sensor_file_path+".ply";
 //    FILE* sensor_file_ply = fopen(ply_path.c_str(), "w");
@@ -150,6 +151,8 @@ int main(int argc, char** argv)  {
 //    for(auto look_from : sampler.sensors)
 //        fprintf(sensor_file_xyz, "%.7f %.7f %.7f\n", look_from.x, look_from.y, look_from.z);
 //    fclose(sensor_file_xyz);
+
+
 
 	std::cout << "sampling ok" << std::endl;
 	return 0;

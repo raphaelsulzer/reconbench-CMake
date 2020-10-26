@@ -1,0 +1,107 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/rsulzer/cpp/reconbench-CMake/debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8a7bf/fast && /usr/bin/make -f CMakeFiles/cmTC_8a7bf.dir/build.make CMakeFiles/cmTC_8a7bf.dir/build
+make[1]: Entering directory '/home/rsulzer/cpp/reconbench-CMake/debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a7bf.dir/src.c.o
+/usr/bin/gcc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_8a7bf.dir/src.c.o   -c /home/rsulzer/cpp/reconbench-CMake/debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8a7bf
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a7bf.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_8a7bf.dir/src.c.o  -o cmTC_8a7bf 
+CMakeFiles/cmTC_8a7bf.dir/src.c.o: In function `main':
+src.c:(.text+0x3e): undefined reference to `pthread_create'
+src.c:(.text+0x4a): undefined reference to `pthread_detach'
+src.c:(.text+0x56): undefined reference to `pthread_cancel'
+src.c:(.text+0x67): undefined reference to `pthread_join'
+src.c:(.text+0x7b): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8a7bf.dir/build.make:103: recipe for target 'cmTC_8a7bf' failed
+make[1]: *** [cmTC_8a7bf] Error 1
+make[1]: Leaving directory '/home/rsulzer/cpp/reconbench-CMake/debug/CMakeFiles/CMakeTmp'
+Makefile:138: recipe for target 'cmTC_8a7bf/fast' failed
+make: *** [cmTC_8a7bf/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/rsulzer/cpp/reconbench-CMake/debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3eb61/fast && /usr/bin/make -f CMakeFiles/cmTC_3eb61.dir/build.make CMakeFiles/cmTC_3eb61.dir/build
+make[1]: Entering directory '/home/rsulzer/cpp/reconbench-CMake/debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3eb61.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3eb61.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3eb61
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3eb61.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_3eb61.dir/CheckFunctionExists.c.o  -o cmTC_3eb61  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3eb61.dir/build.make:103: recipe for target 'cmTC_3eb61' failed
+make[1]: *** [cmTC_3eb61] Error 1
+make[1]: Leaving directory '/home/rsulzer/cpp/reconbench-CMake/debug/CMakeFiles/CMakeTmp'
+Makefile:138: recipe for target 'cmTC_3eb61/fast' failed
+make: *** [cmTC_3eb61/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/rsulzer/cpp/reconbench-CMake/debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_56947/fast && /usr/bin/make -f CMakeFiles/cmTC_56947.dir/build.make CMakeFiles/cmTC_56947.dir/build
+make[1]: Entering directory '/home/rsulzer/cpp/reconbench-CMake/debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56947.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTC_56947.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_56947
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56947.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=sgemm_    -rdynamic CMakeFiles/cmTC_56947.dir/CheckFunctionExists.c.o  -o cmTC_56947 
+CMakeFiles/cmTC_56947.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_56947.dir/build.make:103: recipe for target 'cmTC_56947' failed
+make[1]: *** [cmTC_56947] Error 1
+make[1]: Leaving directory '/home/rsulzer/cpp/reconbench-CMake/debug/CMakeFiles/CMakeTmp'
+Makefile:138: recipe for target 'cmTC_56947/fast' failed
+make: *** [cmTC_56947/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/rsulzer/cpp/reconbench-CMake/debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_778e6/fast && /usr/bin/make -f CMakeFiles/cmTC_778e6.dir/build.make CMakeFiles/cmTC_778e6.dir/build
+make[1]: Entering directory '/home/rsulzer/cpp/reconbench-CMake/debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_778e6.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=cheev_   -o CMakeFiles/cmTC_778e6.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_778e6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_778e6.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=cheev_    -rdynamic CMakeFiles/cmTC_778e6.dir/CheckFunctionExists.c.o  -o cmTC_778e6  /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so -lpthread -lm -ldl 
+CMakeFiles/cmTC_778e6.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_778e6.dir/build.make:106: recipe for target 'cmTC_778e6' failed
+make[1]: *** [cmTC_778e6] Error 1
+make[1]: Leaving directory '/home/rsulzer/cpp/reconbench-CMake/debug/CMakeFiles/CMakeTmp'
+Makefile:138: recipe for target 'cmTC_778e6/fast' failed
+make: *** [cmTC_778e6/fast] Error 2
+
+
+

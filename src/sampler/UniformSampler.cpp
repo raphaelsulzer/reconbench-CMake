@@ -94,7 +94,7 @@ void UniformSampler::sample()  {
 	cout << "   laser fov : " << ((laser_fov/my_pi)*180.0) <<  endl;
     cout << "   additive noise : " << additive_noise << endl;
     cout << "   laser smoother : " << laser_smoother << endl;
-    cout << "   outlier threshold : " << outlier_percentage << endl;
+    cout << "   outlier percentage : " << outlier_percentage << endl;
     cout << "   peak threshold : " << peak_threshold << " std threshold : " << std_threshold << endl;
 
 	cout << "   do register ? " << to_register << " : registration error: " << ((registration_error/my_pi)*180.0) << endl;
@@ -111,11 +111,11 @@ void UniformSampler::sample()  {
 	Vector3 center = (ur_bound+ll_bound)*0.5;
 	double sampling_radius = min_range + 0.5*diag_bound.length();
 
-	time_t cur_time;
-	time(&cur_time);
-	srand(cur_time);
-	for(int i = 0; i < 20; i++)
-		rand();
+//	time_t cur_time;
+//	time(&cur_time);
+//	srand(cur_time);
+//	for(int i = 0; i < 20; i++)
+//		rand();
 
 
 	vector<Vector3> uniform_sampling;
@@ -139,10 +139,11 @@ void UniformSampler::sample()  {
 		uniform_sampling = sampling_sphere->sample_surface(num_scans, 0, false);
 	}
 	else  {
-		double rx = (double)rand() / (double)RAND_MAX;
-		double ry = (double)rand() / (double)RAND_MAX;
-		double rz = (double)rand() / (double)RAND_MAX;
-		double random_angle = 2.0*acos(-1)*((double)rand() / (double)RAND_MAX);
+
+        double rx = (double)rand() / (double)RAND_MAX;
+        double ry = (double)rand() / (double)RAND_MAX;
+        double rz = (double)rand() / (double)RAND_MAX;
+        double random_angle = 2.0*acos(-1)*((double)rand() / (double)RAND_MAX);
 		Vector3 random_axis(rx, ry, rz);
 		random_axis.normalize();
 		RotationMatrix sphere_rotation(random_axis, random_angle);
@@ -160,21 +161,16 @@ void UniformSampler::sample()  {
 	if(uniform_sampling.size() != num_scans)
 		cout << "ERROR: uniform sampling not at prescribed size!" << endl;
 
-	//	num_scans = uniform_sampling.size();
 	double lipschitz = implicit_function->lipschitz_constant(100);
 	int num_stripes_processed = 0;
-
-//    string sensor_file_path = string(cwd)+"/sensor_file.xyz";
-//    FILE* sensor_file = fopen(sensor_file_path.c_str(), "w");
-//    cout << "\nwrite sensor positions to " << sensor_file_path << endl;
 
 	for(int s = 0; s < num_scans; s++)  {
 		ComputationTimer timer("uniform sampler");
 		timer.start();
 
-		double rand_x = (double)rand() / (double)RAND_MAX;
-		double rand_y = (double)rand() / (double)RAND_MAX;
-		double rand_z = (double)rand() / (double)RAND_MAX;
+        double rand_x = (double)rand() / (double)RAND_MAX;
+        double rand_y = (double)rand() / (double)RAND_MAX;
+        double rand_z = (double)rand() / (double)RAND_MAX;
 		Vector3 rand_axis(rand_x, rand_y, rand_z);
 		rand_axis.normalize();
 		RotationMatrix random_rotation(rand_axis, registration_error);
@@ -246,31 +242,15 @@ void UniformSampler::sample()  {
                 range_image->setRangePoint(pix.x, pix.y, pt, normal);
 
         }
-//		char depth_filename[256];
-//		sprintf(depth_filename, "%s_depth%u.png", stripe_base.c_str(), s);
-//		range_scanner.depth_image(sparse_scan, depth_filename);
 		delete sparse_scan;
 
 		range_images.push_back(range_image);
 		timer.end();
 		cout << timer.getComputation() << " : " << timer.getElapsedTime() << "s" << endl;
 	}
-//    fclose(sensor_file);
-//    this->dump_to_movie();
-}
-
-void UniformSampler::dump_to_movie()  {
-
-    char cwd[1024];
-    getcwd(cwd, sizeof(cwd));
-    string exec_movie = string(cwd)+"/scan_movie.sh " + stripe_base;
-	int sampler_result = system(exec_movie.c_str());
 }
 
 void UniformSampler::dump_to_file(string _filename)  {
-
-//    FILE* pts_file = fopen(_filename.c_str(), "w");
-//    cout << "\nwriting point cloud to file: " << _filename.c_str() << endl;
 
 	// point cloud used only if the normal type deems it
 	PointCloud pc;
@@ -400,25 +380,41 @@ void UniformSampler::dump_to_file(string _filename)  {
         analytical_normals=pca_normals;
 	}
 
+    if(outlier_percentage > 0.0)
+        add_outliers(pc, analytical_normals);
+
     // export point cloud with normals / sensor to ply
     cout << "\nexport point cloud to PLY file: " << _filename.c_str() << endl;
     this->dump_to_ply(_filename.c_str(),pc,analytical_normals);
 
-//	fclose(pts_file);
+    cout << "\nexport successful" << endl;
+
 }
 
 
-void UniformSampler::add_outliers(PointCloud& _pc)  {
+void UniformSampler::add_outliers(PointCloud& _pc, vector<Vector3>& _normals)  {
 
-    int ouliers = _pc.size()*outlier_percentage;
-    std::uniform_int_distribution<int> rpoint(0, _pc.size()-1);
-    default_random_engine rand_gen;
-    rand_gen.seed(42);
+    // get bounds of the object
+    Vector3 ll_bound, ur_bound;
+    implicit_function->bounds(ll_bound, ur_bound);
+
+    int outliers = _pc.size()*outlier_percentage;
+    cout << "add " << outliers << " outliers" << endl;
+    default_random_engine dre;
+    dre.seed(42);
+    // index for normal / sensor
+    std::uniform_int_distribution<int> rpoint(0, _normals.size()-1);
+    // double for coordinate
+    std::uniform_real_distribution<double> x_rand(ll_bound.x*1.1,ur_bound.x*1.1);
+    std::uniform_real_distribution<double> y_rand(ll_bound.y*1.1,ur_bound.y*1.1);
+    std::uniform_real_distribution<double> z_rand(ll_bound.z*1.1,ur_bound.z*1.1);
+    // need a random generator that return x, y and z between lower and upper bounds (which can be found somewhere here) of the scene
     for(int i = 0; i < outliers; i++){
-        // replace a random point from the point cloud and set it to a random coordinate inside the bounding box of the object
-        int idx = rpoint(rand_gen);
-        _pc[idx] = Point(random)
-        // sensor can just be kept
+        // push back a random point with a random existing sensor and set it to a random coordinate inside the bounding box of the object
+        int idx = rpoint(dre);
+        Vector3 rand_point = Vector3(x_rand(dre), y_rand(dre), z_rand(dre));
+        _pc.addPoint(rand_point);
+        _normals.push_back(_normals[idx]);
     }
 
 
@@ -457,6 +453,7 @@ void UniformSampler::dump_to_ply(string _filename, PointCloud& _pc, vector<Vecto
         fprintf(ply_out, "%.7f %.7f %.7f %.7f %.7f %.7f\n", pt.x, pt.y, pt.z, _normals[i].x, _normals[i].y, _normals[i].z);
     }
     fclose(ply_out);
+    cout << "dump to ply successful" << endl;
 }
 
 

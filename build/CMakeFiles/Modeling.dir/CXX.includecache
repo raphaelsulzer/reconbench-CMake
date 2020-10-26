@@ -868,6 +868,18 @@ iostream
 
 /home/rsulzer/cpp/reconbench-CMake/src/modeling/linalg_consts.h
 
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/mesh_to_implicit.cpp
+OpenMesh/Core/IO/MeshIO.hh
+-
+shape_loader.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/shape_loader.h
+cstdio
+-
+cstdlib
+-
+iostream
+-
+
 /home/rsulzer/cpp/reconbench-CMake/src/modeling/mesh_types.h
 OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh
 -
@@ -886,6 +898,18 @@ DenseEigenSystem.h
 ANN/ANN.h
 -
 stdio.h
+-
+
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/post-processing.cpp
+OpenMesh/Core/IO/MeshIO.hh
+-
+shape_loader.h
+/home/rsulzer/cpp/reconbench-CMake/src/modeling/shape_loader.h
+cstdio
+-
+cstdlib
+-
+iostream
 -
 
 /home/rsulzer/cpp/reconbench-CMake/src/modeling/shape_loader.h

@@ -54,8 +54,8 @@ using namespace std;
 #define NORMALS_ANALYTICAL   0
 #define NORMALS_PCA_ORIENTED 1
 #define NORMALS_PCA_MST      2
-#define NORMALS_SENSOR_POS   4
 #define NORMALS_SENSOR_DIR   3
+#define NORMALS_SENSOR_POS   4
 
 class UniformSampler  {
 	public:
@@ -98,6 +98,7 @@ class UniformSampler  {
 		}
 
 		void sample();
+        void add_outliers(PointCloud& _pc, vector<Vector3>& _normals);
 		void dump_to_file(string _filename);
         void dump_to_ply(string _filename, PointCloud& _pc, vector<Vector3>& normals);
 
