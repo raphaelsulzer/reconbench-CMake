@@ -1,1 +1,1 @@
-/usr/bin/g++  -O3 -DNDEBUG  -rdynamic CMakeFiles/ann_exec.dir/sample/ann_sample.cpp.o  -o ann_exec  libann.a 
+/usr/bin/c++ -rdynamic CMakeFiles/ann_exec.dir/sample/ann_sample.cpp.o -o ann_exec  libann.a 
