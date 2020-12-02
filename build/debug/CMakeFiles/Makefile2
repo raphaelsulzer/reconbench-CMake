@@ -218,12 +218,12 @@ registration/clean: registration/CMakeFiles/tps.dir/clean
 
 # All Build rule for target.
 CMakeFiles/sample_implicit.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/sample_implicit.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/sample_implicit.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/sample_implicit.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/sample_implicit.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/sample_implicit.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
-CMakeFiles/sample_implicit.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/sample_implicit.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/sample_implicit.dir/all: CMakeFiles/Modeling.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_implicit.dir/build.make CMakeFiles/sample_implicit.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/debug/CMakeFiles --progress-num=80,81,82 "Built target sample_implicit"
@@ -251,12 +251,12 @@ CMakeFiles/sample_implicit.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/single_distribution.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/single_distribution.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/single_distribution.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/single_distribution.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/single_distribution.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/single_distribution.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
-CMakeFiles/single_distribution.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/single_distribution.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/single_distribution.dir/all: CMakeFiles/Modeling.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/single_distribution.dir/build.make CMakeFiles/single_distribution.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/debug/CMakeFiles --progress-num=85,86,87 "Built target single_distribution"
@@ -284,12 +284,12 @@ CMakeFiles/single_distribution.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/dump_single.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/dump_single.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/dump_single.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/dump_single.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/dump_single.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/dump_single.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
-CMakeFiles/dump_single.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/dump_single.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/dump_single.dir/all: CMakeFiles/Modeling.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_single.dir/build.make CMakeFiles/dump_single.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/debug/CMakeFiles --progress-num=37,38 "Built target dump_single"
@@ -317,12 +317,12 @@ CMakeFiles/dump_single.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/dump_meta.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/dump_meta.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/dump_meta.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/dump_meta.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/dump_meta.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/dump_meta.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
-CMakeFiles/dump_meta.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/dump_meta.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/dump_meta.dir/all: CMakeFiles/Modeling.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_meta.dir/build.make CMakeFiles/dump_meta.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/debug/CMakeFiles --progress-num=34,35,36 "Built target dump_meta"
@@ -350,10 +350,10 @@ CMakeFiles/dump_meta.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/isosurface.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/isosurface.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/isosurface.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/isosurface.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/isosurface.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/isosurface.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/isosurface.dir/all: CMakeFiles/Modeling.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/isosurface.dir/build.make CMakeFiles/isosurface.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/isosurface.dir/build.make CMakeFiles/isosurface.dir/build
@@ -382,12 +382,12 @@ CMakeFiles/isosurface.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/dump_lines.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/dump_lines.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/dump_lines.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/dump_lines.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/dump_lines.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/dump_lines.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
-CMakeFiles/dump_lines.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/dump_lines.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/dump_lines.dir/all: CMakeFiles/Modeling.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_lines.dir/build.make CMakeFiles/dump_lines.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/debug/CMakeFiles --progress-num=31,32,33 "Built target dump_lines"
@@ -415,10 +415,10 @@ CMakeFiles/dump_lines.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/post-processing.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/post-processing.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/post-processing.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/post-processing.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/post-processing.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/post-processing.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/post-processing.dir/all: CMakeFiles/Modeling.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/post-processing.dir/build.make CMakeFiles/post-processing.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/post-processing.dir/build.make CMakeFiles/post-processing.dir/build
@@ -447,12 +447,12 @@ CMakeFiles/post-processing.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/pc_generator.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/pc_generator.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/pc_generator.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/pc_generator.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/pc_generator.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/pc_generator.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
-CMakeFiles/pc_generator.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/pc_generator.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/pc_generator.dir/all: CMakeFiles/Modeling.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pc_generator.dir/build.make CMakeFiles/pc_generator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pc_generator.dir/build.make CMakeFiles/pc_generator.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/debug/CMakeFiles --progress-num=76 "Built target pc_generator"
@@ -480,12 +480,12 @@ CMakeFiles/pc_generator.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/mesh_fixer.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/mesh_fixer.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/mesh_fixer.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/mesh_fixer.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/mesh_fixer.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/mesh_fixer.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
-CMakeFiles/mesh_fixer.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/mesh_fixer.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/mesh_fixer.dir/all: CMakeFiles/Modeling.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_fixer.dir/build.make CMakeFiles/mesh_fixer.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/debug/CMakeFiles --progress-num=43,44,45 "Built target mesh_fixer"
@@ -513,12 +513,12 @@ CMakeFiles/mesh_fixer.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/dump_distribution.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/dump_distribution.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/dump_distribution.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/dump_distribution.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/dump_distribution.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/dump_distribution.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
-CMakeFiles/dump_distribution.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/dump_distribution.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/dump_distribution.dir/all: CMakeFiles/Modeling.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_distribution.dir/build.make CMakeFiles/dump_distribution.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/debug/CMakeFiles --progress-num=29,30 "Built target dump_distribution"
@@ -546,10 +546,10 @@ CMakeFiles/dump_distribution.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/Sampler.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/Sampler.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/Sampler.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/Sampler.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/Sampler.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/Sampler.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sampler.dir/build.make CMakeFiles/Sampler.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/debug/CMakeFiles --progress-num=12,13,14,15 "Built target Sampler"
@@ -577,12 +577,12 @@ CMakeFiles/Sampler.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/uniform_sampler.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/uniform_sampler.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/uniform_sampler.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/uniform_sampler.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/uniform_sampler.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/uniform_sampler.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
-CMakeFiles/uniform_sampler.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/uniform_sampler.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/uniform_sampler.dir/all: CMakeFiles/Modeling.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uniform_sampler.dir/build.make CMakeFiles/uniform_sampler.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uniform_sampler.dir/build.make CMakeFiles/uniform_sampler.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/debug/CMakeFiles --progress-num=100 "Built target uniform_sampler"
@@ -610,10 +610,10 @@ CMakeFiles/uniform_sampler.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/Modeling.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/Modeling.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/Modeling.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/Modeling.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/Modeling.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/Modeling.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Modeling.dir/build.make CMakeFiles/Modeling.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/debug/CMakeFiles --progress-num=1,2,3 "Built target Modeling"
@@ -641,12 +641,12 @@ CMakeFiles/Modeling.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/implicit_uniform.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/implicit_uniform.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/implicit_uniform.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/implicit_uniform.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/implicit_uniform.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/implicit_uniform.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
-CMakeFiles/implicit_uniform.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/implicit_uniform.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/implicit_uniform.dir/all: CMakeFiles/Modeling.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_uniform.dir/build.make CMakeFiles/implicit_uniform.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/debug/CMakeFiles --progress-num=40,41 "Built target implicit_uniform"
@@ -674,12 +674,12 @@ CMakeFiles/implicit_uniform.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/run_evaluation.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/run_evaluation.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/run_evaluation.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/run_evaluation.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/run_evaluation.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/run_evaluation.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
-CMakeFiles/run_evaluation.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/run_evaluation.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/run_evaluation.dir/all: CMakeFiles/Modeling.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_evaluation.dir/build.make CMakeFiles/run_evaluation.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/debug/CMakeFiles --progress-num=77,78,79 "Built target run_evaluation"
@@ -707,12 +707,12 @@ CMakeFiles/run_evaluation.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/global_reg.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/global_reg.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/global_reg.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/global_reg.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/global_reg.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/global_reg.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
-CMakeFiles/global_reg.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/global_reg.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/global_reg.dir/all: CMakeFiles/Modeling.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/global_reg.dir/build.make CMakeFiles/global_reg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/global_reg.dir/build.make CMakeFiles/global_reg.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/debug/CMakeFiles --progress-num=39 "Built target global_reg"
@@ -740,12 +740,12 @@ CMakeFiles/global_reg.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/aggregate_distribution.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/aggregate_distribution.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/aggregate_distribution.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/aggregate_distribution.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/aggregate_distribution.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/aggregate_distribution.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
-CMakeFiles/aggregate_distribution.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/aggregate_distribution.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/aggregate_distribution.dir/all: CMakeFiles/Modeling.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregate_distribution.dir/build.make CMakeFiles/aggregate_distribution.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/debug/CMakeFiles --progress-num=16,17,18 "Built target aggregate_distribution"
@@ -773,10 +773,10 @@ CMakeFiles/aggregate_distribution.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/mesh_to_implicit.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/mesh_to_implicit.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/mesh_to_implicit.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/mesh_to_implicit.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/mesh_to_implicit.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/mesh_to_implicit.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/mesh_to_implicit.dir/all: CMakeFiles/Modeling.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_to_implicit.dir/build.make CMakeFiles/mesh_to_implicit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mesh_to_implicit.dir/build.make CMakeFiles/mesh_to_implicit.dir/build
@@ -805,12 +805,12 @@ CMakeFiles/mesh_to_implicit.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/sample_mesh.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/sample_mesh.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/sample_mesh.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/sample_mesh.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/sample_mesh.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/sample_mesh.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
-CMakeFiles/sample_mesh.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/sample_mesh.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/sample_mesh.dir/all: CMakeFiles/Modeling.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample_mesh.dir/build.make CMakeFiles/sample_mesh.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/debug/CMakeFiles --progress-num=83,84 "Built target sample_mesh"
@@ -838,12 +838,12 @@ CMakeFiles/sample_mesh.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/dump_barplot.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/dump_barplot.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/dump_barplot.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/dump_barplot.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/dump_barplot.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/dump_barplot.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
-CMakeFiles/dump_barplot.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/dump_barplot.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/dump_barplot.dir/all: CMakeFiles/Modeling.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_barplot.dir/build.make CMakeFiles/dump_barplot.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/debug/CMakeFiles --progress-num=26,27,28 "Built target dump_barplot"
@@ -871,12 +871,12 @@ CMakeFiles/dump_barplot.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/aggregation.dir/all: ann/CMakeFiles/ann.dir/all
+CMakeFiles/aggregation.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
 CMakeFiles/aggregation.dir/all: pbrt/CMakeFiles/pbrt.dir/all
 CMakeFiles/aggregation.dir/all: registration/CMakeFiles/trimesh2.dir/all
 CMakeFiles/aggregation.dir/all: registration/CMakeFiles/tps.dir/all
-CMakeFiles/aggregation.dir/all: OpenMesh/CMakeFiles/OpenMesh.dir/all
-CMakeFiles/aggregation.dir/all: CMakeFiles/Modeling.dir/all
 CMakeFiles/aggregation.dir/all: CMakeFiles/Sampler.dir/all
+CMakeFiles/aggregation.dir/all: CMakeFiles/Modeling.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aggregation.dir/build.make CMakeFiles/aggregation.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adminlocal/PhD/cpp/reconbench-CMake/build/debug/CMakeFiles --progress-num=19,20,21 "Built target aggregation"

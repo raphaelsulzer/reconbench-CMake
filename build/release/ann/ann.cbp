@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ann"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\OpenMesh\;CMake Files\ann\;CMake Files\pbrt\;CMake Files\registration\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ann">
+				<Option output="/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/libann.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 ann"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ann/fast">
+				<Option output="/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/libann.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 ann/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ann_exec">
+				<Option output="/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/ann_exec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 ann_exec"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ann_exec/fast">
+				<Option output="/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/ann_exec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 ann_exec/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/adminlocal/PhD/cpp/reconbench-CMake/build/release/ann/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/sample/ann_sample.cpp">
+			<Option target="ann_exec"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/ANN.cpp">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/bd_fix_rad_search.cpp">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/bd_pr_search.cpp">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/bd_search.cpp">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/bd_tree.cpp">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/bd_tree.h">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/brute.cpp">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/kd_dump.cpp">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/kd_fix_rad_search.cpp">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/kd_fix_rad_search.h">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/kd_pr_search.cpp">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/kd_pr_search.h">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/kd_search.cpp">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/kd_search.h">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/kd_split.cpp">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/kd_split.h">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/kd_tree.cpp">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/kd_tree.h">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/kd_util.cpp">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/kd_util.h">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/perf.cpp">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/pr_queue.h">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/src/pr_queue_k.h">
+			<Option target="ann"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/OpenMesh/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OpenMesh\"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/ann/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ann\"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/pbrt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\pbrt\"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/pbrt/FindOpenEXR.cmake">
+			<Option virtualFolder="CMake Files\pbrt\"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\registration\"/>
+		</Unit>
+		<Unit filename="/home/adminlocal/PhD/cpp/reconbench-CMake/registration/FindCholmod.cmake">
+			<Option virtualFolder="CMake Files\registration\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

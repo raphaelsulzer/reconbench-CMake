@@ -32,7 +32,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <unistd.h>
 using namespace std;
 
-SphericalImager::SphericalImager(ImplicitFunction* _implicit, int _numScans, int _resX, int _resY)  {
+SphericalImager::SphericalImager(string _reconbench_dir, ImplicitFunction* _implicit, int _numScans, int _resX, int _resY)  {
 	implicit_function = _implicit;
 
 	num_scans = _numScans;
@@ -72,11 +72,7 @@ void SphericalImager::sample(string _basefile)  {
 	vector<Vector3> uniform_sampling;
 	ostringstream num_samples;
 	num_samples << num_scans;
-    char cwd[1024];
-    getcwd(cwd, sizeof(cwd));
-    string particle_file = string(cwd)+"/../../../reconbench-CMake/build/particle_sampler/particles"+num_samples.str()+".npts";
-    //    string particle_file = "/home/adminlocal/PhD/cpp/reconbench-CMake/build/particle_sampler/particles"+num_samples.str()+".npts";
-    //    string particle_file = "/home/rsulzer/cpp/reconbench-CMake/build/particle_sampler/particles"+num_samples.str()+".npts";
+    string particle_file = reconbench_dir+"/../../particle_sampler/particles"+num_samples.str()+".npts";
     OrientedPointCloud sphere_pc;
 	NPTSReader npts_reader(particle_file);
 

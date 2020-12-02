@@ -128,13 +128,18 @@ int main(int argc, char** argv)  {
 			return 1;
 		}
 
-		ImplicitFunction* shape = ShapeLoader::load_shape(argv[1]);
-		int res = atoi(argv[2]);
-		int num_scans = atoi(argv[3]);
-		double min_range = atof(argv[4]);
-		string base_file = argv[5];
+        int arg_num = 1;
 
-		SphericalImager imager(shape, num_scans, res, res);
+        // there is probably a more elegant solution instead of passing the project directory as a command line argument (e.g. getting it from CMake) but I'm too lazy to find it
+        string installation_dir = argv[arg_num++];
+
+        ImplicitFunction* shape = ShapeLoader::load_shape(argv[arg_num++]);
+        int res = atoi(argv[arg_num++]);
+        int num_scans = atoi(argv[arg_num++]);
+        double min_range = atof(argv[arg_num++]);
+        string base_file = argv[arg_num++];
+
+        SphericalImager imager(installation_dir, shape, num_scans, res, res);
 		imager.setMinRange(min_range);
 		imager.setRandomSampleRotation(false);
 		imager.sample(base_file);

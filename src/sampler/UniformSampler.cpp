@@ -99,11 +99,9 @@ void UniformSampler::sample()  {
     cout << "   laser smoother : " << laser_smoother << endl;
     cout << "   outlier percentage : " << outlier_percentage << endl;
     cout << "   peak threshold : " << peak_threshold << " std threshold : " << std_threshold << endl;
-
 	cout << "   do register ? " << to_register << " : registration error: " << ((registration_error/my_pi)*180.0) << endl;
-
-	cout << "   PCA knn: " << pca_knn << " normal type: " << normal_type << endl;
-
+    cout << "   normal type: " << normal_type << endl;
+    cout << "   PCA knn: " << pca_knn << endl;
 	cout << "   baseline : " << baseline << endl;
 	cout << "   do random sample rotation ? " << to_random_sample_rotation << endl;
 
@@ -126,13 +124,7 @@ void UniformSampler::sample()  {
 	num_samples << num_scans;
 
     // fixed the thing below to point to the correct path:
-//    string particle_file = "./bin/particle_sampler/particles"+num_samples.str()+".npts";
-    char cwd[1024];
-    getcwd(cwd, sizeof(cwd));
-
-
-//    string particle_file = string(cwd)+"/../../../reconbench-CMake/build/particle_sampler/particles"+num_samples.str()+".npts";
-    string particle_file = reconbench_dir+"/particle_sampler/particles"+num_samples.str()+".npts";
+    string particle_file = reconbench_dir+"/../../particle_sampler/particles"+num_samples.str()+".npts";
 
 
 	OrientedPointCloud sphere_pc;

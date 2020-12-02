@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/adminlocal/PhD/cpp/reconbench-CMake/ann/include
 
-CXX_FLAGS = 
+CXX_FLAGS = -O3 -DNDEBUG
 

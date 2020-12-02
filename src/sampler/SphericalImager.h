@@ -53,7 +53,7 @@ using namespace std;
 
 class SphericalImager  {
 	public:
-		SphericalImager(ImplicitFunction* _implicit, int _numScans, int _resX, int _resY);
+        SphericalImager(string _reconbench_dir, ImplicitFunction* _implicit, int _numScans, int _resX, int _resY);
 		~SphericalImager();
 
 		// all angle parameters in degrees
@@ -67,6 +67,8 @@ class SphericalImager  {
 		void sample(string _filebase);
 
 	private:
+        string reconbench_dir;
+
 		ImplicitFunction* implicit_function;
 
 		double my_pi;
