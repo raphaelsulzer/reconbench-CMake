@@ -1,5 +1,0 @@
-./bin/rigid_align.sh: line 45: global_reg: command not found
-
-real	0m0.002s
-user	0m0.001s
-sys	0m0.000s

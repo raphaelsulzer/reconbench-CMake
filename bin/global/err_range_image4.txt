@@ -1,5 +1,0 @@
-./bin/rigid_align.sh: line 29: correspond: command not found
-
-real	0m0.004s
-user	0m0.002s
-sys	0m0.001s

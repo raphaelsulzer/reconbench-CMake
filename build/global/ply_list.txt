@@ -1,9 +1,0 @@
-../range_image0.ply
-../range_image1.ply
-../range_image2.ply
-../range_image3.ply
-../range_image4.ply
-../range_image5.ply
-../range_image6.ply
-../range_image7.ply
-../range_image8.ply
