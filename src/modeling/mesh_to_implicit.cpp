@@ -33,6 +33,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 using namespace std;
 
 #define MAX_DIM_MM 75
+//#define MAX_DIM_MM 1
 
 int main(int argc, char** argv)  {
 	if(argc != 6)  {

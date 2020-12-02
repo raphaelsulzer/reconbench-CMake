@@ -59,7 +59,7 @@ using namespace std;
 
 class UniformSampler  {
 	public:
-		UniformSampler(ImplicitFunction* _implicit, int _numScans, int _resX, int _resY);
+        UniformSampler(string _reconbench_dir, ImplicitFunction* _implicit, int _numScans, int _resX, int _resY);
 		~UniformSampler();
 
 		// all angle parameters in degrees
@@ -110,6 +110,8 @@ class UniformSampler  {
 	private:
 		ImplicitFunction* implicit_function;
 		vector<OrientedRangeImage*> range_images;
+
+        string reconbench_dir;
 
 		double my_pi;
 

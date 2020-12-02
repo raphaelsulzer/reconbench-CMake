@@ -34,13 +34,14 @@ using namespace std;
 
 int main(int argc, char** argv)  {
     if(argc < 7)  {
-        cerr << "usage: " << argv[0] << " input_mpu output_ply sensor_positions_output res_x res_y num_scans [min_range] [max_range] [num_stripes] " <<
+        cerr << "usage: " << argv[0] << " reconbench_dir input_mpu output_ply sensor_positions_output res_x res_y num_scans [min_range] [max_range] [num_stripes] " <<
                                                   "[laser_fov] [peak_threshold] [std_threshold] [additive_noise] [outlier_percentage] [laser_smoother] " <<
 												  "[registration_error] [normal_type] [pca_knn] [random_sample_rotation]" << endl;
 		return 1;
 	}
 
 	int arg_num = 1;
+    string installation_dir = argv[arg_num++];
 	ImplicitFunction* shape = ShapeLoader::load_shape(argv[arg_num++]);
 	string pc_file = argv[arg_num++];
     string sensor_file_path = argv[arg_num++];
@@ -48,7 +49,7 @@ int main(int argc, char** argv)  {
 	int cresy = atoi(argv[arg_num++]);
 	int num_scans = atoi(argv[arg_num++]);
 
-	UniformSampler sampler(shape, num_scans, cresx, cresy);
+    UniformSampler sampler(installation_dir, shape, num_scans, cresx, cresy);
 
 	std::cout << "hello" << std::endl;
 	while(arg_num < argc)  {
@@ -129,7 +130,6 @@ int main(int argc, char** argv)  {
 	sampler.sample();
     // TODO: add outliers after sample()
 	sampler.dump_to_file(pc_file);
-    cout << "why does it crash?" << endl;
 
 //    string ply_path=sensor_file_path+".ply";
 //    FILE* sensor_file_ply = fopen(ply_path.c_str(), "w");

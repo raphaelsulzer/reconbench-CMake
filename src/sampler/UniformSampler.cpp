@@ -32,8 +32,10 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <iostream>
 using namespace std;
 
-UniformSampler::UniformSampler(ImplicitFunction* _implicit, int _numScans, int _resX, int _resY)  {
+UniformSampler::UniformSampler(string _reconbench_dir, ImplicitFunction* _implicit, int _numScans, int _resX, int _resY)  {
 	implicit_function = _implicit;
+
+    reconbench_dir = _reconbench_dir;
 
 	num_scans = _numScans;
 	res_x = _resX;
@@ -41,7 +43,7 @@ UniformSampler::UniformSampler(ImplicitFunction* _implicit, int _numScans, int _
 
 	my_pi = acos(-1.0);
 
-	min_range = 20;
+    min_range = 70;
 	max_range = 300;
 
 	to_register = false;
@@ -62,7 +64,8 @@ UniformSampler::UniformSampler(ImplicitFunction* _implicit, int _numScans, int _
 	normal_type = NORMALS_PCA_ORIENTED;
 	pca_knn = 12;
 
-	baseline = 50;
+    baseline = 50;
+//    baseline = 7;
 	//baseline = 25;
 	to_random_sample_rotation = true;
 
@@ -126,8 +129,10 @@ void UniformSampler::sample()  {
 //    string particle_file = "./bin/particle_sampler/particles"+num_samples.str()+".npts";
     char cwd[1024];
     getcwd(cwd, sizeof(cwd));
-//    string particle_file = string(cwd)+"/particle_sampler/particles"+num_samples.str()+".npts";
-    string particle_file = "/home/rsulzer/cpp/reconbench-CMake/build/particle_sampler/particles"+num_samples.str()+".npts";
+
+
+//    string particle_file = string(cwd)+"/../../../reconbench-CMake/build/particle_sampler/particles"+num_samples.str()+".npts";
+    string particle_file = reconbench_dir+"/particle_sampler/particles"+num_samples.str()+".npts";
 
 
 	OrientedPointCloud sphere_pc;
