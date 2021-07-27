@@ -41,7 +41,8 @@ int main(int argc, char** argv)  {
 	}
 
 	int arg_num = 1;
-    // there is probably a more elegant solution instead of passing the project directory as a command line argument (e.g. getting it from CMake) but I'm too lazy to find it
+    // there is probably a more elegant solution instead of passing the project directory
+    // as a command line argument (e.g. getting it from CMake) but I'm too lazy to find it
     string installation_dir = argv[arg_num++];
 	ImplicitFunction* shape = ShapeLoader::load_shape(argv[arg_num++]);
 	string pc_file = argv[arg_num++];
@@ -52,7 +53,6 @@ int main(int argc, char** argv)  {
 
     UniformSampler sampler(installation_dir, shape, num_scans, cresx, cresy);
 
-	std::cout << "hello" << std::endl;
 	while(arg_num < argc)  {
         string next_arg = argv[arg_num++];
 
