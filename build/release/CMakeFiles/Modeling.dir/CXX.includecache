@@ -804,21 +804,7 @@ climits
 cfloat
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/evaluator/ComputationTimer.h
-time.h
--
-iostream
--
-
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/DenseEigenSystem.cpp
-DenseEigenSystem.h
 /home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/DenseEigenSystem.h
-
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/DenseEigenSystem.h
-DenseMatrix.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/DenseMatrix.h
-
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/DenseMatrix.cpp
 DenseMatrix.h
 /home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/DenseMatrix.h
 
@@ -831,16 +817,6 @@ linalg_consts.h
 /home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/linalg_consts.h
 string
 -
-
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/ImplicitFunction.cpp
-ImplicitFunction.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/ImplicitFunction.h
-cstdlib
--
-cstdio
--
-../evaluator/ComputationTimer.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/evaluator/ComputationTimer.h
 
 /home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/ImplicitFunction.h
 Vector3.h
@@ -857,32 +833,6 @@ vector
 -
 stdio.h
 -
-
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/Rigid.cpp
-Rigid.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/Rigid.h
-
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/Rigid.h
-DenseEigenSystem.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/DenseEigenSystem.h
-vector
--
-stdio.h
--
-stdlib.h
--
-
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/RotationMatrix.cpp
-RotationMatrix.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/RotationMatrix.h
-
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/RotationMatrix.h
-DenseMatrix.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/DenseMatrix.h
-
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/Vector.cpp
-Vector.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/Vector.h
 
 /home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/Vector.h
 iostream
@@ -904,27 +854,7 @@ stdio.h
 float.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/isosurface.cpp
-OpenMesh/Core/IO/MeshIO.hh
--
-shape_loader.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/shape_loader.h
-cstdio
--
-cstdlib
--
-iostream
--
-
 /home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/linalg_consts.h
-
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/lm_method.cpp
-lm_method.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/lm_method.h
-
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/lm_method.h
-DenseMatrix.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/DenseMatrix.h
 
 /home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/mesh_to_implicit.cpp
 OpenMesh/Core/IO/MeshIO.hh
@@ -944,10 +874,6 @@ OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh
 OpenMesh/Core/Mesh/PolyMesh_ArrayKernelT.hh
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/mpu_soup.cpp
-mpu_soup.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/mpu_soup.h
-
 /home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/mpu_soup.h
 collision.h
 /home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/collision.h
@@ -962,25 +888,9 @@ ANN/ANN.h
 stdio.h
 -
 
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/post-processing.cpp
-OpenMesh/Core/IO/MeshIO.hh
--
-shape_loader.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/shape_loader.h
-cstdio
--
-cstdlib
--
-iostream
--
-
 /home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/shape_loader.h
 mpu_soup.h
 /home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/mpu_soup.h
-
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/tri_integrator.cpp
-tri_integrator.h
-/home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/tri_integrator.h
 
 /home/adminlocal/PhD/cpp/reconbench-CMake/src/modeling/tri_integrator.h
 mesh_types.h
