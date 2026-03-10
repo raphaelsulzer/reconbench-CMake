@@ -32,19 +32,19 @@ target_link_libraries(Modeling PUBLIC ann OpenMesh pbrt tps ${LAPACK_LIBRARIES})
 target_compile_definitions(Modeling PUBLIC ${LAPACK_LINKER_FLAGS})
 
 
-add_executable(mesh_to_implicit ${modeling_SOURCES} ${modeling_HEADERS} src/modeling/mesh_to_implicit.cpp)
-target_include_directories(mesh_to_implicit PUBLIC ${modeling_INCLUDE})
-target_link_libraries(mesh_to_implicit PUBLIC Modeling)
+#add_executable(mesh_to_implicit ${modeling_SOURCES} ${modeling_HEADERS} src/modeling/mesh_to_implicit.cpp)
+#target_include_directories(mesh_to_implicit PUBLIC ${modeling_INCLUDE})
+#target_link_libraries(mesh_to_implicit PUBLIC Modeling)
 
-add_executable(post-processing ${modeling_SOURCES} ${modeling_HEADERS} src/modeling/post-processing.cpp)
-target_include_directories(post-processing PUBLIC ${modeling_INCLUDE})
-target_link_libraries(post-processing PUBLIC Modeling)
+#add_executable(post-processing ${modeling_SOURCES} ${modeling_HEADERS} src/modeling/post-processing.cpp)
+#target_include_directories(post-processing PUBLIC ${modeling_INCLUDE})
+#target_link_libraries(post-processing PUBLIC Modeling)
 
 
 
 add_executable(isosurface ${modeling_SOURCES} ${modeling_HEADERS} src/modeling/isosurface.cpp)
-target_include_directories(isosurface PUBLIC ${modeling_INCLUDE})
-target_link_libraries(isosurface PUBLIC Modeling)
+target_include_directories(isosurface PUBLIC  ${modeling_INCLUDE})
+target_link_libraries(isosurface PUBLIC ann OpenMesh Modeling)
 
 
 

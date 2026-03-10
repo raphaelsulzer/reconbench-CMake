@@ -12,7 +12,8 @@ file(GLOB_RECURSE pbrt_HEADERS "src/*.h")
 
 SET(pbrt_INCLUDE "src" "src/core" "src/shapes" "src/accelerators" "src/materials")
 
-find_package(OpenEXR)
+find_package(OpenEXR CONFIG)
+find_package(Imath CONFIG)
 find_package(TIFF)
 
 if(NOT ${OPENEXR_FOUND})
@@ -25,5 +26,5 @@ endif()
 
 add_library(pbrt ${pbrt_SOURCES} ${pbrt_SOURCES})
 target_include_directories(pbrt PUBLIC ${pbrt_INCLUDE} ${OPENEXR_INCLUDE_DIR} ${TIFF_INCLUDE_DIR})
-target_link_libraries(pbrt PUBLIC ${OPENEXR_LIBRARIES} ${ILMBASE_LIBRARIES} ${TIFF_LIBRARIES})
+target_link_libraries(pbrt PUBLIC OpenEXR::OpenEXR ${ILMBASE_LIBRARIES} ${TIFF_LIBRARIES} Imath::Imath)
 target_compile_definitions(pbrt PUBLIC "-DPBRT_PROBES_NONE")

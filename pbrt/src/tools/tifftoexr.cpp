@@ -9,7 +9,8 @@
 #include <OpenEXR/ImfOutputFile.h>
 #include <OpenEXR/ImfChannelList.h>
 #include <OpenEXR/ImfFrameBuffer.h>
-#include <OpenEXR/half.h>
+//#include <OpenEXR/half.h>
+#include <Imath/half.h>
 
 using namespace Imf;
 using namespace Imath;

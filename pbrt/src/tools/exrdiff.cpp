@@ -7,7 +7,8 @@
 #include <OpenEXR/ImfChannelList.h>
 #include <OpenEXR/ImfFrameBuffer.h>
 #include <OpenEXR/ImfRgbaFile.h>
-#include <OpenEXR/half.h>
+//#include <OpenEXR/half.h>
+#include <Imath/half.h>
 #include <assert.h>
 
 using namespace Imf;
